@@ -1,0 +1,43 @@
+# Linux File System
+
+## Overview
+The Linux file system is organised in a hierarchical structure, starting from the root directory (`/`). Everything in Linux — files, directories, and devices — exists within this structure.
+
+Understanding how the file system is laid out is essential for navigating systems, managing files, and troubleshooting issues in DevOps environments.
+
+---
+
+## Key Directories
+
+### `/`
+The root directory. All other directories and files exist under this location.
+
+### `/home`
+Contains user home directories. This is where user-specific files and projects are typically stored.
+
+### `/etc`
+Stores system-wide configuration files. Changes here can affect how the system behaves.
+
+### `/var`
+Contains variable data such as logs, caches, and temporary files that change frequently.
+
+---
+
+## Commands Practised
+
+### `ls`
+Lists the contents of a directory. Useful for exploring files and directories before navigating or making changes.
+
+### `cd`
+Changes the current working directory. Used to move through the file system hierarchy.
+
+### `pwd`
+Displays the full path of the current working directory. Helpful for confirming your location in the file system.
+
+### `find`
+Searches for files and directories based on name, type, or other criteria. Useful when files are not where you expect them to be.
+
+---
+
+## Reflection
+Learning how the Linux file system is structured made navigation feel far less confusing. Understanding where files are typically stored helped me work more confidently and avoid making changes in the wrong locations.
