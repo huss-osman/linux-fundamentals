@@ -5,7 +5,7 @@ The Linux file system is organised in a hierarchical structure, starting from th
 
 Understanding how the file system is laid out is essential for navigating systems, managing files, and troubleshooting issues in DevOps environments.
 
-
+---
 
 ## Key Directories
 
@@ -21,7 +21,7 @@ Stores system-wide configuration files. Changes here can affect how the system b
 ### `/var`
 Contains variable data such as logs, caches, and temporary files that change frequently.
 
-
+---
 
 ## Commands Practised
 
@@ -37,15 +37,15 @@ Displays the full path of the current working directory. Helpful for confirming 
 ### `find`
 Searches for files and directories based on name, type, or other criteria. Useful when files are not where you expect them to be.
 
-
+---
 
 ## Key Concepts
 
 ### Absolute vs Relative Paths
-- **Absolute paths** start from the root directory (`/`)  
-- **Relative paths** are based on the current directory  
+- **Absolute paths** start from the root directory (`/`)
+- **Relative paths** are based on the current directory
 
-
+---
 
 ## Reflection
 Learning how the Linux file system is structured made navigation feel far less confusing. Understanding where files are typically stored helped me work more confidently and avoid making changes in the wrong locations.
