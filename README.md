@@ -53,7 +53,7 @@ The goal is long-term understanding that transfers to production systems.
 
 ## Repository Structure
 
-```text
+```
 linux-fundamentals/
 ├── README.md
 ├── fundamentals/
@@ -78,6 +78,7 @@ linux-fundamentals/
 ├── scripts/
 │   └── hello.sh
 └── resources/
+    └── useful-links.md
 ```
 
 ## Folder Purpose
@@ -122,7 +123,3 @@ Notes focus on:
 - Forming hypotheses
 - Applying fixes
 - Understanding root causes
-
-This mirrors how Linux is used and debugged in production environments.
-
-    └── useful-links.md
