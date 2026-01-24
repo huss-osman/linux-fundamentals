@@ -24,7 +24,7 @@ The focus is on understanding **how Linux works**, not memorising commands — c
 
 ## Repository Structure
 
-
+``text
 linux-fundamentals/
 ├── README.md
 ├── fundamentals/
