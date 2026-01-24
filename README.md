@@ -24,7 +24,7 @@ The focus is on understanding **how Linux works**, not memorising commands — c
 
 ## Repository Structure
 
-```text
+
 linux-fundamentals/
 ├── README.md
 ├── fundamentals/
@@ -48,10 +48,11 @@ linux-fundamentals/
 └── resources/
     └── useful-links.md
 
-## Directory Overview
-- `fundamentals/` → Core Linux concepts and notes
-- `bandit/` → Bandit wargame solutions and explanations
-- `sadservers/` → Real-world Linux troubleshooting
+
+## Folder Purpose
+- `fundamentals/` → Core Linux concepts and notes  
+- `bandit/` → Bandit wargame solutions and explanations  
+- `sadservers/` → Real-world Linux troubleshooting  
 - `scripts/` → Practice scripts and demos
 
 ## Notes
@@ -59,4 +60,3 @@ This repository reflects learning progress and reasoning.
 Solutions are documented to demonstrate understanding, not copy-paste answers.
 
 Linux is the foundation of DevOps — everything that follows builds on this.
-
