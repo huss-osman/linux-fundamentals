@@ -84,5 +84,156 @@ What just happened?
 
 • data.bin is now the real file that was hidden inside the hexdump
 
+## Step 3: Never guess — always check the file type
+Now we ask Linux:
 
+```bash
+file data.bin
+```
 
+Example output might be:
+
+```bash
+data.bin: gzip compressed data
+```
+
+This tells us:
+
+• The file is compressed
+
+• Specifically with gzip
+
+💡 Important rule:
+
+File extensions don’t matter. File contents do.
+
+## Step 4: Extract the first compression layer
+Because it’s gzip-compressed, we extract it.
+
+First rename it (for clarity):
+
+```bash
+mv data.bin data.gz
+gzip -d data.gz
+```
+
+Now a new file appears, usually named data.
+
+## Step 5: Repeat the process (this is the core lesson)
+Now we do the exact same thing again:
+
+```bash
+file data
+```
+
+Possible output:
+
+```bash
+data: bzip2 compressed data
+```
+
+So we extract again:
+
+```bash
+mv data data.bz2
+bzip2 -d data.bz2
+```
+
+Check again:
+
+```bash
+file data
+```
+
+Now maybe it says:
+
+```bash
+data: POSIX tar archive
+```
+
+So we extract:
+
+```bash
+mv data data.tar
+tar -xf data.tar
+```
+
+After extraction, a new data file appears.
+
+## Step 6: Keep going until it becomes readable text
+You repeat this exact cycle:
+
+1. file data
+
+2. Rename appropriately
+
+3. Extract using the correct tool
+
+Eventually, file will say something like:
+
+```bash
+data: ASCII text
+```
+
+This means:
+✅ You’ve reached the final layer
+✅ The file is no longer compressed
+✅ It contains readable text
+
+## Step 7: Read the password
+Now simply:
+
+```bash
+cat data
+```
+
+The output is the password for bandit13.
+
+## Why this level exists
+This level teaches real-world Linux thinking, not tricks.
+
+What you’re learning:
+
+• Hexdump ≠ real file
+
+• Binary data can be wrapped many times
+
+• You must inspect, not assume
+
+• file is one of the most important Linux commands
+
+• Debugging often means:
+
+unwrap → inspect → unwrap → inspect → repeat
+
+This is exactly how engineers handle:
+
+• Corrupt backups
+
+• Log bundles
+
+• Crash dumps
+
+• Unknown artifacts in production systems
+
+## Common beginner mistakes
+❌ Trying to cat data.txt
+→ It’s just hex, not the real file
+
+❌ Guessing compression type
+→ Leads to wrong commands and errors
+
+❌ Skipping file
+→ You lose visibility into what’s happening
+
+❌ Thinking there’s a “magic command”
+→ There isn’t — the method is the lesson
+
+## Final takeaway
+This level isn’t about memorising tools.
+
+It’s about learning a repeatable process:
+
+Identify → Convert → Inspect → Extract → Repeat
+
+Once you understand that, this level becomes logical — and so do many real DevOps problems.
