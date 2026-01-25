@@ -24,3 +24,19 @@ Instead:
 
 So this level is not about guessing commands — it’s about understanding what kind of data you’re looking at.
 
+## Step 0: Why work in /tmp?
+Before doing anything, we create a temporary working directory:
+
+```bash
+mkdir /tmp/bandit12
+cp data.txt /tmp/bandit12/
+cd /tmp/bandit12
+```
+
+Why?
+
+• /tmp is meant for experiments
+
+• You won’t accidentally overwrite important files
+
+• This is how real engineers work when unpacking unknown data
