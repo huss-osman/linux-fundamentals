@@ -101,15 +101,14 @@ This tells us:
 
 • The file is compressed
 
-• Specifically with gzip
+• The correct tool to extract it is gzip
 
 💡 Important rule:
 
-File extensions don’t matter. File contents do.
+File extensions don’t matter — file contents do.
+That’s why we trust file, not the filename.
 
 ## Step 4: Extract the first compression layer
-Because it’s gzip-compressed, we extract it.
-
 First rename it (for clarity):
 
 ```bash
@@ -117,46 +116,69 @@ mv data.bin data.gz
 gzip -d data.gz
 ```
 
-Now a new file appears, usually named data.
+What this does:
 
-## Step 5: Repeat the process (this is the core lesson)
-Now we do the exact same thing again:
+• mv renames the file (helps you track formats)
+
+• gzip -d decompresses the gzip file
+
+• A new file appears (usually named data)
+
+## Step 5: Identify the next layer
+Check the new file:
 
 ```bash
 file data
 ```
 
-Possible output:
+Example output:
 
 ```bash
 data: bzip2 compressed data
 ```
 
-So we extract again:
+That means the next layer is bzip2.
+
+## Step 6: Extract the bzip2 layer
 
 ```bash
 mv data data.bz2
 bzip2 -d data.bz2
 ```
 
+What this does:
+
+• mv renames so it’s obvious it’s bzip2
+
+• bzip2 -d decompresses it
+
+• Another new file appears (often named data again)
+
+## Step 7: If the next layer is a tar archive, extract it
 Check again:
 
 ```bash
 file data
 ```
 
-Now maybe it says:
+If you see:
 
 ```bash
 data: POSIX tar archive
 ```
 
-So we extract:
+Then do:
 
 ```bash
 mv data data.tar
 tar -xf data.tar
 ```
+
+What this does:
+
+• tar -xf extracts files from the archive
+
+• After extraction, a new file appears (the name may vary)
 
 After extracting, a new file named data5.bin (or similar) appears.
 
@@ -172,7 +194,7 @@ Output:
 data5.bin: POSIX tar archive
 ```
 
-## Step 5: Extract second tar archive
+## Step 8: Extract second tar archive
 
 ```bash
 tar -xf data5.bin
@@ -192,7 +214,7 @@ Output:
 data6.bin: bzip2 compressed data
 ```
 
-## Step 6: Extract second bzip2 layer
+## Step 9: Extract second bzip2 layer
 
 ```bash
 mv data6.bin data6.bz2
@@ -211,7 +233,7 @@ Output:
 data6: POSIX tar archive
 ```
 
-## Step 7: Extract final tar archive
+## Step 10: Extract final tar archive
 
 ```bash
 mv data6 data6.tar
@@ -232,7 +254,7 @@ Output:
 data8.bin: gzip compressed data
 ```
 
-## Step 8: Extract final gzip layer
+## Step 11: Extract final gzip layer
 
 ```bash
 mv data8.bin data8.gz
@@ -251,7 +273,7 @@ Output:
 data8: ASCII text
 ```
 
-## Step 9: Read the password
+## Step 12: Read the password
 Now that the file is plain text:
 
 ```bash
