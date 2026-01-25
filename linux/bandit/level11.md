@@ -18,6 +18,7 @@ cat data.txt | tr 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm' \
 Both commands decode ROT13-encoded text.
 
 • The first solution uses character ranges (A–Z, a–z) and shifts them by 13.
+
 • The alternative solution explicitly maps each rotated character back to its original position.
 
 Using input redirection (< data.txt) or a pipe (cat |) achieves the same result — both pass the file’s contents to tr via standard input.
