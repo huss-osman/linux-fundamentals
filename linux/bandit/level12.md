@@ -40,3 +40,49 @@ Why?
 • You won’t accidentally overwrite important files
 
 • This is how real engineers work when unpacking unknown data
+
+## Step 1: What is a hexdump?
+Open data.txt:
+
+```bash
+head data.txt
+```
+
+You’ll see something like:
+
+```bash
+00000000: 1f8b 0808 d7d2 055c 0203 6461 7461
+```
+
+This means:
+
+• The file does not contain readable text
+
+• Each pair of characters (1f, 8b, etc.) represents raw bytes
+
+• This is a text representation of binary data
+
+👉 In other words:
+data.txt is NOT the real file — it is an encoded version of the real file
+
+## Step 2: Convert the hexdump back into a real file
+To turn hex text back into a real binary file, we use xxd.
+
+• xxd normally converts binary → hex
+
+• xxd -r does the reverse (hex → binary)
+
+Run:
+
+```bash
+xxd -r data.txt > data.bin
+```
+
+What just happened?
+
+• data.txt stayed the same
+
+• data.bin is now the real file that was hidden inside the hexdump
+
+
+
