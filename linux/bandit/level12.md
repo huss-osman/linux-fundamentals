@@ -158,82 +158,136 @@ mv data data.tar
 tar -xf data.tar
 ```
 
-After extraction, a new data file appears.
+After extracting, a new file named data5.bin (or similar) appears.
 
-## Step 6: Keep going until it becomes readable text
-You repeat this exact cycle:
+Check it:
 
-1. file data
+```bash
+file data5.bin
+```
+
+Output:
+
+```bash
+data5.bin: POSIX tar archive
+```
+
+## Step 5: Extract second tar archive
+
+```bash
+tar -xf data5.bin
+```
+
+A new file appears (e.g. data6.bin).
+
+Check again:
+
+```bash
+file data6.bin
+```
+
+Output:
+
+```bash
+data6.bin: bzip2 compressed data
+```
+
+## Step 6: Extract second bzip2 layer
+
+```bash
+mv data6.bin data6.bz2
+bzip2 -d data6.bz2
+```
+
+Check again:
+
+```bash
+file data6
+```
+
+Output:
+
+```bash
+data6: POSIX tar archive
+```
+
+## Step 7: Extract final tar archive
+
+```bash
+mv data6 data6.tar
+tar -xf data6.tar
+```
+
+A new file appears called data8.bin.
+
+Check it:
+
+```bash
+file data8.bin
+```
+
+Output:
+
+```bash
+data8.bin: gzip compressed data
+```
+
+## Step 8: Extract final gzip layer
+
+```bash
+mv data8.bin data8.gz
+gzip -d data8.gz
+```
+
+Check one last time:
+
+```bash
+file data8
+```
+
+Output:
+
+```bash
+data8: ASCII text
+```
+
+## Step 9: Read the password
+Now that the file is plain text:
+
+```bash
+cat data8
+```
+
+This outputs the password for bandit13.
+
+## Why this works
+Each step follows the same rule:
+
+1. Identify the file type (file)
 
 2. Rename appropriately
 
 3. Extract using the correct tool
 
-Eventually, file will say something like:
+4. Repeat until readable
 
-```bash
-data: ASCII text
-```
+No guessing.
+No shortcuts.
+Just observation and iteration.
 
-This means:
-✅ You’ve reached the final layer
-✅ The file is no longer compressed
-✅ It contains readable text
+## Final lesson from this level
 
-## Step 7: Read the password
-Now simply:
+This challenge teaches how Linux engineers work with:
 
-```bash
-cat data
-```
-
-The output is the password for bandit13.
-
-## Why this level exists
-This level teaches real-world Linux thinking, not tricks.
-
-What you’re learning:
-
-• Hexdump ≠ real file
-
-• Binary data can be wrapped many times
-
-• You must inspect, not assume
-
-• file is one of the most important Linux commands
-
-• Debugging often means:
-
-unwrap → inspect → unwrap → inspect → repeat
-
-This is exactly how engineers handle:
-
-• Corrupt backups
-
-• Log bundles
+• Backup bundles
 
 • Crash dumps
 
-• Unknown artifacts in production systems
+• Log archives
 
-## Common beginner mistakes
-❌ Trying to cat data.txt
-→ It’s just hex, not the real file
+• Unknown production artifacts
 
-❌ Guessing compression type
-→ Leads to wrong commands and errors
+The skill isn’t knowing gzip or tar.
 
-❌ Skipping file
-→ You lose visibility into what’s happening
+The skill is knowing how to systematically unwrap unknown data.
 
-❌ Thinking there’s a “magic command”
-→ There isn’t — the method is the lesson
-
-## Final takeaway
-This level isn’t about memorising tools.
-
-It’s about learning a repeatable process:
-
-Identify → Convert → Inspect → Extract → Repeat
-
-Once you understand that, this level becomes logical — and so do many real DevOps problems.
