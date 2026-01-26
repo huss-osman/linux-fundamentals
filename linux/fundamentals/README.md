@@ -24,8 +24,8 @@ These fundamentals are later applied in:
 - Using common utilities (`ls`, `cd`, `cp`, `mv`, `rm`, `man`)
 - Shell behaviour and command execution
 
-📄 `./terminal-basics.md`  
-📄 `shell-basics.md`
+- [Terminal Basics](./terminal-basics.md)
+- 📄 `shell-basics.md`
 
 ---
 
