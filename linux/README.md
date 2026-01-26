@@ -1,4 +1,4 @@
-<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/bc61a2a4-260a-4c1f-bdd0-d1ef4643de4b" />
+<img width="100" height="500" alt="image" src="https://github.com/user-attachments/assets/9711d8a8-e1c7-4153-807f-b388feba865b" />
 
 ## Linux 
 
