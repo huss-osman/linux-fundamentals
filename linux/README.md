@@ -1,4 +1,4 @@
-<img width="1000" height="500" alt="PNG1-removebg-preview" src="https://github.com/user-attachments/assets/63458059-590b-4e1b-bb78-5f1b59556a63" />
+<img width="1000" height="500" alt="PNG1" src="https://github.com/user-attachments/assets/5fb36b73-6c2d-4110-b49e-73d033093090" />
 
 ## Linux 
 
