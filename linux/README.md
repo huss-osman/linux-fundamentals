@@ -84,12 +84,16 @@ The emphasis is on understanding Linux behaviour rather than memorising solution
 
 ---
 
-## SadServers (Easy,Medium,Hard)
+## SadServers (Easy, Medium, Hard)
 
-SadServers scenarios are used to simulate real-world Linux issues.
+SadServers scenarios are used to simulate real-world Linux issues commonly encountered in production environments.
+
+Unlike guided challenges, SadServers presents broken systems with minimal context, requiring structured investigation and reasoning.
 
 Notes focus on:
-- Observing symptoms
-- Forming hypotheses
-- Applying fixes
-- Understanding root causes
+- Observing symptoms and system behaviour
+- Forming and testing hypotheses
+- Applying fixes deliberately
+- Understanding root causes rather than surface-level symptoms
+
+These exercises help develop production-grade troubleshooting and operational thinking.
