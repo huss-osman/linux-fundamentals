@@ -60,7 +60,7 @@ Core Linux concepts explained with examples and reasoning
 👉 [View fundamentals](./fundamentals)
 
 **bandit/**  
-OverTheWire Bandit wargame solutions (Levels 1–20), including commands used and lessons learned  
+OverTheWire Bandit wargame solutions (Levels 1–12), including commands used and lessons learned  
 👉 [View Bandit solutions](./bandit)
 
 **sadservers/**  
