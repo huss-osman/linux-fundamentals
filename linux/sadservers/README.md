@@ -7,6 +7,40 @@
 ## Overview
 SadServers provides real-world Linux troubleshooting scenarios designed to improve problem-solving skills.
 
+## SadServers (Easy, Medium, Hard)
+
+SadServers scenarios are used to simulate real-world Linux incidents and operational failures.
+
+Unlike Bandit, which focuses on isolated command-line challenges, SadServers emphasizes **diagnosis, reasoning, and fixing broken systems** — closely mirroring how Linux is used in production environments.
+
+Each scenario documents:
+- Observed symptoms
+- Investigation steps and tools used
+- Root cause identification
+- Fix applied and validation
+- Key operational takeaway
+
+---
+
+### SadServers Scenarios
+
+**Easy – Saint John**  
+**Issue:** Unexpected writes to a log file  
+**Focus:** Process inspection and log analysis  
+👉 [View Easy scenario](./sadservers/easy)
+
+**Medium – Manhattan**  
+**Issue:** Application unable to write data to a database  
+**Focus:** Permissions, services, and dependency troubleshooting  
+👉 [View Medium scenario](./sadservers/medium)
+
+**Hard – Jakarta**  
+**Issue:** Service failure caused by DNS misconfiguration  
+**Focus:** Network resolution, configuration validation, and system dependencies  
+👉 [View Hard scenario](./sadservers/hard)
+  
+---
+
 ## What Was Practised
 - Diagnosing broken services
 - Checking logs and system status
