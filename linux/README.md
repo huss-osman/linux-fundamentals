@@ -69,7 +69,7 @@ Real-world Linux troubleshooting scenarios and debugging notes
 
 ---
 
-## Bandit (Levels 1–20)
+## Bandit (Levels 1–12)
 
 The OverTheWire Bandit wargame is used to reinforce Linux fundamentals through progressively harder challenges.
 
