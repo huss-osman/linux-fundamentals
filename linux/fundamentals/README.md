@@ -1,3 +1,6 @@
+<img width="1000" height="500" alt="Fundamentals" src="https://github.com/user-attachments/assets/6a894fee-f146-4deb-b99d-7fabf1b7287c" />
+
+
 # Linux Fundamentals
 
 This section contains structured notes covering **core Linux concepts** required for DevOps, system administration, and cloud engineering.
