@@ -76,10 +76,11 @@ The OverTheWire Bandit wargame is used to reinforce Linux fundamentals through p
 Each level documents:
 - The challenge goal
 - Commands used
-- Brief explanation of why the solution works
-- Key learning takeaway
+- A brief explanation of why the solution works
+- A key learning takeaway
 
-Bandit is treated as a **learning exercise**, not a puzzle to brute-force.
+Bandit is treated as a **learning exercise**, not a puzzle to brute-force.  
+The emphasis is on understanding Linux behaviour rather than memorising solutions.
 
 ---
 
