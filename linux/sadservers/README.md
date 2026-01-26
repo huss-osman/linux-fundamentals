@@ -37,7 +37,7 @@ Each scenario documents:
 **Issue:** Service failure caused by DNS misconfiguration  
 **Focus:** Network resolution, configuration validation, and system dependencies  
 **Key Commands:** `dig`, `nslookup`, `ping`, `cat /etc/resolv.conf`  
-👉 [View Hard scenario](./hard)
+👉 [View Hard scenario](./hard/jakarta.md)
 
 ---
 
