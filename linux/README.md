@@ -1,4 +1,4 @@
-<img width="1011" height="500" alt="image" src="https://github.com/user-attachments/assets/9f8d496b-0a3b-420e-a025-50826591890c" /># Linux 
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/9f8d496b-0a3b-420e-a025-50826591890c" /># Linux 
 
 This repository documents my hands-on learning of **Linux** as part of my **DevOps training with CoderCo**.
 
