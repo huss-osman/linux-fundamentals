@@ -24,18 +24,21 @@ Each scenario documents:
 **Easy – Saint John**  
 **Issue:** Unexpected writes to a log file  
 **Focus:** Process inspection and log analysis  
+**Key Commands:** `ps`, `lsof`, `grep`, `systemctl`  
 👉 [View Easy scenario](./sadservers/easy)
 
 **Medium – Manhattan**  
 **Issue:** Application unable to write data to a database  
 **Focus:** Permissions, services, and dependency troubleshooting  
+**Key Commands:** `systemctl`, `journalctl`, `ls -l`, `ps`  
 👉 [View Medium scenario](./sadservers/medium)
 
 **Hard – Jakarta**  
 **Issue:** Service failure caused by DNS misconfiguration  
 **Focus:** Network resolution, configuration validation, and system dependencies  
+**Key Commands:** `dig`, `nslookup`, `ping`, `cat /etc/resolv.conf`  
 👉 [View Hard scenario](./sadservers/hard)
-  
+
 ---
 
 ## What Was Practised
