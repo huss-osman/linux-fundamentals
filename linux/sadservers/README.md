@@ -4,9 +4,6 @@
 
 # SadServers Practice
 
-## Overview
-SadServers provides real-world Linux troubleshooting scenarios designed to improve problem-solving skills.
-
 ## SadServers (Easy, Medium, Hard)
 
 SadServers scenarios are used to simulate real-world Linux incidents and operational failures.
