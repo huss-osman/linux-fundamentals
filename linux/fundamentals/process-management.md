@@ -28,7 +28,7 @@ Background execution allows long-running tasks to continue while you work on oth
 
 ## Commands Practised
 
-### ps
+## ps
 Displays a snapshot of running processes.
 
 ```bash
@@ -43,7 +43,7 @@ Useful for seeing:
 
 • Process owners
 
-### grep (with ps)
+## grep (with ps)
 Filters process output by name.
 
 ```bash
