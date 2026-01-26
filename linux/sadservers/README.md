@@ -1,3 +1,5 @@
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/ebbd8c86-40a9-4013-a4f4-6fc85aff1368" />
+
 # SadServers Practice
 
 ## Overview
