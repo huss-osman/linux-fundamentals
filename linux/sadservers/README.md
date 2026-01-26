@@ -31,7 +31,7 @@ Each scenario documents:
 **Issue:** Application unable to write data to a database  
 **Focus:** Permissions, services, and dependency troubleshooting  
 **Key Commands:** `systemctl`, `journalctl`, `ls -l`, `ps`  
-👉 [View Medium scenario](./medium)
+👉 [View Medium scenario](./medium/manhattan.md)
 
 **Hard – Jakarta**  
 **Issue:** Service failure caused by DNS misconfiguration  
