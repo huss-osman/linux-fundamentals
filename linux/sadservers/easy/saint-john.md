@@ -8,21 +8,24 @@ A log file is continuously being written to, but it is unclear which process is 
 - No obvious service documentation explains the writes
 
 ## Investigation
-- Checked running processes
-- Identified open file descriptors pointing to the log
-- Traced the log writes back to a specific process
+- Inspected running processes
+- Identified open file descriptors pointing to the log file
+- Traced the log writes back to a specific background process
 
 ## Key Commands Used
 - `ps`
 - `lsof`
 - `grep`
 - `systemctl`
+- `kill -9`
 
 ## Root Cause
 A background service was actively writing to the log file.
 
 ## Fix
-The responsible service was stopped or reconfigured to prevent unnecessary logging.
+The responsible service was stopped and reconfigured.  
+When the process did not respond to normal termination signals, it was forcefully stopped using `kill -9`.
 
 ## What I Learned
-Logs are effects, not causes — identifying the process behind a log is essential.
+Logs are symptoms, not causes.  
+Identifying the process behind unexpected behaviour is critical, and force-killing processes should be a last resort.
