@@ -3,117 +3,48 @@
 
 # Linux Fundamentals
 
-This section contains structured notes covering **core Linux concepts** required for DevOps, system administration, and cloud engineering.
+This folder contains my core Linux fundamentals notes as part of my DevOps training.
 
-The focus is not just on memorising commands, but on understanding **how Linux works under the hood** and *why* specific commands behave the way they do.
-
-These fundamentals are later applied in:
-- Bash scripting
-- CI/CD pipelines
-- Docker containers
-- Kubernetes workloads
-- Cloud infrastructure (AWS)
+Each topic focuses on **understanding how Linux works**, not just memorising commands.  
+Examples are practical, command-line driven, and tied to real-world usage.
 
 ---
 
 ## Topics Covered
 
-### Terminal & Shell Basics
-- Navigating the Linux file system
-- Understanding absolute vs relative paths
-- Using common utilities (`ls`, `cd`, `cp`, `mv`, `rm`, `man`)
-- Shell behaviour and command execution
+- [Terminal Basics](./terminal-basics.md)  
+  Navigating the filesystem, basic commands, and working efficiently in the terminal.
 
-- [Terminal Basics](./terminal-basics.md)
-- 📄 `shell-basics.md`
+- [Shell Basics](./shell-basics.md)  
+  Shell concepts, aliases, environment setup, and command execution flow.
 
----
+- [File System](./file-system.md)  
+  Linux directory structure, files vs directories, and filesystem hierarchy.
 
-### File System & Permissions
-- Linux directory structure (`/etc`, `/var`, `/usr`, `/home`)
-- File ownership (user, group)
-- Permission bits (read, write, execute)
-- Numeric vs symbolic permissions
-- Real-world permission troubleshooting
+- [Permissions](./permissions.md)  
+  Read, write, execute permissions, ownership, chmod, chown, and security concepts.
 
-📄 `file-system.md`  
-📄 `permissions.md`
+- [Users and Groups](./users-and-groups.md)  
+  User management, groups, sudo, and access control.
 
----
+- [Environment Variables](./environment-variables.md)  
+  PATH, exporting variables, shell environment behaviour.
 
-### Users & Groups
-- Linux users and groups
-- UID and GID concepts
-- `sudo` and privilege escalation
-- Managing access securely
+- [Redirection and Pipes](./data-redirection.md)  
+  stdin, stdout, stderr, pipes, and chaining commands.
 
-📄 `users-and-groups.md`
+- [Bash vs Zsh](./bash-vs-zsh.md)  
+  Shell differences, configuration files, and usability comparisons.
+
+- [Vim Basics](./vim-basics.md)  
+  Editing files efficiently using Vim.
 
 ---
 
-### Environment Variables
-- What environment variables are
-- Scope and inheritance
-- `PATH` and shell startup files
-- Temporary vs persistent variables
+## Learning Focus
 
-📄 `environment-variables.md`
+- Learn **why** commands work, not just what they do  
+- Use Linux the way it’s used in production environments  
+- Build a strong foundation for Docker, Kubernetes, CI/CD, and cloud platforms  
 
----
-
-### Input / Output Redirection & Pipes
-- `stdin`, `stdout`, `stderr`
-- Redirecting output (`>`, `>>`, `<`)
-- Pipes (`|`)
-- Combining commands effectively
-
-📄 `data-redirection.md`
-
----
-
-### Bash vs Zsh
-- Differences between Bash and Zsh
-- Configuration files
-- Aliases and shell customisation
-- Why Bash is still dominant in servers and automation
-
-📄 `bash-vs-zsh.md`
-
----
-
-### Vim Basics
-- Navigating Vim efficiently
-- Insert, normal, and command modes
-- Editing and saving files
-- Why Vim is still relevant in production environments
-
-📄 `vim-basics.md`
-
----
-
-## Learning Philosophy
-
-These notes reflect:
-- Hands-on experimentation
-- Learning by breaking and fixing things
-- Reading error messages instead of guessing
-- Building intuition for Linux behaviour
-
-This foundation is critical for:
-- Debugging containers
-- Understanding CI/CD failures
-- Working with Kubernetes nodes
-- Troubleshooting production systems
-
----
-
-## Next Steps
-
-These fundamentals are actively applied in:
-- **Bandit** (Linux wargame challenges)
-- **SadServers** (real-world troubleshooting scenarios)
-- **Bash scripting** and automation projects
-
-👉 See:
-- `../bandit/`
-- `../sadservers/`
+These notes are actively updated as I progress through the DevOps curriculum.
