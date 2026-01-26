@@ -1,4 +1,4 @@
-<img width="500" height="100" alt="SaD-removebg-preview" src="https://github.com/user-attachments/assets/a98152b0-5c73-405a-a1fb-9a5e3b525436" />
+<img width="500" height="500" alt="SaD-removebg-preview" src="https://github.com/user-attachments/assets/a98152b0-5c73-405a-a1fb-9a5e3b525436" />
 
 # SadServers Practice
 
