@@ -1,4 +1,4 @@
-<img width="1000" height="500" alt="Fundamentals" src="https://github.com/user-attachments/assets/6a894fee-f146-4deb-b99d-7fabf1b7287c" />
+<img width="1000" height="500" alt="Fundamentals-removebg-preview" src="https://github.com/user-attachments/assets/f8f44d68-30e8-4e17-b1d4-ae838400c48b" />
 
 
 # Linux Fundamentals
