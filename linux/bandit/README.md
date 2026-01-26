@@ -21,10 +21,5 @@ OverTheWire Bandit is a wargame designed to teach Linux fundamentals through han
 
 ---
 
-## Note
-This file does not contain passwords, exploits, or level-by-level solutions.
-
----
-
 ## Reflection
 Bandit reinforced Linux fundamentals in a practical way and helped build confidence when approaching unfamiliar problems using the terminal.
