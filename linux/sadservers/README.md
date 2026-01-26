@@ -39,10 +39,11 @@ Each scenario documents:
 ---
 
 ## What Was Practised
-- Diagnosing broken services
-- Checking logs and system status
-- Restarting and fixing misconfigured services
-- Applying Linux fundamentals in real scenarios
+- Diagnosing Linux issues with incomplete or unclear problem statements  
+- Analysing logs, running processes, and service states  
+- Correlating symptoms with underlying system behaviour  
+- Applying and validating fixes in a controlled manner  
+- Relying on system understanding instead of trial-and-error commands
 
 ## Key Skills Used
 - Process management
