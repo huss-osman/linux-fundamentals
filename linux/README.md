@@ -1,6 +1,6 @@
-# Linux Fundamentals
+# Linux 
 
-This repository documents my hands-on learning of **Linux fundamentals** as part of my **DevOps training with CoderCo**.
+This repository documents my hands-on learning of **Linux** as part of my **DevOps training with CoderCo**.
 
 Linux is the foundation of modern infrastructure. Nearly everything in DevOps — containers, CI/CD, cloud platforms, and automation — assumes a strong understanding of Linux at the command line. This repository exists to build and demonstrate that foundation.
 
@@ -49,38 +49,6 @@ This repository reflects **how I learn**, not just what I learned.
 
 The goal is long-term understanding that transfers to production systems.
 
----
-
-## Repository Structure
-
-```
-linux-fundamentals/
-├── README.md
-├── fundamentals/
-│   ├── terminal-basics.md
-│   ├── filesystem.md
-│   ├── permissions.md
-│   ├── users-and-groups.md
-│   ├── environment-variables.md
-│   ├── redirection-and-pipes.md
-│   ├── bash-vs-zsh.md
-│   └── vim-basics.md
-├── bandit/
-│   ├── README.md
-│   ├── level01.md
-│   ├── level02.md
-│   ├── ...
-│   ├── level20.md
-│   └── screenshots/
-├── sadservers/
-│   ├── README.md
-│   └── notes.md
-├── scripts/
-│   └── hello.sh
-└── resources/
-    └── useful-links.md
-```
-
 ## Folder Purpose
 
 **fundamentals/**  
@@ -91,12 +59,6 @@ OverTheWire Bandit wargame solutions (Levels 1–20), including commands used an
 
 **sadservers/**  
 Real-world Linux troubleshooting scenarios and debugging notes
-
-**scripts/**  
-Small practice scripts demonstrating execution, permissions, and automation basics
-
-**resources/**  
-Helpful references and supporting material
 
 ---
 
