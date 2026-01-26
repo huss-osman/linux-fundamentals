@@ -39,6 +39,9 @@ Examples are practical, command-line driven, and tied to real-world usage.
 - [Vim Basics](./vim-basics.md)  
   Editing files efficiently using Vim.
 
+-  [Process Management](./process-management.md)   
+  Inspecting running processes, background jobs, monitoring system activity, and safely stopping processes.
+
 ---
 
 ## Learning Focus
