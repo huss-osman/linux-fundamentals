@@ -52,7 +52,7 @@ ps aux | grep nginx
 
 Helps quickly locate specific processes.
 
-### top
+## top
 Provides a real-time view of system processes and resource usage.
 
 ```bash
@@ -67,7 +67,7 @@ Useful for identifying:
 
 • Unresponsive processes
 
-### htop
+## htop
 An enhanced, interactive process viewer.
 
 ```bash
@@ -77,28 +77,28 @@ htop
 
 Offers better readability and easier process management than top.
 
-### jobs
+## jobs
 Lists background jobs started from the current shell.
 
 ```bash
 jobs
 ```
 
-### bg
+## bg
 Sends a stopped job to the background.
 
 ```bash
 bg %1
 ```
 
-### fg
+## fg
 Brings a background job to the foreground.
 
 ```bash
 fg %1
 ```
 
-### kill
+## kill
 
 ```bash
 kill <PID>
@@ -106,7 +106,7 @@ kill <PID>
 
 Attempts to stop the process gracefully.
 
-### kill -9
+## kill -9
 Forcefully terminates a process using the SIGKILL signal.
 
 ```bash
@@ -115,7 +115,7 @@ kill -9 <PID>
 
 This should be used only when a process does not respond to normal termination signals.
 
-### killall
+## killall
 Terminates all processes matching a given name.
 
 ```bash
