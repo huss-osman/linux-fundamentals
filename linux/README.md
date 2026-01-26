@@ -83,7 +83,7 @@ Bandit is treated as a **learning exercise**, not a puzzle to brute-force.
 
 ---
 
-## SadServers
+## SadServers (2 Scenarios)
 
 SadServers scenarios are used to simulate real-world Linux issues.
 
