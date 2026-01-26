@@ -64,7 +64,7 @@ OverTheWire Bandit wargame solutions (Levels 1–12), including commands used an
 👉 [View Bandit solutions](./bandit)
 
 **sadservers/**  
-Real-world Linux troubleshooting scenarios (Easy,Hard,Medium) and debugging notes
+Real-world Linux troubleshooting scenarios and debugging notes
 👉 [View SadServers notes](./sadservers)
 
 ---
