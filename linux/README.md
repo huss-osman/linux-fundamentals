@@ -26,16 +26,38 @@ By working through this module, I aimed to:
 
 ## Topics Covered
 
-- Linux terminal basics  
-- File system structure and navigation  
-- Permissions and ownership  
-- Users, groups, and sudo  
-- Environment variables  
-- Input/output redirection and pipes  
-- Bash vs Zsh  
-- Vim basics  
-- OverTheWire Bandit wargame (Levels 1–20)  
-- SadServers real-world Linux troubleshooting exercises  
+- [Terminal Basics](./terminal-basics.md)  
+  Navigating the filesystem, basic commands, and working efficiently in the terminal.
+
+- [Shell Basics](./shell-basics.md)  
+  Shell concepts, aliases, environment setup, and command execution flow.
+
+- [File System](./file-system.md)  
+  Linux directory structure, files vs directories, and filesystem hierarchy.
+
+- [Permissions](./permissions.md)  
+  Read, write, execute permissions, ownership, `chmod`, `chown`, and security concepts.
+
+- [Users and Groups](./users-and-groups.md)  
+  User management, groups, `sudo`, and access control.
+
+- [Environment Variables](./environment-variables.md)  
+  `PATH`, exporting variables, and shell environment behaviour.
+
+- [Text Processing](./text-processing.md)  
+  Searching, filtering, and transforming text using `grep`, `awk`, `sed`, and pipelines.
+
+- [Redirection and Pipes](./data-redirection.md)  
+  `stdin`, `stdout`, `stderr`, pipes, and chaining commands.
+
+- [Process Management](./process-management.md)  
+  Inspecting running processes, background jobs, monitoring system activity, and safely stopping processes.
+
+- [Bash vs Zsh](./bash-vs-zsh.md)  
+  Shell differences, configuration files, and usability comparisons.
+
+- [Vim Basics](./vim-basics.md)  
+  Editing files efficiently using Vim.
 
 ---
 
