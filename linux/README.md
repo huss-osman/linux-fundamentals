@@ -64,7 +64,7 @@ OverTheWire Bandit wargame solutions (Levels 1–12), including commands used an
 👉 [View Bandit solutions](./bandit)
 
 **sadservers/**  
-Real-world Linux troubleshooting scenarios and debugging notes  
+Real-world Linux troubleshooting scenarios (Easy,Hard,Medium) and debugging notes
 👉 [View SadServers notes](./sadservers)
 
 ---
@@ -83,7 +83,7 @@ Bandit is treated as a **learning exercise**, not a puzzle to brute-force.
 
 ---
 
-## SadServers (2 Scenarios)
+## SadServers (Easy,Medium,Hard)
 
 SadServers scenarios are used to simulate real-world Linux issues.
 
