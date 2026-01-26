@@ -11,21 +11,21 @@ Each level builds on the previous one, reinforcing Linux fundamentals through ha
 ### Level 0 → Level 1  
 **File:** [level01.md](./level01.md)  
 **Commands:** `ssh`  
-**Focus:** Logging into a remote Linux system using SSH and a non-standard port.
+**Focus:** Logging into a remote Linux system using SSH on a non-standard port.
 
 ---
 
 ### Level 1 → Level 2  
 **File:** [level02.md](./level02.md)  
 **Commands:** `ls`, `cat`  
-**Focus:** Reading files in a home directory and understanding basic file access.
+**Focus:** Reading files in the home directory and understanding basic file access.
 
 ---
 
 ### Level 2 → Level 3  
 **File:** [level03.md](./level03.md)  
-**Commands:** `cat`, escaping filenames  
-**Focus:** Handling filenames that begin with special characters (e.g. `-`).
+**Commands:** `cat`, quoting filenames  
+**Focus:** Handling filenames that begin with special characters (such as `-`).
 
 ---
 
@@ -45,15 +45,15 @@ Each level builds on the previous one, reinforcing Linux fundamentals through ha
 
 ### Level 5 → Level 6  
 **File:** [level06.md](./level06.md)  
-**Commands:** `find`, `file`, `ls`  
+**Commands:** `find`, `file`  
 **Focus:** Searching directories based on file size, permissions, and readability.
 
 ---
 
 ### Level 6 → Level 7  
 **File:** [level07.md](./level07.md)  
-**Commands:** `find` (user/group filters)  
-**Focus:** Locating files using user and group ownership constraints.
+**Commands:** `find` (user and group filters)  
+**Focus:** Locating files using ownership and group constraints across the filesystem.
 
 ---
 
@@ -67,13 +67,13 @@ Each level builds on the previous one, reinforcing Linux fundamentals through ha
 ### Level 8 → Level 9  
 **File:** [level09.md](./level09.md)  
 **Commands:** `sort`, `uniq`  
-**Focus:** Identifying unique lines within large datasets.
+**Focus:** Identifying unique lines within large datasets using pipelines.
 
 ---
 
 ### Level 9 → Level 10  
 **File:** [level10.md](./level10.md)  
-**Commands:** `strings`  
+**Commands:** `strings`, `grep`  
 **Focus:** Extracting readable text from binary files.
 
 ---
@@ -81,7 +81,7 @@ Each level builds on the previous one, reinforcing Linux fundamentals through ha
 ### Level 10 → Level 11  
 **File:** [level11.md](./level11.md)  
 **Commands:** `base64`  
-**Focus:** Decoding Base64-encoded data.
+**Focus:** Recognising and decoding Base64-encoded data.
 
 ---
 
