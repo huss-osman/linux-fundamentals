@@ -1,3 +1,5 @@
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/4484171e-6949-44aa-bd8c-d83d45f1dc98" />
+
 # OverTheWire Bandit – Learning Notes
 
 ## Overview
