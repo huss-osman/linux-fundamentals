@@ -1,4 +1,4 @@
-<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/ebbd8c86-40a9-4013-a4f4-6fc85aff1368" />
+<img width="1000" height="500" alt="SaD - Copy" src="https://github.com/user-attachments/assets/a08d9d6b-e81f-42a6-8216-31d237e96440" />
 
 # SadServers Practice
 
