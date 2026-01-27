@@ -5,7 +5,7 @@ Find the password stored in data.txt next to the word "millionth".
 
 ## Solution
 
-<img width="597" height="179" alt="Bandit Solution 7" src="https://github.com/user-attachments/assets/c11e543e-0ed5-4b53-b198-a7a608c88f04" />
+<img width="597" height="179" alt="Bandit Solution 7" src="https://github.com/user-attachments/assets/90d903a9-9c38-452a-983d-14b48a6f449d" />
 
 ```bash
 ls
