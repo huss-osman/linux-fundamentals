@@ -2,7 +2,7 @@
 
 # OverTheWire Bandit – Learning Notes
 
-<img width="180" height="180" alt="image" src="https://github.com/user-attachments/assets/4484171e-6949-44aa-bd8c-d83d45f1dc98" /> ## Bandit Levels 0–12 Overview
+<img width="180" height="180" alt="image" src="https://github.com/user-attachments/assets/4484171e-6949-44aa-bd8c-d83d45f1dc98" /> | ## Bandit Levels 0–12 Overview
 
 Each level builds on the previous one, reinforcing Linux fundamentals through hands-on problem solving rather than memorisation.
 
