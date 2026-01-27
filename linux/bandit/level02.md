@@ -1,4 +1,4 @@
-# Bandit Level 2 → Level 3
+# 📘  Bandit Level 2 → Level 3
 
 ## Goal
 Read a file with spaces in its filename.
