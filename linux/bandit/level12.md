@@ -1,4 +1,4 @@
-# Bandit Level 12 → Level 13
+# 📘 Bandit Level 12 → Level 13
 
 ## Goal
 The password for the next level is stored in `data.txt`, which is a **hexdump** of a file that has been **compressed multiple times** (gzip, bzip2, tar, etc.).
