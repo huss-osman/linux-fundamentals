@@ -4,6 +4,9 @@
 Find the only line in data.txt that occurs once.
 
 ## Solution
+
+<img width="517" height="180" alt="Bandit Solution 8" src="https://github.com/user-attachments/assets/edb4cf21-0763-4e46-9e57-26b1ac5e600f" />
+
 ```bash
 ls
 sort data.txt | uniq -u
