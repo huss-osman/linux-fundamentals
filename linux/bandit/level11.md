@@ -1,7 +1,7 @@
 # 📘 Bandit Level 11 → Level 12
 
 ## Goal
-Decode ROT13 encoded text.
+Decode ROT13 encoded text to reveal the password for the next level.
 
 ## Solution
 ```bash
@@ -14,14 +14,23 @@ cat data.txt | tr 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm' 'ABCDEF
 ```
 
 ## Explanation
-Both commands decode ROT13-encoded text.
+The contents of data.txt are encoded using ROT13, a simple letter substitution cipher where each letter is replaced by the one 13 positions later in the alphabet.
 
-• The first solution uses character ranges (A–Z, a–z) and shifts them by 13.
+• The first solution uses character ranges (A–Z and a–z) and shifts them by 13 positions automatically.
 
-• The alternative solution explicitly maps each rotated character back to its original position.
+• The alternative solution explicitly maps each rotated character back to its original letter.
 
-Using input redirection (< data.txt) or a pipe (cat |) achieves the same result — both pass the file’s contents to tr via standard input.
+Both approaches work because:
+
+• tr reads from standard input
+
+• Using input redirection (< data.txt) or a pipe (cat data.txt |) achieves the same result
+
+• The transformation is applied character by character
 
 ## What I Learned
-ROT13 is a simple substitution cipher.
-Linux tools allow the same operation to be expressed in multiple equivalent ways.
+• ROT13 is encoding, not encryption
+
+• Linux tools are composable — the same result can be achieved in multiple valid ways
+
+• Understanding how data flows through commands is more important than memorising syntax
