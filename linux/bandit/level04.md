@@ -5,7 +5,7 @@ Find and read the only human-readable file inside the inhere directory.
 
 ## Solution
 
-<img width="500" height="200" alt="Bandit Solution 4" src="https://github.com/user-attachments/assets/16be20a0-c748-434b-8a2a-70ca9d4f6bbc" />
+<img width="553" height="522" alt="Bandit Solution 4" src="https://github.com/user-attachments/assets/871fec09-9cfc-4c6a-9ce7-4f2d82e54718" />
 
 ```bash
 cd inhere
