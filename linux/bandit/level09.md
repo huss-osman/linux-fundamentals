@@ -4,6 +4,9 @@
 Extract the password from a file that contains mostly binary data.
 
 ## Solution
+
+<img width="587" height="255" alt="Bandit Solution 9" src="https://github.com/user-attachments/assets/bae94164-bd45-4e1c-9506-827e84fdaf97" />
+
 ```bash
 ls
 strings data.txt | grep "==="
