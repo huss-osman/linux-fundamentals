@@ -12,7 +12,7 @@ cat ./...Hiding-From-You
 ```
 
 ## Explanation
-Hidden files start with . and require -a to be listed.
+Hidden files start with . require -a to be listed.
 
 ## What I Learned
 Linux hides files by convention, not security.
