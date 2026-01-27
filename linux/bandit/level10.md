@@ -19,6 +19,5 @@ The contents of data.txt are encoded using Base64, which is a text encoding sche
 This step works because the encoding format is known and reversible.
 
 ## What I Learned
-Base64 is commonly used to represent binary data as text, and recognising
-encoding formats allows data to be decoded rather 
+Base64 is commonly used to represent binary data as text, and recognising encoding formats allows data to be decoded rather 
 than brute-forced.
