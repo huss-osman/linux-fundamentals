@@ -1,4 +1,4 @@
-# Bandit Level 5 → Level 6
+# 📘 Bandit Level 5 → Level 6
 
 ## Goal
 Find the password stored in a file that meets all of the following conditions:
