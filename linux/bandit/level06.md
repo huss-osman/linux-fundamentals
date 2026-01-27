@@ -1,4 +1,4 @@
-# Bandit Level 6 → Level 7
+# 📘 Bandit Level 6 → Level 7
 
 ## Goal
 Find a file somewhere on the system that is:
