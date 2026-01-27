@@ -13,7 +13,7 @@ Find the password stored in a file that meets all of the following conditions:
 
 ## Solution
 
-<img width="801" height="338" alt="Bandit solution 5" src="https://github.com/user-attachments/assets/29c2e0bd-b545-4337-905a-e02124eb35f1" />
+<img width="801" height="338" alt="Bandit solution 5" src="https://github.com/user-attachments/assets/2f389ad0-61d0-4cc1-bdd9-19ad7f296fd0" />
 
 ```bash
 ls
