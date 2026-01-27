@@ -1,4 +1,4 @@
-# Bandit Level 4 → Level 5
+# 📘 Bandit Level 4 → Level 5
 
 ## Goal
 Find and read the only human-readable file inside the inhere directory.
