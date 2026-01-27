@@ -1,4 +1,4 @@
-# Bandit Level 9 → Level 10
+# 📘 Bandit Level 9 → Level 10
 
 ## Goal
 Extract readable strings from a binary file.
