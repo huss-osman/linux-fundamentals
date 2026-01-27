@@ -32,9 +32,9 @@ So the task is: turn the hex back into a real file, then unwrap it layer by laye
 <img width="532" height="104" alt="Bandit Solution 12 pt1" src="https://github.com/user-attachments/assets/aec74f31-995d-43f1-b0ee-cdc46bd9de3f" />
 
 ```bash
-mkdir /tmp/bnd12
-cp data.txt /tmp/bnd12
-cd /tmp/bnd12
+mkdir /tmp/bndit12
+cp data.txt /tmp/bndit12
+cd /tmp/bndit12
 ```
 
 Why /tmp?
