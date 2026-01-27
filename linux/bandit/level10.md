@@ -4,6 +4,9 @@
 Decode the password stored in the file data.txt that has been Base64 encoded.
 
 ## Solution
+
+<img width="842" height="222" alt="Bandit Solution 10" src="https://github.com/user-attachments/assets/0b774ad0-0398-4124-98bf-0e1a208ab263" />
+
 ```bash
 ls
 base64 -d data.txt
