@@ -10,13 +10,17 @@ strings data.txt | grep "==="
 ```
 
 ## Explanation
-The file data.txt is not plain text — most of its contents are non-printable binary data.
+The file data.txt contains binary data with only a few readable strings embedded inside it.
 
-• strings scans the file and extracts human-readable character sequences
+• strings extracts printable character sequences from the binary file
 
-• grep "===" filters the output to find the line containing the password pattern
+• The password line in this level is surrounded by multiple = characters
 
-This avoids opening or interpreting the binary file directly and focuses only on readable content.
+• Using grep "===" filters specifically for lines containing this distinctive pattern
+
+While a single = could match many unrelated lines, searching for === narrows the results to the password line only.
+
+This makes the search more precise and intentional, rather than broad guessing.
 
 ## What I Learned
-Even binary files can leak useful information — tools like strings help extract it safely and efficiently.
+Choosing a more specific search pattern makes text filtering faster, cleaner, and more reliable — especially when working with binary data.
