@@ -4,6 +4,9 @@
 Decode ROT13 encoded text to reveal the password for the next level.
 
 ## Solution
+
+<img width="938" height="289" alt="Bandit Solution 11" src="https://github.com/user-attachments/assets/3b007535-86d3-4a12-8921-c96e45336ad5" />
+
 ```bash
 tr 'A-Za-z' 'N-ZA-Mn-za-m' < data.txt
 ```
