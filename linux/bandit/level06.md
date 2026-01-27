@@ -11,7 +11,7 @@ Find a file somewhere on the system that is:
 
 ## Solution
 
-<img width="601" height="222" alt="Bandit Solution 6" src="https://github.com/user-attachments/assets/a638bcca-2c25-4309-8c49-387e6ea92e55" />
+<img width="601" height="222" alt="Bandit Solution 6" src="https://github.com/user-attachments/assets/e9a46862-c81d-4081-ba41-388548a28268" />
 
 ```bash
 find / -user bandit7 -group bandit6 -size 33c
