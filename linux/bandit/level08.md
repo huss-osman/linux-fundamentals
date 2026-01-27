@@ -1,4 +1,4 @@
-# Bandit Level 8 → Level 9
+# 📘 Bandit Level 8 → Level 9
 
 ## Goal
 Find the unique line in a file.
