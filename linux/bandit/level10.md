@@ -1,4 +1,4 @@
-# Bandit Level 10 → Level 11
+# 📘 Bandit Level 10 → Level 11
 
 ## Goal
 Decode base64 encoded data.
