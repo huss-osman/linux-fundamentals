@@ -5,7 +5,7 @@ Read a file with spaces in its filename.
 
 ## Solution
 
-<img width="500" height="200" alt="Bandit Solution 2" src="https://github.com/user-attachments/assets/bd79461f-1685-49e2-be97-07e383fe5935" />
+<img width="660" height="189" alt="Bandit Solution 2" src="https://github.com/user-attachments/assets/127b29d1-97c2-429b-8202-0dcfb80757b8" />
 
 ```bash
 ls
