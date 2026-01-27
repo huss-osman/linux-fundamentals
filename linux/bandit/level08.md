@@ -1,15 +1,22 @@
 # 📘 Bandit Level 8 → Level 9
 
 ## Goal
-Find the unique line in a file.
+Find the only line in data.txt that occurs once.
 
 ## Solution
 ```bash
+ls
 sort data.txt | uniq -u
 ```
 
 ## Explanation
-uniq requires sorted input to work correctly.
+The uniq command detects duplicate lines, but it only works correctly on sorted input.
+
+• sort arranges identical lines next to each other
+
+• uniq -u prints only lines that appear exactly once
+
+By combining them with a pipe, we ensure uniq can correctly identify the unique line.
 
 ## What I Learned
-Pipeline order matters.
+The order of commands in a pipeline matters — each tool expects input in a specific format.
