@@ -10,6 +10,9 @@ Find a file somewhere on the system that is:
 • Exactly 33 bytes in size
 
 ## Solution
+
+<img width="601" height="222" alt="Bandit Solution 6" src="https://github.com/user-attachments/assets/727a209e-42b0-49c2-ba5f-8642b72099f2" />
+
 ```bash
 find / -user bandit7 -group bandit6 -size 33c
 cat /var/lib/dpkg/info/bandit7.password
