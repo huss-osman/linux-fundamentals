@@ -6,7 +6,6 @@ Find and read a hidden file.
 ## Solution
 ```bash
 ls
-inhere
 cd inhere
 ls -a
 cat ./...Hiding-From-You
