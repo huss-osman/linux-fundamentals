@@ -91,7 +91,7 @@ Real-world Linux troubleshooting scenarios organised by difficulty (Easy, Medium
 
 ---
 
-fundamentals/
+## Linux fundamentals
 
 Core Linux fundamentals notes focused on how Linux works under the hood, not just command memorisation.
 
