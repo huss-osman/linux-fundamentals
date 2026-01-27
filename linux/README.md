@@ -93,31 +93,21 @@ Real-world Linux troubleshooting scenarios organised by difficulty (Easy, Medium
 
 ## Fundamentals
 
-Core Linux fundamentals notes focused on how Linux works under the hood, not just command memorisation.
+The Fundamentals section focuses on building a strong understanding of Linux through hands-on command-line usage and core system concepts.
 
-This section covers:
+Rather than memorising commands, the emphasis is on learning how Linux behaves and why.
 
-• Terminal and shell basics
+Each topic covers:
 
-• File system structure and navigation
+• Core Linux concepts and system behaviour
 
-• Permissions, ownership, users, and groups
+• Common commands and how they interact with the system
 
-• Environment variables and shell behaviour
+• Practical examples based on real-world usage
 
-• Redirection, pipes, and text processing
+• Key takeaways that reinforce long-term understanding
 
-• Process management and system monitoring
-
-• Editing files efficiently with Vim
-
-Notes are:
-
-• Command-line driven and practical
-
-• Explained with real-world context
-
-• Written to build habits used in production Linux systems
+These notes help build a solid foundation for Docker, Kubernetes, CI/CD, and cloud platforms.
 
 [View Fundamentals](./fundamentals)
 
