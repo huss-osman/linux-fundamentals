@@ -3,6 +3,9 @@
 ## Goal
 Read a file with spaces in its filename.
 
+<img width="500" height="200" alt="Bandit Solution 2" src="https://github.com/user-attachments/assets/bd79461f-1685-49e2-be97-07e383fe5935" />
+
+
 ## Solution
 ```bash
 ls
