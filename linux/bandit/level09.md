@@ -6,7 +6,7 @@ Extract readable strings from a binary file.
 ## Solution
 ```bash
 ls
-strings data.txt | grep "="
+strings data.txt | grep "==="
 ```
 
 ## Explanation
