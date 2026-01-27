@@ -5,6 +5,8 @@ Find the password next to the word "millionth".
 
 ## Solution
 ```bash
+ls
+data.txt
 grep "millionth" data.txt
 ```
 
