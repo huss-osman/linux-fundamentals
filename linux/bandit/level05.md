@@ -12,6 +12,9 @@ Find the password stored in a file that meets all of the following conditions:
 • Located somewhere under the inhere directory
 
 ## Solution
+
+<img width="801" height="338" alt="Bandit solution 5" src="https://github.com/user-attachments/assets/29c2e0bd-b545-4337-905a-e02124eb35f1" />
+
 ```bash
 ls
 cd inhere
