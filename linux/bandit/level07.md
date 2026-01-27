@@ -1,4 +1,4 @@
-# Bandit Level 7 → Level 8
+# 📘 Bandit Level 7 → Level 8
 
 ## Goal
 Find the password next to the word "millionth".
