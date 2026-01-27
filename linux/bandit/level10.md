@@ -20,5 +20,5 @@ This step works because the encoding format is known and reversible.
 
 ## What I Learned
 Base64 is commonly used to represent binary data as text, and recognising
-encoding formats allows data to be decoded rather than 
-brute-forced.
+encoding formats allows data to be decoded rather 
+than brute-forced.
