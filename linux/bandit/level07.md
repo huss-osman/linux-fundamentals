@@ -1,7 +1,7 @@
 # 📘 Bandit Level 7 → Level 8
 
 ## Goal
-Find the password next to the word "millionth".
+Find the password stored in data.txt next to the word "millionth".
 
 ## Solution
 ```bash
@@ -10,7 +10,9 @@ grep "millionth" data.txt
 ```
 
 ## Explanation
-grep searches for matching patterns in files.
+The grep command searches through a file and prints any line that matches a given pattern.
+
+Since the password appears on the same line as the word "millionth", searching for that keyword directly reveals the password.
 
 ## What I Learned
-Text searching is fast and powerful.
+Searching file contents with grep is faster and more effective than manually scanning large files.
