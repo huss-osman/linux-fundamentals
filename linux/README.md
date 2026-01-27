@@ -79,7 +79,7 @@ The goal is long-term understanding that transfers to production systems.
 
 **fundamentals/**  
 Core Linux concepts explained with examples and reasoning.  
-👉 [View fundamentals](./fundamentals)
+👉 [View Fundamentals](./fundamentals)
 
 **bandit/**  
 OverTheWire Bandit wargame solutions (Levels 1–12), including commands used and lessons learned.  
@@ -119,7 +119,7 @@ Notes are:
 
 • Written to build habits used in production Linux systems
 
-[View fundamentals](./fundamentals)
+[View Fundamentals](./fundamentals)
 
 ---
 
