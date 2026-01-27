@@ -5,7 +5,7 @@ Read a file with spaces in its filename.
 
 ## Solution
 ```bash
-cat "spaces in this filename"
+cat ./"--spaces in this filename--"
 ```
 
 ## Explanation
