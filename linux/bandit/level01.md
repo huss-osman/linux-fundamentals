@@ -3,8 +3,10 @@
 ## Goal
 Read the password stored in a file named `-`.
 
+<p align="center">
 <img width="402" height="188" alt="Bandit Solution 1" src="https://github.com/user-attachments/assets/a3a3e49f-8dc6-4ed5-be0f-0f527457cea7" />
-
+<p align="center">
+  
 ## Solution
 ```bash
 ls
