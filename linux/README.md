@@ -91,6 +91,38 @@ Real-world Linux troubleshooting scenarios organised by difficulty (Easy, Medium
 
 ---
 
+fundamentals/
+
+Core Linux fundamentals notes focused on how Linux works under the hood, not just command memorisation.
+
+This section covers:
+
+• Terminal and shell basics
+
+• File system structure and navigation
+
+• Permissions, ownership, users, and groups
+
+• Environment variables and shell behaviour
+
+• Redirection, pipes, and text processing
+
+• Process management and system monitoring
+
+• Editing files efficiently with Vim
+
+Notes are:
+
+• Command-line driven and practical
+
+• Explained with real-world context
+
+• Written to build habits used in production Linux systems
+
+👉 View fundamentals → (./fundamentals)
+
+---
+
 ## Bandit (Levels 1–12)
 
 The OverTheWire Bandit wargame is used to reinforce Linux fundamentals through progressively harder challenges.
@@ -103,6 +135,8 @@ Each level documents:
 
 Bandit is treated as a **learning exercise**, not a puzzle to brute-force.  
 The emphasis is on understanding Linux behaviour rather than memorising solutions.
+
+👉 View Bandit Solutions → (./bandit)
 
 ---
 
@@ -119,3 +153,5 @@ Notes focus on:
 - Understanding root causes rather than surface-level symptoms
 
 These exercises help develop production-grade troubleshooting and operational thinking.
+
+👉 View SadServers Notes → (./sadservers)
