@@ -119,7 +119,7 @@ Notes are:
 
 • Written to build habits used in production Linux systems
 
-👉 View fundamentals → [View fundamentals](./fundamentals)
+[View fundamentals](./fundamentals)
 
 ---
 
@@ -136,7 +136,7 @@ Each level documents:
 Bandit is treated as a **learning exercise**, not a puzzle to brute-force.  
 The emphasis is on understanding Linux behaviour rather than memorising solutions.
 
-👉 View Bandit Solutions → [View Bandit solutions](./bandit)
+[View Bandit solutions](./bandit)
 
 ---
 
@@ -154,4 +154,4 @@ Notes focus on:
 
 These exercises help develop production-grade troubleshooting and operational thinking.
 
-👉 View SadServers Notes → [View SadServers notes](./sadservers)
+[View SadServers notes](./sadservers)
