@@ -20,9 +20,9 @@ The search starts at the root directory (/) to scan the entire system.
 
 The find command filters files by:
 
-Ownership (-user, -group)
+• Ownership (-user, -group)
 
-Exact size (-size 33c)
+• Exact size (-size 33c)
 
 Permission denied messages are expected and do not affect the result.
 
