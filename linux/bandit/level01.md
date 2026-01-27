@@ -1,4 +1,4 @@
-# Bandit Level 1 → Level 2
+# 📘 Bandit Level 1 → Level 2
 
 ## Goal
 Read the password stored in a file named `-`.
