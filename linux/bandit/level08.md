@@ -1,4 +1,4 @@
-# 📘 Bandit Level 8 → Level 9
+# Bandit Level 8 → Level 9
 
 ## Goal
 Find the only line in data.txt that occurs once.
