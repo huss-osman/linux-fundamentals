@@ -12,7 +12,7 @@ Start by listing running processes:
 ps aux
 ```
 
-## Why:
+Why:
 If a file is being written repeatedly, there’s usually a running process responsible. `ps aux` shows everything running, including background scripts and services.
 
 ## Step 2: Identify which process has the log file open
@@ -34,7 +34,7 @@ You’ll see output like:
 
 • NAME: the file being written (`/var/log/bad.log`)
 
-## Why:
+Why:
 This is the fastest way to answer the real question:
 “Which process is writing to this file?”
 
