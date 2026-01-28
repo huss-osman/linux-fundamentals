@@ -38,7 +38,7 @@ Why:
 This is the fastest way to answer the real question:
 ✅ “Which process is writing to this file?”
 
-Step 3: Stop the process (force if needed)
+## Step 3: Stop the process (force if needed)
 If it’s not a system service you want running, stop it. In your case, you force-stopped it using:
 
 <img width="410" height="35" alt="Sadservers pt3 Solution" src="https://github.com/user-attachments/assets/23d74ac5-5c29-40ff-96ce-4ce86149ff2d" />
