@@ -1,4 +1,4 @@
-# 📘 Bandit Level 10 → Level 11
+# Bandit Level 10 → Level 11
 
 ## Goal
 Decode the password stored in the file data.txt that has been Base64 encoded.
