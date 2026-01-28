@@ -36,7 +36,7 @@ You’ll see output like:
 
 ## Why:
 This is the fastest way to answer the real question:
-✅ “Which process is writing to this file?”
+“Which process is writing to this file?”
 
 ## Step 3: Stop the process (force if needed)
 If it’s not a system service you want running, stop it. In your case, you force-stopped it using:
