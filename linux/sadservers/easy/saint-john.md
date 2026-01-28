@@ -22,32 +22,54 @@ lsof /var/log/bad.log
 
 You’ll see output like:
 
-`COMMAND`: the program writing (example: badlog.py)
+• COMMAND: the program writing (example: `badlog.py`)
 
-`PID`: the process ID (example: 593)
+• PID: the process ID (example: `593`)
 
-`USER`: who owns it (example: ubuntu)
+• USER: who owns it (example: `ubuntu`)
 
-NAME: the file being written (/var/log/bad.log)
+• NAME: the file being written (`/var/log/bad.log`)
 
 Why:
 This is the fastest way to answer the real question:
 ✅ “Which process is writing to this file?”
 
-## Key Commands Used
-- `ps`
-- `lsof`
-- `grep`
-- `systemctl`
-- `kill -9`
+Step 3: Stop the process (force if needed)
+If it’s not a system service you want running, stop it. In your case, you force-stopped it using:
 
-## Root Cause
-A background service was actively writing to the log file.
+```
+kill -9 593
+```
 
-## Fix
-The responsible service was stopped and reconfigured.  
-When the process did not respond to normal termination signals, it was forcefully stopped using `kill -9`.
+Why `-9`?
+
+• `kill` (default) sends SIGTERM (15) which asks a process to exit cleanly.
+
+• `kill -9` sends SIGKILL (9) which stops it immediately (no cleanup).
+
+Use `kill -9` when the process ignores normal termination or keeps restarting.
+
+## Step 4: Verify the log stopped changing
+To confirm the file is no longer being modified, check if it was updated recently:
+
+```
+ find /var/log/bad.log -mmin -0.1
+```
+
+What it means:
+
+• `-mmin -0.1` = modified within the last ~6 seconds
+
+• If it returns the file path, it’s still being written to.
+
+• If it returns nothing, it has stopped changing.
 
 ## What I Learned
-Logs are symptoms, not causes.  
-Identifying the process behind unexpected behaviour is critical, and force-killing processes should be a last resort.
+
+• Logs are effects, not causes — you must trace them back to a process.
+
+• lsof is one of the best tools for mapping “file activity → process”.
+
+• kill -9 works, but it’s a last resort (best when normal stopping fails).
+
+• Always validate the fix by checking whether the file is still being updated.
