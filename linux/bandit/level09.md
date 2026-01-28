@@ -1,4 +1,4 @@
-# 📘 Bandit Level 9 → Level 10
+# Bandit Level 9 → Level 10
 
 ## Goal
 Extract the password from a file that contains mostly binary data.
