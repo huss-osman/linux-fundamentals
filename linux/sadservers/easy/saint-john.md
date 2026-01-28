@@ -6,6 +6,8 @@ Figure out what is writing to a log file (e.g. /var/log/bad.log) and stop it.
 ## Step 1: Confirm something is running and check processes
 Start by listing running processes:
 
+<img width="935" height="275" alt="Sadservers pt1 Solution" src="https://github.com/user-attachments/assets/e9242b73-f750-4986-a48b-5273b2343616" />
+
 ```
 ps aux
 ```
@@ -15,6 +17,8 @@ If a file is being written repeatedly, there’s usually a running process respo
 
 ## Step 2: Identify which process has the log file open
 Next, check which process is actively using the log file:
+
+<img width="795" height="70" alt="Sadservers pt2 Solution" src="https://github.com/user-attachments/assets/10514412-dd87-40f0-ae00-12d1e141ca2d" />
 
 ```
 lsof /var/log/bad.log
@@ -26,7 +30,7 @@ You’ll see output like:
 
 • PID: the process ID (example: `593`)
 
-• USER: who owns it (example: `ubuntu`)
+• USER: who owns it (example: `admin`)
 
 • NAME: the file being written (`/var/log/bad.log`)
 
@@ -36,6 +40,8 @@ This is the fastest way to answer the real question:
 
 Step 3: Stop the process (force if needed)
 If it’s not a system service you want running, stop it. In your case, you force-stopped it using:
+
+<img width="410" height="35" alt="Sadservers pt3 Solution" src="https://github.com/user-attachments/assets/23d74ac5-5c29-40ff-96ce-4ce86149ff2d" />
 
 ```
 kill -9 593
@@ -51,6 +57,8 @@ Use `kill -9` when the process ignores normal termination or keeps restarting.
 
 ## Step 4: Verify the log stopped changing
 To confirm the file is no longer being modified, check if it was updated recently:
+
+<img width="629" height="56" alt="Sadservers pt4 Solution" src="https://github.com/user-attachments/assets/745faab2-ae60-42b6-ba8e-c2d45409bdc7" />
 
 ```
  find /var/log/bad.log -mmin -0.1
