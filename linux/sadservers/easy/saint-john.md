@@ -1,16 +1,38 @@
 # SadServers — Easy: Saint John
 
 ## Problem
-A log file is continuously being written to, but it is unclear which process is responsible.
+Figure out what is writing to a log file (e.g. /var/log/bad.log) and stop it.
 
-## Symptoms
-- Log file grows unexpectedly
-- No obvious service documentation explains the writes
+## Step 1: Confirm something is running and check processes
+Start by listing running processes:
 
-## Investigation
-- Inspected running processes
-- Identified open file descriptors pointing to the log file
-- Traced the log writes back to a specific background process
+```
+ps aux
+```
+
+Why:
+If a file is being written repeatedly, there’s usually a running process responsible. `ps aux` shows everything running, including background scripts and services.
+
+## Step 2: Identify which process has the log file open
+Next, check which process is actively using the log file:
+
+```
+lsof /var/log/bad.log
+```
+
+You’ll see output like:
+
+`COMMAND`: the program writing (example: badlog.py)
+
+`PID`: the process ID (example: 593)
+
+`USER`: who owns it (example: ubuntu)
+
+NAME: the file being written (/var/log/bad.log)
+
+Why:
+This is the fastest way to answer the real question:
+✅ “Which process is writing to this file?”
 
 ## Key Commands Used
 - `ps`
