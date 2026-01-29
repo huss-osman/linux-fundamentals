@@ -19,7 +19,7 @@ Each scenario documents:
 
 ---
 
-### SadServers Scenarios
+## SadServers Scenarios
 
 **Easy – Saint John**  
 **Issue:** Unexpected writes to a log file  
