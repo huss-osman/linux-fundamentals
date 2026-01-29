@@ -219,17 +219,29 @@ Free disk space on the PostgreSQL data volume and restart the service.
 
 ## Why these commands
 
-• `systemctl` / `journalctl` → identify why PostgreSQL fails to start
+`systemctl` / `journalctl` → identifies why PostgreSQL fails to start
 
-• `df -h` → detect disk exhaustion
+Exposes startup errors and system-level failures.
 
-• `postgresql.conf` → confirm data_directory
+• `df -h` → detects disk exhaustion
 
-• `ls -lah` / `mv` → free disk space safely
+Confirms whether the filesystem is full and preventing writes.
 
-• `ss -putana` → verify PostgreSQL is listening on port 5432
+• `postgresql.conf` → confirms the data directory location
 
-• `psql` → validate database write functionality
+Identifies where PostgreSQL attempts to write its data.
+
+• `ls -lah` / `mv` → locates and removes unnecessary files
+
+Safely frees disk space without impacting system stability.
+
+• `ss -putana` → verifies PostgreSQL is listening on port 5432
+
+Confirms the service is running and accepting connections.
+
+• `psql` → validates database write functionality
+
+Ensures inserts succeed after resolving the underlying issue.
 
 ## What I Learned
 
