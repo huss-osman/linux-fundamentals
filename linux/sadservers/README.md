@@ -31,12 +31,14 @@ Each scenario documents:
 **Issue:** Application unable to write data to a database  
 **Focus:** Permissions, services, and dependency troubleshooting  
 **Key Commands:** `systemctl`, `journalctl`, `df -h`, `ls -lah`, `mv`, `ss -putana`, `psql`
+
 👉 [View Medium scenario](./medium/manhattan.md)
 
 **Hard – Jakarta**  
 **Issue:** Service failure caused by DNS misconfiguration  
 **Focus:** Network resolution, configuration validation, and system dependencies  
 **Key Commands:** `ping`, `cat /etc/resolv.conf`, `cat /etc/nsswitch.conf`, `vi /etc/nsswitch.conf`, `iptables -L`
+
 👉 [View Hard scenario](./hard/jakarta.md)
 
 ---
