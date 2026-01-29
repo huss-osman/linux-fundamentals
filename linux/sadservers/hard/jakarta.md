@@ -1,28 +1,107 @@
 # SadServers — Hard: Jakarta
 
 ## Problem
-A service fails to start or function correctly with no obvious error messages.
+The system cannot resolve external hostnames.
+
+Running `ping google.com` returns:
+
+```
+ping: google.com: Name or service not known
+```
+
+The objective is to restore hostname resolution.
 
 ## Symptoms
-- Service timeouts or startup failures
-- Application logs show connection or resolution errors
+• `ping google.com` fails with Name or service not known
+• Network interface is up
+• No firewall rules blocking outbound traffic
+• `/etc/resolv.conf` exists but resolution still fails
 
 ## Investigation
-- Tested network connectivity
-- Checked DNS resolution
-- Inspected system DNS configuration
 
-## Key Commands Used
-- `dig`
-- `nslookup`
-- `ping`
-- `cat /etc/resolv.conf`
+**1.** Confirmed the failure
+
+```
+ping google.com
+```
+
+Running `ping google.com` returns:
+
+```
+ping: google.com: Name or service not known
+```
+
+This is a DNS resolution error, not a connectivity issue.
+
+**2.** Checked resolver configuration
+
+```
+cat /etc/resolv.conf
+```
+
+• File is managed by `systemd-resolved`
+
+• Nameserver present (`127.0.0.53`), so DNS should work
+
+**3.** Checked name resolution order
+
+```
+cat /etc/nsswitch.conf
+```
+
+Found:
+
+DNS was **not included**, meaning the system never queried DNS servers.
 
 ## Root Cause
-Incorrect DNS configuration prevented the service from resolving required hostnames.
+The Name Service Switch configuration was incorrect.
+
+`/etc/nsswitch.conf` was missing `dns` in the `hosts` lookup order, so hostname resolution stopped at local 
+files (`/etc/hosts`) and never queried DNS.
 
 ## Fix
-DNS settings were corrected and name resolution was validated before restarting services.
+Updated the hosts line in /etc/nsswitch.conf:
+
+```
+sudo vi /etc/nsswitch.conf
+```
+
+**Before**
+
+**After**
+
+This immediately restored DNS resolution without restarting services.
+
+## Verification
+
+```
+ping google.com
+```
+
+**Result**
+
+Hostname resolution works as expected.
+
+## Key Commands Used
+
+• `ping`
+
+• `cat /etc/resolv.conf`
+
+• `cat /etc/nsswitch.conf`
+
+• `vi /etc/nsswitch.conf`
 
 ## What I Learned
-Many application failures are rooted in DNS — always verify name resolution early.
+
+DNS issues are often **not about DNS servers**, but about **how the system performs lookups**.
+
+Before touching firewalls, resolvers, or network services:
+
+• Always check `nsswitch.conf`
+
+• Verify lookup order (`files`, `dns`)
+
+• Understand the resolution path
+
+Fast diagnosis beats trial and error — especially in production.
