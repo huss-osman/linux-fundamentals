@@ -86,15 +86,20 @@ What it means:
 
 ## Why these commands
 
-• `ps aux` → inspect running processes
+• `ps` / `ps aux` → identifies running processes
+Confirms which services or background jobs are active on the system.
 
-• `lsof` → identify which process is writing to the log file
+`lsof` → identifies which process is writing to the log file
+Maps open file descriptors back to a specific PID.
 
-• `grep` → filter process output
+`grep` → filters process and log output
+Helps narrow results to the relevant service or file.
 
-• `systemctl` → manage and inspect services
+`systemctl` → checks and manages system services
+Confirms whether a service is running, stopped, or misconfigured.
 
-• `kill` → stop the offending process
+`kill -9` → forcefully terminates the offending process
+Used only when the process does not respond to graceful termination.
 
 ## What I Learned
 
