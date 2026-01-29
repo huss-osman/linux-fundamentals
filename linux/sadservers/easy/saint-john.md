@@ -86,15 +86,15 @@ What it means:
 
 ## Why these commands
 
-• ps aux → inspect running processes
+• `ps aux` → inspect running processes
 
-• lsof → identify which process is writing to the log file
+• `lsof` → identify which process is writing to the log file
 
-• grep → filter process output
+• `grep` → filter process output
 
-• systemctl → manage and inspect services
+• `systemctl` → manage and inspect services
 
-• kill → stop the offending process
+• `kill` → stop the offending process
 
 ## What I Learned
 
