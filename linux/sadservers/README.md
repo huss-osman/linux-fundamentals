@@ -21,26 +21,27 @@ Each scenario documents:
 
 ## SadServers Scenarios
 
-**Easy – Saint John**  
+### Easy — Saint John
 **Issue:** Unexpected writes to a log file  
 **Focus:** Process inspection and log analysis  
 **Key Commands:** `ps`, `lsof`, `grep`, `systemctl`, `kill -9`  
+➡️ [View Easy scenario](./easy/saint-john.md)
 
-👉 [View Easy scenario](./easy/saint-john.md)
+---
 
-**Medium – Manhattan**  
+### Medium — Manhattan
 **Issue:** Application unable to write data to a database  
 **Focus:** Permissions, services, and dependency troubleshooting  
-**Key Commands:** `systemctl`, `journalctl`, `df -h`, `ls -lah`, `mv`, `ss -putana`, `psql`
+**Key Commands:** `systemctl`, `journalctl`, `df -h`, `ls -lah`, `mv`, `ss -putana`, `psql`  
+➡️ [View Medium scenario](./medium/manhattan.md)
 
-👉 [View Medium scenario](./medium/manhattan.md)
+---
 
-**Hard – Jakarta**  
+### Hard — Jakarta
 **Issue:** Service failure caused by DNS misconfiguration  
 **Focus:** Network resolution, configuration validation, and system dependencies  
-**Key Commands:** `ping`, `cat /etc/resolv.conf`, `cat /etc/nsswitch.conf`, `vi /etc/nsswitch.conf`, `iptables -L`
-
-👉 [View Hard scenario](./hard/jakarta.md)
+**Key Commands:** `ping`, `cat /etc/resolv.conf`, `cat /etc/nsswitch.conf`, `vi /etc/nsswitch.conf`, `iptables -L`  
+➡️ [View Hard scenario](./hard/jakarta.md)
 
 ---
 
