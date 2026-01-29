@@ -84,6 +84,18 @@ What it means:
 
 • `kill` / `kill -9`
 
+## Why these commands
+
+• ps aux → inspect running processes
+
+• lsof → identify which process is writing to the log file
+
+• grep → filter process output
+
+• systemctl → manage and inspect services
+
+• kill → stop the offending process
+
 ## What I Learned
 
 • Logs are effects, not causes — you must trace them back to a process.
