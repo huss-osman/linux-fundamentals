@@ -111,6 +111,28 @@ Hostname resolution works as expected.
 
 • `vi /etc/nsswitch.conf`
 
+## Why These Commands
+
+• `ping` → identifies hostname resolution failure
+
+Fails when DNS is broken, even if network connectivity exists.
+
+• `cat /etc/resolv.conf` → verifies DNS configuration exists
+
+Confirms that a nameserver is defined.
+
+• `cat /etc/nsswitch.conf` → identifies hostname lookup order
+
+Shows whether DNS is included in the resolution process.
+
+• `vi /etc/nsswitch.conf` → restores DNS resolution
+
+Adding dns enables hostname lookups.
+
+• `iptables -L` → rules out firewall interference
+
+Confirms outbound traffic is allowed and not blocking DNS.
+
 ## What I Learned
 
 DNS issues are often **not about DNS servers**, but about **how the system performs lookups**.
