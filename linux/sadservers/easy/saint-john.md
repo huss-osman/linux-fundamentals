@@ -72,6 +72,18 @@ What it means:
 
 • If it returns nothing, it has stopped changing.
 
+## Key Commands Used
+
+• `ps aux`
+
+• `lsof /var/log/bad.log`
+
+• `grep`
+
+• `systemctl status`
+
+• `kill` / `kill -9`
+
 ## What I Learned
 
 • Logs are effects, not causes — you must trace them back to a process.
