@@ -14,6 +14,7 @@ ping: google.com: Name or service not known
 The objective is to restore hostname resolution.
 
 ## Symptoms
+
 • `ping google.com` fails with Name or service not known
 • Network interface is up
 • No firewall rules blocking outbound traffic
