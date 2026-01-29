@@ -78,13 +78,16 @@ The goal is long-term understanding that transfers to production systems.
 ## Folder Purpose
 
 **fundamentals/**  
-Core Linux concepts explained with examples and reasoning.
+Core Linux concepts explained with examples and reasoning  
+➡️ [Open fundamentals](./fundamentals)
 
 **bandit/**  
-OverTheWire Bandit wargame solutions (Levels 1–12), including commands used and lessons learned.
+OverTheWire Bandit wargame solutions (Levels 1–20), including commands used and lessons learned  
+➡️ [Open bandit](./bandit)
 
 **sadservers/**  
-Real-world Linux troubleshooting scenarios organised by difficulty (Easy, Medium, Hard).
+Real-world Linux troubleshooting scenarios organised by difficulty (Easy, Medium, Hard)  
+➡️ [Open sadservers](./sadservers)
 
 ---
 
@@ -106,7 +109,7 @@ Each topic covers:
 
 These notes help build a solid foundation for Docker, Kubernetes, CI/CD, and cloud platforms.
 
-[View Fundamentals](./fundamentals)
+➡️ [View Fundamentals](./fundamentals)
 
 ---
 
@@ -123,7 +126,7 @@ Each level documents:
 Bandit is treated as a **learning exercise**, not a puzzle to brute-force.  
 The emphasis is on understanding Linux behaviour rather than memorising solutions.
 
-[View Bandit solutions](./bandit)
+➡️ [View Bandit solutions](./bandit)
 
 ---
 
@@ -141,4 +144,4 @@ Notes focus on:
 
 These exercises help develop production-grade troubleshooting and operational thinking.
 
-[View SadServers notes](./sadservers)
+➡️ [View SadServers notes](./sadservers)
