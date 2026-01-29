@@ -25,6 +25,7 @@ Each scenario documents:
 **Issue:** Unexpected writes to a log file  
 **Focus:** Process inspection and log analysis  
 **Key Commands:** `ps`, `lsof`, `grep`, `systemctl`, `kill -9`  
+
 👉 [View Easy scenario](./easy/saint-john.md)
 
 **Medium – Manhattan**  
