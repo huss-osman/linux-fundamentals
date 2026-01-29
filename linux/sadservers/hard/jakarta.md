@@ -22,7 +22,7 @@ The objective is to restore hostname resolution.
 
 ## Investigation
 
-**1.** Confirmed the failure
+## Step 1: Confirmed the failure
 
 <img width="495" height="46" alt="Jakarta pt1" src="https://github.com/user-attachments/assets/7348225e-b43e-4818-b701-bc7e7ec60731" />
 
