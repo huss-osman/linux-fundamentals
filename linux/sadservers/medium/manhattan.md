@@ -197,6 +197,26 @@ PostgreSQL failed to create the mandatory `postmaster.pid` lock file, causing th
 ## Fix
 Free disk space on the PostgreSQL data volume and restart the service.
 
+## Key Commands Used
+
+• `systemctl status postgresql`
+
+• `journalctl -u postgresql@14-main`
+
+• `df -h`
+
+• `cat /etc/postgresql/14/main/postgresql.conf`
+
+• `ls -lah /opt/pgdata`
+
+• `mv`
+
+• `service postgresql restart`
+
+• `ss -putana`
+
+• `psql`
+
 ## What I Learned
 
 • Database failures often stem from **filesystem constraints**, not application bugs
