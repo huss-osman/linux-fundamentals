@@ -219,7 +219,7 @@ Free disk space on the PostgreSQL data volume and restart the service.
 
 ## Why these commands
 
-`systemctl` / `journalctl` → identifies why PostgreSQL fails to start
+• `systemctl` / `journalctl` → identifies why PostgreSQL fails to start
 
 Exposes startup errors and system-level failures.
 
