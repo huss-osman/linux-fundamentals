@@ -15,10 +15,10 @@ The objective is to restore hostname resolution.
 
 ## Symptoms
 
-•  `ping google.com` fails with Name or service not known
-•  Network interface is up
-•  No firewall rules blocking outbound traffic
-•  `/etc/resolv.conf` exists but resolution still fails
+• (`ping google.com`) fails with Name or service not known
+• Network interface is up
+• No firewall rules blocking outbound traffic
+• (`/etc/resolv.conf`) exists but resolution still fails
 
 ## Investigation
 
@@ -40,7 +40,7 @@ ping: google.com: Name or service not known
 
 This is a DNS resolution error, not a connectivity issue.
 
-**2.** Checked resolver configuration
+## Step 2: Checked resolver configuration
 
 <img width="925" height="550" alt="Jakarta pt3" src="https://github.com/user-attachments/assets/d6183f24-b527-452e-b17f-6ff977d265e2" />
 
@@ -52,7 +52,7 @@ cat /etc/resolv.conf
 
 • Nameserver present (`127.0.0.53`), so DNS should work
 
-**3.** Checked name resolution order
+## Step 3: Checked name resolution order
 
 <img width="836" height="482" alt="Jakarta pt4" src="https://github.com/user-attachments/assets/98af1194-fef6-4bfc-8011-558ae5b300d5" />
 
