@@ -1,6 +1,6 @@
 <img width="1000" height="500" alt="PNG1" src="https://github.com/user-attachments/assets/5fb36b73-6c2d-4110-b49e-73d033093090" />
 
-## Linux 
+# Linux 
 
 This repository documents my hands-on learning of **Linux** as part of my **DevOps training with CoderCo**.
 
