@@ -90,19 +90,19 @@ What it means:
 
 Confirms which services or background jobs are active on the system.
 
-`lsof` → identifies which process is writing to the log file
+•  `lsof` → identifies which process is writing to the log file
 
 Maps open file descriptors back to a specific PID.
 
-`grep` → filters process and log output
+•  `grep` → filters process and log output
 
 Helps narrow results to the relevant service or file.
 
-`systemctl` → checks and manages system services
+•  `systemctl` → checks and manages system services
 
 Confirms whether a service is running, stopped, or misconfigured.
 
-`kill -9` → forcefully terminates the offending process
+•  `kill -9` → forcefully terminates the offending process
 
 Used only when the process does not respond to graceful termination.
 
