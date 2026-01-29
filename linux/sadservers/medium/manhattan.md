@@ -217,6 +217,20 @@ Free disk space on the PostgreSQL data volume and restart the service.
 
 • `psql`
 
+## Why these commands
+
+• `systemctl` / `journalctl` → identify why PostgreSQL fails to start
+
+• `df -h` → detect disk exhaustion
+
+• `postgresql.conf` → confirm data_directory
+
+• `ls -lah` / `mv` → free disk space safely
+
+• `ss -putana` → verify PostgreSQL is listening on port 5432
+
+• `psql` → validate database write functionality
+
 ## What I Learned
 
 • Database failures often stem from **filesystem constraints**, not application bugs
