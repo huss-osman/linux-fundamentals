@@ -77,13 +77,13 @@ The goal is long-term understanding that transfers to production systems.
 
 ## Folder Purpose
 
-**.fundamentals/**  
+**fundamentals/**  
 Core Linux concepts explained with examples and reasoning.
 
-**.bandit/**  
+**bandit/**  
 OverTheWire Bandit wargame solutions (Levels 1–12), including commands used and lessons learned.
 
-**.sadservers/**  
+**sadservers/**  
 Real-world Linux troubleshooting scenarios organised by difficulty (Easy, Medium, Hard).
 
 ---
