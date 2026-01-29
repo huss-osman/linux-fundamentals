@@ -84,7 +84,7 @@ What it means:
 
 • `kill` / `kill -9`
 
-## Why these commands
+## Why These Commands
 
 • `ps` / `ps aux` → identifies running processes
 
