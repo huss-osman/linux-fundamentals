@@ -15,10 +15,10 @@ The objective is to restore hostname resolution.
 
 ## Symptoms
 
-• (`ping google.com`) fails with Name or service not known
+• `ping google.com` fails with Name or service not known
 • Network interface is up
 • No firewall rules blocking outbound traffic
-• (`/etc/resolv.conf`) exists but resolution still fails
+• `/etc/resolv.conf` exists but resolution still fails
 
 ## Investigation
 
