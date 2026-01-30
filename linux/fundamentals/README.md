@@ -1,4 +1,4 @@
-<img width="1000" height="500" alt="imageedit_1_2407869094" src="https://github.com/user-attachments/assets/a9e08417-3c8d-4ac9-92d6-98381d27d0f6" />
+<img width="1000" height="500" alt="imageedit_5_6842549894" src="https://github.com/user-attachments/assets/b94bf4e7-ebc7-410b-b6a3-202194563503" />
 
 
 # Linux Fundamentals
