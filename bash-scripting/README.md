@@ -2,6 +2,8 @@
 
 # Bash Scripting
 
+---
+
 ## What is Bash?
 
 **Bash (Bourne Again Shell)** is a command-line shell and scripting language used to interact with Linux systems and automate tasks.
@@ -28,6 +30,8 @@ This tells the system which interpreter should execute the script.
 
 If a script doesn’t run as expected, always verify the shebang line is present and correct.
 
+---
+
 ## Basic Data Types
 
 Bash primarily works with three types of data:
@@ -40,6 +44,8 @@ Text values enclosed in quotes:
 message="Hello World"
 ```
 
+---
+
 ## Numbers
 
 Numeric values without quotes:
@@ -51,6 +57,8 @@ count=10
 "`10`" is a string
 `10` is a number
 
+---
+
 ## Booleans
 
 Booleans are evaluated implicitly through command success or failure:
@@ -58,6 +66,8 @@ Booleans are evaluated implicitly through command success or failure:
 • 0 → success (true)
 
 • non-zero → failure (false)
+
+---
 
 ## Variables
 
@@ -78,6 +88,8 @@ Rules:
 • No spaces around =
 
 • Access variables using $variable_name
+
+---
 
 ## Script Parameters
 Parameters allow scripts to accept input from the command line.
@@ -112,6 +124,8 @@ Name: John
 Age: 30
 ```
 
+---
+
 ## Arithmetic in Bash
 Bash performs arithmetic using (( )):
 
@@ -122,13 +136,16 @@ echo $result
 
 Arithmetic expressions must be wrapped in double parentheses.
 
+---
+
 ## Folder Purpose
 
 **bashbattlearena/**  
 Hands-on Bash scripting challenges organised by difficulty levels  
 (Level 1 – Beginner fundamentals → Advanced scripting)
-
 ➡️ [Open Bash Battle Arena](./bashbattlearena)
+
+---
 
 ## Why Bash Matters in DevOps
 Bash scripting enables you to:
@@ -142,5 +159,3 @@ Bash scripting enables you to:
 • Build reliable pipelines and troubleshooting workflows
 
 • A strong Bash foundation supports Docker, Kubernetes, Terraform, and cloud automation.
-
-
