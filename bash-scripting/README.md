@@ -20,7 +20,7 @@ Bash scripts execute Linux commands using the same logic you use in the terminal
 
 Every Bash script should start with a **shebang**:
 
-```
+```bash
 #!/bin/bash
 ```
 
