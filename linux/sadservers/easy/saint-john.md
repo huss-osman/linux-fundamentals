@@ -8,7 +8,7 @@ Start by listing running processes:
 
 <img width="935" height="275" alt="Sadservers pt1 Solution" src="https://github.com/user-attachments/assets/e9242b73-f750-4986-a48b-5273b2343616" />
 
-```text
+```bash
 ps aux
 ```
 
