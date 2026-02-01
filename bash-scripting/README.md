@@ -122,6 +122,14 @@ echo $result
 
 Arithmetic expressions must be wrapped in double parentheses.
 
+## Folder Purpose
+
+**bashbattlearena/**  
+Hands-on Bash scripting challenges organised by difficulty levels  
+(Level 1 – Beginner fundamentals → Advanced scripting)
+
+➡️ [Open Bash Battle Arena](./bashbattlearena)
+
 ## Why Bash Matters in DevOps
 Bash scripting enables you to:
 
