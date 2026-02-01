@@ -8,7 +8,7 @@ Start by listing running processes:
 
 <img width="935" height="275" alt="Sadservers pt1 Solution" src="https://github.com/user-attachments/assets/e9242b73-f750-4986-a48b-5273b2343616" />
 
-```
+```bash
 ps aux
 ```
 
@@ -20,7 +20,7 @@ Next, check which process is actively using the log file:
 
 <img width="795" height="70" alt="Sadservers pt2 Solution" src="https://github.com/user-attachments/assets/10514412-dd87-40f0-ae00-12d1e141ca2d" />
 
-```
+```bash
 lsof /var/log/bad.log
 ```
 
@@ -43,7 +43,7 @@ If it’s not a system service you want running, stop it. In your case, you forc
 
 <img width="410" height="35" alt="Sadservers pt3 Solution" src="https://github.com/user-attachments/assets/23d74ac5-5c29-40ff-96ce-4ce86149ff2d" />
 
-```
+```bash
 kill -9 593
 ```
 
@@ -60,7 +60,7 @@ To confirm the file is no longer being modified, check if it was updated recentl
 
 <img width="629" height="56" alt="Sadservers pt4 Solution" src="https://github.com/user-attachments/assets/745faab2-ae60-42b6-ba8e-c2d45409bdc7" />
 
-```
+```bash
  find /var/log/bad.log -mmin -0.1
 ```
 
