@@ -1,4 +1,4 @@
-<img width="1000" height="500" alt="LINUX (6) (1)" src="https://github.com/user-attachments/assets/9bf7098d-733b-4506-82bf-c61c465c2a0e" />
+<img width="1000" height="500" alt="imageedit_2_6245302199" src="https://github.com/user-attachments/assets/4085aa7d-12a2-485b-ac9f-04c04507280e" />
 
 # Bash Scripting
 
