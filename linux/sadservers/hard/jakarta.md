@@ -79,11 +79,11 @@ Updated the hosts line in /etc/nsswitch.conf:
 sudo vi /etc/nsswitch.conf
 ```
 
-**Before**
+## **Before**
 
 <img width="836" height="464" alt="Jakarta pt6" src="https://github.com/user-attachments/assets/bdb15863-543b-4f29-add0-395c2fbe731b" />
 
-**After**
+## **After**
 
 <img width="845" height="463" alt="Jakarta pt7" src="https://github.com/user-attachments/assets/110348c5-e57a-4650-b70d-dac8240435d2" />
 
@@ -97,7 +97,7 @@ This immediately restored DNS resolution without restarting services.
 ping google.com
 ```
 
-**Result**
+## **Result**
 
 Hostname resolution works as expected.
 
