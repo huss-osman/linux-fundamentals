@@ -71,7 +71,7 @@ Booleans are evaluated implicitly through command success or failure:
 
 Variables store values so they can be reused throughout a script.
 
-```
+```bash
 #!/bin/bash
 
 name="John Doe"
