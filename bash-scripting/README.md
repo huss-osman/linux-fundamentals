@@ -2,8 +2,6 @@
 
 # Bash Scripting
 
----
-
 ## What is Bash?
 
 **Bash (Bourne Again Shell)** is a command-line shell and scripting language used to interact with Linux systems and automate tasks.
