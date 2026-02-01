@@ -7,7 +7,7 @@ Running `ping google.com` returns:
 
 <img width="484" height="55" alt="Jakarta pt2" src="https://github.com/user-attachments/assets/383594ee-3f88-4476-9816-4bc7019debe6" />
 
-```text
+```bash
 ping: google.com: Name or service not known
 ```
 
