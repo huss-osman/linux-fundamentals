@@ -92,15 +92,13 @@ Rules:
 ## Script Parameters
 Parameters allow scripts to accept input from the command line.
 
-Parameter	Meaning
+Parameter	Meaning:
 
-`$0`	Script name
-`$1`	First argument
-`$2`	Second argument
-`$#`	Number of arguments
-`$@`	All arguments
-
----
+`$0` - Script name
+`$1` - First argument
+`$2` - Second argument
+`$#` - Number of arguments
+`$@` - All arguments
 
 Example:
 
