@@ -100,6 +100,8 @@ Parameter	Meaning
 `$#`	Number of arguments
 `$@`	All arguments
 
+---
+
 Example:
 
 ```bash
