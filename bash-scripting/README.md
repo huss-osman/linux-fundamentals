@@ -53,6 +53,7 @@ count=10
 ```
 
 "`10`" is a string
+
 `10` is a number
 
 ---
