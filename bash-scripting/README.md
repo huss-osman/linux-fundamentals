@@ -38,7 +38,7 @@ Bash primarily works with three types of data:
 
 Text values enclosed in quotes:
 
-```
+```bash
 message="Hello World"
 ```
 
@@ -48,7 +48,7 @@ message="Hello World"
 
 Numeric values without quotes:
 
-```
+```bash
 count=10
 ```
 
@@ -102,7 +102,7 @@ Parameter	Meaning
 
 Example:
 
-```
+```bash
 #!/bin/bash
 
 echo "Name: $1"
@@ -111,13 +111,13 @@ echo "Age: $2"
 
 Run:
 
-```
+```bash
 ./example.sh John 30
 ```
 
 Output:
 
-```
+```bash
 Name: John
 Age: 30
 ```
@@ -127,7 +127,7 @@ Age: 30
 ## Arithmetic in Bash
 Bash performs arithmetic using (( )):
 
-```
+```bash
 result=$((5 + 3))
 echo $result
 ```
