@@ -21,6 +21,8 @@ Comments are ignored by Bash but are critical for explaining intent and reasonin
 # This is a comment
 ```
 
+---
+
 ## Key Takeaways
 
 - Comments improve maintainability
@@ -28,6 +30,8 @@ Comments are ignored by Bash but are critical for explaining intent and reasonin
 - Essential for automation scripts
 
 - Aid debugging and collaboration
+
+---
 
 ## Reflection
 Writing comments forced clearer thinking about script behaviour.
