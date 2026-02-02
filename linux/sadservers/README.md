@@ -52,11 +52,15 @@ Each scenario documents:
 - Applying and validating fixes in a controlled manner  
 - Relying on system understanding instead of trial-and-error commands
 
+---
+
 ## Key Skills Used
 - Process management
 - File system navigation
 - Permissions
 - Service troubleshooting
+
+---
 
 ## Reflection
 SadServers helped bridge the gap between theory and real-world Linux issues, improving confidence in troubleshooting production-like environments.
