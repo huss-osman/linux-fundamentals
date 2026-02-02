@@ -4,6 +4,8 @@
 Linux is a multi-user operating system.  
 Understanding users and groups is essential for managing permissions and system security.
 
+---
+
 ## Key Concepts
 
 ### Users
@@ -14,6 +16,8 @@ Understanding users and groups is essential for managing permissions and system 
 - Groups are collections of users
 - Permissions can be assigned to groups instead of individuals
 
+---
+
 ## Common Commands
 
 - `whoami` – shows the current user
@@ -23,6 +27,8 @@ Understanding users and groups is essential for managing permissions and system 
 - `adduser username` – create a new user
 - `groupadd groupname` – create a new group
 - `usermod -aG group user` – add user to a group
+
+---
 
 ## Reflection
 Understanding users and groups helped clarify how permissions work and why access is restricted on shared systems.
