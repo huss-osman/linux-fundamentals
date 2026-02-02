@@ -75,6 +75,8 @@ sed -n '10,20p' file.txt
 
 Prints only lines 10–20 from a file.
 
+---
+
 ### Piping Chains
 Combines multiple commands into a single workflow.
 
@@ -83,6 +85,8 @@ cat /var/log/syslog | grep "error" | awk '{print $1, $2, $3}' | sort | uniq
 ```
 
 This extracts timestamps from error logs, sorts them, and removes duplicates.
+
+---
 
 ## Reflection
 Learning text processing made it clear how powerful small Linux tools become when combined.
