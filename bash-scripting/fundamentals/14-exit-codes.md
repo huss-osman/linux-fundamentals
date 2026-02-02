@@ -19,6 +19,8 @@ Exit codes indicate success or failure of commands and scripts.
 exit 1
 ```
 
+---
+
 ## Key Takeaways
 
 - Exit codes control flow
@@ -26,6 +28,8 @@ exit 1
 - Essential for CI/CD
 
 - Silent failures are dangerous
+
+---
 
 ## Reflection
 Exit codes explained how tools communicate in pipelines.
