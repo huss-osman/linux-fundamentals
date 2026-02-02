@@ -28,3 +28,6 @@ result=$((5 + 3))
 - Bash is not math-focused
 
 - Suitable for simple calculations
+
+## Reflection
+Arithmetic expansion clarified why normal math syntax fails in Bash.
