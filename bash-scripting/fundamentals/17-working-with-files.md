@@ -22,6 +22,9 @@ if [ -f data.txt ]; then
   echo "Found"
 fi
 ```
+
+---
+
 ## Key Takeaways
 
 - Always check before acting
@@ -29,6 +32,8 @@ fi
 - Defensive scripting prevents data loss
 
 - File safety is critical
+
+---
 
 ## Reflection
 File checks reinforced cautious automation practices.
