@@ -1,3 +1,6 @@
+<img width="1000" height="500" alt="imageedit_2_8984710263" src="https://github.com/user-attachments/assets/c4e88e66-f601-4082-a7d9-3263d7b440a4" />
+
+
 # Bash Fundamentals
 
 This folder contains my core **Bash fundamentals** notes as part of my DevOps training.
