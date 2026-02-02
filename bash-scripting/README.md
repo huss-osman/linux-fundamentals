@@ -25,55 +25,55 @@ By working through this module, I aimed to:
 
 ## Topics Covered
 
-- [Introduction to Bash](./fundamentals/01-introduction.md)  
+- [Introduction to Bash](./fundamentals/introduction.md)  
   What Bash is, how it fits into Linux, and why it matters in DevOps.
 
-- [Writing Your First Script](./fundamentals/02-writing-first-script.md)  
+- [Writing Your First Script](./fundamentals/writing-first-script.md)  
   Script structure, execution order, and basic automation.
 
-- [The Shebang Line](./fundamentals/03-shebang.md)  
+- [The Shebang Line](./fundamentals/shebang.md)  
   How Linux chooses interpreters and why the shebang matters.
 
-- [Comments](./fundamentals/04-comments.md)  
+- [Comments](./fundamentals/comments.md)  
   Documenting intent and improving script maintainability.
 
-- [Running Scripts](./fundamentals/05-running-scripts.md)  
+- [Running Scripts](./fundamentals/running-scripts.md)  
   Executable permissions, PATH, and running scripts from anywhere.
 
-- [Variables](./fundamentals/06-variables.md)  
+- [Variables](./fundamentals/variables.md)  
   Assignment, expansion, quoting, and common pitfalls.
 
-- [Script Parameters](./fundamentals/07-parameters.md)  
+- [Script Parameters](./fundamentals/parameters.md)  
   Positional parameters, argument handling, and validation.
 
-- [Arithmetic Expansion](./fundamentals/08-arithmetic-expansion.md)  
+- [Arithmetic Expansion](./fundamentals/arithmetic-expansion.md)  
   Performing calculations safely in Bash.
 
-- [Conditionals](./fundamentals/09-conditionals.md)  
+- [Conditionals](./fundamentals/conditionals.md)  
   Decision-making using exit codes and test expressions.
 
-- [Loops](./fundamentals/10-loops.md)  
+- [Loops](./fundamentals/loops.md)  
   Repeating operations with `for` and `while` loops.
 
-- [Functions](./fundamentals/11-functions.md)  
+- [Functions](./fundamentals/functions.md)  
   Structuring scripts and reducing duplication.
 
-- [User Input](./fundamentals/12-user-input.md)  
+- [User Input](./fundamentals/user-input.md)  
   Reading and validating input from users.
 
-- [Piping and Redirection](./fundamentals/13-piping-and-redirection.md)  
+- [Piping and Redirection](./fundamentals/piping-and-redirection.md)  
   `stdin`, `stdout`, `stderr`, pipes, and data flow.
 
-- [Exit Codes](./fundamentals/14-exit-codes.md)  
+- [Exit Codes](./fundamentals/exit-codes.md)  
   Signalling success and failure in scripts and pipelines.
 
-- [Shell Options (`set`)](./fundamentals/15-set-options.md)  
+- [Shell Options (`set`)](./fundamentals/set-options.md)  
   Writing safer scripts with strict execution modes.
 
-- [Environment Variables & PATH](./fundamentals/16-environment-and-path.md)  
+- [Environment Variables & PATH](./fundamentals/environment-and-path.md)  
   Environment inheritance and command discovery.
 
-- [Working with Files](./fundamentals/17-working-with-files.md)  
+- [Working with Files](./fundamentals/working-with-files.md)  
   File checks, safe reads/writes, and defensive scripting.
 
 ---
