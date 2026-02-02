@@ -21,6 +21,8 @@ for file in *.txt; do
 done
 ```
 
+---
+
 ## Key Takeaways
 
 - Loops reduce duplication
@@ -28,6 +30,8 @@ done
 - Useful for batch operations
 
 - Careful construction is required
+
+---
 
 ## Reflection
 Loops showed how powerful small scripts can become.
