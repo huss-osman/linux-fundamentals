@@ -24,6 +24,8 @@ Scripts allow tasks to be automated consistently and repeatably.
 echo "Hello World"
 ```
 
+---
+
 ## Key Takeaways
 
 - Bash scripts are plain text
@@ -31,6 +33,8 @@ echo "Hello World"
 - Execution order matters
 
 - Scripts reduce manual repetition
+
+---
 
 ## Reflection
 Writing a first script made Bash feel practical rather than abstract.
