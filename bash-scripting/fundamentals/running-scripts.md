@@ -8,7 +8,9 @@ Bash scripts can be executed in multiple ways depending on permissions and envir
 ## Key Concepts
 
 - Scripts must be executable
+  
 - PATH controls discoverability
+  
 - Execution context matters
 
 ---
