@@ -6,8 +6,11 @@ Comments are ignored by Bash but are critical for explaining intent and reasonin
 ---
 
 ## Key Concepts
+
 - Comments explain *why*, not *what*
+  
 - Scripts are read more than written
+  
 - Clear comments prevent future mistakes
 
 ---
