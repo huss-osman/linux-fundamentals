@@ -22,7 +22,6 @@ In DevOps environments, Bash is used extensively for automation, system configur
 ```bash
 echo "Hello from Bash"
 ```
-
 ---
 
 ## Key Takeaways
