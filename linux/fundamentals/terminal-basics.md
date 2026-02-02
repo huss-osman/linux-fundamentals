@@ -5,6 +5,8 @@
 - Commands follow a consistent structure (command, options, arguments)
 - Reading documentation using `man` is essential for understanding commands
 
+---
+
 ## Commands Practised
 
 ### `pwd` – Print Working Directory
@@ -22,6 +24,8 @@ Essential for navigation when working from the terminal.
 ### `man` – Manual Pages
 Displays documentation for a given command.  
 Helpful for learning command usage, available options, and examples.
+
+---
 
 ## Reflection
 Using the terminal felt intimidating at first, but practising these commands made navigation and system interaction much clearer.
