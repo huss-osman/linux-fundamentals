@@ -23,6 +23,8 @@ chmod +x script.sh
 bash script.sh
 ```
 
+---
+
 ## Key Takeaways
 
 - Executable permission is required
@@ -30,6 +32,8 @@ bash script.sh
 - PATH allows scripts to behave like commands
 
 - Relative vs absolute execution matters
+
+---
 
 ## Reflection
 Learning PATH-based execution made scripts feel like real system tools.
