@@ -21,6 +21,8 @@ Scripts can accept interactive input using `read`.
 read -p "Enter name: " name
 ```
 
+---
+
 ## Key Takeaways
 
 - Interactive scripts need care
@@ -28,6 +30,8 @@ read -p "Enter name: " name
 - Validation prevents bad data
 
 - CI scripts should avoid prompts
+
+---
 
 ## Reflection
 User input highlighted the difference between automation and interaction.
