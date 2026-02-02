@@ -22,6 +22,8 @@ ls | grep txt
 command > output.txt
 ```
 
+---
+
 ## Key Takeaways
 
 - Linux tools are composable
@@ -29,6 +31,8 @@ command > output.txt
 - Data flow is explicit
 
 - Pipes enable powerful workflows
+
+---
 
 ## Reflection
 Pipes made Linux feel like a toolkit rather than isolated commands.
