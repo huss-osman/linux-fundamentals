@@ -8,8 +8,11 @@ Scripts allow tasks to be automated consistently and repeatably.
 ---
 
 ## Key Concepts
+
 - Scripts execute top to bottom
+  
 - Commands behave the same as in the terminal
+  
 - Scripts must be executable to run directly
 
 ---
