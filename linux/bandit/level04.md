@@ -3,6 +3,8 @@
 ## Goal
 Find and read the only human-readable file inside the inhere directory.
 
+---
+
 ## Solution
 
 <img width="553" height="522" alt="Bandit Solution 4" src="https://github.com/user-attachments/assets/acfd311c-941b-47fd-a516-353d49578f98" />
@@ -12,6 +14,8 @@ cd inhere
 file ./*
 cat ./-file07
 ```
+
+---
 
 ## Explanation
 The directory contains multiple files with similar names, but most of them are binary data.
@@ -23,6 +27,8 @@ The directory contains multiple files with similar names, but most of them are b
 • That file is -file07.
 
 Because the filename starts with a dash (-), it must be accessed using a relative path (./) so the shell does not treat it as an option.
+
+---
 
 ## What I Learned
 • File names cannot be trusted to indicate file contents.
