@@ -3,6 +3,8 @@
 ## Problem
 Figure out what is writing to a log file (e.g. /var/log/bad.log) and stop it.
 
+---
+
 ## Step 1: Confirm something is running and check processes
 Start by listing running processes:
 
@@ -14,6 +16,8 @@ ps aux
 
 Why:
 If a file is being written repeatedly, there’s usually a running process responsible. `ps aux` shows everything running, including background scripts and services.
+
+---
 
 ## Step 2: Identify which process has the log file open
 Next, check which process is actively using the log file:
@@ -38,6 +42,8 @@ Why:
 This is the fastest way to answer the real question:
 “Which process is writing to this file?”
 
+---
+
 ## Step 3: Stop the process (force if needed)
 If it’s not a system service you want running, stop it. In your case, you force-stopped it using:
 
@@ -54,6 +60,8 @@ Why `-9`?
 • `kill -9` sends SIGKILL (9) which stops it immediately (no cleanup).
 
 Use `kill -9` when the process ignores normal termination or keeps restarting.
+
+---
 
 ## Step 4: Verify the log stopped changing
 To confirm the file is no longer being modified, check if it was updated recently:
@@ -72,6 +80,8 @@ What it means:
 
 • If it returns nothing, it has stopped changing.
 
+---
+
 ## Key Commands Used
 
 • `ps aux`
@@ -83,6 +93,8 @@ What it means:
 • `systemctl status`
 
 • `kill` / `kill -9`
+
+---
 
 ## Why These Commands
 
@@ -105,6 +117,8 @@ Confirms whether a service is running, stopped, or misconfigured.
 •  `kill -9` → forcefully terminates the offending process
 
 Used only when the process does not respond to graceful termination.
+
+---
 
 ## What I Learned
 
