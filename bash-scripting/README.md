@@ -2,83 +2,122 @@
 
 # Bash Scripting
 
-This repository documents my hands-on learning of **Bash scripting** as part of my **DevOps training**.
+This repository documents my hands-on learning of **Bash scripting** as part of my **DevOps training with CoderCo**.
 
-Bash is the backbone of Linux automation. From CI/CD pipelines to system bootstrapping and cloud provisioning, Bash scripts are used everywhere.
+Bash is the foundation of Linux automation. Nearly everything in DevOps — containers, CI/CD pipelines, cloud provisioning, and system automation — relies on Bash scripts running at the command line. This repository exists to build and demonstrate that foundation.
 
-This repository focuses on **understanding Bash behaviour**, not memorising syntax.
+The focus throughout this work is on understanding **how Bash behaves and executes**, not memorising syntax.
 
 ---
 
 ## Learning Objectives
 
-By working through this repository, I aimed to:
+By working through this module, I aimed to:
 
-- Understand how Bash executes commands and scripts
-- Write safe, predictable automation scripts
-- Use variables, parameters, and control flow correctly
-- Handle errors and unexpected input defensively
-- Work confidently with files, processes, and environments
-- Build scripts suitable for real DevOps workflows
+- Confidently write and execute Bash scripts
+- Understand script execution flow and shell behaviour
+- Use variables, parameters, and control structures correctly
+- Handle errors and unexpected input safely
+- Work with files, processes, and environment variables in scripts
+- Apply Bash fundamentals through structured challenges and scripting exercises
 
 ---
 
 ## Topics Covered
 
-### Fundamentals
-- [Introduction to Bash](./fundamentals/01-introduction.md)
-- [Writing Your First Script](./fundamentals/02-writing-first-script.md)
-- [The Shebang Line](./fundamentals/03-shebang.md)
-- [Comments](./fundamentals/04-comments.md)
-- [Running Scripts](./fundamentals/05-running-scripts.md)
-- [Variables](./fundamentals/06-variables.md)
-- [Script Parameters](./fundamentals/07-parameters.md)
-- [Arithmetic Expansion](./fundamentals/08-arithmetic-expansion.md)
-- [Conditionals](./fundamentals/09-conditionals.md)
-- [Loops](./fundamentals/10-loops.md)
-- [Functions](./fundamentals/11-functions.md)
-- [User Input](./fundamentals/12-user-input.md)
-- [Piping and Redirection](./fundamentals/13-piping-and-redirection.md)
-- [Exit Codes](./fundamentals/14-exit-codes.md)
-- [Shell Options (`set`)](./fundamentals/15-set-options.md)
-- [Environment Variables & PATH](./fundamentals/16-environment-and-path.md)
-- [Working with Files](./fundamentals/17-working-with-files.md)
+- [Introduction to Bash](./fundamentals/01-introduction.md)  
+  What Bash is, how it fits into Linux, and why it matters in DevOps.
+
+- [Writing Your First Script](./fundamentals/02-writing-first-script.md)  
+  Script structure, execution order, and basic automation.
+
+- [The Shebang Line](./fundamentals/03-shebang.md)  
+  How Linux chooses interpreters and why the shebang matters.
+
+- [Comments](./fundamentals/04-comments.md)  
+  Documenting intent and improving script maintainability.
+
+- [Running Scripts](./fundamentals/05-running-scripts.md)  
+  Executable permissions, PATH, and running scripts from anywhere.
+
+- [Variables](./fundamentals/06-variables.md)  
+  Assignment, expansion, quoting, and common pitfalls.
+
+- [Script Parameters](./fundamentals/07-parameters.md)  
+  Positional parameters, argument handling, and validation.
+
+- [Arithmetic Expansion](./fundamentals/08-arithmetic-expansion.md)  
+  Performing calculations safely in Bash.
+
+- [Conditionals](./fundamentals/09-conditionals.md)  
+  Decision-making using exit codes and test expressions.
+
+- [Loops](./fundamentals/10-loops.md)  
+  Repeating operations with `for` and `while` loops.
+
+- [Functions](./fundamentals/11-functions.md)  
+  Structuring scripts and reducing duplication.
+
+- [User Input](./fundamentals/12-user-input.md)  
+  Reading and validating input from users.
+
+- [Piping and Redirection](./fundamentals/13-piping-and-redirection.md)  
+  `stdin`, `stdout`, `stderr`, pipes, and data flow.
+
+- [Exit Codes](./fundamentals/14-exit-codes.md)  
+  Signalling success and failure in scripts and pipelines.
+
+- [Shell Options (`set`)](./fundamentals/15-set-options.md)  
+  Writing safer scripts with strict execution modes.
+
+- [Environment Variables & PATH](./fundamentals/16-environment-and-path.md)  
+  Environment inheritance and command discovery.
+
+- [Working with Files](./fundamentals/17-working-with-files.md)  
+  File checks, safe reads/writes, and defensive scripting.
+
+---
+
+## Learning Approach
+
+This repository reflects how I learn, not just what I learned.
+
+- Hands-on scripting in real Linux environments
+- Writing and breaking scripts to understand failure modes
+- Documenting why Bash behaves the way it does
+- Revisiting concepts through structured challenges
+- Treating confusion and mistakes as part of the learning process
+
+The goal is long-term understanding that transfers directly to production systems.
 
 ---
 
 ## Folder Purpose
 
 ### `fundamentals/`
-Core Bash concepts explained with examples and reasoning.  
-Each topic focuses on **how Bash behaves and why**, not just syntax.
-
+Core Bash concepts explained with examples and reasoning  
 ➡️ [Open fundamentals](./fundamentals)
 
 ### `bashbattlearena/`
-Hands-on Bash scripting challenges organised by difficulty.
-
-- Level 1 – Core Bash fundamentals
-- Level 2 – Functions, files, and data flow
-- Level 3 – Error handling and real-world automation
-
+Hands-on Bash scripting challenges organised by difficulty (Levels 1–3)  
 ➡️ [Open Bash Battle Arena](./bashbattlearena)
 
 ---
 
-## Fundamentals/
+## Fundamentals
 
 The Fundamentals section focuses on building a strong understanding of **Bash scripting** through hands-on command-line usage and core shell concepts.
 
-Rather than memorising commands or syntax, the emphasis is on learning **how Bash behaves**, how scripts execute, and why certain patterns are considered safe or dangerous in real systems.
+Rather than memorising syntax, the emphasis is on learning how **Bash behaves and executes**, and how small mistakes can lead to large failures in automation.
 
 Each topic covers:
 
-• Core Bash concepts and shell behaviour  
-• Common syntax and how Bash evaluates commands  
-• Practical examples based on real-world scripting usage  
-• Key takeaways that reinforce long-term understanding  
+- Core Bash concepts and shell behaviour
+- Common syntax and how Bash evaluates commands
+- Practical examples based on real-world scripting usage
+- Key takeaways that reinforce long-term understanding
 
-These notes help build a solid foundation for Dockerfiles, CI/CD pipelines, infrastructure automation, and cloud tooling.
+These notes help build a solid foundation for Dockerfiles, CI/CD pipelines, infrastructure automation, and cloud platforms.
 
 ➡️ [View Fundamentals](./fundamentals)
 
@@ -90,28 +129,15 @@ Bash Battle Arena is used to reinforce Bash fundamentals through progressively h
 
 Each level documents:
 
-- The challenge goal  
-- The Bash concepts being tested  
-- Commands and patterns used  
-- A brief explanation of why the solution works  
-- A key learning takeaway  
+- The challenge goal
+- Bash concepts being tested
+- Commands and patterns used
+- A brief explanation of why the solution works
+- A key learning takeaway
 
-Challenges are treated as **learning exercises**, not puzzles to brute-force.  
+Bash Battle Arena is treated as a learning exercise, not a puzzle to brute-force.  
 The emphasis is on understanding **shell behaviour and execution flow**, rather than memorising syntax.
 
-Levels progress from basic scripting to real-world automation patterns.
+These exercises help develop production-grade scripting and operational thinking.
 
 ➡️ [View Bash Battle Arena](./bashbattlearena)
-
----
-
-## Learning Approach
-
-This repository reflects how Bash is used in **real Linux systems**:
-
-- Scripts tested in real environments
-- Emphasis on failure modes and edge cases
-- Defensive scripting over happy-path assumptions
-- Focus on long-term maintainability
-
-The goal is production-ready Bash knowledge that transfers directly to DevOps work.
