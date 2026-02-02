@@ -28,6 +28,5 @@ echo "Hello from Bash"
 
 - Understanding Bash improves system-level reasoning
 
-
 ## Reflection
 Learning Bash clarified how automation tools interact with Linux under the hood.
