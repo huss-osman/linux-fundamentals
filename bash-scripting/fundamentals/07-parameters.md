@@ -34,6 +34,8 @@ echo "User: $1"
 echo "Env: $2"
 ```
 
+---
+
 ## Key Takeaways
 
 - Parameters increase flexibility
@@ -41,6 +43,8 @@ echo "Env: $2"
 - Validation prevents runtime errors
 
 - Scripts should fail fast
+
+---
 
 ## Reflection
 Parameters turned scripts into reusable tools.
