@@ -6,8 +6,11 @@ Functions group reusable logic inside scripts.
 ---
 
 ## Key Concepts
+
 - Improve structure
+  
 - Reduce duplication
+  
 - Support local scope
 
 ---
