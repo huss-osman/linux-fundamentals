@@ -23,6 +23,8 @@ In DevOps environments, Bash is used extensively for automation, system configur
 echo "Hello from Bash"
 ```
 
+---
+
 ## Key Takeaways
 
 - Bash is foundational to Linux automation
