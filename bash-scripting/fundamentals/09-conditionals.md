@@ -23,6 +23,8 @@ if [ -f file.txt ]; then
 fi
 ```
 
+---
+
 ## Key Takeaways
 
 - Conditionals rely on exit status
@@ -30,6 +32,8 @@ fi
 - Spacing matters
 
 - Defensive checks improve safety
+
+---
 
 ## Reflection
 Conditionals made scripts more intelligent and robust.
