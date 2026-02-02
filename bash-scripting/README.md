@@ -2,160 +2,116 @@
 
 # Bash Scripting
 
-## What is Bash?
+This repository documents my hands-on learning of **Bash scripting** as part of my **DevOps training**.
 
-**Bash (Bourne Again Shell)** is a command-line shell and scripting language used to interact with Linux systems and automate tasks.
+Bash is the backbone of Linux automation. From CI/CD pipelines to system bootstrapping and cloud provisioning, Bash scripts are used everywhere.
 
-In DevOps, Bash is commonly used to:
-- Automate repetitive system tasks
-- Glue tools together in CI/CD pipelines
-- Manage files, processes, and services
-- Perform quick system checks and fixes
-
-Bash scripts execute Linux commands using the same logic you use in the terminal — but in a reusable, automated form.
+This repository focuses on **understanding Bash behaviour**, not memorising syntax.
 
 ---
 
-## The Shebang Line
+## Learning Objectives
 
-Every Bash script should start with a **shebang**:
+By working through this repository, I aimed to:
 
-```bash
-#!/bin/bash
-```
-
-This tells the system which interpreter should execute the script.
-
-If a script doesn’t run as expected, always verify the shebang line is present and correct.
-
----
-
-## Basic Data Types
-
-Bash primarily works with three types of data:
-
-## Strings
-
-Text values enclosed in quotes:
-
-```bash
-message="Hello World"
-```
+- Understand how Bash executes commands and scripts
+- Write safe, predictable automation scripts
+- Use variables, parameters, and control flow correctly
+- Handle errors and unexpected input defensively
+- Work confidently with files, processes, and environments
+- Build scripts suitable for real DevOps workflows
 
 ---
 
-## Numbers
+## Topics Covered
 
-Numeric values without quotes:
-
-```bash
-count=10
-```
-
-"`10`" is a string
-
-`10` is a number
-
----
-
-## Booleans
-
-Booleans are evaluated implicitly through command success or failure:
-
-• 0 → success (true)
-
-• non-zero → failure (false)
-
----
-
-## Variables
-
-Variables store values so they can be reused throughout a script.
-
-```bash
-#!/bin/bash
-
-name="John Doe"
-age=30
-
-echo $name
-echo $age
-```
-
-Rules:
-
-• No spaces around =
-
-• Access variables using $variable_name
-
----
-
-## Script Parameters
-Parameters allow scripts to accept input from the command line.
-
-Parameter	Meaning:
-
-- `$0` : Script name
-- `$1` : First argument
-- `$2` : Second argument
-- `$#` : Number of arguments
-- `$@` : All arguments
-
-Example:
-
-```bash
-#!/bin/bash
-
-echo "Name: $1"
-echo "Age: $2"
-```
-
-Run:
-
-```bash
-./example.sh John 30
-```
-
-Output:
-
-```bash
-Name: John
-Age: 30
-```
-
----
-
-## Arithmetic in Bash
-Bash performs arithmetic using (( )):
-
-```bash
-result=$((5 + 3))
-echo $result
-```
-
-Arithmetic expressions must be wrapped in double parentheses.
+### Fundamentals
+- [Introduction to Bash](./fundamentals/01-introduction.md)
+- [Writing Your First Script](./fundamentals/02-writing-first-script.md)
+- [The Shebang Line](./fundamentals/03-shebang.md)
+- [Comments](./fundamentals/04-comments.md)
+- [Running Scripts](./fundamentals/05-running-scripts.md)
+- [Variables](./fundamentals/06-variables.md)
+- [Script Parameters](./fundamentals/07-parameters.md)
+- [Arithmetic Expansion](./fundamentals/08-arithmetic-expansion.md)
+- [Conditionals](./fundamentals/09-conditionals.md)
+- [Loops](./fundamentals/10-loops.md)
+- [Functions](./fundamentals/11-functions.md)
+- [User Input](./fundamentals/12-user-input.md)
+- [Piping and Redirection](./fundamentals/13-piping-and-redirection.md)
+- [Exit Codes](./fundamentals/14-exit-codes.md)
+- [Shell Options (`set`)](./fundamentals/15-set-options.md)
+- [Environment Variables & PATH](./fundamentals/16-environment-and-path.md)
+- [Working with Files](./fundamentals/17-working-with-files.md)
 
 ---
 
 ## Folder Purpose
 
-**bashbattlearena/**  
-Hands-on Bash scripting challenges organised by difficulty levels  
-(Level 1 – Beginner fundamentals → Advanced scripting)
+### `fundamentals/`
+Core Bash concepts explained with examples and reasoning.  
+Each topic focuses on **how Bash behaves and why**, not just syntax.
+
+➡️ [Open fundamentals](./fundamentals)
+
+### `bashbattlearena/`
+Hands-on Bash scripting challenges organised by difficulty.
+
+- Level 1 – Core Bash fundamentals
+- Level 2 – Functions, files, and data flow
+- Level 3 – Error handling and real-world automation
 
 ➡️ [Open Bash Battle Arena](./bashbattlearena)
 
 ---
 
-## Why Bash Matters in DevOps
-Bash scripting enables you to:
+## Fundamentals/
 
-• Automate system administration tasks
+The Fundamentals section focuses on building a strong understanding of **Bash scripting** through hands-on command-line usage and core shell concepts.
 
-• Reduce manual errors
+Rather than memorising commands or syntax, the emphasis is on learning **how Bash behaves**, how scripts execute, and why certain patterns are considered safe or dangerous in real systems.
 
-• Understand what automation tools are doing under the hood
+Each topic covers:
 
-• Build reliable pipelines and troubleshooting workflows
+• Core Bash concepts and shell behaviour  
+• Common syntax and how Bash evaluates commands  
+• Practical examples based on real-world scripting usage  
+• Key takeaways that reinforce long-term understanding  
 
-• A strong Bash foundation supports Docker, Kubernetes, Terraform, and cloud automation.
+These notes help build a solid foundation for Dockerfiles, CI/CD pipelines, infrastructure automation, and cloud tooling.
+
+➡️ [View Fundamentals](./fundamentals)
+
+---
+
+## Bash Battle Arena (Levels 1–3)
+
+Bash Battle Arena is used to reinforce Bash fundamentals through progressively harder scripting challenges.
+
+Each level documents:
+
+- The challenge goal  
+- The Bash concepts being tested  
+- Commands and patterns used  
+- A brief explanation of why the solution works  
+- A key learning takeaway  
+
+Challenges are treated as **learning exercises**, not puzzles to brute-force.  
+The emphasis is on understanding **shell behaviour and execution flow**, rather than memorising syntax.
+
+Levels progress from basic scripting to real-world automation patterns.
+
+➡️ [View Bash Battle Arena](./bashbattlearena)
+
+---
+
+## Learning Approach
+
+This repository reflects how Bash is used in **real Linux systems**:
+
+- Scripts tested in real environments
+- Emphasis on failure modes and edge cases
+- Defensive scripting over happy-path assumptions
+- Focus on long-term maintainability
+
+The goal is production-ready Bash knowledge that transfers directly to DevOps work.
