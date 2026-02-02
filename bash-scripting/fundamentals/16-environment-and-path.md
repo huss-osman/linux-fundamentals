@@ -21,6 +21,8 @@ Environment variables influence shell behaviour and program execution.
 export PATH="$PATH:/scripts"
 ```
 
+---
+
 ## Key Takeaways
 
 - PATH affects script execution
@@ -28,6 +30,8 @@ export PATH="$PATH:/scripts"
 - Environment leaks cause bugs
 
 - Explicit configuration is safer
+
+---
 
 ## Reflection
 Understanding PATH explained many “command not found” issues.
