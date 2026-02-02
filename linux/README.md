@@ -77,15 +77,15 @@ The goal is long-term understanding that transfers to production systems.
 
 ## Folder Purpose
 
-`fundamentals/`  
+### `fundamentals/`  
 Core Linux concepts explained with examples and reasoning  
 ➡️ [Open fundamentals](./fundamentals)
 
-`bandit/`  
+### `bandit/`  
 OverTheWire Bandit wargame solutions (Levels 1–20), including commands used and lessons learned  
 ➡️ [Open bandit](./bandit)
 
-`sadservers/`  
+### `sadservers/`  
 Real-world Linux troubleshooting scenarios organised by difficulty (Easy, Medium, Hard)  
 ➡️ [Open sadservers](./sadservers)
 
