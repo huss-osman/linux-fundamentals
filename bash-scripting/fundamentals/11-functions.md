@@ -23,6 +23,8 @@ greet() {
 }
 ```
 
+---
+
 ## Key Takeaways
 
 - Functions improve readability
@@ -30,6 +32,8 @@ greet() {
 - Essential for larger scripts
 
 - Encourage modular design
+
+---
 
 ## Reflection
 Functions helped scripts scale without becoming messy.
