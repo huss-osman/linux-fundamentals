@@ -21,13 +21,17 @@ Bash supports basic arithmetic using arithmetic expansion.
 result=$((5 + 3))
 ```
 
+---
+
 ## Key Takeaways
 
-- Arithmetic requires (( ))
+- Arithmetic requires `(( ))`
 
 - Bash is not math-focused
 
 - Suitable for simple calculations
+
+---
 
 ## Reflection
 Arithmetic expansion clarified why normal math syntax fails in Bash.
