@@ -22,6 +22,7 @@ In DevOps environments, Bash is used extensively for automation, system configur
 ```bash
 echo "Hello from Bash"
 ```
+
 ---
 
 ## Key Takeaways
@@ -31,6 +32,8 @@ echo "Hello from Bash"
 - Scripts reflect real system behaviour
 
 - Understanding Bash improves system-level reasoning
+
+---
 
 ## Reflection
 Learning Bash clarified how automation tools interact with Linux under the hood.
