@@ -24,13 +24,17 @@ set -x
 set -eux
 ```
 
+---
+
 ## Key Takeaways
 
-- set -eux is production-safe
+- `set -eux` is production-safe
 
 - Prevents silent bugs
 
 - Improves debugging
+
+---
 
 ## Reflection
 Strict mode made scripts predictable and trustworthy.
