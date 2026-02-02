@@ -23,6 +23,8 @@ age=30
 echo "$name"
 ```
 
+---
+
 ## Key Takeaways
 
 - Variables reduce duplication
@@ -30,6 +32,8 @@ echo "$name"
 - Quoting prevents bugs
 
 - Bash treats values as strings by default
+
+---
 
 ## Reflection
 Variables made scripts easier to extend without rewriting logic.
