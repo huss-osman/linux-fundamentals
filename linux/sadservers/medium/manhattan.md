@@ -4,6 +4,8 @@
 The PostgreSQL database is running but cannot accept write operations.
 Attempting to insert data into the database fails, preventing normal application functionality.
 
+---
+
 ## Goal
 Restore database write capability so the following command succeeds:
 
@@ -19,6 +21,8 @@ Expected result:
 INSERT 0 1
 ```
 
+---
+
 ## Symptoms
 
 • PostgreSQL service appears to start but database connections fail
@@ -28,6 +32,8 @@ INSERT 0 1
 • PostgreSQL cluster fails during startup
 
 • Database cannot write data to disk
+
+---
 
 ## Step 1: Check PostgreSQL service and cluster status
 
@@ -51,6 +57,8 @@ Result:
 
 This indicates PostgreSQL is being invoked, but the database itself is failing during initialization.
 
+---
+
 ## Step 2: Inspect PostgreSQL logs
 
 <img width="808" height="19" alt="Sadservers Manhattan -n 100" src="https://github.com/user-attachments/assets/1cb4e732-3fba-4d5a-8e35-d5e86548ec77" />
@@ -68,6 +76,8 @@ FATAL: could not create lock file "postmaster.pid": No space left on device
 ```
 
 This confirms PostgreSQL is unable to write required startup files.
+
+---
 
 ## Step 3: Identify the PostgreSQL data directory
 
@@ -87,6 +97,8 @@ data_directory = '/opt/pgdata/main'
 
 PostgreSQL is configured to store all database files under `/opt/pgdata`.
 
+---
+
 ## Step 4: Check disk usage
 
 <img width="320" height="23" alt="Sadservers Manhattan pt7" src="https://github.com/user-attachments/assets/4924d5be-df4c-4dd2-91d5-6938c6a73431" />
@@ -104,6 +116,8 @@ Result:
 ```
 
 The filesystem backing PostgreSQL’s data directory is completely full.
+
+---
 
 ## Step 5: Inspect contents of the full volume
 
@@ -124,6 +138,8 @@ Result:
 • Large backup and test files present
 
 • Non-essential files consuming disk space
+
+---
 
 ## Step 6: Free disk space safely
 Remove or relocate unnecessary files:
@@ -151,6 +167,8 @@ Result:
 
 Sufficient space is now available.
 
+---
+
 ## Step 7: Restart PostgreSQL
 service postgresql restart
 
@@ -165,6 +183,8 @@ systemctl status postgresql@14-main
 
 PostgreSQL now starts successfully.
 
+---
+
 ## Step 8: Confirm PostgreSQL is listening
 
 <img width="1892" height="72" alt="Sadservers Manhattan pt16" src="https://github.com/user-attachments/assets/0893c3f6-5c25-4483-8bac-05eb4773e6d4" />
@@ -175,6 +195,8 @@ ss -putana | grep 5432
 
 Result:
 • PostgreSQL is listening on `127.0.0.1:5432`
+
+---
 
 ## Step 9: Validate database write access
 
@@ -190,12 +212,18 @@ Result:
 INSERT 0 1
 ```
 
+---
+
 ## Root Cause
 The PostgreSQL data directory (`/opt/pgdata`) was mounted on a filesystem that had reached **100% disk usage.**
 PostgreSQL failed to create the mandatory `postmaster.pid` lock file, causing the cluster to abort startup.
 
+---
+
 ## Fix
 Free disk space on the PostgreSQL data volume and restart the service.
+
+---
 
 ## Key Commands Used
 
@@ -216,6 +244,8 @@ Free disk space on the PostgreSQL data volume and restart the service.
 • `ss -putana`
 
 • `psql`
+
+---
 
 ## Why These Commands
 
@@ -242,6 +272,8 @@ Confirms the service is running and accepting connections.
 • `psql` → validates database write functionality
 
 Ensures inserts succeed after resolving the underlying issue.
+
+---
 
 ## What I Learned
 
