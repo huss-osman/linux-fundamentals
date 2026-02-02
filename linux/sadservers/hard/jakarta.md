@@ -13,12 +13,16 @@ ping: google.com: Name or service not known
 
 The objective is to restore hostname resolution.
 
+---
+
 ## Symptoms
 
 - `ping google.com` fails with `Name or service not known`
 - Network interface is up
 - No firewall rules blocking outbound traffic
 - `/etc/resolv.conf` exists but hostname resolution still fails
+
+---
 
 ## Investigation
 
@@ -40,6 +44,8 @@ ping: google.com: Name or service not known
 
 This is a DNS resolution error, not a connectivity issue.
 
+---
+
 ## Step 2: Checked resolver configuration
 
 <img width="925" height="550" alt="Jakarta pt3" src="https://github.com/user-attachments/assets/d6183f24-b527-452e-b17f-6ff977d265e2" />
@@ -51,6 +57,8 @@ cat /etc/resolv.conf
 • File is managed by `systemd-resolved`
 
 • Nameserver present (`127.0.0.53`), so DNS should work
+
+---
 
 ## Step 3: Checked name resolution order
 
@@ -64,11 +72,15 @@ Found:
 
 DNS was **not included**, meaning the system never queried DNS servers.
 
+---
+
 ## Root Cause
 The Name Service Switch configuration was incorrect.
 
 `/etc/nsswitch.conf` was missing `dns` in the `hosts` lookup order, so hostname resolution stopped at local 
 files (`/etc/hosts`) and never queried DNS.
+
+---
 
 ## Fix
 Updated the hosts line in /etc/nsswitch.conf:
@@ -89,6 +101,8 @@ sudo vi /etc/nsswitch.conf
 
 This immediately restored DNS resolution without restarting services.
 
+---
+
 ## Verification
 
 <img width="610" height="45" alt="Jakarta pt8" src="https://github.com/user-attachments/assets/66dcad85-43ab-4264-9200-7e2bcddf8e81" />
@@ -101,6 +115,8 @@ ping google.com
 
 Hostname resolution works as expected.
 
+---
+
 ## Key Commands Used
 
 • `ping`
@@ -110,6 +126,8 @@ Hostname resolution works as expected.
 • `cat /etc/nsswitch.conf`
 
 • `vi /etc/nsswitch.conf`
+
+---
 
 ## Why These Commands
 
@@ -132,6 +150,8 @@ Adding dns enables hostname lookups.
 • `iptables -L` → rules out firewall interference
 
 Confirms outbound traffic is allowed and not blocking DNS.
+
+---
 
 ## What I Learned
 
