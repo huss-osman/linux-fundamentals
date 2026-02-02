@@ -11,6 +11,8 @@ Find the password stored in a file that meets all of the following conditions:
 
 • Located somewhere under the inhere directory
 
+---
+
 ## Solution
 
 <img width="801" height="338" alt="Bandit solution 5" src="https://github.com/user-attachments/assets/2f389ad0-61d0-4cc1-bdd9-19ad7f296fd0" />
@@ -22,6 +24,8 @@ ls
 find . -type f -size 1033c ! -executable
 cat ./maybehere07/.file2
 ```
+
+---
 
 ## Explanation
 The inhere directory contains many subdirectories and files, making manual inspection inefficient.
@@ -38,6 +42,8 @@ This narrows the search to a single file:
 ./maybehere07/.file2
 
 Once identified, the file is read using cat to reveal the password.
+
+---
 
 ## What I Learned
 
