@@ -8,8 +8,11 @@ In DevOps environments, Bash is used extensively for automation, system configur
 ---
 
 ## Key Concepts
+
 - Bash executes commands exactly as they would run in an interactive terminal
+  
 - Scripts follow the same execution rules as shell commands
+  
 - Bash prioritises simplicity and composability
 
 ---
