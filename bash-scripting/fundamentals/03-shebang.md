@@ -24,6 +24,8 @@ It must be the first line in the file.
 #!/usr/bin/env bash
 ```
 
+---
+
 ## Key Takeaways
 
 - Always include a shebang
@@ -31,6 +33,8 @@ It must be the first line in the file.
 - `/usr/bin/env` bash improves portability
 
 - Missing shebangs cause execution failures
+
+---
 
 ## Reflection
 Understanding the shebang explained why scripts failed even with correct permissions.
