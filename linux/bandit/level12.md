@@ -12,6 +12,8 @@ You need to:
 
 3. Repeatedly extract/decompress until you reach readable text
 
+---
+
 ## What is the problem actually saying?
 You are given a file called data.txt.
 
@@ -26,6 +28,8 @@ At first glance it looks like normal text, but it isn’t the password. Instead:
 • The password is inside the final extracted text file
 
 So the task is: turn the hex back into a real file, then unwrap it layer by layer.
+
+---
 
 ## Step 0: Work safely in /tmp
 
@@ -44,6 +48,8 @@ Why /tmp?
 • You won’t clutter or overwrite your home directory
 
 • This is how you handle unknown archives safely in real systems
+
+---
 
 ## Step 1: Confirm it’s a hexdump
 
@@ -65,6 +71,8 @@ That means:
 
 • So we must rebuild the real file first
 
+---
+
 ## Step 1: Reverse the hexdump into a real file
 
 <img width="690" height="46" alt="Bandit Solution 12 pt3" src="https://github.com/user-attachments/assets/d78372f0-f78c-4fda-90e0-571eb52a52ab" />
@@ -79,6 +87,8 @@ What happened?
 
 • data.bin becomes the real binary file hidden inside the dump
 
+---
+
 ## Step 2: Identify the file type (don’t guess)
 
 <img width="945" height="73" alt="Bandit Solution 12 pt4" src="https://github.com/user-attachments/assets/74bfdabd-14e6-4c2a-8e59-743943d58b3e" />
@@ -92,6 +102,8 @@ Your output shows it is:
 • gzip compressed data
 
 So we decompress using gzip.
+
+---
 
 ## Step 3: Layer 1 — gzip
 
@@ -116,6 +128,8 @@ Your output shows:
 
 • bzip2 compressed data
 
+---
+
 ## Step 4: Layer 2 — bzip2
 
 <img width="583" height="51" alt="Bandit Solution 12 pt7" src="https://github.com/user-attachments/assets/48a43292-dbab-49bd-a83b-e95fd1cfca53" />
@@ -137,6 +151,8 @@ Your output shows:
 
 • gzip compressed data
 
+---
+
 ## Step 5: Layer 3 — gzip again
 
 <img width="572" height="53" alt="Bandit Solution 12 pt9" src="https://github.com/user-attachments/assets/9297e7f0-65a4-418e-9e5a-896fb7763584" />
@@ -155,6 +171,8 @@ file data
 ```
 
 At this point (based on your run), it becomes a tar archive.
+
+---
 
 ## Step 6: Layer 4 — tar archive
 
@@ -185,6 +203,8 @@ file data5.bin
 
 Your screenshots show another tar archive appears next, so extract again.
 
+---
+
 ## Step 7: Layer 5 — tar archive again
 
 <img width="584" height="35" alt="Bandit Solution 12 pt14" src="https://github.com/user-attachments/assets/842a8141-b9c6-4119-9446-0bd3df2cf572" />
@@ -206,6 +226,8 @@ Your screenshots show:
 
 • bzip2 compressed data
 
+---
+
 ## Step 8: Layer 6 — bzip2 again
 
 <img width="645" height="46" alt="Bandit Solution 12 pt16" src="https://github.com/user-attachments/assets/add42d29-1608-4170-8686-5dd6229c411d" />
@@ -226,6 +248,8 @@ file data5
 Your screenshots show:
 
 • POSIX tar archive
+
+---
 
 ## Step 9: Layer 7 — tar again
 
@@ -249,6 +273,8 @@ Your screenshots show:
 
 • gzip compressed data
 
+---
+
 ## Step 10: Layer 8 — final gzip
 
 <img width="629" height="51" alt="Bandit Solution 12 pt20" src="https://github.com/user-attachments/assets/e5346240-a70a-48bc-8441-768fc6383921" />
@@ -270,6 +296,8 @@ Your output shows:
 
 • ASCII text
 
+---
+
 ## Step 11: Read the password
 
 <img width="604" height="57" alt="Bandit Solution 12 pt22" src="https://github.com/user-attachments/assets/429efcfd-a9ec-4590-b2ee-11e30a2cf8b7" />
@@ -279,6 +307,8 @@ cat data8
 ```
 
 That output is the password.
+
+---
 
 ## Why this works
 
@@ -299,6 +329,8 @@ This is exactly how you handle:
 • production artifacts
 
 • unknown compressed files
+
+---
 
 ## What I Learned
 
