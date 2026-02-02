@@ -115,6 +115,8 @@ kill -9 <PID>
 
 This should be used only when a process does not respond to normal termination signals.
 
+---
+
 ### killall
 Terminates all processes matching a given name.
 
