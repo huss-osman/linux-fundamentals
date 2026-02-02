@@ -8,8 +8,11 @@ It must be the first line in the file.
 ---
 
 ## Key Concepts
+
 - Required for direct execution
+  
 - Defines interpreter selection
+  
 - Affects portability
 
 ---
