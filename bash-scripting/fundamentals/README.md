@@ -5,7 +5,8 @@
 
 This folder contains my core **Bash fundamentals** notes as part of my DevOps training.
 
-Each topic focuses on understanding **how Bash works**, not just memorising syntax or commands.  
+Each topic focuses on understanding **how Bash works**, not just memorising syntax or commands.
+
 Examples are practical, script-focused, and tied to real-world automation and DevOps usage.
 
 ---
