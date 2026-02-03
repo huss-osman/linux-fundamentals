@@ -5,7 +5,8 @@
 
 This folder contains my core Linux fundamentals notes as part of my DevOps training.
 
-Each topic focuses on **understanding how Linux works**, not just memorising commands.  
+Each topic focuses on **understanding how Linux works**, not just memorising commands.
+
 Examples are practical, command-line driven, and tied to real-world usage.
 
 ---
