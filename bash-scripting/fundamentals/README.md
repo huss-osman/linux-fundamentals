@@ -3,6 +3,7 @@
 
 # Bash Fundamentals
 
+![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-green?logo=gnu-bash)
 ![Level](https://img.shields.io/badge/Level-Fundamentals-blue)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
