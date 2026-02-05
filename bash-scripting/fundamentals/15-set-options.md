@@ -1,8 +1,8 @@
 # Shell Options (set) Explained
 
 ## Overview
-These options control `how Bash behaves while running a script`.
-They’re mainly used to make scripts `safer, easier to debug, and more predictable`.
+These options control **how Bash behaves while running a script**.
+They’re mainly used to make scripts **safer, easier to debug, and more predictable**.
 
 ---
 
