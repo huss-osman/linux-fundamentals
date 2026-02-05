@@ -55,7 +55,7 @@ echo "This will NOT run"
 
 ---
 
-## set -u → Error on Undefined Variables
+## `set -u` → Error on Undefined Variables
 
 ## What it does
 Causes the script to fail if you use a variable that hasn’t been defined.
@@ -83,7 +83,7 @@ If username is not defined → script exits.
 
 ---
 
-## set -x → Debug Mode (Execution Trace)
+## `set -x` → Debug Mode (Execution Trace)
 
 ## What it does
 Prints each command before it executes.
@@ -119,7 +119,7 @@ Output shows:
 
 ---
 
-## set -eux → Strict Mode (Combined)
+## `set -eux` → Strict Mode (Combined)
 
 ## What it does
 
@@ -150,7 +150,7 @@ set -eux
 
 ---
 
-## Extra Note → set -euo pipefail
+## Extra Note → `set -euo` pipefail
 
 ## What it does 
 `pipefail` : Makes pipelines fail if any command in the pipe fails.
@@ -171,4 +171,5 @@ set -eux
 ---
 
 ## Reflection
-There are different use cases for different (set) options. Knowing when to use each is essential when dealing with production systems.
+Different `set` options serve different purposes.  
+Understanding when to use each one is essential when writing scripts for production systems, where silent failures and unpredictable behaviour can have serious consequences.
