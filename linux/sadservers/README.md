@@ -4,6 +4,11 @@
 
 # SadServers Practice
 
+![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
+![Focus](https://img.shields.io/badge/Focus-Troubleshooting-critical)
+![Practice](https://img.shields.io/badge/Practice-Production%20Scenarios-orange)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy%20%7C%20Medium%20%7C%20Hard-lightgrey)
+
 ## SadServers (Easy, Medium, Hard)
 
 SadServers scenarios are used to simulate real-world Linux incidents and operational failures.
