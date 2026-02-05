@@ -2,6 +2,10 @@
 
 # Linux 
 
+![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
+![Language](https://img.shields.io/badge/Language-Bash-green?logo=gnu-bash)
+![Focus](https://img.shields.io/badge/Focus-DevOps%20Foundations-purple)
+
 This repository documents my hands-on learning of **Linux** as part of my **DevOps training with CoderCo**.
 
 Linux is the foundation of modern infrastructure. Nearly everything in DevOps — containers, CI/CD, cloud platforms, and automation — assumes a strong understanding of Linux at the command line. This repository exists to build and demonstrate that foundation.
