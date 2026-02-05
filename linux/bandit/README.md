@@ -1,6 +1,12 @@
 <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/4484171e-6949-44aa-bd8c-d83d45f1dc98" />
 
-# OverTheWire Bandit 
+# OverTheWire Bandit
+
+![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
+![Language](https://img.shields.io/badge/Language-Bash-green?logo=gnu-bash)
+![Challenge](https://img.shields.io/badge/Challenge-OverTheWire%20Bandit-red)
+![Level](https://img.shields.io/badge/Levels-1--12-success)
+
 
 ## Bandit Levels 0–12 Overview
 
