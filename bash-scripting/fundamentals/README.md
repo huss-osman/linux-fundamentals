@@ -3,6 +3,10 @@
 
 # Bash Fundamentals
 
+![Shell](https://img.shields.io/badge/Shell-Bash-green?logo=gnu-bash)
+![Level](https://img.shields.io/badge/Level-Fundamentals-blue)
+![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
+
 This folder contains my core **Bash fundamentals** notes as part of my DevOps training.
 
 Each topic focuses on understanding **how Bash works**, not just memorising syntax or commands.
