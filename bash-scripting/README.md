@@ -2,6 +2,10 @@
 
 # Bash Scripting
 
+![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
+![Language](https://img.shields.io/badge/Language-Bash-green?logo=gnu-bash)
+
+
 This repository documents my hands-on learning of **Bash scripting** as part of my **DevOps training with CoderCo**.
 
 Bash is the foundation of Linux automation. Nearly everything in DevOps — containers, CI/CD pipelines, cloud provisioning, and system automation — relies on Bash scripts running at the command line. This repository exists to build and demonstrate that foundation.
