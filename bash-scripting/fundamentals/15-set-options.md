@@ -27,7 +27,7 @@ set -eux
 
 ---
 
-### `set -e` → Exit on Error
+## `set -e` → Exit on Error
 
 ## What it does
 Stops the script immediately if any command fails (returns a non-zero exit status).
