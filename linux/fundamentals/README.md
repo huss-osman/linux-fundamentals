@@ -3,6 +3,10 @@
 
 # Linux Fundamentals
 
+![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
+![Language](https://img.shields.io/badge/Language-Bash-green?logo=gnu-bash)
+![Focus](https://img.shields.io/badge/Focus-DevOps%20Foundations-purple)
+
 This folder contains my core Linux fundamentals notes as part of my DevOps training.
 
 Each topic focuses on **understanding how Linux works**, not just memorising commands.
