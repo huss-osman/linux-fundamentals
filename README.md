@@ -11,7 +11,7 @@ This repository documents my progress through structured, practical modules.
 
 ---
 
-## 📂 🚀 Featured Projects
+## 🚀 Featured Folders
 
 ### **[🐧 Linux](https://github.com/huss-osman/devops-learning/tree/main/linux)**
 
