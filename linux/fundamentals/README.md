@@ -5,7 +5,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
 ![Language](https://img.shields.io/badge/Language-Bash-green?logo=gnu-bash)
-![Focus](https://img.shields.io/badge/Focus-DevOps%20Foundations-purple)
+![Focus](https://img.shields.io/badge/Focus-Linux%20Fundamentals-purple?logo=linux)
 
 This folder contains my core Linux fundamentals notes as part of my DevOps training.
 
