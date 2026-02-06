@@ -4,6 +4,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
+![Shell](https://img.shields.io/badge/Shell-Zsh-blue?logo=gnubash)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This repository documents my hands-on learning of **Linux** as part of my **DevOps training with CoderCo**.
