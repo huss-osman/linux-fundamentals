@@ -29,7 +29,7 @@ The focus throughout this work is on **understanding how Linux works**, not memo
 > Before you start, I highly recommend watching this guide to mastering Linux man pages.  
 > It will be invaluable throughout the challenge and make you less dependent on Google and AI.
 >
-> [Mastering Linux man pages (YouTube)](https://www.youtube.com/watch?v=ZtqBQ68cfJc)
+> [Mastering Linux man pages (YouTube)](https://www.youtube.com/watch?v=RzAkjX_9B7E)
 
 ---
 
