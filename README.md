@@ -2,7 +2,7 @@
 
 ![Focus](https://img.shields.io/badge/Focus-DevOps%20Foundations-purple)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
-![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
+![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Script](https://img.shields.io/badge/Script-Bash-blue?logo=gnubash)
 
 Hands-on learning repository focused on building strong **Linux and Bash foundations** for DevOps.
