@@ -3,7 +3,7 @@
 
 # Linux Fundamentals
 
-![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
+![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
 ![Shell](https://img.shields.io/badge/Shell-Zsh-blue?logo=gnubash)
 ![Focus](https://img.shields.io/badge/Focus-Linux%20Fundamentals-purple?logo=linux)
