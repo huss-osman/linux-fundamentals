@@ -3,9 +3,8 @@
 # Linux 
 
 ![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
-![Language](https://img.shields.io/badge/Language-Bash-green?logo=gnu-bash)
-![Focus](https://img.shields.io/badge/Focus-DevOps%20Foundations-purple)
-![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
+![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
+![Focus](https://img.shields.io/badge/Focus-Linux%20Fundamentals-purple?logo=linux)
 
 This repository documents my hands-on learning of **Linux** as part of my **DevOps training with CoderCo**.
 
