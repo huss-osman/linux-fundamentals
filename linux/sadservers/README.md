@@ -6,7 +6,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
-![Focus](https://img.shields.io/badge/Focus-Troubleshooting-purple)
+![Focus](https://img.shields.io/badge/Focus-Troubleshooting-purple?logo=linux)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy%20%7C%20Medium%20%7C%20Hard-darkgreen)
 ![Practice](https://img.shields.io/badge/Practice-Production%20Scenarios-orange)
 
