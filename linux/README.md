@@ -39,7 +39,7 @@ The focus throughout this work is on **understanding how Linux works**, not memo
 - Click the Start menu, search for **Windows PowerShell**, then right-click and choose **Run as Administrator**.
 
 ### 2. Run the install command
-```bash
+```powershell
 wsl --install
 ```
 - This will install WSL along with Ubuntu by default. You may be prompted to restart your computer.
