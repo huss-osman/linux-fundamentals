@@ -2,7 +2,7 @@
 
 # Bash Scripting
 
-![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
+![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Script](https://img.shields.io/badge/Script-Bash-blue?logo=gnubash)
 ![Focus](https://img.shields.io/badge/Focus-Scripting%20Fundamentals-purple?logo=gnubash)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
