@@ -4,7 +4,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
-![Challenge](https://img.shields.io/badge/Challenge-OverTheWire%20Bandit-red)
+![Focus](https://img.shields.io/badge/Focus-Troubleshooting-purple?logo=linux)
 ![Level](https://img.shields.io/badge/Levels-1--12-darkgreen)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
