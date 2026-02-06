@@ -7,6 +7,7 @@
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
 ![Shell](https://img.shields.io/badge/Shell-Zsh-blue?logo=gnubash)
 ![Focus](https://img.shields.io/badge/Focus-Linux%20Fundamentals-purple?logo=linux)
+![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This folder contains my core Linux fundamentals notes as part of my DevOps training.
 
