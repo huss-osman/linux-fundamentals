@@ -12,7 +12,7 @@ This repository documents my progress through structured, practical modules.
 
 ## 📂 Repository Structure
 
-### 🐧 Linux [🐧 Linux]([https://github.com/huss-osman/devops-learning](https://github.com/huss-osman/devops-learning/tree/main/linux))
+### **[🐧 Linux](https://github.com/huss-osman/devops-learning/tree/main/linux)**
 
 Core Linux fundamentals and troubleshooting practice.
 
@@ -24,12 +24,11 @@ Covers:
 - Text processing (`grep`, `awk`, `sed`)
 - Pipes and redirection
 - Real-world challenges (Bandit, SadServers)
-
-➡️ `linux/`
-
+  
 ---
 
-### 🖥️ Bash Scripting [🖥️ Bash Scripting]([https://github.com/huss-osman/devops-learning/tree/main/bash-scripting))
+### **[🖥️ Bash Scripting](https://github.com/huss-osman/devops-learning/tree/main/bash-scripting)**
+
 Foundational scripting concepts used for automation.
 
 Covers:
@@ -41,8 +40,6 @@ Covers:
 - File operations
 - Piping and redirection
 - Safe scripting practices (`set -e`, `set -u`, etc.)
-
-➡️ `bash-scripting/`
 
 ---
 
