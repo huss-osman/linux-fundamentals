@@ -12,6 +12,10 @@
 
 Each level builds on the previous one, reinforcing Linux fundamentals through hands-on problem solving rather than memorisation.
 
+> [!TIP]
+> Try each level yourself before reading the solution.  
+> Use `man`, `--help`, and experimentation to understand commands.
+
 ---
 
 ### Level 1 → Level 2  
