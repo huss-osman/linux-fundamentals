@@ -3,10 +3,10 @@
 # OverTheWire Bandit
 
 ![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
-![Language](https://img.shields.io/badge/Language-Bash-green?logo=gnu-bash)
+![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
 ![Challenge](https://img.shields.io/badge/Challenge-OverTheWire%20Bandit-red)
 ![Level](https://img.shields.io/badge/Levels-1--12-success)
-
+![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 ## Bandit Levels 0–12 Overview
 
