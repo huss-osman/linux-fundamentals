@@ -5,7 +5,7 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-green?logo=gnu-bash)
-![Level](https://img.shields.io/badge/Level-Fundamentals-blue)
+![Focus](https://img.shields.io/badge/Focus-Scripting%20Fundamentals-purple?logo=gnubash)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This folder contains my core **Bash fundamentals** notes as part of my DevOps training.
