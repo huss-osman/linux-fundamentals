@@ -3,7 +3,7 @@
 # Bash Scripting
 
 ![Platform](https://img.shields.io/badge/Platform-Linux-blue?logo=linux)
-![Language](https://img.shields.io/badge/Language-Bash-green?logo=gnu-bash)
+![Shell](https://img.shields.io/badge/Shell-Bash-green?logo=gnu-bash)
 ![Focus](https://img.shields.io/badge/Focus-Scripting%20Fundamentals-purple)
 
 This repository documents my hands-on learning of **Bash scripting** as part of my **DevOps training with CoderCo**.
