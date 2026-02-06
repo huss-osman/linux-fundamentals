@@ -16,6 +16,41 @@ The focus throughout this work is on **understanding how Linux works**, not memo
 
 ---
 
+## 🧠 New to Linux? Read This First
+
+- Don’t panic when the terminal looks empty, or when the output looks confusing. That’s normal.
+- Use `man`, `--help`, or Google to understand commands and how to use them — you don’t need to memorise everything.
+- Get comfortable with the basics: `ls`, `cd`, `cat`, `find`, `file`, and `grep`.
+- Remember to make a note of each password.
+- Make notes on commands as you go.
+- If you're on Windows, consider installing Linux through WSL.
+
+> [!IMPORTANT]
+> Before you start, I highly recommend watching this guide to mastering Linux man pages.  
+> It will be invaluable throughout the challenge and make you less dependent on Google and AI.
+>
+> [Mastering Linux man pages (YouTube)](https://www.youtube.com/watch?v=ZtqBQ68cfJc)
+
+---
+
+## 🛠️ How to Install WSL (Windows Subsystem for Linux)
+
+### 1. Open PowerShell as Administrator
+- Click the Start menu, search for **Windows PowerShell**, then right-click and choose **Run as Administrator**.
+
+### 2. Run the install command
+```bash
+wsl --install
+```
+- This will install WSL along with Ubuntu by default. You may be prompted to restart your computer.
+
+### 3. Set up your Linux user
+- After restarting, Ubuntu will launch automatically and ask you to create a username and password.
+
+You’re now ready to start using Linux on Windows!
+
+---
+
 ## Learning Objectives
 
 By working through this module, I aimed to:
