@@ -73,7 +73,7 @@ Output:
 Hello, Osman
 ```
 
-This is called `parameter substitution` or `variable expansion`.
+This is called **parameter substitution** or **variable expansion**.
 
 ---
 
