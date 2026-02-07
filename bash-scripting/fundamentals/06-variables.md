@@ -70,7 +70,7 @@ Hello, $name
 
 - Bash treats values as strings by default
 
+---
+
 ## Reflection
 Variables made scripts easier to extend without rewriting logic.
-## 
-
