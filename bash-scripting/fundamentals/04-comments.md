@@ -53,9 +53,9 @@ Used for:
 
 ## Key Takeaways
 
-- Single-line comments use #
+- Single-line comments use `#`
 
-- Multi-line comments use the : ' ... ' workaround
+- Multi-line comments use the `: ' ... '` workaround
 
 - Comments improve maintainability
 
