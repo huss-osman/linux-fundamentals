@@ -67,6 +67,8 @@ name="Ahmed"
 echo "Hello, $name"
 ```
 
+---
+
 ### Comments
 Comments are used to explain what your script does.
 
@@ -74,6 +76,8 @@ Comments are used to explain what your script does.
 # This line prints a greeting
 echo "Hello"
 ```
+
+---
 
 ### Conditionals
 Conditionals allow scripts to make decisions.
@@ -84,6 +88,8 @@ if [ "$name" = "Alice" ]; then
 fi
 ```
 
+---
+
 ### Loops
 Loops repeat actions multiple times.
 
@@ -92,6 +98,8 @@ for i in 1 2 3; do
   echo "Number $i"
 done
 ```
+
+---
 
 ### Functions
 Functions group commands so they can be reused.
@@ -104,6 +112,8 @@ greet() {
 greet "Alice"
 ```
 
+---
+
 ### User Input
 Scripts can accept input from users.
 
@@ -111,6 +121,8 @@ Scripts can accept input from users.
 read -p "Enter your name: " name
 echo "Hello, $name!"
 ```
+
+---
 
 ### Example Script
 
