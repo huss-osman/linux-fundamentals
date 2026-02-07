@@ -50,7 +50,7 @@ All Parameters: how are you
 ---
 
 ## Substitution
-Parameters are substituted into commands using $.
+Parameters are substituted into commands using `$`.
 
 For example:
 
