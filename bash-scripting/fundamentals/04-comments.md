@@ -1,91 +1,68 @@
 # Comments
 
 ## Overview
-Comments are ignored by Bash during execution, but they are critical for explaining intent, assumptions, and reasoning inside scripts.
-
-Good comments make scripts easier to understand, maintain, and troubleshoot.
+Comments are ignored by Bash but are critical for explaining intent and reasoning.
 
 ---
 
 ## Key Concepts
 
-- Comments explain *why*, not just *what*
-- Scripts are read more often than they are written
-- Clear comments help prevent future mistakes
+- Comments explain *why*, not *what*
+- Scripts are read more than written
+- Clear comments prevent future mistakes
 
 ---
 
-## Types of Comments in Bash
+## Types of Comments
 
-Bash mainly uses **single-line comments**.  
-There is also a commonly used **multi-line comment technique**.
-
----
-
-### 1. Single-Line Comments
-Single-line comments begin with the `#` symbol.
-
-Anything after `#` on that line is ignored by Bash.
+### 1. Single-line comments
+Single-line comments use the `#` symbol.
 
 ```bash
-# This is a single-line comment
-echo "Hello"  # This comment is ignored
+# This is a comment
 ```
 
-Use cases:
+Used for:
 
-- Explaining what a command does
+- Explaining commands
 
-- Describing variables or logic
+- Adding notes
 
-- Leaving notes for future edits
+- Clarifying logic
 
 ---
 
-### 2. Multi-Line Comments (Workaround Method)
+### 2. Multi-line comments
 
-Bash does not have a true multi-line comment syntax.
-However, a common workaround is to use a here-document with a no-op command like :.
+Bash does not have a built-in multi-line comment, but a simple workaround is:
 
 ```bash
-: <<'COMMENT'
-This is a multi-line comment.
-None of these lines will execute.
-Used for temporarily disabling blocks of code.
-COMMENT
+: '
+This is a multiline comment
+None of this will run
+'
 ```
 
-Use cases:
+Used for:
 
 - Commenting out blocks of code
 
 - Writing longer explanations
 
-- Temporarily disabling script sections
-
----
-
-## Key Differences
-
-| Type                    | Syntax              | Native Support  | Typical Use                           |
-| ----------------------- | ------------------- | --------------- | ------------------------------------- |
-| Single-line             | `# comment`         | Yes             | Most comments in scripts              |
-| Multi-line (workaround) | `: <<'TAG' ... TAG` | No (workaround) | Large blocks of text or disabled code |
-
 ---
 
 ## Key Takeaways
 
-- Bash officially supports single-line comments
+- Single-line comments use #
 
-- Multi-line comments use a common workaround
+- Multi-line comments use the : ' ... ' workaround
 
-- Comments improve maintainability and readability
+- Comments improve maintainability
 
-- Essential for automation scripts and collaboration
+- Essential for automation scripts
 
 ---
 
 ## Reflection
 
-Writing comments forced clearer thinking about script behaviour. Explaining the reasoning behind commands made scripts easier to understand and debug later.
+Writing comments forced clearer thinking about script behaviour.
