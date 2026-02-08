@@ -71,7 +71,7 @@ Used when comparing text values:
 ### Example
 
 ```bash
-name="Alice"
+name="Osman"
 
 if [ "$name" == "Osman" ]
 then
