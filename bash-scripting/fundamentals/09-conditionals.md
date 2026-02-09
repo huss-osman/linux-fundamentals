@@ -150,6 +150,23 @@ then
 fi
 ```
 
+> [!IMPORTANT]
+> **Spacing rules inside `[ ]` tests are important.**
+> You must include spaces:
+> - after `[`
+> - before `]`
+> - between operands and operators
+>
+> ❌ Incorrect:
+> ```bash
+> if[$age-gt18]
+> ```
+>
+> ✅ Correct:
+> ```bash
+> if [ $age -gt 18 ]
+> ```
+
 ---
 
 ## String Comparisons
@@ -193,23 +210,6 @@ then
   echo "Excellent!"
 fi
 ```
-
-> [!IMPORTANT]
-> **Spacing rules inside `[ ]` tests are important.**
-> You must include spaces:
-> - after `[`
-> - before `]`
-> - between operands and operators
->
-> ❌ Incorrect:
-> ```bash
-> if[$age-gt18]
-> ```
->
-> ✅ Correct:
-> ```bash
-> if [ $age -gt 18 ]
-> ```
 
 ---
 
