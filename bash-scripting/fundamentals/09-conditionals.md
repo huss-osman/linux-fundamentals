@@ -17,6 +17,8 @@ They are fundamental for automation, validation, and safe scripting.
 - Conditions can be **numeric**, **string-based**, or **file-based**
   
 - `then`, `elif`, and `else` control execution flow
+  
+- Conditionals can be **nested** to represent dependent logic
 
 ---
 
@@ -87,6 +89,41 @@ Important rules for `elif`:
 - You can have **multiple** `elif` **blocks**
 
 - `else` is optional
+
+---
+
+## Nested if Statements
+Nested conditionals are used when **one condition depends on another**.
+This is common in validation and eligibility checks.
+
+```bash
+age=18
+grade=85
+
+if [ $age -gt 18 ]
+then
+  echo "You are eligible based on age."
+
+  if [ $grade -ge 80 ]
+  then
+    echo "You are eligible based on grade."
+    echo "Congrats! You are eligible for the scholarship!"
+  else
+    echo "Sorry, your grade is not high enough."
+  fi
+
+else
+  echo "Sorry, you are not eligible!"
+fi
+```
+
+Key points about nesting:
+
+- Inner `if` runs **only if the outer condition is true**
+
+- Each `if` **must have its own** `fi`
+
+- Indentation is not required, but **strongly recommended** for readability
 
 ---
 
@@ -176,19 +213,25 @@ fi
 > if [ $age -gt 18 ]
 > ```
 
+---
+
 ## Key Takeaways
 
 - Conditionals rely on exit codes
 
 - Numeric and string comparisons use different operators
 
-- Spacing inside [ ] is mandatory
+- Spacing inside `[ ]` is mandatory
 
-- Logical operators (&&, ||) allow complex conditions
+- `then` is required for every `if` and `elif`
+
+- Nested conditionals allow dependent logic
+
+- Logical operators (`&&`, `||`) enable complex conditions
 
 - Defensive checks prevent runtime errors
 
 ---
 
 ## Reflection
-Conditionals made scripts more intelligent and robust by allowing logic, validation, and safer automation instead of blindly executing commands.
+Conditionals made scripts more intelligent and robust by enabling branching logic, validation, and safe automation instead of blindly executing commands.
