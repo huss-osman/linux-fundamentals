@@ -194,8 +194,6 @@ then
 fi
 ```
 
----
-
 > [!IMPORTANT]
 > **Spacing rules inside `[ ]` tests are important.**
 > You must include spaces:
