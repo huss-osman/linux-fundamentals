@@ -9,12 +9,14 @@ They are fundamental for automation, validation, and safe scripting.
 ## Key Concepts
 
 - Conditionals are based on **exit status** (success = `0`, failure ≠ `0`)
-
+  
 - Conditions are tested using **test expressions** inside `[ ]`
-
+  
 - **Spacing matters** — brackets must be separated by spaces
-
+  
 - Conditions can be **numeric**, **string-based**, or **file-based**
+  
+- `then`, `elif`, and `else` control execution flow
 
 ---
 
@@ -32,6 +34,59 @@ fi
 - then runs the code if true
 
 - fi ends the conditional block
+
+---
+
+## Using `else`
+`else` runs when the `if` condition is **false**.
+
+```bash
+age=15
+
+if [ $age -gt 18 ]
+then
+  echo "You are an adult!"
+else
+  echo "You are not an adult!"
+fi
+```
+
+Placement rules:
+
+- `else` comes **after the** `then` **block**
+
+- `else` does **not** have a condition
+
+- `fi` still closes the entire block
+
+---
+
+## Using `elif` (Else If)
+`elif` allows you to test **another condition** if the first one fails.
+
+```bash
+score=85
+
+if [ $score -ge 90 ]
+then
+  echo "Excellent!"
+elif [ $score -ge 80 ]
+then
+  echo "Good!"
+else
+  echo "Better luck next time!"
+fi
+```
+
+Important rules for `elif`:
+
+- `elif` **always includes a condition**
+
+- `then` is **required after every** `elif`
+
+- You can have **multiple** `elif` **blocks**
+
+- `else` is optional
 
 ---
 
