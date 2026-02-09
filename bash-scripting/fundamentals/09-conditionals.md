@@ -92,7 +92,7 @@ Important rules for `elif`:
 
 ---
 
-## Nested if Statements
+## Nested `if` Statements
 Nested conditionals are used when **one condition depends on another**.
 This is common in validation and eligibility checks.
 
