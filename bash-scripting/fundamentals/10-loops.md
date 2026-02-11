@@ -51,6 +51,8 @@ Count: 4
 Count: 5
 ```
 
+---
+
 ### Example: Looping Through an Array
 
 ```bash
@@ -102,6 +104,8 @@ Number: 4
 Number: 5
 ```
 
+---
+
 ### Example: Looping Through an Array
 
 ```bash
@@ -120,6 +124,8 @@ Fruits: apple
 Fruits: banana
 Fruits: orange
 ```
+
+---
 
 ### Example: Using `seq`
 
@@ -191,6 +197,8 @@ Number: 2
 Number: 4
 Number: 5
 ```
+
+---
 
 ### Example: `continue` with `while`
 
