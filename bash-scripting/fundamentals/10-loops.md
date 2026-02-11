@@ -8,13 +8,17 @@ They are essential for automation, batch processing, and handling lists of data.
 
 ## Key Concepts
 
-- while loops run as long as a condition is true
+- `while` loops run **as long as a condition is true**
 
-- for loops iterate over a list of items or a sequence
+- `for` loops iterate over **items or sequences**
 
 - Loops reduce repetitive code
 
-- Counters are often updated using arithmetic expansion
+- Counters are commonly updated using **arithmetic expansion**
+
+- `break` and `continue` control loop flow
+
+---
 
 ## `while` Loop Syntax
 
@@ -37,7 +41,7 @@ do
 done
 ```
 
-### Output:
+### Output
 
 ```bash
 Count: 1
@@ -60,7 +64,7 @@ do
 done
 ```
 
-### Output:
+### Output
 
 ```bash
 Fruit: apple
@@ -70,7 +74,7 @@ Fruit: orange
 
 ---
 
-## for Loop Syntax
+## `for` Loop Syntax
 
 ```bash
 for variable in sequence
@@ -79,7 +83,7 @@ do
 done
 ```
 
-### Example: Numeric for Loop
+### Example: Numeric `for` Loop
 
 ```bash
 for (( i=1; i<=5; i++ ))
@@ -88,7 +92,7 @@ do
 done
 ```
 
-### Output:
+### Output
 
 ```bash
 Number: 1
@@ -105,19 +109,19 @@ fruits=("apple" "banana" "orange")
 
 for fruit in "${fruits[@]}"
 do
-  echo "Fruit: $fruit"
+  echo "Fruits: $fruit"
 done
 ```
 
-### Output:
+### Output
 
 ```bash
-Fruit: apple
-Fruit: banana
-Fruit: orange
+Fruits: apple
+Fruits: banana
+Fruits: orange
 ```
 
-### Example: Using seq
+### Example: Using `seq`
 
 ```bash
 for number in $(seq 1 5)
@@ -126,7 +130,7 @@ do
 done
 ```
 
-### Output:
+### Output
 
 ```bash
 Number: 1
@@ -138,19 +142,101 @@ Number: 5
 
 ---
 
+## `break`
+`break` **immediately exits the loop**, even if the condition is still true.
+
+### Example: Stop Loop Early
+
+```bash
+for (( i=1; i<=5; i++ ))
+do
+  if [ $i -eq 3 ]
+  then
+    break
+  fi
+  echo "Number: $i"
+done
+```
+
+### Output
+
+```bash
+Number: 1
+Number: 2
+```
+
+---
+
+## `continue`
+`continue` **skips the current iteration** and moves to the next loop cycle.
+
+### Example: Skip a Value
+
+```bash
+for (( i=1; i<=5; i++ ))
+do
+  if [ $i -eq 3 ]
+  then
+    continue
+  fi
+  echo "Number: $i"
+done
+```
+
+### Output
+
+```bash
+Number: 1
+Number: 2
+Number: 4
+Number: 5
+```
+
+### Example: `continue` with `while`
+
+```bash
+count=1
+
+while [ $count -le 5 ]
+do
+  if [ $count -eq 3 ]
+  then
+    ((count++))
+    continue
+  fi
+
+  echo "Count: $count"
+  ((count++))
+done
+```
+
+### Output
+
+```bash
+Count: 1
+Count: 2
+Count: 4
+Count: 5
+```
+
+---
+
 ## Key Takeaways
 
-- while loops depend on a condition
+- `while` loops depend on a condition
 
-- for loops iterate over items or sequences
+- `for` loops iterate over items or sequences
 
-- Arithmetic expansion is often used to update counters
+- Arithmetic expansion is commonly used for counters
 
-- Loops help automate repetitive tasks
+- `break` exits a loop early
 
-- Careful loop construction prevents infinite loops
+- `continue` skips the current iteration
+
+- Careful loop design prevents infinite loops
 
 ---
 
 ## Reflection
-Loops demonstrated how small scripts can scale to handle repeated tasks, making automation more efficient and practical in real-world systems.
+Loops demonstrated how small scripts can scale to handle repeated tasks.
+Adding `break` and `continue` showed how execution flow can be controlled precisely, making scripts safer and more flexible for real-world automation.
