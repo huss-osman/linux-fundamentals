@@ -8,7 +8,7 @@ They make scripts reusable instead of hardcoding values.
 
 ## Key Concepts
 
-- Parameters are positional  
+- Parameters have 2 types positional (`$1`, `$2`, `$3` etc) and special (`$0`, `$#`, `$@`)
 - Order matters  
 - Values are accessed using `$1`, `$2`, etc.  
 - Input should be validated when possible
