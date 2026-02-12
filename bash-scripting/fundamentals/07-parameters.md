@@ -83,7 +83,7 @@ This is called **parameter substitution** or **variable expansion**.
 
 - Order of arguments matters
 
-- $@ captures all inputs
+- `$@` captures all inputs
 
 - Scripts should validate required arguments
 
