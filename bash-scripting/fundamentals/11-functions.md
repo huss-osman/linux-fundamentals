@@ -1,20 +1,24 @@
 # Functions
 
 ## Overview
-Functions allow you to group reusable logic inside a script.
-They help organise code, reduce repetition, and make scripts easier to maintain.
+Functions allow you to group reusable logic inside a Bash script.
+They help organise code, reduce repetition, and make scripts easier to read, test, and maintain.
+
+Functions are essential once scripts grow beyond a few lines and are heavily used in automation and validation workflows.
 
 ---
 
 ## Key Concepts
 
-- Functions group related commands
+- Functions group related commands into reusable blocks
 
-- They can accept parameters
+- They can accept **positional parameters** (`$1`, `$2`, …)
 
-- They support local variables
+- Functions support **local variables** using `local`
 
-- They improve readability and structure
+- Functions return **exit codes** to signal success or failure
+
+- Clear function boundaries improve script structure and safety
 
 ---
 
@@ -246,12 +250,20 @@ Good scripts should:
 
 - Parameters allow dynamic input
 
-- `local` variables prevent conflicts
+- `local` variables prevent scope conflicts
 
-- Functions improve script structure and readability
+- Exit codes communicate success or failure
+
+- Validation prevents bad data from breaking scripts
+
+- Sanitisation cleans and normalises user input
+
+- Functions improve structure, safety, and readability
 
 ---
 
 ## Reflection
 Functions made scripts easier to organise and extend.
-Instead of repeating commands, I could structure logic into reusable blocks, which is essential for larger automation scripts.
+Instead of repeating commands, I could structure logic into reusable, testable blocks.
+
+Learning to validate input, use exit codes, and sanitise data showed how real-world automation scripts must be defensive and predictable — especially in production environments.
