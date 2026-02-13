@@ -105,6 +105,141 @@ All arguments: Alice Bob
 
 ---
 
+## Handling Bad Data
+
+- In real scripts, functions should not blindly accept input
+  
+- They should **validate, sanitize**, and **return clear exit codes**
+  
+- This prevents unexpected behaviour and makes scripts safer and easier to debug
+
+---
+
+## Using Exit Codes for Validation
+Functions can return **exit codes** to signal success or failure:
+
+- `0` → success
+
+- non-zero → error
+
+Example: validating user age.
+
+```bash
+validate_age() {
+  local age=$1
+
+  if [[ ! $age =~ ^[0-9]+$ ]]; then
+    echo "Invalid age. Please provide a numeric value."
+    return 1
+  fi
+
+  if (( age < 18 )); then
+    echo "Sorry, you must be at least 18 years old."
+    return 1
+  fi
+
+  echo "Congratulations! You are eligible."
+  return 0
+}
+
+echo "Please enter your age:"
+read user_age
+
+validate_age "$user_age"
+exit_code=$?
+
+if (( exit_code != 0 )); then
+  echo "Input validation failed."
+else
+  echo "Validation passed!"
+fi
+```
+
+### Example Output
+Invalid input:
+
+```bash
+Please enter your age:
+17
+Sorry, you must be at least 18 years old.
+Input validation failed.
+```
+
+### Valid input:
+
+```bash
+Please enter your age:
+19
+Congratulations! You are eligible.
+Validation passed!
+```
+
+---
+
+## Input Sanitisation
+Another way to handle bad data is **input sanitisation**.
+
+Sanitisation means:
+
+- Cleaning input
+
+- Removing unwanted characters
+
+- Forcing the input into an expected format
+
+This prevents:
+
+- Injection issues
+
+- Unexpected script behaviour
+
+- Broken logic
+
+---
+
+## Sanitisation with Parameter Expansion
+Bash supports **pattern substitution** to clean input.
+
+### Example: remove all non-alphanumeric characters.
+
+```bash
+sanitize_string() {
+  local input=$1
+  local sanitized_input=${input//[^a-zA-Z0-9]/}
+  echo "$sanitized_input"
+}
+
+echo "Please enter a username:"
+read input_username
+
+sanitized_username=$(sanitize_string "$input_username")
+
+echo "Sanitized username: $sanitized_username"
+```
+
+### Example Output
+
+```bash
+Please enter a username:
+3o21r/-
+Sanitized username: 3o21r
+```
+
+---
+
+## Why This Matters
+Good scripts should:
+
+- Validate inputs before using them
+
+- Sanitize user-provided data
+
+- Use exit codes to signal success or failure
+
+- Provide clear feedback like “**Validation passed**” or “**Input validation failed**”
+
+---
+
 ## Key Takeaways
 
 - Functions group reusable logic
