@@ -159,8 +159,7 @@ else
 fi
 ```
 
-### Example:
-Invalid input:
+### Invalid input:
 
 ```bash
 Please enter your age:
