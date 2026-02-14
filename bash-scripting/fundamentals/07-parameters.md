@@ -42,7 +42,7 @@ echo "Parameter 3: $3"
 echo "All Parameters: $@"
 ```
 
-### Run:
+### Run
 
 ```bash
 ./script.sh how are you
