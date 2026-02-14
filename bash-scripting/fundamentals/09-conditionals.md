@@ -53,7 +53,7 @@ else
 fi
 ```
 
-Placement rules:
+### Placement rules:
 
 - `else` comes **after the** `then` **block**
 
@@ -117,7 +117,7 @@ else
 fi
 ```
 
-Key points about nesting:
+### Key points about nesting:
 
 - Inner `if` runs **only if the outer condition is true**
 
