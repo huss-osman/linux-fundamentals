@@ -231,19 +231,6 @@ Sanitized username: 3o21r
 
 ---
 
-## Why This Matters
-Good scripts should:
-
-- Validate inputs before using them
-
-- Sanitize user-provided data
-
-- Use exit codes to signal success or failure
-
-- Provide clear feedback like “**Validation passed**” or “**Input validation failed**”
-
----
-
 ## Key Takeaways
 
 - Functions group reusable logic
