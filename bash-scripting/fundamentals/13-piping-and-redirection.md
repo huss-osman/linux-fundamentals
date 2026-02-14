@@ -112,34 +112,6 @@ This pipeline:
 
 ---
 
-## Why This Matters
-
-- Piping within functions allows you to:
-
-- Perform advanced data processing
-
-- Extract specific information from command output
-
-- Store processed results in variables
-
-- Build reusable data-processing logic
-
-You can combine pipes with:
-
-- Other commands
-
-- Functions
-
-- Variables
-
-- Conditionals
-
-- Loops
-
-This enables complex data manipulation pipelines in simple scripts.
-
----
-
 ## Key Takeaways
 
 - Pipes connect command output to another command
