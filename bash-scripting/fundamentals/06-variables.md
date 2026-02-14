@@ -14,7 +14,7 @@ Variables store values for reuse within a script.
 
 ---
 
-## Examples
+### Examples
 
 ```bash
 greeting="Hello World!"
@@ -36,7 +36,7 @@ name="Osman"
 echo "Hello, $name"
 ```
 
-Output:
+### Output:
 
 ```bash
 Hello, Osman
@@ -51,7 +51,7 @@ echo "Hello, $name"   # Works
 echo 'Hello, $name'   # Does not expand
 ```
 
-Output:
+### Output:
 
 ```bash
 Hello, Osman
