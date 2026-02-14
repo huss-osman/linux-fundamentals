@@ -26,7 +26,7 @@ User input allows scripts to become interactive and flexible instead of using fi
 read variable_name
 ```
 
-### Example:
+### Example
 
 ```bash
 echo "What is your name?"
@@ -50,7 +50,7 @@ greet_user() {
 greet_user
 ```
 
-### Output
+### Output:
 
 ```bash
 What is your name?
@@ -74,7 +74,7 @@ greet_person() {
 greet_person "Osman"
 ```
 
-### Output
+### Output:
 
 ```bash
 Hello, Osman!
@@ -139,7 +139,7 @@ greet() {
 greet "Osman"
 ```
 
-### Output
+### Output:
 
 ```bash
 Hello, Osman!
