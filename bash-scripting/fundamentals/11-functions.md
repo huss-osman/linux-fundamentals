@@ -266,4 +266,4 @@ Good scripts should:
 Functions made scripts easier to organise and extend.
 Instead of repeating commands, I could structure logic into reusable, testable blocks.
 
-Learning to validate input, use exit codes, and sanitise data showed how real-world automation scripts must be defensive and predictable — especially in production environments.
+Learning to validate input, use exit codes, and sanitise data showed how real-world automation scripts must be defensive and predictable especially in production environments.
