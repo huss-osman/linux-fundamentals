@@ -40,7 +40,7 @@ hello_world() {
 hello_world
 ```
 
-### Output
+### Output:
 
 ```bash
 Hello World!
@@ -60,7 +60,7 @@ greet_person() {
 greet_person "Osman"
 ```
 
-### Output
+### Output:
 
 ```bash
 Hello, Osman!
@@ -97,7 +97,7 @@ print_args() {
 print_args "Alice" "Bob"
 ```
 
-### Output
+### Output:
 
 ```bash
 Number of arguments: 2
@@ -159,7 +159,7 @@ else
 fi
 ```
 
-### Example Output
+### Example Output:
 Invalid input:
 
 ```bash
@@ -183,7 +183,7 @@ Validation passed!
 ## Sanitisation with Parameter Expansion
 Bash supports **pattern substitution** to clean input.
 
-### Example: remove all non-alphanumeric characters.
+### Example: remove all non-alphanumeric characters
 
 ```bash
 sanitize_string() {
@@ -200,7 +200,7 @@ sanitized_username=$(sanitize_string "$input_username")
 echo "Sanitized username: $sanitized_username"
 ```
 
-### Example Output
+### Example Output:
 
 ```bash
 Please enter a username:
