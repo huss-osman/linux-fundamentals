@@ -80,7 +80,7 @@ else
 fi
 ```
 
-Important rules for `elif`:
+### Important rules for `elif`:
 
 - `elif` **always includes a condition**
 
