@@ -31,7 +31,7 @@ They make scripts reusable instead of hardcoding values.
 
 ---
 
-## Example
+### Example
 
 ```bash
 #!/bin/bash
@@ -41,11 +41,14 @@ echo "Parameter 2: $2"
 echo "Parameter 3: $3"
 echo "All Parameters: $@"
 ```
+
+### Run:
+
 ```bash
 ./script.sh how are you
 ```
 
-Output:
+### Output
 
 ```bash
 Parameter 1: how
@@ -59,7 +62,7 @@ All Parameters: how are you
 ## Substitution
 Parameters are substituted into commands using `$`.
 
-For example:
+### Example
 
 ```bash
 #!/bin/bash
@@ -68,13 +71,13 @@ name=$1
 echo "Hello, $name"
 ```
 
-Run:
+### Run
 
 ```bash
 ./script.sh Osman
 ```
 
-Output:
+### Output
 
 ```bash
 Hello, Osman
