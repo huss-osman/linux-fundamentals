@@ -68,13 +68,13 @@ get_file_count() {
 get_file_count "./"
 ```
 
-### Output
+### Output:
 
 ```bash
 Number of files in ./: 29
 ```
 
-This function:
+### This function:
 
 - Lists files using `ls`
 
@@ -95,14 +95,14 @@ search_logs() {
 search_logs "ERROR"
 ```
 
-### Output
+### Output:
 
 ```bash
 12:05:12
 12:12:36
 ```
 
-This pipeline:
+### This pipeline:
 
 **1**. `grep` finds matching log lines
 
