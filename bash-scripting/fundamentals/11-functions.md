@@ -180,27 +180,6 @@ Validation passed!
 
 ---
 
-## Input Sanitisation
-Another way to handle bad data is **input sanitisation**.
-
-Sanitisation means:
-
-- Cleaning input
-
-- Removing unwanted characters
-
-- Forcing the input into an expected format
-
-This prevents:
-
-- Injection issues
-
-- Unexpected script behaviour
-
-- Broken logic
-
----
-
 ## Sanitisation with Parameter Expansion
 Bash supports **pattern substitution** to clean input.
 
