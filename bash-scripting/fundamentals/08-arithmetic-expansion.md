@@ -44,13 +44,13 @@ Tells Bash to **expand** or evaluate the expression.
 - `(( ))`
 Indicates that the content inside is **arithmetic**, not a string.
 
-So this:
+### So this:
 
 ```bash
 result=$((num1 + num2))
 ```
 
-Means:
+### Means:
 
 “Take the values of num1 and num2, add them, and store the result.”
 
@@ -106,13 +106,13 @@ echo "Rectangle area: $area"
 echo "Rectangle perimeter: $perimeter"
 ```
 
-### Run the script
+### Run:
 
 ```bash
 ./arithmetic.sh 8 5
 ```
 
-### Output
+### Output:
 
 ```bash
 Rectangle area: 40
