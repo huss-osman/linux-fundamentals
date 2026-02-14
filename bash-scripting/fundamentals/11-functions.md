@@ -126,7 +126,7 @@ Functions can return **exit codes** to signal success or failure:
 
 - non-zero → error
 
-Example: validating user age.
+### Example: validating user age
 
 ```bash
 validate_age() {
@@ -159,7 +159,7 @@ else
 fi
 ```
 
-### Example Output:
+### Example:
 Invalid input:
 
 ```bash
@@ -200,7 +200,7 @@ sanitized_username=$(sanitize_string "$input_username")
 echo "Sanitized username: $sanitized_username"
 ```
 
-### Example Output:
+### Output:
 
 ```bash
 Please enter a username:
