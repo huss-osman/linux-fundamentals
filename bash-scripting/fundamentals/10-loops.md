@@ -41,7 +41,7 @@ do
 done
 ```
 
-### Output
+### Output:
 
 ```bash
 Count: 1
@@ -66,7 +66,7 @@ do
 done
 ```
 
-### Output
+### Output:
 
 ```bash
 Fruit: apple
@@ -94,7 +94,7 @@ do
 done
 ```
 
-### Output
+### Output:
 
 ```bash
 Number: 1
@@ -117,7 +117,7 @@ do
 done
 ```
 
-### Output
+### Output:
 
 ```bash
 Fruits: apple
@@ -136,7 +136,7 @@ do
 done
 ```
 
-### Output
+### Output:
 
 ```bash
 Number: 1
@@ -164,7 +164,7 @@ do
 done
 ```
 
-### Output
+### Output:
 
 ```bash
 Number: 1
@@ -189,7 +189,7 @@ do
 done
 ```
 
-### Output
+### Output:
 
 ```bash
 Number: 1
@@ -218,7 +218,7 @@ do
 done
 ```
 
-### Output
+### Output:
 
 ```bash
 Count: 1
