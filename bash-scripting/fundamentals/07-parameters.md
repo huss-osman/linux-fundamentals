@@ -42,13 +42,13 @@ echo "Parameter 3: $3"
 echo "All Parameters: $@"
 ```
 
-### Run
+### Run:
 
 ```bash
 ./script.sh how are you
 ```
 
-### Output
+### Output:
 
 ```bash
 Parameter 1: how
@@ -71,13 +71,13 @@ name=$1
 echo "Hello, $name"
 ```
 
-### Run
+### Run:
 
 ```bash
 ./script.sh Osman
 ```
 
-### Output
+### Output:
 
 ```bash
 Hello, Osman
