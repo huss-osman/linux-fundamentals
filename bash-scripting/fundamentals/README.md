@@ -57,7 +57,7 @@ Examples are practical, script-focused, and tied to real-world automation and De
   `stdin`, `stdout`, `stderr`, pipes, and data flow.
 
 - [Exit Codes](./14-exit-codes.md)  
-  Signalling success and failure in scripts and pipelines.
+  Error handling and exit codes in scripts and pipelines.
 
 - [Shell Options (`set`)](./15-set-options.md)  
   Writing safer scripts with strict execution modes.
