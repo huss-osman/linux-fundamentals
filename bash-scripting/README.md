@@ -70,7 +70,7 @@ By working through this module, I aimed to:
   `stdin`, `stdout`, `stderr`, pipes, and data flow.
 
 - [Exit Codes](./fundamentals/14-exit-codes.md)  
-  Signalling success and failure in scripts and pipelines.
+  Error handling and exit codes in scripts and pipelines.
 
 - [Shell Options (`set`)](./fundamentals/15-set-options.md)  
   Writing safer scripts with strict execution modes.
