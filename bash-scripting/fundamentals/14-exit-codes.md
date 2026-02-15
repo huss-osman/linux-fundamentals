@@ -79,7 +79,7 @@ some_command
 echo "Exit code: $?"
 ```
 
-This is commonly used after:
+### This is commonly used after:
 
 - function calls
 
