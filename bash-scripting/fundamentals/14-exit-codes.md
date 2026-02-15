@@ -70,6 +70,43 @@ echo "The result is: $result"
 
 ---
 
+## if Statements Recap for Error Handling
+Conditionals are commonly used to **detect errors and handle them safely** instead of letting scripts fail unexpectedly.
+
+### Scripts can check:
+
+- File existence
+
+- Command success or failure
+
+- Invalid input
+
+- Permission issues
+
+---
+
+### Example: Checking if a File Exists
+
+```bash
+#!/bin/bash
+
+FILE="/nonexistent"
+
+if [[ -f "$FILE" ]]; then
+  echo "File exists."
+else
+  echo "File does not exist."
+fi
+```
+
+### Output:
+
+```bash
+File does not exist.
+```
+
+---
+
 ## Checking Exit Codes
 The special variable `$?` stores the exit code of the **last command executed**.
 
