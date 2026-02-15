@@ -105,4 +105,4 @@ echo "Exit code: $?"
 
 ## Reflection
 Understanding exit codes clarified how commands and scripts communicate success and failure.
-By handling errors explicitly, scripts became more reliable, safer to run, and easier to reason about—especially in automation and production environments.
+By handling errors explicitly, scripts became more reliable, safer to run, especially in automation and production environments.
