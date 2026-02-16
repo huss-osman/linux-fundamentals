@@ -23,6 +23,8 @@ By checking exit codes and validating conditions early, scripts become safer, mo
 
 - Scripts **can define their own exit codes** using `exit`
 
+---
+
 ### Exit codes control execution flow in:
 
 - conditionals
