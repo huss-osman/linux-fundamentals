@@ -71,7 +71,7 @@ Before the script
 ./script.sh: line X: nonexistentcommand: command not found
 ```
 
-The script **stops immediately** and never prints the final line.
+- The script **stops immediately** and never prints the final line.
 
 ### Important note
 Not all non-zero exit codes are critical errors.
@@ -116,9 +116,9 @@ echo "The value of variable X is: $X"
 ./script.sh: line X: X: unbound variable
 ```
 
-This prevents scripts from running with **missing or incorrect data**.
+- This prevents scripts from running with **missing or incorrect data**.
 
-Using `set -u` is a **great practice**, especially in scripts that depend on required variables.
+- Using `set -u` is a **great practice**, especially in scripts that depend on required variables.
 
 ---
 
@@ -157,7 +157,7 @@ This is a test.
 The value of X is: 10
 ```
 
-Each command is printed with a `+` before execution.
+- Each command is printed with a `+` before execution.
 
 ---
 
@@ -174,7 +174,7 @@ set +x
 echo "No longer in debug mode"
 ```
 
-After `set +x`, commands **no longer appear with** `+`.
+- After `set +x`, commands **no longer appear with** `+`.
 
 ### This is useful when:
 
@@ -221,7 +221,7 @@ nonexistentcommand
 ./script.sh: line X: X: unbound variable
 ```
 
-The script stops immediately.
+- The script stops immediately.
 
 ### Why this is useful
 
