@@ -207,7 +207,7 @@ echo "The value of X is: $X"
 nonexistentcommand
 ```
 
-### Behaviour
+### Behaviour:
 
 - Commands are printed before execution
 
