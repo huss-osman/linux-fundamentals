@@ -1,22 +1,34 @@
-# Shell Options (set) Explained
+# Shell Options (`set`) Explained
 
 ## Overview
-These options control **how Bash behaves while running a script**.
-They’re mainly used to make scripts **safer, easier to debug, and more predictable**.
+The `set` command controls **how Bash behaves while running a script**.
+It is mainly used to make scripts **safer, easier to debug, and more predictable**.
+
+### These options help:
+
+- Stop scripts when errors occur
+
+- Detect uninitialized variables
+
+- Trace command execution for debugging
+
+- Prevent hidden failures in pipelines
 
 ---
 
 ## Key Concepts
 
-- Fail fast
-  
+- Fail fast on errors
+
 - Catch undefined variables
-  
-- Debug execution
+
+- Debug execution flow
+
+- Combine options for safer scripts
 
 ---
 
-## Options
+## Common Options
 
 ```bash
 set -e
@@ -29,147 +41,286 @@ set -eux
 
 ## `set -e` → Exit on Error
 
-## What it does
-Stops the script immediately if any command fails (returns a non-zero exit status).
+### What it does
+Stops the script immediately if any command returns a **non-zero exit code**.
 
-## Why it matters
-Without `-e`, scripts can:
+### Why it matters
+
+- Without `-e`, scripts can:
 
 - Continue running after a failure
 
-- Cause unexpected or dangerous behaviour
+- Produce incorrect results
 
-# Example
+- Cause dangerous behaviour
+
+### Example
 
 ```bash
 set -e
 
-mkdir test
-cd test
-rm important_file   # If this fails, script stops here
-echo "This will NOT run"
+echo "Before the script"
+nonexistentcommand
+echo "After the script"
 ```
 
-- Prevents silent failures
-- Common in automation and CI/CD scripts
+### Output:
+
+```bash
+Before the script
+./script.sh: line X: nonexistentcommand: command not found
+```
+
+The script **stops immediately** and never prints the final line.
+
+### Important note
+Not all non-zero exit codes are critical errors.
+
+### Sometimes you may:
+
+- Expect a non-zero exit code
+
+- Want to handle it manually
+
+In those cases, **don’t use** `set -e`.
+Handle the error with conditionals instead.
 
 ---
 
 ## `set -u` → Error on Undefined Variables
 
-## What it does
-Causes the script to fail if you use a variable that hasn’t been defined.
+### What it does
+Stops the script if it tries to use a **variable that has not been defined**.
 
-## Why it matters
+### Why it matters
 
-Typos or missing values can cause:
+### Prevents:
 
-- Unexpected empty values
+- Typos in variable names
 
-- Dangerous commands running incorrectly
+- Missing input values
 
-# Example
+- Dangerous commands with empty variables
+
+### Example
 
 ```bash
 set -u
 
-echo "$username"
+echo "The value of variable X is: $X"
 ```
 
-If username is not defined → script exits.
+### Output:
 
-- Protects against typos
-- Makes scripts more predictable
+```bash
+./script.sh: line X: X: unbound variable
+```
+
+This prevents scripts from running with **missing or incorrect data**.
+
+Using `set -u` is a **great practice**, especially in scripts that depend on required variables.
 
 ---
 
 ## `set -x` → Debug Mode (Execution Trace)
 
-## What it does
-Prints each command before it executes.
+### What it does
+Prints each command **before it is executed**.
 
-## Why it matters
+### Why it matters
 
-Lets you see:
+### Helps you see:
 
-- Command execution order
+- Execution order
 
 - Variable expansion
 
 - Script flow step-by-step
 
-# Example
+### Example
 
 ```bash
 set -x
 
-name="Osman"
-echo "Hello $name"
+echo "This is a test."
+X=10
+echo "The value of X is: $X"
 ```
 
-Output shows:
+### Output:
 
 ```bash
-+ name=Osman
-+ echo Hello Osman
++ echo 'This is a test.'
+This is a test.
++ X=10
++ echo 'The value of X is: 10'
+The value of X is: 10
 ```
 
-- Extremely useful for debugging
-- Helps understand script behaviour
+Each command is printed with a `+` before execution.
+
+---
+
+## `set +x` → Disable Debug Mode
+You can stop debug tracing after a certain point.
+
+### Example
+
+```bash
+set -x
+echo "Debugging this part"
+
+set +x
+echo "No longer in debug mode"
+```
+
+After `set +x`, commands **no longer appear with** `+`.
+
+### This is useful when:
+
+- You only want to debug a section
+
+- You want to hide sensitive commands
 
 ---
 
 ## `set -eux` → Strict Mode (Combined)
 
-## What it does
+### What it does
 
-Combines:
+### Combines:
 
 - `-e` → exit on error
 
-- `-u` → undefined variable protection
+- `-u` → fail on uninitialized variables
 
 - `-x` → debug output
 
-## Why it matters
-Creates a strict, safe execution environment.
-
-This is often called:
-
-**Bash strict mode**
-
-# Example
+### Example
 
 ```bash
 set -eux
+
+echo "This is a test."
+X=10
+echo "The value of X is: $X"
+nonexistentcommand
 ```
 
-- Stops scripts when something breaks
-- Shows what is happening internally
-- Prevents hidden bugs
+### Behaviour
+
+- Commands are printed before execution
+
+- Script stops on error
+
+- Script stops if variables are uninitialized
+
+### If `X` is removed:
+
+```bash
+./script.sh: line X: X: unbound variable
+```
+
+The script stops immediately.
+
+### Why this is useful
+
+### `set -eux`:
+
+- Makes scripts easier to debug
+
+- Prevents hidden errors
+
+- Stops execution when something breaks
+
+This creates a **strict and safe execution environment**.
+
+However, it should be used **thoughtfully**, depending on the script’s requirements.
 
 ---
 
-## Extra Note → `set -euo` pipefail
+## Equivalent `set -o` Options
+Bash also provides long-form versions of these options.
 
-## What it does 
-`pipefail` : Makes pipelines fail if any command in the pipe fails.
+### `set -o nounset` (same as `set -u`)
+
+```bash
+set -o nounset
+echo "$X"
+```
+
+### Output:
+
+```bash
+X: unbound variable
+```
+
+---
+
+### `set -o errexit` (same as `set -e`)
+
+```bash
+set -o errexit
+
+echo "This is a test"
+nonexistentcommand
+echo "This will not run"
+```
+
+- The script stops at the failing command.
+
+---
+
+### `set -o pipefail`
+Makes a pipeline fail if **any command** in the pipeline fails.
+
+### Example
+
+```bash
+set -o pipefail
+
+cat nonexistentfile | grep "something"
+```
+
+### Output:
+
+```bash
+cat: nonexistentfile: No such file or directory
+```
+
+- The pipeline fails immediately instead of continuing.
+
+- This is extremely useful when chaining commands together.
 
 ---
 
 ## Key Takeaways
 
-## When To Use Each
+- `set -e` → Fail fast on errors
 
-## Option and Purpose
+- `set -u` → Catch undefined variables
 
-- `-e` →	Fail fast on errors
-- `-u` → Catch undefined variables
-- `-x` → Debug script execution
-- -`eux` → Safe + debug combined
+- `set -x` → Debug execution
+
+- `set -eux` → Strict, safe, and debuggable scripts
+
+- `set +x` → Stop debug tracing
+
+- `set -o nounset` = `-u`
+
+- `set -o errexit` = `-e`
+
+- `set -o pipefail` → Fail pipelines correctly
+
+These options are tools at your disposal.
+Use them thoughtfully based on the needs of your script.
+
+They help you write **safer, more reliable, and easier-to-debug scripts**.
 
 ---
 
 ## Reflection
-Different `set` options serve different purposes.  
-Understanding when to use each one is essential when writing scripts for production systems, where silent failures and unpredictable behaviour can have serious consequences.
+The `set` options showed how much control you have over script behaviour.
+By combining safety and debugging flags, scripts become more predictable, easier to troubleshoot, and far less likely to fail silently in production environments.
+
+
