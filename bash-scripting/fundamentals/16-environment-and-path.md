@@ -2,9 +2,11 @@
 
 ## Overview
 Environment variables influence **shell behaviour** and how programs run.
-They are commonly used to store configuration values such as paths, user settings, and system preferences.
+They store configuration values such as paths, user settings, and system preferences that scripts and processes can access.
 
 One of the most important environment variables is `PATH`, which controls **where the shell looks for executable commands**.
+
+Understanding environment variables is essential for writing portable, predictable, and system-aware scripts.
 
 ---
 
@@ -12,9 +14,13 @@ One of the most important environment variables is `PATH`, which controls **wher
 
 - Environment variables are **inherited by child processes**
 
+- They store **configuration and runtime information**
+
 - `PATH` controls **command lookup locations**
 
 - `export` makes variables **available globally**
+
+- Environment variables can be **read and assigned to local variables**
 
 - Modifying `PATH` allows scripts to run **from anywhere**
 
@@ -28,6 +34,33 @@ export PATH="$PATH:/scripts"
 ```
 
 This adds `/scripts` to the list of directories where the shell searches for commands.
+
+---
+
+## Reading Environment Variables
+
+Environment variables can be accessed directly inside scripts.
+
+```bash
+echo "Home Directory: $HOME"
+echo "Current User: $USER"
+echo "OS Type: $OSTYPE"
+```
+
+### They can also be assigned to local variables for easier reuse:
+
+```bash
+my_home="$HOME"
+my_user="$USER"
+```
+
+### This allows scripts to:
+
+- Store important configuration data
+
+- Reference system settings
+
+- Adapt behaviour based on environment
 
 ---
 
@@ -105,6 +138,8 @@ Hello World!
 
 ## Key Takeaways
 
+- Environment variables store system and configuration data
+
 - `PATH` determines where commands are found
 
 - Scripts must be **executable** to run
@@ -118,8 +153,5 @@ Hello World!
 ---
 
 ## Reflection
-Understanding environment variables and PATH explained why some commands work while others fail.
-By managing PATH correctly, scripts become easier to run, share, and automate across systems.
-
-
-
+Understanding environment variables and PATH clarified how the shell locates commands and shares configuration across processes.
+Learning to read, export, and modify PATH made scripts easier to execute, automate, and maintain across systems.
