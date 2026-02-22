@@ -66,8 +66,6 @@ my_user="$USER"
 
 ---
 
----
-
 ## Standard Environment Variables
 
 Standard environment variables provide **valuable insights into various aspects of the system, user, and runtime environment**.
