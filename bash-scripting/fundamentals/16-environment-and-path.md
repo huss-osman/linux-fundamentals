@@ -14,13 +14,15 @@ Understanding environment variables is essential for writing portable, predictab
 
 - Environment variables are **inherited by child processes**
 
-- They store **configuration and runtime information**
+- They store **configuration, system, and runtime information**
 
 - `PATH` controls **command lookup locations**
 
 - `export` makes variables **available globally**
 
-- Environment variables can be **read and assigned to local variables**
+- Environment variables are accessed using `$VARIABLE_NAME`
+
+- Environment variables can be **assigned to local variables** for improved readability
 
 - Modifying `PATH` allows scripts to run **from anywhere**
 
@@ -61,6 +63,54 @@ my_user="$USER"
 - Reference system settings
 
 - Adapt behaviour based on environment
+
+---
+
+---
+
+## Standard Environment Variables
+
+Standard environment variables provide **valuable insights into various aspects of the system, user, and runtime environment**.
+
+They help create **more robust and adaptable scripts**.
+
+Commonly used standard environment variables include:
+
+- `$PATH` → System executable paths  
+- `$LANG` → Default language settings  
+- `$HOME` → User home directory  
+- `$USER` or `$LOGNAME` → Current user  
+- `$SHELL` → Current shell  
+- `$PWD` → Current working directory  
+
+You can access them by prefixing the variable name with `$`:
+
+```bash
+echo "$PATH"
+echo "$LANG"
+```
+
+### They can also be assigned to local variables for clarity:
+
+```bash
+current_user="$USER"
+default_language="$LANG"
+```
+
+### Assigning environment variables to local variables:
+
+- Improves readability
+
+- Makes scripts easier to maintain
+
+- Reduces repetition
+
+- Makes logic clearer
+
+### Standard environment variables provide:
+
+- essential runtime context
+-  allows scripts to behave intelligently depending on the system they run on
 
 ---
 
@@ -138,20 +188,25 @@ Hello World!
 
 ## Key Takeaways
 
-- Environment variables store system and configuration data
-
+- Environment variables store system, user, and configuration data
+  
+- They provide runtime context that makes scripts adaptable
+  
 - `PATH` determines where commands are found
-
-- Scripts must be **executable** to run
-
-- `export` makes variables available globally
-
-- Adding directories to PATH enables **system-wide command access**
-
-- Incorrect PATH settings can cause **“command not found” errors**
+  
+- Standard variables like `$PATH` and `$LANG` are commonly used
+  
+- Variables are accessed using the `$` prefix
+  
+- Assigning them to local variables improves clarity
+  
+- Incorrect PATH settings can cause “command not found” errors
 
 ---
 
 ## Reflection
 Understanding environment variables and PATH clarified how the shell locates commands and shares configuration across processes.
-Learning to read, export, and modify PATH made scripts easier to execute, automate, and maintain across systems.
+
+Learning to read, export, and modify environment variables — especially `PATH` — made scripts more portable, adaptable, and reliable.
+
+Recognising the value of standard environment variables helped bridge the gap between writing simple scripts and writing scripts that are aware of the system they run on.
