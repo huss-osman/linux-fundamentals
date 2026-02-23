@@ -82,7 +82,8 @@ This is the **overwrite operator**.
   
 - Replaces the file’s contents if it already exists
 
-Be careful: it will erase previous contents.
+> [!IMPORTANT]
+> **Be careful: it will erase previous contents.**
 
 ---
 
