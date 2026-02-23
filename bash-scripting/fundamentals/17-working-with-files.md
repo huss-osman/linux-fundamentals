@@ -132,5 +132,3 @@ This is safer when logging or accumulating output.
 
 ## Reflection
 Working with file input and output reinforced cautious automation practices. Understanding redirection operators and safe reading techniques is essential for writing reliable Bash scripts.
-## Reflection
-File checks reinforced cautious automation practices.
