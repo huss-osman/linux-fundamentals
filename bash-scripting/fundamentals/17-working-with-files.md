@@ -111,7 +111,8 @@ This is the **append operator**.
 
 - Preserves previous contents
 
-This is safer when logging or accumulating output.
+> [!IMPORTANT]
+> **This is safer when logging or accumulating output.**
 
 ---
 
