@@ -24,7 +24,7 @@ Covers:
 - Environment variables
 - Text processing (`grep`, `awk`, `sed`)
 - Pipes and redirection
-- Real-world challenges (Bandit, SadServers)
+- Real-world challenges ([Bandit](./linux/bandit), [SadServers](./linux/sadservers))
   
 ---
 
