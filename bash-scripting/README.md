@@ -107,6 +107,10 @@ Core Bash concepts explained with examples and reasoning
 Hands-on Bash scripting challenges organised by difficulty (Levels 1–3)  
 ➡️ [Open Bash Battle Arena](./bashbattlearena)
 
+### `assignments/`
+Structured challenge submissions (each challenge includes the `.sh` script and a short `.md` reflection/write-up)  
+➡️ [Open assignments](./assignments)
+
 ---
 
 ## Fundamentals
