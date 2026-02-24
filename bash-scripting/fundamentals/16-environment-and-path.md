@@ -1,7 +1,9 @@
 # Environment Variables and PATH
 
 ## Overview
-Environment variables influence **shell behavior** and determine how programs run. They store configuration values such as paths, user settings, and system preferences that scripts and processes can access. One of the most important environment variables is `PATH`, which controls **where the shell looks for executable commands**. Understanding environment variables is essential for writing portable, predictable, and system-aware scripts.
+**Environment variables** influence **shell behavior** and determine how programs run. They store configuration values such as paths, user settings, and system preferences that scripts and processes can access. One of the most important environment variables is `PATH`, which controls **where the shell looks for executable commands**.
+
+Understanding **environment variables** is essential for writing portable, predictable, and system-aware scripts. Proper configuration ensures programs execute correctly across different systems and environments.
 
 ---
 
