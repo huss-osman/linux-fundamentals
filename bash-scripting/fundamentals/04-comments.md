@@ -1,7 +1,9 @@
 # Comments
 
 ## Overview
-Comments are ignored by Bash during execution, but they are essential for explaining the intent and reasoning behind code. They help document assumptions, clarify complex logic, and make scripts easier to understand and maintain over time. Well-written comments improve collaboration and reduce confusion, especially as scripts grow in size and complexity. In Bash, comments begin with the `#` symbol and continue to the end of the line.
+Comments are ignored by Bash during execution, but they are essential for explaining the intent and reasoning behind code. They help document assumptions, clarify complex logic, and make scripts easier to understand and maintain over time.
+
+Well-written comments improve collaboration and reduce confusion, especially as scripts grow in size and complexity. In Bash, comments begin with the `#` symbol and continue to the end of the line.
 
 ---
 
