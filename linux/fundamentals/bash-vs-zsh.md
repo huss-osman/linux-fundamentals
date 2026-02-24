@@ -28,4 +28,4 @@ Shell scripts are usually written for **bash** to ensure compatibility across sy
 ---
 
 ## Reflection
-Understanding the differences helped me focus on Bash for scripting while appreciating Zsh enhancements for daily use.
+Understanding the differences between **Bash** and **Zsh** helped me focus on Bash as the primary shell for scripting and automation, since it is widely used in production environments and DevOps workflows. At the same time, I began to appreciate Zsh for its enhanced usability features, such as improved tab completion and customization options, which make daily terminal use more efficient and enjoyable. This distinction clarified when to prioritise portability and scripting reliability versus personal productivity and convenience.
