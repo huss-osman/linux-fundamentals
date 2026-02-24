@@ -212,5 +212,4 @@ compare_checksums "123" "123"
 ---
 
 ## Reflection
-Working with file input and output strengthened safe automation practices.  
-Understanding redirection, structured reading, and checksum verification highlights the importance of both data handling and data integrity in Bash scripting.
+Working with file input and output strengthened safe automation practices. Understanding **redirection**, structured reading, and **checksum verification** highlighted the importance of both data handling and **data integrity** in **Bash scripting**.
