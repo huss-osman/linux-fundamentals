@@ -15,10 +15,6 @@ Mastering Vim improves efficiency when editing configuration files, scripts, and
 - **Insert mode** – used to type text (`i`)
 - **Command mode** – used to save, quit, or run commands (`:`)
 
----
-
-## Common Commands
-
 > [!NOTE]
 > ### Vim Quick Reference
 > 
