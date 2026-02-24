@@ -180,8 +180,6 @@ compare_checksums "123" "123"
 
 ---
 
-### Command Reference Table
-
 ## Command Reference
 
 | Command | Purpose |
