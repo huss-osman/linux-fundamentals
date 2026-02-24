@@ -227,7 +227,4 @@ Sanitized username: 3o21r
 ---
 
 ## Reflection
-Functions made scripts easier to organise and extend.
-Instead of repeating commands, I could structure logic into reusable, testable blocks.
-
-Learning to validate input, use exit codes, and sanitise data showed how real-world automation scripts must be defensive and predictable especially in production environments.
+**Functions** made scripts easier to organise and extend by allowing logic to be structured into reusable, testable blocks instead of repeating commands. Learning to validate input, use **exit codes**, and sanitise data reinforced how real-world automation scripts must be defensive, predictable, and resilient—especially in production environments.
