@@ -145,4 +145,4 @@ Rectangle perimeter: 26
 ---
 
 ## Reflection
-Arithmetic expansion clarified why normal math syntax fails in Bash and how Bash distinguishes between strings and numeric expressions.
+**Arithmetic expansion** clarified why normal math syntax fails in **Bash** and how the shell distinguishes between strings and numeric expressions. It showed that calculations must be explicitly evaluated using `$(( ))`, reinforcing the difference between text handling and numerical operations within scripts.
