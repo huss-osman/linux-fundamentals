@@ -233,4 +233,4 @@ fi
 ---
 
 ## Reflection
-Conditionals made scripts more intelligent and robust by enabling branching logic, validation, and safe automation instead of blindly executing commands.
+**Conditionals** made scripts more intelligent and robust by enabling branching logic, validation, and safe automation instead of blindly executing commands. By evaluating conditions before taking action, scripts can respond dynamically to errors, user input, or system state, improving reliability and control.
