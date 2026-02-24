@@ -150,3 +150,38 @@ The emphasis is on understanding **shell behaviour and execution flow**, rather 
 These exercises help develop production-grade scripting and operational thinking.
 
 ➡️ [View Bash Battle Arena](./bashbattlearena)
+
+---
+
+---
+
+## Assignments
+
+The Assignments section applies **Bash scripting** concepts through structured, real-world style challenges designed to simulate practical automation tasks.
+
+Each assignment includes a `.sh` implementation and a short `README.md` reflection explaining the approach, concepts used, and lessons learned.
+
+### Core Challenges
+
+1. **Basic Arithmetic Calculator**  
+   Practice arithmetic expansion, input handling, and conditional validation.
+
+2. **File Operations Script**  
+   Automate directory creation, file writing, and date handling.
+
+3. **File Checker with Permissions**  
+   Work with conditionals, file tests, and permission checks.
+
+4. **Backup Script for Text Files**  
+   Use loops, pattern matching, timestamps, and defensive scripting.
+
+### Bonus Challenge
+
+5. **System Monitor Script (Optional)**  
+   Combine command output parsing, logging, and real-time system inspection.
+
+Assignments are treated as production-style exercises, emphasizing validation, error handling, readable output, and predictable execution flow.
+
+These challenges help bridge the gap between learning fundamentals and writing automation scripts suitable for real **DevOps environments**.
+
+➡️ [View Assignments](./assignments)
