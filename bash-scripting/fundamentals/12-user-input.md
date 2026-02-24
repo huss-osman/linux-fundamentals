@@ -163,5 +163,4 @@ Hello, Osman!
 ---
 
 ## Reflection
-User input highlighted the difference between interactive scripts and automated ones.
-Understanding when to prompt the user versus using parameters is essential for writing practical, production-ready scripts.
+**User input** highlighted the difference between interactive scripts and automated ones. Understanding when to prompt the user versus using **parameters** is essential for writing practical, production-ready scripts that balance flexibility, usability, and automation.
