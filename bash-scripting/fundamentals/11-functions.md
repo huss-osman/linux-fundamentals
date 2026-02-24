@@ -1,10 +1,7 @@
 # Functions
 
 ## Overview
-Functions allow you to group reusable logic inside a Bash script.
-They help organise code, reduce repetition, and make scripts easier to read, test, and maintain.
-
-Functions are essential once scripts grow beyond a few lines and are heavily used in automation and validation workflows.
+Functions allow you to group reusable logic inside a Bash script. They help organize code, reduce repetition, and make scripts easier to read, test, and maintain. As scripts grow beyond a few lines, functions become essential and are heavily used in automation and validation workflows.
 
 ---
 
