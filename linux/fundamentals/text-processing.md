@@ -90,5 +90,4 @@ This extracts timestamps from error logs, sorts them, and removes duplicates.
 ---
 
 ## Reflection
-Learning text processing made it clear how powerful small Linux tools become when combined.
-Instead of writing scripts immediately, many problems can be solved by chaining simple commands — a key skill for debugging, automation, and working efficiently in production environments.
+Learning **text processing** made it clear how powerful small **Linux tools** become when combined. Instead of writing scripts immediately, many problems can be solved by chaining simple commands using **pipelines** — a key skill for debugging, automation, and working efficiently in **production environments**.
