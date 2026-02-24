@@ -155,31 +155,21 @@ These exercises help develop production-grade scripting and operational thinking
 
 ## Assignments
 
-The Assignments section applies **Bash scripting** concepts through structured, real-world style challenges designed to simulate practical automation tasks.
+The Assignments section focuses on applying **Bash scripting** concepts through structured, real-world challenges.
 
-Each assignment includes a `.sh` implementation and a short `README.md` reflection explaining the approach, concepts used, and lessons learned.
+Rather than only reinforcing fundamentals, the emphasis is on building practical automation skills, defensive scripting habits, and production-style problem solving.
 
-### Core Challenges
+Each assignment documents:
 
-1. **Basic Arithmetic Calculator**  
-   Practice arithmetic expansion, input handling, and conditional validation.
+- The challenge objective  
+- Bash concepts being applied  
+- Commands and patterns used  
+- Implementation details (`.sh` script)  
+- A short explanation and key learning takeaway  
 
-2. **File Operations Script**  
-   Automate directory creation, file writing, and date handling.
+Assignments are treated as practical automation exercises, not isolated tasks to complete quickly.  
+The emphasis is on writing predictable, readable, and safe scripts that reflect real operational environments.
 
-3. **File Checker with Permissions**  
-   Work with conditionals, file tests, and permission checks.
-
-4. **Backup Script for Text Files**  
-   Use loops, pattern matching, timestamps, and defensive scripting.
-
-### Bonus Challenge
-
-5. **System Monitor Script (Optional)**  
-   Combine command output parsing, logging, and real-time system inspection.
-
-Assignments are treated as production-style exercises, emphasizing validation, error handling, readable output, and predictable execution flow.
-
-These challenges help bridge the gap between learning fundamentals and writing automation scripts suitable for real **DevOps environments**.
+These challenges help transition from understanding **shell behaviour and execution flow** to building scripts suitable for real **DevOps workflows**.
 
 ➡️ [View Assignments](./assignments)
