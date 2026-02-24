@@ -39,7 +39,7 @@ read_file() {
 read_file "./log.txt"
 ```
 
-### Explanation
+### Command Purpose
 
 | Command | Purpose                               |
 | ------ | ------------------------------------- |
