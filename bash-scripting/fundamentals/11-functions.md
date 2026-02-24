@@ -3,7 +3,7 @@
 ## Overview
 **Functions** allow you to group reusable logic inside a **Bash script**. They help organize code, reduce repetition, and make scripts easier to read, test, and maintain. A function can be defined once and called multiple times, which keeps scripts modular and avoids duplicating logic.
 
-As scripts grow beyond a few lines, functions become essential for structuring workflows and separating responsibilities. They are heavily used in automation and validation tasks, allowing complex operations to be broken into smaller, manageable units.
+As scripts grow beyond a few lines, **functions** become essential for structuring workflows and separating responsibilities. They are heavily used in automation and validation tasks, allowing complex operations to be broken into smaller, manageable units.
 
 ---
 
