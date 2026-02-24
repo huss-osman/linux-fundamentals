@@ -36,4 +36,4 @@ This capability makes it possible to build powerful **command-line workflows** u
 ---
 
 ## Reflection
-Using redirection and pipes made it easier to chain commands together and process output efficiently.
+Using **redirection** and **pipes** made it easier to chain commands together and process output efficiently. Understanding how data flows between commands improved my ability to build structured, reusable command-line workflows instead of running isolated commands.
