@@ -1,7 +1,7 @@
 # Variables
 
 ## Overview
-Variables store values for reuse within a script.
+Variables store values for reuse within a script. They allow data such as text, numbers, command output, and user input to be saved and referenced later in execution. By assigning values to variables, scripts become more flexible, readable, and easier to maintain, since information can be updated in one place without modifying multiple lines of code. Variables are fundamental to controlling logic, managing state, and building dynamic Bash scripts.
 
 ---
 
