@@ -1,9 +1,9 @@
 # Process Management
 
 ## Overview
-A process is a running instance of a program. Linux systems often run hundreds of processes simultaneously, handling system services, user applications, and background tasks.
+A **process** is a running instance of a program. **Linux systems** often run hundreds of processes simultaneously, handling system services, user applications, and background tasks.
 
-Understanding process management is essential for monitoring system health, diagnosing performance issues, and stopping misbehaving applications in DevOps and production environments.
+Understanding **process management** is essential for monitoring system health, diagnosing performance issues, and stopping misbehaving applications in **DevOps** and production environments.
 
 ---
 
@@ -143,6 +143,4 @@ Understanding signals helps prevent data loss and system instability.
 ---
 
 ## Reflection
-
-Learning process management improved my ability to observe and control system behaviour.
-Instead of restarting entire systems, I can now identify problematic processes, monitor resource usage, and apply targeted fixes — a critical skill in production Linux environments.
+Learning **process management** improved my ability to observe and control **system behaviour**. Instead of restarting entire systems, I can now identify problematic processes, monitor **resource usage**, and apply targeted fixes — a critical skill in **production Linux environments**.
