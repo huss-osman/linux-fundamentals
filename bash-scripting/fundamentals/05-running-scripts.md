@@ -38,4 +38,4 @@ bash script.sh
 ---
 
 ## Reflection
-Learning PATH-based execution made scripts feel like real system tools.
+Learning **PATH-based execution** made scripts feel like real system tools. Instead of running them only from their directory, placing them in the `PATH` showed how commands become globally accessible and behave like built-in utilities. It reinforced how environment configuration affects usability and workflow efficiency.
