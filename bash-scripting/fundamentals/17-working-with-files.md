@@ -3,23 +3,29 @@
 ## Overview
 Bash frequently interacts with files during automation.
 
-Reading files allows us to access and extract valuable information from logs, configuration files, and datasets.
+Reading files allows us to extract structured information from logs, configuration files, and datasets.
 
-Writing files within functions allows us to create, modify, and store information in various formats. Together, reading and writing form the foundation of file-based automation.
+Writing files allows us to create, modify, and store data programmatically.
+
+File checksums allow us to verify file integrity and authenticity by generating a unique cryptographic fingerprint for each file.
 
 ---
 
 ## Key Concepts
 
 - Files are first-class objects
-
+  
 - Existence checks matter
-
+   
 - Never assume state
-
-- Reading enables data extraction
-
+  
+- Reading enables structured data extraction
+   
 - Writing enables data persistence
+   
+- Redirection operators control file output behavior
+  
+- Checksums verify file integrity and authenticity  
 
 ---
 
@@ -109,21 +115,108 @@ This is the **append operator**.
 
 ---
 
+# File Checksums
+
+File checksums are cryptographic hashes that provide a unique fingerprint for a file.
+
+Every file produces a checksum value. If even one character inside the file changes, the checksum will also change.
+
+This allows us to:
+
+- Verify file integrity  
+- Confirm file authenticity  
+- Detect tampering or corruption  
+
+We can generate file checksums using algorithms such as MD5 and SHA-256.
+
+> [!IMPORTANT]
+> You must have `md5sum` and `sha256sum` installed on your system before using them in Bash functions.
+> These utilities are commonly available on Linux systems and can be installed via your system package manager if missing.
+
+---
+
+### Generating an MD5 Checksum
+
+```bash
+calculate_md5sum() {
+  local file_path="$1"
+  md5sum "$file_path"
+}
+
+calculate_md5sum "read.txt"
+```
+
+---
+
+### Generating a SHA-256 Checksum
+
+```bash
+calculate_sha256sum() {
+  local file_path="$1"
+  sha256sum "$file_path"
+}
+
+calculate_sha256sum "read.txt"
+```
+
+---
+
+### Comparing Checksum Values
+
+```bash
+compare_checksums() {
+  local checksum1="$1"
+  local checksum2="$2"
+
+  if [[ "$checksum1" == "$checksum2" ]]; then
+    echo "Checksums match. File is intact."
+  else
+    echo "Checksums do not match. File integrity compromised."
+  fi
+}
+
+compare_checksums "123" "123"
+```
+
+---
+
+### Command Reference Table
+
+## Command Reference
+
+| Command | Purpose |
+|----------|----------|
+| `read` | Reads input line by line from standard input or a file. |
+| `IFS=` | Prevents trimming of leading/trailing whitespace during reading. |
+| `-r` | Prevents backslashes (`\`) from being interpreted as escape characters. Ensures raw input is preserved. |
+| `done < "$file_path"` | Redirects file input into a loop for line-by-line processing. |
+| `>` | Overwrites a file. Creates it if it does not exist. |
+| `>>` | Appends to a file without removing existing contents. |
+| `md5sum` | Generates an MD5 cryptographic hash of a file. |
+| `sha256sum` | Generates a SHA-256 cryptographic hash of a file. |
+
+---
+
 ## Key Takeaways
 
 - Always check before acting
-
+  
 - Defensive scripting prevents data loss
-
+  
 - Use `>` carefully — it overwrites existing data
-
-- Use `>>` to append without destroying previous contents
-
+  
+- Use `>>` to safely append data
+  
 - Use `read -r` to preserve raw file input
-
-- File safety is critical
+  
+- Checksums provide cryptographic verification of file integrity
+  
+- Matching checksum values confirm authenticity
+   
+- File safety is critical in automation  
 
 ---
 
 ## Reflection
-Working with file input and output reinforced cautious automation practices. Understanding redirection operators and safe reading techniques is essential for writing reliable Bash scripts.
+Working with file input and output strengthened safe automation practices.  
+Understanding redirection, structured reading, and checksum verification highlights the importance of both data handling and data integrity in Bash scripting.
