@@ -153,8 +153,6 @@ These exercises help develop production-grade scripting and operational thinking
 
 ---
 
----
-
 ## Assignments
 
 The Assignments section applies **Bash scripting** concepts through structured, real-world style challenges designed to simulate practical automation tasks.
