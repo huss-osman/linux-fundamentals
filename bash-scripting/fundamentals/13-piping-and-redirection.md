@@ -1,8 +1,9 @@
 # Piping and Redirection
 
 ## Overview
-Pipes and redirection control how data flows between commands in Linux.
-They allow commands to be chained together, enabling powerful data processing and automation.
+**Pipes and redirection** control how data flows between commands in **Linux**. Using operators like `|`, `>`, `>>`, and `<`, they determine how input and output are passed, stored, or redirected during command execution.
+
+By chaining commands together with **pipes**, the output of one command becomes the input of another, enabling powerful and efficient data processing. Combined with **redirection**, this makes automation more structured, flexible, and scalable, allowing complex workflows to be built from simple commands.
 
 ---
 
