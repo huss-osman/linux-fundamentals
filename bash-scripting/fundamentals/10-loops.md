@@ -3,7 +3,7 @@
 ## Overview
 **Loops** allow **Bash scripts** to repeat commands automatically based on a condition or a list of items. They are commonly written using constructs such as `for`, `while`, or `until`. For example, a `for` loop like `for file in *.txt; do echo "$file"; done` processes multiple files, while a `while` loop can repeat commands as long as a condition remains true.
 
-Loops are essential for automation, batch processing, and handling lists of data. They enable scripts to perform repetitive tasks efficiently without duplicating code, making workflows more scalable and easier to maintain.
+**Loops** are essential for **automation, batch processing, and handling lists of data**. They enable scripts to perform repetitive tasks efficiently without duplicating code, making workflows more scalable and easier to maintain.
 
 ---
 
