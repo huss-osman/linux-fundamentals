@@ -1,9 +1,9 @@
 # Linux File System
 
 ## Overview
-The Linux file system is organised in a hierarchical structure, starting from the root directory (`/`). Everything in Linux — files, directories, and devices — exists within this structure.
+The **Linux file system** is organised in a hierarchical structure, starting from the **root directory** (`/`). Everything in Linux — files, directories, and devices — exists within this unified structure.
 
-Understanding how the file system is laid out is essential for navigating systems, managing files, and troubleshooting issues in DevOps environments.
+Understanding how the file system is laid out is essential for navigating systems, managing files, and troubleshooting issues in **DevOps environments**, where knowing standard directory locations improves efficiency and operational awareness.
 
 ---
 
@@ -48,4 +48,4 @@ Searches for files and directories based on name, type, or other criteria. Usefu
 ---
 
 ## Reflection
-Learning how the Linux file system is structured made navigation feel far less confusing. Understanding where files are typically stored helped me work more confidently and avoid making changes in the wrong locations.
+Learning how the **Linux file system** is structured made navigation feel far less confusing. Understanding where files are typically stored improved my confidence when working in the terminal and reduced the risk of making changes in the wrong locations.
