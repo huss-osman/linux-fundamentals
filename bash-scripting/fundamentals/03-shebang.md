@@ -1,9 +1,7 @@
 # The Shebang Line
 
 ## Overview
-The shebang line tells Linux which interpreter should execute a script.
-
-It must be the first line in the file.
+The shebang line tells Linux which interpreter should execute a script. It appears at the very top of the file and ensures the script runs using the correct shell or programming language interpreter. Without a shebang, the system may attempt to execute the script using the default shell, which can lead to unexpected behavior. Defining the interpreter explicitly improves portability, consistency, and reliability across different systems.
 
 ---
 
