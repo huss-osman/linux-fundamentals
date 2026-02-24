@@ -128,5 +128,4 @@ search_logs "ERROR"
 ---
 
 ## Reflection
-Pipes transformed Linux from a set of individual commands into a flexible toolkit.
-By chaining commands together, complex data processing becomes possible with very small scripts.
+**Pipes** transformed **Linux** from a set of individual commands into a flexible toolkit. By chaining commands together, complex data processing becomes possible with very small scripts, demonstrating how simple utilities can combine to create powerful automation workflows.
