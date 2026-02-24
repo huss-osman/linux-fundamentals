@@ -101,4 +101,4 @@ This is called **parameter substitution** or **variable expansion**.
 ---
 
 ## Reflection
-Parameters turned scripts from one-off commands into reusable tools that accept different inputs at runtime.
+**Parameters** turned scripts from one-off commands into reusable tools that accept different inputs at runtime. Instead of being limited to fixed values, scripts could adapt to various scenarios based on user-provided arguments. This increased flexibility, improved usability, and made automation more practical and scalable.
