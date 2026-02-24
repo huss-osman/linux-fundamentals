@@ -1,7 +1,10 @@
 # Bash vs Zsh
 
 ## Overview
-Bash and Zsh are popular Unix shells used to interact with the operating system.
+
+**Bash** and **Zsh** are popular Unix shells used to interact with the operating system through a command-line interface. They allow users to execute commands, run scripts, manage files, and automate tasks efficiently.
+
+While both shells provide similar core functionality, they differ in features, customisation options, and user experience. Understanding how shells work — and the role they play in interpreting commands — is essential for working effectively in Linux environments and building strong scripting foundations.
 
 ---
 
