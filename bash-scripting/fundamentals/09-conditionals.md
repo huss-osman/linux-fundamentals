@@ -3,7 +3,7 @@
 ## Overview
 **Conditionals** allow **Bash scripts** to make decisions by evaluating expressions and executing different code paths based on the result. They are commonly implemented using statements like `if`, `elif`, and `else`, which check whether a condition is true before running specific commands. For example, `if [ "$age" -ge 18 ]; then echo "Adult"; fi` executes only if the condition evaluates successfully.
 
-Conditionals are fundamental for automation, validation, and safe scripting. They allow scripts to respond dynamically to user input, file states, command results, or system conditions, making automation more intelligent and reliable.
+**Conditionals** are fundamental for **automation, validation, and safe scripting**. They allow scripts to respond dynamically to user input, file states, command results, or system conditions, making automation more intelligent and reliable.
 
 ---
 
