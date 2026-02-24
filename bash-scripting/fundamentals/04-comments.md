@@ -66,5 +66,4 @@ Used for:
 ---
 
 ## Reflection
-
-Writing comments forced clearer thinking about script behaviour.
+Writing **comments** forced clearer thinking about script behavior. Explaining the intent behind each section made the logic more deliberate and easier to reason about. It highlighted gaps in understanding and improved the overall structure and clarity of the script.
