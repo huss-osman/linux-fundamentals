@@ -157,6 +157,4 @@ echo "Hello, $name"
 --- 
 
 ## Reflection
-
-Learning Bash scripting helped me understand how automation works at the system level.
-It made repetitive tasks easier to handle and provided insight into how CI/CD pipelines and infrastructure scripts operate behind the scenes.
+Learning **Bash scripting** helped me understand how **automation** works at the system level. It made repetitive tasks easier to handle and provided insight into how **CI/CD pipelines** and **infrastructure scripts** operate behind the scenes.
