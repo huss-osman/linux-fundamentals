@@ -1,9 +1,9 @@
 # Shell Basics
 
 ## Overview
-A shell is a program that interprets user commands and communicates with the operating system. It acts as the interface between the user and the system kernel.
+A **shell** is a program that interprets user commands and communicates with the **operating system**. It acts as the interface between the user and the **system kernel**, translating typed commands into actions the system can execute.
 
-Understanding how shells work helps improve efficiency when working extensively in the terminal.
+Understanding how shells work improves efficiency when working extensively in the **terminal**, especially in environments that rely heavily on command-line interaction.
 
 ---
 
@@ -35,4 +35,4 @@ Reloads shell configuration files without restarting the terminal.
 ---
 
 ## Reflection
-Customising the shell made the terminal feel more efficient and approachable. Small improvements like aliases and plugins can significantly improve daily workflows.
+Customising the **shell** made the **terminal** feel more efficient and approachable. Small improvements such as **aliases** and plugins can significantly enhance daily workflows and improve overall productivity when working extensively from the command line.
