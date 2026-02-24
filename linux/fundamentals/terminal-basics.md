@@ -1,5 +1,13 @@
 # Terminal Basics
 
+## Overview
+
+Terminal Basics introduces the core commands used to navigate and interact with a Linux system through the command line. Rather than relying on a graphical interface, the terminal provides direct control over the operating system using structured commands.
+
+Understanding how commands are formed — including the command name, options, and arguments — builds the foundation for more advanced Linux usage. Mastering simple navigation and documentation tools like `pwd`, `ls`, `cd`, and `man` is essential before progressing to system management, scripting, and automation.
+
+---
+
 ## Key Learnings
 - The terminal provides direct interaction with the operating system
 - Commands follow a consistent structure (command, options, arguments)
