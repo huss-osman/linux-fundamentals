@@ -12,16 +12,16 @@
 
 ## SadServers (Easy, Medium, Hard)
 
-SadServers scenarios are used to simulate real-world Linux incidents and operational failures.
+**SadServers**, created by [Tomas Fernandez](https://sadservers.com), is a hands-on Linux troubleshooting platform designed to simulate real-world operational incidents and system failures.
 
-Unlike Bandit, which focuses on isolated command-line challenges, SadServers emphasizes **diagnosis, reasoning, and fixing broken systems** — closely mirroring how Linux is used in production environments.
+Unlike [Bandit](../bandit), which focuses on isolated command-line challenges, SadServers emphasizes **diagnosis, reasoning, and fixing broken systems** — closely mirroring how Linux is used in production environments.
 
 Each scenario documents:
-- Observed symptoms
-- Investigation steps and tools used
-- Root cause identification
-- Fix applied and validation
-- Key operational takeaway
+- Observed symptoms  
+- Investigation steps and tools used  
+- Root cause identification  
+- Fix applied and validation  
+- Key operational takeaway  
 
 ---
 
