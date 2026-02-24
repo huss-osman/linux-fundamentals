@@ -75,4 +75,4 @@ Hello, $name
 ---
 
 ## Reflection
-Variables made scripts easier to extend without rewriting logic.
+**Variables** made scripts easier to extend without rewriting logic. By storing values in one place, changes could be made without modifying multiple lines of code. This improved flexibility, reduced duplication, and made scripts more maintainable as they grew in complexity.
