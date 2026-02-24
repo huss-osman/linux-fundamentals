@@ -41,19 +41,12 @@ read_file "./log.txt"
 
 ### Explanation
 
-- `read`
-The `read` command reads input line by line. Inside a loop, it processes one line at a time from a file.
-
-- `IFS=`
-Setting `IFS` (Internal Field Separator) to empty prevents trimming leading or trailing whitespace.
-
-- `-r`
-The `-r` option prevents backslashes (`\`) from being interpreted as escape characters.
-Without `-r`, sequences like `\n` or `\t` could be modified.
-With `-r`, each line is read exactly as it appears in the file — which is essential when processing logs or raw data.
-
-- `done < "$file_path"`
-Redirects the file into the loop so `read` can process it line by line.
+| Command | Purpose                               |
+| ------ | ------------------------------------- |
+| `read` | The `read` command reads input line by line. Inside a loop, it processes one line at a time from a file.|
+| `IFS=` | Setting `IFS` (Internal Field Separator) to empty prevents trimming leading or trailing whitespace.     |
+| `-r`   | The `-r` option prevents backslashes (`\`) from being interpreted as escape characters. Without `-r`, sequences like `\n` or `\t` could be modified. With `-r`, each line is read exactly as it appears in the file — which is essential when processing logs or raw data. |
+| `done < "$file_path"`         | Redirects the file into the loop so `read` can process it line by line. |
 
 ---
 
