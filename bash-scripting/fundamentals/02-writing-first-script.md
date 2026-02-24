@@ -37,4 +37,4 @@ echo "Hello World"
 ---
 
 ## Reflection
-Writing a first script made Bash feel practical rather than abstract.
+Writing a first **Bash script** made **Bash** feel practical rather than abstract. Instead of running isolated commands in the terminal, I could see how they worked together to automate real tasks. It helped me understand how simple commands combine to create structured workflows and solve repetitive problems efficiently.
