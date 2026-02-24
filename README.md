@@ -5,9 +5,23 @@
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Script](https://img.shields.io/badge/Script-Bash-blue?logo=gnubash)
 
-Hands-on learning repository focused on building strong **Linux and Bash foundations** for DevOps.
+This is a hands-on learning repository focused on building strong **DevOps foundations** through structured, practical modules.
 
-This repository documents my progress through structured, practical modules.
+The content follows my training with [CoderCo](https://coderco.io), covering core technologies used in modern DevOps environments, including:
+
+- **[Linux Fundamentals](./linux)**
+- **[Bash Scripting](./bash-scripting)**
+- **[Git & Version Control](./git)**
+- **[Networking](./networking)**
+- **[Docker & Containers](./docker)**
+- **[AWS](./aws)**
+- **[Terraform](./terraform)**
+- **[CI/CD & GitHub Actions](./cicd)**
+- **[Kubernetes](./kubernetes)**
+
+Each section documents practical exercises, real-world challenges, scripts, troubleshooting scenarios, and key lessons learned.
+
+The goal is not just to memorise tools, but to understand how systems behave, automate reliably, and think operationally in production-style environments.
 
 ---
 
