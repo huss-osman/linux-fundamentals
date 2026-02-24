@@ -1,13 +1,13 @@
 # Working with Files
 
 ## Overview
-Bash frequently interacts with files during automation.
+- Bash frequently interacts with files during automation.
 
-Reading files allows us to extract structured information from logs, configuration files, and datasets.
+- Reading files allows us to extract structured information from logs, configuration files, and datasets.
 
-Writing files allows us to create, modify, and store data programmatically.
+- Writing files allows us to create, modify, and store data programmatically.
 
-File checksums allow us to verify file integrity and authenticity by generating a unique cryptographic fingerprint for each file.
+- File checksums allow us to verify file integrity and authenticity by generating a unique cryptographic fingerprint for each file.
 
 ---
 
