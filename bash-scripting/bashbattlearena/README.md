@@ -10,8 +10,6 @@
 
 The **Bash Battle Arena** is a command-line game designed by [CoderCo](https://coderco.io) to teach **Bash scripting** skills through fun, level-based challenges. Each level is structured as a "mission" that must be solved with a script, introducing progressively more advanced concepts as you advance.
 
-Each level builds on the previous one, reinforcing **Bash scripting fundamentals** through hands-on automation challenges rather than memorisation.
-
 > [!TIP]
 > Attempt each level yourself before reviewing solutions.  
 > Use `man`, `--help`, experimentation, and debugging flags like `set -x`.
