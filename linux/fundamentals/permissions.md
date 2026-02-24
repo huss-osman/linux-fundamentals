@@ -1,9 +1,9 @@
 # Linux File Permissions
 
 ## Overview
-Linux file permissions control who can read, write, or execute files and directories. They are a core part of system security and help prevent unauthorised access or accidental changes.
+**Linux file permissions** control who can read, write, or execute files and directories. They are a core part of **system security**, helping prevent unauthorised access or accidental changes.
 
-Understanding permissions is essential when working with servers, applications, and shared systems in DevOps environments.
+Understanding permissions is essential when working with servers, applications, and shared systems in **DevOps environments**, where proper access control ensures stability and security.
 
 ---
 
@@ -40,4 +40,4 @@ Changes the owner or group associated with a file or directory.
 ---
 
 ## Reflection
-Learning how permissions work made it clear how Linux enforces access control at a fundamental level. It also highlighted how misconfigured permissions can lead to security problems or broken applications.
+Learning how **Linux file permissions** work made it clear how the operating system enforces **access control** at a fundamental level. It also highlighted how misconfigured permissions can lead to **security risks** or broken applications in production environments.
