@@ -1,8 +1,11 @@
 # Arithmetic Expansion
 
 ## Overview
-Bash supports basic arithmetic using arithmetic expansion.
-This allows scripts to perform simple calculations directly within the shell.
+**Bash** supports basic arithmetic using **arithmetic expansion**, which allows numerical calculations to be performed directly within the shell. This is commonly done using the `$(( ))` syntax, enabling operations such as addition, subtraction, multiplication, and division inside a script.
+
+For example, you can calculate a sum using `result=$((5 + 3))` and then display it with `echo "$result"`. Variables can also be used in calculations, such as `count=10` followed by `total=$((count * 2))`, which dynamically evaluates the expression. This allows scripts to perform simple logic-based computations without relying on external tools.
+
+Arithmetic expansion makes scripts more dynamic and practical, especially when working with counters, user input, conditional logic, or automation tasks that require numeric processing.
 
 ---
 
