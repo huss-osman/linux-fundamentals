@@ -141,5 +141,4 @@ echo "Exit code: $?"
 ---
 
 ## Reflection
-Understanding exit codes clarified how commands and scripts communicate success and failure.
-By handling errors explicitly, scripts became more reliable, safer to run, especially in automation and production environments.
+Understanding **exit codes** clarified how commands and scripts communicate success and failure. By handling errors explicitly, scripts became more reliable and safer to run, especially in automation and production environments.
