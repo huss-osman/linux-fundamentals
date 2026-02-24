@@ -1,18 +1,17 @@
 # Users and Groups
 
 ## Overview
-Linux is a multi-user operating system.  
-Understanding users and groups is essential for managing permissions and system security.
+**Linux** is a **multi-user operating system**, designed to allow multiple users to access and manage system resources simultaneously. Understanding **users and groups** is essential for managing permissions, enforcing access control, and maintaining **system security**.
 
 ---
 
 ## Key Concepts
 
-### Users
+### `Users`
 - Each user has a unique ID (UID)
 - Users can own files and run processes
 
-### Groups
+### `Groups`
 - Groups are collections of users
 - Permissions can be assigned to groups instead of individuals
 
@@ -31,4 +30,4 @@ Understanding users and groups is essential for managing permissions and system 
 ---
 
 ## Reflection
-Understanding users and groups helped clarify how permissions work and why access is restricted on shared systems.
+Understanding **users and groups** helped clarify how **permissions** work and why access is restricted on shared systems. It reinforced the importance of proper access control in maintaining security and stability within multi-user Linux environments.
