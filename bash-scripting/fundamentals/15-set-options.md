@@ -320,7 +320,4 @@ They help you write **safer, more reliable, and easier-to-debug scripts**.
 ---
 
 ## Reflection
-The `set` options showed how much control you have over script behaviour.
-By combining safety and debugging flags, scripts become more predictable, easier to troubleshoot, and far less likely to fail silently in production environments.
-
-
+The `set` options showed how much control you have over script behavior. By combining safety and debugging flags, such as `set -e`, `set -u`, or `set -x`, scripts become more predictable, easier to troubleshoot, and far less likely to fail silently in production environments.
