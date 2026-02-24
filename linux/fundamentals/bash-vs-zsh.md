@@ -20,10 +20,8 @@ While both shells provide similar core functionality, they differ in features, c
 - Better theming and plugins
 - Popular for local development environments
 
----
-
-## Key Note
-Shell scripts are usually written for **bash** to ensure compatibility across systems.
+> [!NOTE]
+> **Key Note:** Shell scripts are usually written for Bash to ensure compatibility across systems.
 
 ---
 
