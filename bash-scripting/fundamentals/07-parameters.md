@@ -1,7 +1,9 @@
 # Script Parameters
 
 ## Overview
-Script parameters allow a Bash script to accept input at runtime. Instead of hardcoding values directly into the script, parameters enable dynamic input to be passed when the script is executed. This makes scripts more flexible, reusable, and adaptable to different scenarios. By using positional parameters such as `$1`, `$2`, and special variables like `$@` or `$#`, scripts can process user-provided arguments efficiently and support more advanced automation workflows.
+**Script parameters** allow a **Bash script** to accept input at runtime. Instead of hardcoding values directly into the script, parameters enable dynamic input to be passed when the script is executed. This makes scripts more flexible, reusable, and adaptable to different scenarios.
+
+By using **positional parameters** such as `$1`, `$2`, and special variables like `$@` or `$#`, scripts can process user-provided arguments efficiently and support more advanced automation workflows.
 
 ---
 
