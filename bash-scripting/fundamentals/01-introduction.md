@@ -1,17 +1,16 @@
 # Introduction to Bash
 
 ## Overview
-Bash (Bourne Again Shell) is the default command-line shell on most Linux systems.  
-It allows users to interact with the operating system, run commands, and automate tasks through scripts.
+**Bash (Bourne Again Shell)** is the default command-line shell on most Linux systems. It allows users to interact with the operating system, run commands, and automate tasks through scripts.
 
 A **Bash script** is simply a file containing a sequence of commands that are executed automatically.
 
-In DevOps environments, Bash is widely used for:
+In **DevOps environments**, **Bash** is widely used for:
 
-- Automation
-- System configuration
-- CI/CD pipelines
-- Troubleshooting and maintenance tasks
+- Automation  
+- System configuration  
+- CI/CD pipelines  
+- Troubleshooting and maintenance tasks  
 
 ---
 
