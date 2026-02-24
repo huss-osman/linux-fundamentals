@@ -1,4 +1,4 @@
-# Bash Battle Arena 🎮
+# Bash Battle Arena 
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
