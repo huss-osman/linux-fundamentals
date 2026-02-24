@@ -9,14 +9,15 @@ In DevOps environments, text processing tools are used daily to debug systems, e
 
 ## Key Concepts
 
-### Streams and Pipelines
+### `Streams and Pipelines`
 Most Linux commands read input from **standard input (stdin)** and write output to **standard output (stdout)**.
 
 Pipes (`|`) allow the output of one command to become the input of another, enabling powerful command chains without temporary files.
 
 ---
 
-### Pattern Matching vs Transformation
+### `Pattern Matching vs Transformation`
+
 - **Pattern matching** finds specific text (e.g. `grep`)
 - **Transformation** modifies or extracts text (e.g. `awk`, `sed`)
 
@@ -26,7 +27,7 @@ Understanding which tool to use depends on the goal: search, extract, or modify.
 
 ## Commands Practised
 
-### grep
+### `grep`
 Searches for matching text patterns within files.
 
 ```bash
@@ -36,7 +37,7 @@ grep -r "TODO" ~/projects/
 
 Useful for quickly locating errors, keywords, or configuration values.
 
-### Advanced grep
+### `Advanced grep`
 Combines searching with counting or filtering.
 
 ```bash
@@ -45,7 +46,7 @@ grep -i "failed" /var/log/auth.log | wc -l
 
 This counts failed login attempts by piping grep output into wc.
 
-### awk
+### `awk`
 Processes structured text by columns.
 
 ```bash
@@ -60,7 +61,7 @@ cat /etc/passwd | awk -F: '{print $1, $6}'
 
 Extracts usernames and home directories using : as a field separator.
 
-### sed
+### `sed`
 Performs text transformations and edits.
 
 ```bash
@@ -77,7 +78,7 @@ Prints only lines 10–20 from a file.
 
 ---
 
-### Piping Chains
+### `Piping Chains`
 Combines multiple commands into a single workflow.
 
 ```bash
