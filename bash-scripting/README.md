@@ -132,22 +132,20 @@ These notes help build a solid foundation for Dockerfiles, CI/CD pipelines, infr
 
 ---
 
-## Bash Battle Arena (Levels 1–3)
+## Bash Battle Arena (Levels 1–15)
 
 Bash Battle Arena is used to reinforce **Bash fundamentals** through progressively harder scripting challenges.
 
 Each level documents:
 
-- The challenge goal
-- Bash concepts being tested
-- Commands and patterns used
-- A brief explanation of why the solution works
-- A key learning takeaway
+- The challenge goal  
+- Bash concepts being tested  
+- Commands and patterns used  
+- A brief explanation of why the solution works  
+- A key learning takeaway  
 
 Bash Battle Arena is treated as a learning exercise, not a puzzle to brute-force.  
 The emphasis is on understanding **shell behaviour and execution flow**, rather than memorising syntax.
-
-These exercises help develop production-grade scripting and operational thinking.
 
 ➡️ [View Bash Battle Arena](./bashbattlearena)
 
