@@ -1,15 +1,7 @@
 # Exit Codes
 
 ## Overview
-Exit codes are **numerical values** returned by commands or scripts that indicate whether they completed successfully or failed.
-
-An exit code of `0` **means success**, while **any non-zero value (such as `1` or `127`) indicates an error**.
-
-They form the foundation of error handling in Bash and are used to control script logic, conditionals, and automation workflows.
-
-Effective error handling is about **foreseeing where things can go wrong** and **taking appropriate action**, rather than letting scripts crash or continue in an invalid state.
-
-By checking exit codes and validating conditions early, scripts become safer, more predictable, and easier to debug.
+Exit codes are **numerical values** returned by commands or scripts that indicate whether they completed successfully or failed. An exit code of `0` means success, while any non-zero value (such as `1` or `127`) indicates an error. They form the foundation of error handling in Bash and are used to control script logic, conditionals, and automation workflows. Effective error handling involves anticipating where things can go wrong and taking appropriate action, rather than allowing scripts to crash or continue in an invalid state. By checking exit codes and validating conditions early, scripts become safer, more predictable, and easier to debug.
 
 ---
 
