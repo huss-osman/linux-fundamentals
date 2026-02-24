@@ -1,8 +1,10 @@
 # Data Redirection and Pipes
 
 ## Overview
-Linux allows command output and input to be redirected between files and programs.  
-This makes it possible to build powerful command-line workflows.
+
+**Linux** allows command output and input to be redirected between files and programs, enabling flexible control over how **data flows** through the system. Instead of simply printing results to the screen, commands can send output to files, receive input from files, or pass data directly into other commands.
+
+This capability makes it possible to build powerful **command-line workflows** using **redirection** and **pipelines**, forming the foundation for automation, log processing, and efficient text manipulation.
 
 ---
 
