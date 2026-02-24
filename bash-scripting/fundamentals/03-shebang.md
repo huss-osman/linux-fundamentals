@@ -37,4 +37,4 @@ Defining the interpreter explicitly improves portability, consistency, and relia
 ---
 
 ## Reflection
-Understanding the shebang explained why scripts failed even with correct permissions.
+Understanding the **shebang line** explained why scripts failed even with correct permissions. It clarified how the system determines which interpreter runs a script and showed that execution depends not only on permissions, but also on specifying the correct environment.
