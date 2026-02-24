@@ -247,5 +247,4 @@ Count: 5
 ---
 
 ## Reflection
-Loops demonstrated how small scripts can scale to handle repeated tasks.
-Adding `break` and `continue` showed how execution flow can be controlled precisely, making scripts safer and more flexible for real-world automation.
+**Loops** demonstrated how small scripts can scale to handle repeated tasks efficiently. Adding `break` and `continue` showed how execution flow can be controlled precisely, allowing scripts to stop early, skip iterations, and handle edge cases more safely. This made automation more structured, flexible, and reliable in real-world scenarios.
