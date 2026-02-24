@@ -200,8 +200,4 @@ Hello World!
 ---
 
 ## Reflection
-Understanding environment variables and PATH clarified how the shell locates commands and shares configuration across processes.
-
-Learning to read, export, and modify environment variables — especially `PATH` — made scripts more portable, adaptable, and reliable.
-
-Recognising the value of standard environment variables helped bridge the gap between writing simple scripts and writing scripts that are aware of the system they run on.
+Understanding **environment variables** and `PATH` clarified how the shell locates commands and shares configuration across processes. Learning to read, export, and modify environment variables—especially `PATH`—made scripts more portable, adaptable, and reliable. Recognising the value of standard **environment variables** helped bridge the gap between writing simple scripts and writing scripts that are aware of the system they run on.
