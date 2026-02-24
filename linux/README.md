@@ -156,7 +156,7 @@ These notes help build a solid foundation for Docker, Kubernetes, CI/CD, and clo
 
 ## Bandit (Levels 1–12)
 
-The OverTheWire Bandit wargame is used to reinforce Linux fundamentals through progressively harder challenges.
+The OverTheWire Bandit wargame is used to reinforce **Linux fundamentals** through progressively harder challenges.
 
 Each level documents:
 - The challenge goal
