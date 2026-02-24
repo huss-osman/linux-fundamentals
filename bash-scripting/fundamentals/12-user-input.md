@@ -1,8 +1,9 @@
 # User Input
 
 ## Overview
-Bash scripts can accept input from the user at runtime using the `read` command or by passing parameters when executing the script.
-User input allows scripts to become interactive and flexible instead of using fixed values.
+**User input** allows **Bash scripts** to accept data at runtime using the `read` command or by passing parameters when executing the script. This enables scripts to respond dynamically instead of relying on hardcoded values.
+
+By accepting **user input**, scripts become more **interactive**, **flexible**, and **functional**. This improves usability and makes the script’s purpose more **apparent**, especially when handling different scenarios, environments, or user-provided data. Interactive input is particularly important in automation workflows where adaptability and responsiveness are required.
 
 ---
 
