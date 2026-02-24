@@ -36,4 +36,4 @@ Helpful for learning command usage, available options, and examples.
 ---
 
 ## Reflection
-Using the terminal felt intimidating at first, but practising these commands made navigation and system interaction much clearer.
+Using the **terminal** felt intimidating at first, but practising core navigation commands made **system interaction** much clearer and more structured. Gaining confidence with basic tools laid the groundwork for more advanced Linux usage and automation tasks.
