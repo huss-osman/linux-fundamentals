@@ -104,7 +104,7 @@ Core Bash concepts explained with examples and reasoning
 ➡️ [Open fundamentals](./fundamentals)
 
 ### `bashbattlearena/`
-Hands-on Bash scripting challenges organised by difficulty (Levels 1–3)  
+Bash scripting challenges (Levels 1–15), including concepts tested and lessons learned.  
 ➡️ [Open Bash Battle Arena](./bashbattlearena)
 
 ### `assignments/`
