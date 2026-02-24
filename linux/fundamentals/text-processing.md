@@ -1,9 +1,9 @@
 # Text Processing
 
 ## Overview
-Text processing is a core Linux skill used to search, filter, transform, and analyse text-based data such as logs, configuration files, and command output.
+**Text processing** is a core **Linux skill** used to search, filter, transform, and analyse text-based data such as logs, configuration files, and command output.
 
-In DevOps environments, text processing tools are used daily to debug systems, extract information from logs, and automate workflows using pipelines.
+In **DevOps environments**, text processing tools are used daily to debug systems, extract information from logs, and automate workflows using **pipelines**.
 
 ---
 
