@@ -1,9 +1,10 @@
 # Environment Variables
 
 ## Overview
-Environment variables are key-value pairs used by the operating system and applications to store configuration values. They allow programs to behave differently depending on the environment without changing the underlying code.
 
-They are commonly used in DevOps to manage configuration, paths, and sensitive values.
+**Environment variables** are key-value pairs used by the operating system and applications to store configuration values. They allow programs to behave differently depending on the environment without changing the underlying code.
+
+They are commonly used in **DevOps** to manage configuration, control system **paths**, and store sensitive values such as credentials or API keys.
 
 ---
 
