@@ -17,105 +17,105 @@ The **Bash Battle Arena** is a command-line game designed by [CoderCo](https://c
 ---
 
 ### Level 1 → Level 2  
-**File:** [level01.md](./level01.md)  
+**File:** [level01.sh](./level01.sh)  
 **Concepts:** Directory creation, file operations  
 **Focus:** Basic command execution and filesystem manipulation.
 
 ---
 
 ### Level 2 → Level 3  
-**File:** [level02.md](./level02.md)  
+**File:** [level02.sh](./level02.sh)  
 **Concepts:** Variables, loops  
 **Focus:** Iteration and dynamic output generation.
 
 ---
 
 ### Level 3 → Level 4  
-**File:** [level03.md](./level03.md)  
+**File:** [level03.sh](./level03.sh)  
 **Concepts:** Conditionals  
 **Focus:** File existence checks and branching logic.
 
 ---
 
 ### Level 4 → Level 5  
-**File:** [level04.md](./level04.md)  
+**File:** [level04.sh](./level04.sh)  
 **Concepts:** File manipulation  
 **Focus:** Copying files and directory structuring.
 
 ---
 
 ### Level 5 – Boss Battle 1  
-**File:** [level05.md](./level05.md)  
+**File:** [level05.sh](./level05.sh)  
 **Concepts:** Combining fundamentals  
 **Focus:** Multi-step scripting with validation and execution flow control.
 
 ---
 
 ### Level 6 → Level 7  
-**File:** [level06.md](./level06.md)  
+**File:** [level06.sh](./level06.sh)  
 **Concepts:** Argument parsing  
 **Focus:** Handling positional parameters and input validation.
 
 ---
 
 ### Level 7 → Level 8  
-**File:** [level07.md](./level07.md)  
+**File:** [level07.sh](./level07.sh)  
 **Concepts:** Sorting, file size handling  
 **Focus:** Data processing using pipelines.
 
 ---
 
 ### Level 8 → Level 9  
-**File:** [level08.md](./level08.md)  
+**File:** [level08.sh](./level08.sh)  
 **Concepts:** Pattern searching  
 **Focus:** Multi-file log inspection using `grep`.
 
 ---
 
 ### Level 9 → Level 10  
-**File:** [level09.md](./level09.md)  
+**File:** [level09.sh](./level09.sh)  
 **Concepts:** Monitoring and logging  
 **Focus:** Detecting filesystem changes with timestamps.
 
 ---
 
 ### Level 10 – Boss Battle 2  
-**File:** [level10.md](./level10.md)  
+**File:** [level10.sh](./level10.sh)  
 **Concepts:** Randomisation, sorting, conditional movement  
 **Focus:** Structured automation and workflow chaining.
 
 ---
 
 ### Level 11  
-**File:** [level11.md](./level11.md)  
+**File:** [level11.sh](./level11.sh)  
 **Concepts:** Disk monitoring  
 **Focus:** Threshold alerts and operational scripting.
 
 ---
 
 ### Level 12  
-**File:** [level12.md](./level12.md)  
+**File:** [level12.sh](./level12.sh)  
 **Concepts:** Config parsing  
 **Focus:** Reading and interpreting structured input (`KEY=VALUE`).
 
 ---
 
 ### Level 13  
-**File:** [level13.md](./level13.md)  
+**File:** [level13.sh](./level13.sh)  
 **Concepts:** Backup rotation  
 **Focus:** Retention policies and filesystem management.
 
 ---
 
 ### Level 14  
-**File:** [level14.md](./level14.md)  
+**File:** [level14.sh](./level14.sh)  
 **Concepts:** Interactive menus  
 **Focus:** User-friendly script design.
 
 ---
 
 ### Level 15 – Boss Battle 3  
-**File:** [level15.md](./level15.md)  
+**File:** [level15.sh](./level15.sh)  
 **Concepts:** Combined advanced scripting  
 **Focus:** Menu-driven automation with validation and backup logic.
 
