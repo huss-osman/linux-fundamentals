@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # Create Battlefield with files, move knight.txt to Archive if it exists, then list both directories
 
 mkdir -p Battlefield
