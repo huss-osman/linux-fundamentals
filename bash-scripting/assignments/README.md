@@ -1,4 +1,4 @@
-# Core Bash Assignments 🧩⚙️
+# Core Bash Scripting Challenges 🛠️
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
