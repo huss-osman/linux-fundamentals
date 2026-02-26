@@ -9,14 +9,14 @@ This is a hands-on learning repository focused on building strong **DevOps found
 
 The content follows my training with [CoderCo](https://coderco.io), covering core technologies used in modern DevOps environments, including:
 
-- **[Linux Fundamentals](./linux)**
+- **[Linux](./linux)**
 - **[Bash Scripting](./bash-scripting)**
-- **[Git & Version Control](./git)**
+- **[Git](./git)**
 - **[Networking](./networking)**
-- **[Docker & Containers](./docker)**
+- **[Docker](./docker)**
 - **[AWS](./aws)**
 - **[Terraform](./terraform)**
-- **[CI/CD & GitHub Actions](./cicd)**
+- **[CI/CD](./cicd)**
 - **[Kubernetes](./kubernetes)**
 
 Each section documents practical exercises, real-world challenges, scripts, troubleshooting scenarios, and key lessons learned.
