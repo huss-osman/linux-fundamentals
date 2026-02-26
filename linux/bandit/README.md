@@ -8,7 +8,7 @@
 ![Level](https://img.shields.io/badge/Levels-1--12-darkgreen)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-## Bandit Levels 0–12 Overview
+## OverTheWire Bandit - Levels 0–12 Overview
 
 The **OverTheWire Bandit** wargame, created by [OverTheWire](https://overthewire.org), is designed to teach **Linux fundamentals** through structured, level-based challenges. Each level presents a focused task that must be solved using command-line tools, gradually introducing more advanced concepts as you progress.
 
