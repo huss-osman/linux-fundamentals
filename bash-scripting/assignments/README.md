@@ -1,4 +1,7 @@
-# Core Bash Scripting Challenges 🛠️
+<img width="1000" height="500" alt="imageedit_1_9901007186" src="https://github.com/user-attachments/assets/287c7fbd-0aa7-4522-b7a2-c6605f1f89bf" />
+
+
+# Core Bash Scripting Challenges 
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
