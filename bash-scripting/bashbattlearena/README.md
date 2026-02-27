@@ -1,4 +1,7 @@
-# Bash Battle Arena ⚔️
+<img width="1000" height="500" alt="imageedit_1_3365515055" src="https://github.com/user-attachments/assets/b952c55f-839b-43ec-9457-8e38945f6735" />
+
+
+# Bash Battle Arena 
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
