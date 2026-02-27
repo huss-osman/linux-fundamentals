@@ -9,8 +9,6 @@
 ![Assignments](https://img.shields.io/badge/Assignments-4-darkgreen)
 ![Bonus](https://img.shields.io/badge/Bonus-1-orange)
 
-## Core Bash Scripting Challenges – Assignment Overview
-
 These assignments focus on reinforcing **core Bash scripting fundamentals** through structured, practical challenges.
 
 Each script must:
