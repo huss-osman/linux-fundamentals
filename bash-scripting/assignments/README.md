@@ -1,7 +1,7 @@
-<img width="1000" height="500" alt="imageedit_1_9901007186" src="https://github.com/user-attachments/assets/287c7fbd-0aa7-4522-b7a2-c6605f1f89bf" />
+<img width="1000" height="500" alt="imageedit_1_9836604224" src="https://github.com/user-attachments/assets/aa4f1768-6542-43d0-b4c3-28ca532d8d7d" />
 
 
-# Core Bash Scripting Challenges 
+# Bash Assignments 
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
