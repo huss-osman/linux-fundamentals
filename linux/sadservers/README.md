@@ -2,7 +2,7 @@
 <img width="100" height="100" alt="SaD-removebg-preview" src="https://github.com/user-attachments/assets/a98152b0-5c73-405a-a1fb-9a5e3b525436" />
 <p align="center">
 
-# SadServers Practice
+# SadServers 
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
