@@ -157,10 +157,6 @@ GitHub workflows: SSH, remotes, forks, PRs, collaboration
 Commit hygiene, automation, mistakes to avoid, secrets hygiene  
 ➡️ [Open best practices](./best-practices)
 
-### `assignments/`
-Final Git assignment (portfolio-ready)  
-➡️ [Open assignments](./assignments)
-
 ---
 
 ## Hands-On Starts Here
