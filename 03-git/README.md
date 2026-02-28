@@ -1,4 +1,4 @@
-<img width="1000" height="500" alt="imageedit_9_9698354280" src="https://github.com/user-attachments/assets/0dc18f70-7ef3-4d05-a161-c9ba91fbe5fd" />
+﻿<img width="1000" height="500" alt="imageedit_9_9698354280" src="https://github.com/user-attachments/assets/0dc18f70-7ef3-4d05-a161-c9ba91fbe5fd" />
 
 # Git
 
@@ -9,7 +9,7 @@
 
 This repository documents my hands-on learning of **Git** as part of my **DevOps training with CoderCo**.
 
-Git is the foundation of modern collaboration. Nearly everything in DevOps — CI/CD pipelines, infrastructure-as-code, cloud deployments, and automation — relies on strong version control practices.
+Git is the foundation of modern collaboration. Nearly everything in DevOps â€” CI/CD pipelines, infrastructure-as-code, cloud deployments, and automation â€” relies on strong version control practices.
 
 This repository exists to build and demonstrate that foundation.
 
@@ -22,8 +22,8 @@ The focus throughout this work is on understanding **how Git works (snapshots, b
 By working through this module, I aim to:
 
 - Understand what version control is and why Git matters
-- Confidently use the Git workflow (add → commit → push)
-- Understand Git’s 3 areas (working directory, staging, repository)
+- Confidently use the Git workflow (add â†’ commit â†’ push)
+- Understand Gitâ€™s 3 areas (working directory, staging, repository)
 - View and interpret history using logs and diffs
 - Create and manage branches safely
 - Merge branches and resolve conflicts confidently
@@ -44,10 +44,10 @@ By working through this module, I aim to:
   Tracking changes, rollback, collaboration, and auditability.
 
 - [Centralised vs Distributed](./fundamentals/03-centralised-vs-distributed.md)  
-  Why Git’s distributed model is powerful.
+  Why Gitâ€™s distributed model is powerful.
 
 - [Git Changed the Game](./fundamentals/04-git-changed-the-game.md)  
-  Git’s impact on engineering workflows.
+  Gitâ€™s impact on engineering workflows.
 
 - [Git is Not a File Tracker](./fundamentals/05-git-not-a-file-tracker.md)  
   Snapshots, object model, content-addressing.
@@ -62,7 +62,7 @@ By working through this module, I aim to:
   init, add, commit, status, log, diff, clone, push/pull.
 
 - [The Areas of Git](./fundamentals/09-areas-of-git.md)  
-  Working directory → staging → repository.
+  Working directory â†’ staging â†’ repository.
 
 - [Viewing History](./history/10-viewing-history.md)  
   git log, git show, git diff, git blame, reflog.
@@ -95,7 +95,11 @@ By working through this module, I aim to:
   Branch isolation, review, and syncing.
 
 - [Typical Git Workflow](./github/21-typical-workflow.md)  
+<<<<<<< HEAD
   Feature branches → PR → merge.
+=======
+  Feature branches â†’ PR â†’ merge.
+>>>>>>> 4eb17e0 (Add Git module subfolder READMEs)
 
 - [Trunk-Based Development](./github/22-trunk-based-development.md)  
   Short-lived branches + strong CI.
@@ -135,28 +139,35 @@ The goal is long-term Git fluency that transfers to production workflows.
 
 ### `fundamentals/`
 Core Git concepts explained with examples and reasoning  
-➡️ [Open fundamentals](./fundamentals)
+âž¡ï¸ [Open fundamentals](./fundamentals)
 
 ### `history/`
 Understanding logs, diffs, reflog, and reading commit history  
-➡️ [Open history](./history)
+âž¡ï¸ [Open history](./history)
 
 ### `branching/`
 Branching, merging, conflicts, and visualising commit graphs  
-➡️ [Open branching](./branching)
+âž¡ï¸ [Open branching](./branching)
 
 ### `advanced/`
 Rebase, stash, reset, revert, cherry-pick and recovery workflows  
-➡️ [Open advanced](./advanced)
+âž¡ï¸ [Open advanced](./advanced)
 
 ### `github/`
 GitHub workflows: SSH, remotes, forks, PRs, collaboration  
-➡️ [Open GitHub](./github)
+âž¡ï¸ [Open GitHub](./github)
 
 ### `best-practices/`
 Commit hygiene, automation, mistakes to avoid, secrets hygiene  
-➡️ [Open best practices](./best-practices)
+âž¡ï¸ [Open best practices](./best-practices)
 
+<<<<<<< HEAD
+=======
+### `assignments/`
+Final Git assignment (portfolio-ready)  
+âž¡ï¸ [Open assignments](./assignments)
+
+>>>>>>> 4eb17e0 (Add Git module subfolder READMEs)
 ---
 
 ## Hands-On Starts Here
@@ -176,11 +187,12 @@ This is the section interviewers will expect you to know.
 
 ## Status
 
-Work in progress — continuously updated as I progress through:
+Work in progress â€” continuously updated as I progress through:
 
 - Branching & merging
 - Rebase & conflict resolution
 - GitHub collaboration workflows
 - Best practices + automation
 
-Push it. Pull it. Rebase it. 🚀
+Push it. Pull it. Rebase it. ðŸš€
+
