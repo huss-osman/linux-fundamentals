@@ -4,6 +4,13 @@
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Script](https://img.shields.io/badge/Script-Bash-blue?logo=gnubash)
+![VCS](https://img.shields.io/badge/VCS-Git-F05032?logo=git&logoColor=white)
+![Networking](https://img.shields.io/badge/Networking-Computer%20Networks-607D8B?logo=cloudflare&logoColor=white)
+![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?logo=docker&logoColor=white)
+![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
+![IaC](https://img.shields.io/badge/IaC-Terraform-7B42BC?logo=terraform&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-Automation-2088FF?logo=githubactions&logoColor=white)
+![Orchestration](https://img.shields.io/badge/Orchestration-Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 
 This is a hands-on learning repository focused on building strong **DevOps foundations** through structured, practical modules.
 
