@@ -94,10 +94,10 @@ By working through this module, I aim to:
 - [Collaborating Practices](./github/20-collaboration-practices.md)  
   Branch isolation, review, and syncing.
 
-- [Typical Git Workflow](./workflows/21-typical-workflow.md)  
+- [Typical Git Workflow](./github/21-typical-workflow.md)  
   Feature branches → PR → merge.
 
-- [Trunk-Based Development](./workflows/22-trunk-based-development.md)  
+- [Trunk-Based Development](./github/22-trunk-based-development.md)  
   Short-lived branches + strong CI.
 
 - [Commit Hygiene & Best Practices](./best-practices/23-commit-hygiene.md)  
