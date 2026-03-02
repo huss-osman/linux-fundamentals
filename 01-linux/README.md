@@ -122,13 +122,20 @@ The goal is long-term understanding that transfers to production systems.
 Core Linux concepts explained with examples and reasoning  
 ➡️ [Open fundamentals](./fundamentals)
 
-### `bandit/`  
-OverTheWire Bandit wargame solutions (Levels 1–20), including commands used and lessons learned  
-➡️ [Open bandit](./bandit)
+### `labs/`  
+Hands-on applied practice and troubleshooting scenarios  
 
-### `sadservers/`  
+---
+
+#### `labs/bandit/`  
+OverTheWire Bandit wargame solutions (Levels 1–20), including commands used and lessons learned  
+➡️ [Open bandit](./labs/bandit)
+
+---
+
+#### `labs/sadservers/`  
 Real-world Linux troubleshooting scenarios organised by difficulty (Easy, Medium, Hard)  
-➡️ [Open sadservers](./sadservers)
+➡️ [Open sadservers](./labs/sadservers)
 
 ---
 
@@ -140,13 +147,10 @@ Rather than memorising commands, the emphasis is on learning how Linux behaves a
 
 Each topic covers:
 
-• Core Linux concepts and system behaviour
-
-• Common commands and how they interact with the system
-
-• Practical examples based on real-world usage
-
-• Key takeaways that reinforce long-term understanding
+• Core Linux concepts and system behaviour  
+• Common commands and how they interact with the system  
+• Practical examples based on real-world usage  
+• Key takeaways that reinforce long-term understanding  
 
 These notes help build a solid foundation for Docker, Kubernetes, CI/CD, and cloud platforms.
 
@@ -154,7 +158,13 @@ These notes help build a solid foundation for Docker, Kubernetes, CI/CD, and clo
 
 ---
 
-## Bandit (Levels 1–12)
+## Labs
+
+The Labs section reinforces Linux fundamentals through structured applied challenges.
+
+---
+
+### Bandit (Levels 1–12)
 
 The OverTheWire Bandit wargame is used to reinforce **Linux fundamentals** through progressively harder challenges.
 
@@ -167,11 +177,11 @@ Each level documents:
 Bandit is treated as a **learning exercise**, not a puzzle to brute-force.  
 The emphasis is on understanding Linux behaviour rather than memorising solutions.
 
-➡️ [View Bandit solutions](./bandit)
+➡️ [View Bandit solutions](./labs/bandit)
 
 ---
 
-## SadServers (Easy, Medium, Hard)
+### SadServers (Easy, Medium, Hard)
 
 SadServers scenarios are used to simulate real-world Linux issues commonly encountered in production environments.
 
@@ -185,4 +195,4 @@ Notes focus on:
 
 These exercises help develop production-grade troubleshooting and operational thinking.
 
-➡️ [View SadServers notes](./sadservers)
+➡️ [View SadServers notes](./labs/sadservers)
