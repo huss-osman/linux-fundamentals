@@ -122,13 +122,8 @@ The goal is long-term understanding that transfers to production systems.
 Core Linux concepts explained with examples and reasoning  
 ➡️ [Open fundamentals](./fundamentals)
 
-#### `labs/bandit/`  
-OverTheWire Bandit wargame solutions (Levels 1–20), including commands used and lessons learned  
-➡️ [Open bandit](./labs/bandit)
-
-#### `labs/sadservers/`  
-Real-world Linux troubleshooting scenarios organised by difficulty (Easy, Medium, Hard)  
-➡️ [Open sadservers](./labs/sadservers)
+### `labs/`  
+Hands-on applied practice and troubleshooting scenarios  
 
 ---
 
