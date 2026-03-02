@@ -126,6 +126,14 @@ Core Linux concepts explained with examples and reasoning
 Hands-on applied practice and troubleshooting scenarios  
 ➡️ [Open labs](./labs)
 
+### `labs/bandit/`  
+OverTheWire Bandit wargame solutions (Levels 1–20), including commands used and lessons learned  
+➡️ [Open bandit](./labs/bandit)
+
+### `labs/sadservers/`  
+Real-world Linux troubleshooting scenarios organised by difficulty (Easy, Medium, Hard)  
+➡️ [Open sadservers](./labs/sadservers)
+
 ---
 
 ## Fundamentals
@@ -149,7 +157,22 @@ These notes help build a solid foundation for Docker, Kubernetes, CI/CD, and clo
 
 ## Labs
 
-The Labs section reinforces Linux fundamentals through structured applied challenges.
+The Labs section focuses on reinforcing Linux fundamentals through structured, hands-on problem solving and real-world simulation.
+
+Rather than following guided notes, the emphasis is on applying knowledge independently, investigating issues methodically, and developing operational confidence.
+
+Each lab includes:
+
+• A clearly defined challenge or broken scenario  
+• Practical command-line investigation and debugging  
+• Step-by-step reasoning behind the solution  
+• Key takeaways that strengthen long-term retention  
+
+These labs are designed to simulate production-style environments, helping build troubleshooting instincts and real-world readiness.
+
+➡️ [View Labs](./labs)
+
+---
 
 ### Bandit (Levels 1–12)
 
