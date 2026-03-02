@@ -124,6 +124,7 @@ Core Linux concepts explained with examples and reasoning
 
 ### `labs/`  
 Hands-on applied practice and troubleshooting scenarios  
+➡️ [Open labs](./labs)
 
 ---
 
