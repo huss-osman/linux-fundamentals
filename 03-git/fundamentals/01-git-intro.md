@@ -1,8 +1,15 @@
 # Git – Version Control & Collaboration
 
-This module focuses on building a **deep understanding of Git** — not just memorising commands, but understanding how Git works internally and how it supports modern DevOps workflows.
+This module builds a deep understanding of **Git as the foundation of modern DevOps workflows**.
 
-Git is the foundation of:
+Rather than memorising commands, the goal is to understand:
+
+- How Git works internally
+- How history is structured
+- How safe collaboration happens
+- How production teams manage change
+
+Git underpins:
 
 - CI/CD pipelines
 - Infrastructure as Code
@@ -10,103 +17,131 @@ Git is the foundation of:
 - Team collaboration
 - Safe change management
 
-The goal is long-term Git fluency that translates directly into real-world engineering environments.
+Mastering Git means mastering change.
 
 ---
 
-## What You Will Learn
+# Module Structure & Learning Flow
 
-This module is structured in chapters that progressively build from fundamentals to advanced workflows.
-
----
-
-## Chapter 0 – History
-
-- Why version control exists
-- The evolution from centralised to distributed systems
-- Why Git changed software engineering
+This module is organised progressively. Each section builds on the previous one.
 
 ---
 
-## Chapter 1 – Git Architecture & Internals
+## 1️⃣ Fundamentals
 
+📁 [`fundamentals/`](./)
+
+Core Git concepts and mental models.
+
+You will learn:
+
+- What Git is and why it exists
 - Snapshots vs file tracking
-- The object model (blobs, trees, commits)
+- The three areas (working directory → staging → repository)
 - The `.git` directory
-- Hashing and content-addressing
-- How Git stores history
+- Git object model (blobs, trees, commits)
+- Hashing & content-addressing
+- Core commands (`add`, `commit`, `status`, `log`, `diff`)
+
+This section builds your **internal understanding of Git**.
 
 ---
 
-## Chapter 2 – Git Basics
+## 2️⃣ History & Understanding Change
 
-- The Git workflow (add → commit → push)
-- The three areas (working directory, staging, repository)
-- Viewing history (`log`, `diff`, `show`)
-- Understanding what actually happens during a commit
+📁 [`../history/`](../history)
+
+How Git tracks and displays change.
+
+You will learn:
+
+- Viewing history (`log`, `show`, `diff`)
+- Understanding commit graphs
+- Git vs GitHub
+- Reading and interpreting changes
+
+This section builds your ability to **reason about version history**.
 
 ---
 
-## Chapter 3 – Branching, Merging & Conflict Resolution
+## 3️⃣ Branching & Merging
+
+📁 [`../branching/`](../branching)
+
+How teams safely develop in parallel.
+
+You will learn:
 
 - Creating and managing branches
 - Fast-forward vs merge commits
-- Visualising commit graphs
-- Resolving merge conflicts safely
+- Visualising branch structure
+- Conflict resolution
+
+This section builds your understanding of **parallel development workflows**.
 
 ---
 
-## Chapter 4 – Rebase, Stash & Cherry-Pick
+## 4️⃣ Advanced History Manipulation
 
-- Rebase vs merge (when and why)
-- Cleaning up history
-- Using stash safely
+📁 [`../advanced/`](../advanced)
+
+Controlled rewriting and recovery.
+
+You will learn:
+
+- Rebase vs merge
+- Stash
 - Reset vs revert
-- Recovering work with `reflog`
+- Cherry-pick
+- Using `reflog` for recovery
+
+This section builds your confidence in **repairing and refining history safely**.
 
 ---
 
-## Chapter 5 – Git in the Real World
+## 5️⃣ GitHub & Real-World Collaboration
 
-- Working with GitHub
-- Pull requests and collaboration
-- Forking workflows
+📁 [`../github/`](../github)
+
+Working in team environments.
+
+You will learn:
+
+- Pull requests
+- Fork workflows
+- Remote repositories
+- Typical Git workflows
 - Trunk-based development
-- Commit hygiene and best practices
-- Avoiding common production mistakes
+
+This section connects Git theory to **real production team workflows**.
 
 ---
 
-## Labs
+## 6️⃣ Best Practices & Production Discipline
 
-Hands-on exercises designed to:
+📁 [`../best-practices/`](../best-practices)
 
-- Break things intentionally
-- Recover safely
-- Build confidence with real workflows
-- Simulate real production scenarios
+Professional standards and real-world safety.
+
+You will learn:
+
+- Commit hygiene
+- Clean history practices
+- Avoiding force-push disasters
+- Secrets management
+- Git at scale
+
+This section develops **engineering maturity and discipline**.
 
 ---
 
-## Future Chapters
-
-- GitOps fundamentals
-- Advanced Git internals deep dive
-- Git at scale (monorepos, submodules, LFS)
-
----
-
-## Learning Approach
+# Learning Philosophy
 
 This module prioritises:
 
-- Understanding **why Git behaves the way it does**
+- Understanding *why* Git behaves the way it does
 - Practicing real workflows, not toy examples
-- Developing confidence with recovery tools
-- Treating mistakes as learning exercises
-
----
+- Treating mistakes as learning opportunities
+- Building production-ready confidence
 
 Git is not just a tool — it is the control system of modern engineering.
-
-**Mastering Git means mastering change.**
