@@ -48,7 +48,7 @@ Topics include:
 - The origin story of Git
 - **Linus Torvalds** creating Git during Linux kernel development
 
-➡️ [Git Changed the Game](./04-git-changed-the-game.md)
+➡️ [View Git Changed the Game](./04-git-changed-the-game.md)
 
 ---
 
@@ -62,8 +62,8 @@ Topics include:
 - The role of the `.git` directory
 - Git objects and repository structure
 
-➡️ [Git Terminology](./06-git-terminology.md)  
-➡️ [The .git Directory](./07-dotgit-directory.md)
+➡️ [View Git Terminology](./06-git-terminology.md)
+➡️ [View The .git Directory](./07-dotgit-directory.md)
 
 ---
 
@@ -86,7 +86,7 @@ git commit -m "Initial commit"
 git status
 ```
 
-➡️ [Git Common Commands](./08-common-commands.md)
+➡️ [View Git Common Commands](./08-common-commands.md)
 
 ---
 
@@ -100,8 +100,8 @@ Topics include:
 - Safe collaboration workflows
 - Resolving merge conflicts without breaking history
 
-➡️ [Branching 101](../labs/12-branching-101.md)  
-➡️ [Merging](../labs/13-merging.md)
+➡️ [View Branching 101](../labs/12-branching-101.md)
+➡️ [View Merging](../labs/13-merging.md)
 
 ---
 
@@ -122,9 +122,9 @@ git stash pop
 git cherry-pick <commit-sha>
 ```
 
-➡️ [Rebase vs Merge](../labs/15-rebase-vs-merge.md)  
-➡️ [Git Stash & Pop](../labs/16-stash-and-pop.md)  
-➡️ [Reset, Revert & Cherry-Pick](../labs/17-reset-revert-cherrypick.md)
+➡️ [View Rebase vs Merge](../labs/15-rebase-vs-merge.md)
+➡️ [View Git Stash & Pop](../labs/16-stash-and-pop.md)
+➡️ [View Reset, Revert & Cherry-Pick](../labs/17-reset-revert-cherrypick.md)
 
 ---
 
@@ -148,8 +148,8 @@ git pull --rebase origin main
 git push -u origin main
 ```
 
-➡️ [Forks & Pull Requests](../labs/19-forks-and-prs.md)  
-➡️ [Typical Git Workflow](../labs/21-typical-workflow.md)
+➡️ [View Forks & Pull Requests](../labs/19-forks-and-prs.md)
+➡️ [View Typical Git Workflow](../labs/21-typical-workflow.md)
 
 ---
 
