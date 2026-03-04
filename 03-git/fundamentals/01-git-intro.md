@@ -179,8 +179,4 @@ These labs simulate real-world **Git workflows**, including:
 
 ## Reflection
 
-Learning **Git** is not just about memorising commands.
-
-It is about understanding **how history is recorded**, **how teams collaborate safely**, and **how modern software systems are managed through version control**.
-
-This module focuses on building that understanding step by step through **concepts, workflows, and hands-on practice**.
+Learning **Git** is not just about memorising commands; it is about understanding how history is recorded, how teams collaborate safely, and how modern software systems are managed through version control. This module focuses on building that understanding step by step through concepts, workflows, and hands-on practice.
