@@ -9,14 +9,14 @@ In **DevOps environments**, text processing tools are used daily to debug system
 
 ## Key Concepts
 
-### `Streams and Pipelines`
+### Streams and Pipelines
 Most Linux commands read input from **standard input (stdin)** and write output to **standard output (stdout)**.
 
 Pipes (`|`) allow the output of one command to become the input of another, enabling powerful command chains without temporary files.
 
 ---
 
-### `Pattern Matching vs Transformation`
+### Pattern Matching vs Transformation
 
 - **Pattern matching** finds specific text (e.g. `grep`)
 - **Transformation** modifies or extracts text (e.g. `awk`, `sed`)
