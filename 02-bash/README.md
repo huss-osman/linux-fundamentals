@@ -103,9 +103,9 @@ The goal is long-term understanding that transfers directly to production system
 Core Bash concepts explained with examples and reasoning  
 ➡️ [Open fundamentals](./fundamentals)
 
-### `bashbattlearena/`
-Bash scripting challenges (Levels 1–15), including concepts tested and lessons learned.  
-➡️ [Open Bash Battle Arena](./bashbattlearena)
+### `labs/`
+Hands-on Bash scripting challenges used to reinforce concepts through practical exercises  
+➡️ [Open labs](./labs)
 
 ### `assignments/`
 Structured challenge submissions (each challenge includes the `.sh` script and a short `.md` reflection/write-up)  
