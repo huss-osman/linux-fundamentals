@@ -38,7 +38,7 @@ Learning Git properly means understanding **how history, collaboration, and auto
 
 This module is structured to build Git knowledge step by step.
 
-### Chapter 0 – History
+### `Chapter 0 – History`
 
 Before touching any commands, we start with **why Git exists**.
 
@@ -52,7 +52,7 @@ Topics include:
 
 ---
 
-### Chapter 1 – Git Architecture & Internals
+### `Chapter 1 – Git Architecture & Internals`
 
 Understanding what happens **under the hood** makes Git much easier to use confidently.
 
@@ -67,7 +67,7 @@ Topics include:
 
 ---
 
-### Chapter 2 – Git Basics
+### `Chapter 2 – Git Basics`
 
 Now we move into **hands-on usage**.
 
@@ -90,7 +90,7 @@ git status
 
 ---
 
-## Chapter 3 – Branching, Merging & Conflict Resolution
+## `Chapter 3 – Branching, Merging & Conflict Resolution`
 
 This is where **Git** becomes powerful.
 
@@ -105,7 +105,7 @@ Topics include:
 
 ---
 
-## Chapter 4 – Advanced Git Workflows
+## `Chapter 4 – Advanced Git Workflows`
 
 These commands are **powerful** and sometimes **dangerous**, but incredibly useful when used correctly.
 
@@ -128,7 +128,7 @@ git cherry-pick <commit-sha>
 
 ---
 
-## Chapter 5 – Git in the Real World
+## `Chapter 5 – Git in the Real World`
 
 Finally, we explore how **Git** is used in real engineering teams.
 
@@ -153,7 +153,7 @@ git push -u origin main
 
 ---
 
-## Labs
+## `Labs`
 
 The module also includes **hands-on labs** designed to reinforce these concepts through practice.
 
