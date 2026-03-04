@@ -86,3 +86,101 @@ git commit -m "Initial commit"
 git status
 ```
 
+➡️ [Git Common Commands](./08-common-commands.md)
+
+---
+
+## Chapter 3 – Branching, Merging & Conflict Resolution
+
+This is where **Git** becomes powerful.
+
+Topics include:
+
+- Branching strategies
+- Safe collaboration workflows
+- Resolving merge conflicts without breaking history
+
+➡️ [Branching 101](../labs/12-branching-101.md)  
+➡️ [Merging](../labs/13-merging.md)
+
+---
+
+## Chapter 4 – Advanced Git Workflows
+
+These commands are **powerful** and sometimes **dangerous**, but incredibly useful when used correctly.
+
+Topics include:
+
+- Rebase
+- Stashing work
+- Cherry-picking commits
+
+```bash
+git rebase main
+git stash
+git stash pop
+git cherry-pick <commit-sha>
+```
+
+➡️ [Rebase vs Merge](../labs/15-rebase-vs-merge.md)  
+➡️ [Git Stash & Pop](../labs/16-stash-and-pop.md)  
+➡️ [Reset, Revert & Cherry-Pick](../labs/17-reset-revert-cherrypick.md)
+
+---
+
+## Chapter 5 – Git in the Real World
+
+Finally, we explore how **Git** is used in real engineering teams.
+
+Topics include:
+
+- GitHub collaboration
+- Pull requests and code reviews
+- CI/CD integrations
+- Professional Git practices
+
+Example commands used when working with remote repositories:
+
+```bash
+git remote -v
+git fetch origin
+git pull --rebase origin main
+git push -u origin main
+```
+
+➡️ [Forks & Pull Requests](../labs/19-forks-and-prs.md)  
+➡️ [Typical Git Workflow](../labs/21-typical-workflow.md)
+
+---
+
+## Labs
+
+The module also includes **hands-on labs** designed to reinforce these concepts through practice.
+
+These labs simulate real-world **Git workflows**, including:
+
+- Viewing repository history
+- Branching workflows
+- Merge conflicts
+- Collaboration using GitHub
+
+➡️ [View Git Labs](../labs)
+
+---
+
+## Key Takeaways
+
+- **Git** tracks project history using snapshots
+- Branches enable safe experimentation
+- Collaboration requires clean commit history
+- Understanding Git internals improves debugging and recovery
+
+---
+
+## Reflection
+
+Learning **Git** is not just about memorising commands.
+
+It is about understanding **how history is recorded**, **how teams collaborate safely**, and **how modern software systems are managed through version control**.
+
+This module focuses on building that understanding step by step through **concepts, workflows, and hands-on practice**.
