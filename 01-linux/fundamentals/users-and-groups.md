@@ -7,11 +7,11 @@
 
 ## Key Concepts
 
-### `Users`
+### Users
 - Each user has a unique ID (UID)
 - Users can own files and run processes
 
-### `Groups`
+### Groups
 - Groups are collections of users
 - Permissions can be assigned to groups instead of individuals
 
