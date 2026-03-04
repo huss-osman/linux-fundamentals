@@ -1,3 +1,5 @@
+<img width="1000" height="500" alt="imageedit_1_2494145058" src="https://github.com/user-attachments/assets/755bc9af-36f8-4fcc-ab7c-f026480bb217" />
+
 # Git Fundamentals
 
 ![VCS](https://img.shields.io/badge/VCS-Git-F05032?logo=git&logoColor=white)
