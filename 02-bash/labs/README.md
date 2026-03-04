@@ -1,3 +1,5 @@
+<img width="1000" height="500" alt="imageedit_1_7201657005" src="https://github.com/user-attachments/assets/39d71cc6-38e4-4cc3-9808-d8de96f01b7d" />
+
 # Bash Labs
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
