@@ -132,22 +132,22 @@ These notes help build a solid foundation for Dockerfiles, CI/CD pipelines, infr
 
 ---
 
-## Bash Battle Arena (Levels 1–15)
+## Labs
 
-Bash Battle Arena is used to reinforce **Bash fundamentals** through progressively harder scripting challenges.
+The Labs section focuses on reinforcing Bash fundamentals through structured, hands-on scripting challenges.
 
-Each level documents:
+Rather than following guided notes, the emphasis is on applying knowledge independently, experimenting with scripts, and understanding how Bash behaves in real automation scenarios.
 
-- The challenge goal  
-- Bash concepts being tested  
-- Commands and patterns used  
-- A brief explanation of why the solution works  
-- A key learning takeaway  
+Each lab includes:
 
-Bash Battle Arena is treated as a learning exercise, not a puzzle to brute-force.  
-The emphasis is on understanding **shell behaviour and execution flow**, rather than memorising syntax.
+• A clearly defined scripting challenge  
+• Practical Bash command and scripting usage  
+• Step-by-step reasoning behind the solution  
+• Key takeaways that strengthen long-term retention  
 
-➡️ [View Bash Battle Arena](./bashbattlearena)
+These labs are designed to simulate real-world scripting problems, helping develop confidence with automation and shell behaviour.
+
+➡️ [View Labs](./labs)
 
 ---
 
