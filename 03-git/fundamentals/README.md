@@ -1,4 +1,4 @@
-<img width="1000" height="500" alt="imageedit_1_2494145058" src="https://github.com/user-attachments/assets/755bc9af-36f8-4fcc-ab7c-f026480bb217" />
+<img width="1000" height="500" alt="imageedit_1_8026237778" src="https://github.com/user-attachments/assets/cbdf71a1-9109-490e-a38a-b908ace29216" />
 
 # Git Fundamentals
 
