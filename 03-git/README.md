@@ -1,4 +1,4 @@
-<img width="1000" height="500" alt="imageedit_9_9698354280" src="https://github.com/user-attachments/assets/0dc18f70-7ef3-4d05-a161-c9ba91fbe5fd" />
+<img width="1000" height="500" alt="git-banner" src="https://github.com/user-attachments/assets/0dc18f70-7ef3-4d05-a161-c9ba91fbe5fd" />
 
 # Git
 
@@ -23,97 +23,51 @@ By working through this module, I aim to:
 
 - Understand what version control is and why Git matters
 - Confidently use the Git workflow (add → commit → push)
-- Understand Git’s 3 areas (working directory, staging, repository)
+- Understand Git’s three areas (working directory, staging area, repository)
 - View and interpret history using logs and diffs
 - Create and manage branches safely
 - Merge branches and resolve conflicts confidently
 - Understand rebase vs merge and when to use each
 - Use stash, reset, revert, and cherry-pick safely
-- Collaborate using GitHub (remotes, PRs, forks, reviews)
-- Follow real-world workflows and commit best practices
-- Avoid common mistakes (force push, secrets, bad history)
+- Collaborate using GitHub workflows
+- Follow professional Git best practices
+- Avoid common mistakes such as force pushing or leaking secrets
 
 ---
 
 ## Topics Covered
 
-- [Git Intro](./fundamentals/01-git-intro.md)  
-  What Git is and why it exists.
+### Fundamentals
+- [Git Intro](./fundamentals/01-git-intro.md)
+- [What is Version Control](./fundamentals/02-version-control.md)
+- [Centralised vs Distributed](./fundamentals/03-centralised-vs-distributed.md)
+- [Git Changed the Game](./fundamentals/04-git-changed-the-game.md)
+- [Git is Not a File Tracker](./fundamentals/05-git-not-a-file-tracker.md)
+- [Git Terminology](./fundamentals/06-git-terminology.md)
+- [The .git Directory](./fundamentals/07-dotgit-directory.md)
+- [Git Common Commands](./fundamentals/08-common-commands.md)
+- [The Areas of Git](./fundamentals/09-areas-of-git.md)
 
-- [What is Version Control](./fundamentals/02-version-control.md)  
-  Tracking changes, rollback, collaboration, and auditability.
+### Labs
+- [Viewing History](./labs/10-viewing-history.md)
+- [Git vs GitHub](./labs/11-git-vs-github.md)
+- [Branching 101](./labs/12-branching-101.md)
+- [Merging](./labs/13-merging.md)
+- [Visualise Branches & Logs](./labs/14-visualise-branches.md)
+- [Rebase vs Merge](./labs/15-rebase-vs-merge.md)
+- [Git Stash & Pop](./labs/16-stash-and-pop.md)
+- [Reset, Revert & Cherry-Pick](./labs/17-reset-revert-cherrypick.md)
+- [Forks & Pull Requests](./labs/19-forks-and-prs.md)
+- [Collaborating Practices](./labs/20-collaboration-practices.md)
+- [Typical Git Workflow](./labs/21-typical-workflow.md)
+- [Trunk-Based Development](./labs/22-trunk-based-development.md)
 
-- [Centralised vs Distributed](./fundamentals/03-centralised-vs-distributed.md)  
-  Why Git’s distributed model is powerful.
-
-- [Git Changed the Game](./fundamentals/04-git-changed-the-game.md)  
-  Git’s impact on engineering workflows.
-
-- [Git is Not a File Tracker](./fundamentals/05-git-not-a-file-tracker.md)  
-  Snapshots, object model, content-addressing.
-
-- [Git Terminology](./fundamentals/06-git-terminology.md)  
-  Repo, commit, branch, remote, HEAD, refs, index.
-
-- [The .git Directory](./fundamentals/07-dotgit-directory.md)  
-  What Git stores and where.
-
-- [Git Common Commands](./fundamentals/08-common-commands.md)  
-  init, add, commit, status, log, diff, clone, push/pull.
-
-- [The Areas of Git](./fundamentals/09-areas-of-git.md)  
-  Working directory → staging → repository.
-
-- [Viewing History](./history/10-viewing-history.md)  
-  git log, git show, git diff, git blame, reflog.
-
-- [Git vs GitHub](./history/11-git-vs-github.md)  
-  Local tool vs hosted platform.
-
-- [Branching 101](./branching/12-branching-101.md)  
-  branch, switch, checkout, delete branches.
-
-- [Merging](./branching/13-merging.md)  
-  fast-forward vs merge commit, conflict resolution.
-
-- [Visualise Branches & Logs](./branching/14-visualise-branches.md)  
-  git log --oneline --graph --all.
-
-- [Rebase vs Merge](./advanced/15-rebase-vs-merge.md)  
-  Clean history vs shared safety.
-
-- [Git Stash & Pop](./advanced/16-stash-and-pop.md)  
-  Pause work and switch context safely.
-
-- [Reset, Revert & Cherry-Pick](./advanced/17-reset-revert-cherrypick.md)  
-  Undoing changes the right way.
-
-- [Forks & Pull Requests](./github/19-forks-and-prs.md)  
-  Open-source and cross-team workflows.
-
-- [Collaborating Practices](./github/20-collaboration-practices.md)  
-  Branch isolation, review, and syncing.
-
-- [Typical Git Workflow](./github/21-typical-workflow.md)  
-  Feature branches → PR → merge.
-
-- [Trunk-Based Development](./github/22-trunk-based-development.md) 
-  Short-lived branches + strong CI.
-
-- [Commit Hygiene & Best Practices](./best-practices/23-commit-hygiene.md)  
-  Clean commits, good messages, squashing.
-
-- [Pre-Commit & Automation](./best-practices/24-precommit-and-automation.md)  
-  Hooks, linters, formatting, CI gates.
-
-- [Common Mistakes in the Real World](./best-practices/25-common-mistakes.md)  
-  Secrets, force push, messy merges.
-
-- [Git at Scale](./best-practices/26-git-at-scale.md)  
-  monorepos, LFS, filter-repo, submodules.
-
-- [Git Security & Secrets Hygiene](./best-practices/27-git-security.md)  
-  preventing leaks, scanning, cleanup.
+### Best Practices
+- [Commit Hygiene & Best Practices](./best-practices/23-commit-hygiene.md)
+- [Pre-Commit & Automation](./best-practices/24-precommit-and-automation.md)
+- [Common Mistakes in the Real World](./best-practices/25-common-mistakes.md)
+- [Git at Scale](./best-practices/26-git-at-scale.md)
+- [Git Security & Secrets Hygiene](./best-practices/27-git-security.md)
 
 ---
 
@@ -133,32 +87,17 @@ The goal is long-term Git fluency that transfers to production workflows.
 
 ## Folder Purpose
 
-### fundamentals/
+### `fundamentals/`
 Core Git concepts explained with examples and reasoning  
 ➡️ [Open fundamentals](./fundamentals)
 
-### labs/
+### `labs/`
 Hands-on Git practice including history inspection, branching workflows, merging, rebasing, and GitHub collaboration  
 ➡️ [Open labs](./labs)
 
-### best-practices/
+### `best-practices/`
 Professional Git usage including commit hygiene, automation, and security practices  
 ➡️ [Open best practices](./best-practices)
-
----
-
-## Hands-On Starts Here
-
-From lesson **18+**, the focus becomes practical GitHub usage:
-
-- Connect to GitHub
-- Set up SSH keys
-- Create a new repo
-- Push your first commits
-- Work with branches, PRs, and team workflows
-- Practice undoing mistakes safely
-
-This is the section interviewers will expect you to know.
 
 ---
 
