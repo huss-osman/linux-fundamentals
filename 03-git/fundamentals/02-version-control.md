@@ -72,4 +72,4 @@ Git becomes the **single source of truth** that drives the entire delivery pipel
 
 ## Reflection
 
-Understanding **version control** is not just about tracking file changes; it is about seeing how systems evolve over time and how teams collaborate safely without losing work. Tools like **Git** allow developers to **experiment**, **review**, and **recover** changes when needed, which makes development and operations far more reliable. In modern **DevOps workflows**, version control becomes the foundation for managing code, infrastructure, and automation, ensuring that every change is recorded and systems can be improved safely over time.
+Understanding **version control** is not just about learning a tool; it is about understanding how changes are tracked, how teams collaborate safely, and how modern systems are managed over time. Tools like **Git** provide the structure that allows teams to experiment, review changes, and recover when something goes wrong, forming the foundation for reliable development and **DevOps workflows**.
