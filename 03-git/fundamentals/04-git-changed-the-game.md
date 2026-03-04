@@ -62,4 +62,4 @@ This makes experimentation, feature development, and bug fixing much easier to m
 
 ## Reflection
 
-Learning how Git was created highlights how tools often emerge from real engineering problems. The Linux kernel needed a system that could handle large-scale collaboration without slowing developers down, and Git’s distributed design solved that challenge. Today, Git is far more than just a version control system — it has become the foundation for modern development workflows, powering everything from open-source collaboration to CI/CD pipelines and infrastructure automation in DevOps environments.
+Learning how **Git** was created highlights how tools often emerge from real engineering problems. The **Linux kernel** needed a system that could handle large-scale collaboration without slowing developers down, and **Git’s distributed design** solved that challenge. Today, **Git** is far more than just a version control system — it has become the foundation for modern development workflows, powering everything from **open-source collaboration** to **CI/CD pipelines** and **infrastructure automation** in **DevOps environments**.
