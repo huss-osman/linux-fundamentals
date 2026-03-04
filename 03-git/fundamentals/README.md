@@ -1,48 +1,53 @@
-﻿# Git Fundamentals
+# Git Fundamentals
 
 ![VCS](https://img.shields.io/badge/VCS-Git-F05032?logo=git&logoColor=white)
-![Focus](https://img.shields.io/badge/Focus-Fundamentals-purple?logo=git&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-GitHub-181717?logo=github&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-Version%20Control-purple?logo=git&logoColor=white)
 
-This section focuses on building a strong understanding of Git through core version control concepts.
+This folder contains my core **Git fundamentals** notes as part of my DevOps training.
 
-Rather than memorising commands, the emphasis is on understanding how Git works internally — snapshots, commits, branches, and repository history.
+Each topic focuses on understanding **how Git works internally**, not just memorising commands or workflows.
+
+Examples are practical, history-focused, and tied to real-world collaboration and DevOps workflows.
 
 ---
 
 ## Topics Covered
 
 - [Git Intro](./01-git-intro.md)  
-  What Git is and why it matters.
+  What Git is, why it exists, and why it became the industry standard.
 
 - [What is Version Control](./02-version-control.md)  
-  Why teams need version control systems.
+  Why teams need version control systems and what problems they solve.
 
 - [Centralised vs Distributed](./03-centralised-vs-distributed.md)  
-  How Git differs from older VCS tools.
+  How Git differs from older VCS tools like SVN.
 
 - [Git Changed the Game](./04-git-changed-the-game.md)  
-  Why Git became the industry standard.
+  Why Git became the dominant version control system.
 
 - [Git is Not a File Tracker](./05-git-not-a-file-tracker.md)  
-  Snapshots vs file-based thinking.
+  Understanding Git’s snapshot model.
 
 - [Git Terminology](./06-git-terminology.md)  
-  Core terms you must understand.
+  Core concepts and vocabulary used in Git workflows.
 
 - [The .git Directory](./07-dotgit-directory.md)  
-  What Git stores and how it works.
+  What Git stores internally and how repositories work.
 
 - [Git Common Commands](./08-common-commands.md)  
-  Commands you use daily and what they do.
+  The commands used daily and what they actually do.
 
 - [The Areas of Git](./09-areas-of-git.md)  
-  Working tree, staging, repository.
+  Working directory, staging area, and repository.
 
 ---
 
 ## Learning Focus
 
-- Build Git mental models (snapshots, commits, pointers)
-- Understand how history is stored and moved
-- Learn concepts before workflows
-- Use Git confidently without guesswork
+- Understand Git’s internal model (snapshots, commits, pointers)
+- Learn how Git tracks and stores project history
+- Develop correct mental models before complex workflows
+- Build a strong foundation for branching, merging, and collaboration
+
+These notes are actively updated as I progress through my DevOps curriculum.
