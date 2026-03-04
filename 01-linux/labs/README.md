@@ -1,3 +1,5 @@
+<img width="1000" height="500" alt="imageedit_1_2398511743" src="https://github.com/user-attachments/assets/58b45cf1-f651-4a20-bd20-bf38d1391151" />
+
 # Linux Labs
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
