@@ -36,7 +36,7 @@ The goal is not just to memorise tools, but to understand how systems behave, au
 
 ## 📁 Featured Folders
 
-### **[🐧 Linux](https://github.com/huss-osman/devops-learning/tree/main/linux)**
+### **[🐧 Linux](https://github.com/huss-osman/devops-learning/tree/main/01-linux)**
 
 Core Linux fundamentals and troubleshooting practice.
 
@@ -47,11 +47,11 @@ Covers:
 - Environment variables
 - Text processing (`grep`, `awk`, `sed`)
 - Pipes and redirection
-- Real-world challenges ([Bandit](./linux/bandit), [SadServers](./linux/sadservers))
+- Real-world challenges [Bandit](./01-linux/labs/bandit), [SadServers](./01-linux/labs/sadservers)
   
 ---
 
-### **[🖥️ Bash Scripting](https://github.com/huss-osman/devops-learning/tree/main/bash-scripting)**
+### **[🖥️ Bash Scripting](https://github.com/huss-osman/devops-learning/tree/main/02-bash)**
 
 Foundational scripting concepts used for automation.
 
@@ -65,6 +65,24 @@ Covers:
 - Piping and redirection
 - Safe scripting practices (`set -e`, `set -u`, etc.)
 - Real-world scripting challenges ([Bash Battle Arena](./bash-scripting/bashbattlearena), [Assignments](./bash-scripting/assignments))
+
+---
+
+### **[🔧 Git & GitHub](https://github.com/huss-osman/devops-learning/tree/main/03-git)**
+
+Version control fundamentals and collaboration workflows used across modern software engineering and DevOps.
+
+Covers:
+- Git architecture and how Git stores snapshots
+- Repository structure and the `.git` directory
+- The three areas (working directory, staging, repository)
+- Viewing and understanding history (`git log`, `git diff`, `git show`)
+- Branching and merging workflows
+- Conflict resolution
+- Rebase vs merge strategies
+- Undoing changes (`reset`, `revert`, `restore`)
+- Working with remotes and GitHub
+- Real-world workflows ([Pull Requests](./03-git/github), [Best Practices](./03-git/best-practices))
 
 ---
 
