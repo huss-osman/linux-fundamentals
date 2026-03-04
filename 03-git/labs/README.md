@@ -3,9 +3,11 @@
 ![VCS](https://img.shields.io/badge/VCS-Git-F05032?logo=git&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Labs-purple?logo=git&logoColor=white)
 
-This section focuses on reinforcing Git fundamentals through structured, hands-on workflows.
+This folder contains **hands-on Git labs** completed as part of my DevOps training.
 
-Rather than following guided notes, the emphasis is on applying knowledge independently and understanding how Git behaves in real development environments.
+The focus is on applying Git fundamentals through practical workflows and building confidence with version control and collaboration.
+
+Labs emphasise experimentation, understanding Git behaviour, and learning how Git manages history, branches, and changes in real development environments.
 
 ---
 
