@@ -82,7 +82,7 @@ Covers:
 - Rebase vs merge strategies
 - Undoing changes (`reset`, `revert`, `restore`)
 - Working with remotes and GitHub
-- Real-world workflows ([Pull Requests](./03-git/github), [Best Practices](./03-git/best-practices))
+- Real-world workflows ([Labs](./03-git/labs), [Best Practices](./03-git/best-practices))
 
 ---
 
