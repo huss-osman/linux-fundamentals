@@ -4,6 +4,7 @@
 
 ![VCS](https://img.shields.io/badge/VCS-Git-F05032?logo=git&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-GitHub-181717?logo=github&logoColor=white)
+![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 
 This folder contains **hands-on Git labs** completed as part of my DevOps training.
