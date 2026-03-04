@@ -1,4 +1,4 @@
-﻿# Git Intro
+﻿# Branching 101
 
 ## Notes
 

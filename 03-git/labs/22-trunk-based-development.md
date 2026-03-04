@@ -1,4 +1,4 @@
-﻿# Git Intro
+﻿# Trunk-Based Development
 
 ## Notes
 

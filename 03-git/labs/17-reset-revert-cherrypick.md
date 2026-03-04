@@ -1,4 +1,4 @@
-﻿# Git Intro
+﻿# Reset, Revert & Cherry-Pick
 
 ## Notes
 

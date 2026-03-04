@@ -1,4 +1,4 @@
-﻿# Git Intro
+﻿# Git at Scale
 
 ## Notes
 

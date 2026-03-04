@@ -1,4 +1,4 @@
-﻿# Git Intro
+﻿# Rebase vs Merge
 
 ## Notes
 

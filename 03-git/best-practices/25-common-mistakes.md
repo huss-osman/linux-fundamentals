@@ -1,4 +1,4 @@
-﻿# Git Intro
+﻿# Common Mistakes in the Real World
 
 ## Notes
 

@@ -1,4 +1,4 @@
-﻿# Git Intro
+﻿# Git Security & Secrets Hygiene
 
 ## Notes
 

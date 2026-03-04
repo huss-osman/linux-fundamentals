@@ -1,4 +1,4 @@
-﻿# Git Intro
+﻿# Commit Hygiene & Best Practices
 
 ## Notes
 

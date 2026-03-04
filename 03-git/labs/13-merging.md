@@ -1,4 +1,4 @@
-﻿# Git Intro
+﻿# Merging
 
 ## Notes
 

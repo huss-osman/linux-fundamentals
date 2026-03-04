@@ -1,4 +1,4 @@
-﻿# Git Intro
+﻿# Visualise Branches & Logs
 
 ## Notes
 

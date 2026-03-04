@@ -1,4 +1,4 @@
-﻿# Git Intro
+﻿# Pre-Commit & Automation
 
 ## Notes
 
