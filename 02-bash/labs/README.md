@@ -2,7 +2,7 @@
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Script](https://img.shields.io/badge/Script-Bash-blue?logo=gnubash)
-![Focus](https://img.shields.io/badge/Focus-Scripting%20Labs-purple?logo=gnubash)
+![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This folder contains **hands-on Bash scripting labs** completed as part of my DevOps training.
 
