@@ -1,4 +1,6 @@
-﻿# Git Labs
+<img width="1000" height="500" alt="imageedit_11_4997435086" src="https://github.com/user-attachments/assets/6dff1916-bd8e-4db0-ad47-af6f1714ef28" />
+
+ # Git Labs
 
 ![VCS](https://img.shields.io/badge/VCS-Git-F05032?logo=git&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Labs-purple?logo=git&logoColor=white)
