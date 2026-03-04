@@ -9,7 +9,7 @@ Mastering Vim improves efficiency when editing configuration files, scripts, and
 
 ## Key Concepts
 
-### `Modes`
+### Modes
 
 - **Normal mode** – default mode for navigation and commands
 - **Insert mode** – used to type text (`i`)
