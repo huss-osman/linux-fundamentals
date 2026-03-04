@@ -107,7 +107,7 @@ Professional Git usage including commit hygiene, automation, and security practi
 
 ---
 
-# Fundamentals
+## Fundamentals
 
 The Fundamentals section focuses on building a strong understanding of Git through core version control concepts and practical examples.
 
@@ -126,7 +126,7 @@ These notes help build a solid foundation for collaboration, CI/CD pipelines, in
 
 ---
 
-# Labs
+## Labs
 
 The Labs section focuses on reinforcing Git fundamentals through structured, hands-on workflows and realistic collaboration scenarios.
 
@@ -145,7 +145,7 @@ These labs are designed to simulate real-world development workflows, helping bu
 
 ---
 
-# Best Practices
+## Best Practices
 
 The Best Practices section focuses on writing clean, maintainable, and safe Git history following standards used in professional engineering teams.
 
