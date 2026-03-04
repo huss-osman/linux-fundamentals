@@ -63,6 +63,7 @@ Topics include:
 - Git objects and repository structure
 
 ➡️ [View Git Terminology](./06-git-terminology.md)
+
 ➡️ [View The .git Directory](./07-dotgit-directory.md)
 
 ---
@@ -101,6 +102,7 @@ Topics include:
 - Resolving merge conflicts without breaking history
 
 ➡️ [View Branching 101](../labs/12-branching-101.md)
+
 ➡️ [View Merging](../labs/13-merging.md)
 
 ---
@@ -123,7 +125,9 @@ git cherry-pick <commit-sha>
 ```
 
 ➡️ [View Rebase vs Merge](../labs/15-rebase-vs-merge.md)
+
 ➡️ [View Git Stash & Pop](../labs/16-stash-and-pop.md)
+
 ➡️ [View Reset, Revert & Cherry-Pick](../labs/17-reset-revert-cherrypick.md)
 
 ---
@@ -149,6 +153,7 @@ git push -u origin main
 ```
 
 ➡️ [View Forks & Pull Requests](../labs/19-forks-and-prs.md)
+
 ➡️ [View Typical Git Workflow](../labs/21-typical-workflow.md)
 
 ---
