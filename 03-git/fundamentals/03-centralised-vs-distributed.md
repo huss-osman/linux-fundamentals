@@ -83,4 +83,4 @@ git pull origin main
 
 ## Reflection
 
-Understanding the difference between **centralised and distributed version control** explains why Git became so widely adopted. By giving every developer a complete repository copy, Git removes many of the limitations of older systems and enables faster, more flexible collaboration.
+Understanding the difference between **centralised and distributed version control** explains why **Git** became so widely adopted. By giving every developer a **complete repository copy**, **Git** removes many of the limitations of older systems and enables faster, more flexible collaboration.
