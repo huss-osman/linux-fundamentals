@@ -26,7 +26,7 @@ Unlike older **centralised systems**, Git introduced a **distributed model** whe
 
 This removes the traditional **central server bottleneck** and allows developers to work independently before synchronising their changes.
 
-➡️ See: [Centralised vs Distributed](./03-centralised-vs-distributed.md)
+➡️ [View Centralised vs Distributed](./03-centralised-vs-distributed.md)
 
 Because history exists locally, Git operations such as commits, branching, and merging are extremely fast.
 
