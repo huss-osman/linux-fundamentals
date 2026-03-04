@@ -17,7 +17,7 @@ The focus throughout this work is on understanding **how Git works (snapshots, b
 
 ---
 
-## Learning Objectives
+# Learning Objectives
 
 By working through this module, I aim to:
 
@@ -35,9 +35,10 @@ By working through this module, I aim to:
 
 ---
 
-## Topics Covered
+# Topics Covered
 
 ### Fundamentals
+
 - [Git Intro](./fundamentals/01-git-intro.md)
 - [What is Version Control](./fundamentals/02-version-control.md)
 - [Centralised vs Distributed](./fundamentals/03-centralised-vs-distributed.md)
@@ -49,6 +50,7 @@ By working through this module, I aim to:
 - [The Areas of Git](./fundamentals/09-areas-of-git.md)
 
 ### Labs
+
 - [Viewing History](./labs/10-viewing-history.md)
 - [Git vs GitHub](./labs/11-git-vs-github.md)
 - [Branching 101](./labs/12-branching-101.md)
@@ -63,6 +65,7 @@ By working through this module, I aim to:
 - [Trunk-Based Development](./labs/22-trunk-based-development.md)
 
 ### Best Practices
+
 - [Commit Hygiene & Best Practices](./best-practices/23-commit-hygiene.md)
 - [Pre-Commit & Automation](./best-practices/24-precommit-and-automation.md)
 - [Common Mistakes in the Real World](./best-practices/25-common-mistakes.md)
@@ -71,7 +74,7 @@ By working through this module, I aim to:
 
 ---
 
-## Learning Approach
+# Learning Approach
 
 This repository reflects how I learn, not just what I learned.
 
@@ -85,29 +88,76 @@ The goal is long-term Git fluency that transfers to production workflows.
 
 ---
 
-## Folder Purpose
+# Folder Purpose
 
 ### `fundamentals/`
+
 Core Git concepts explained with examples and reasoning  
 ➡️ [Open fundamentals](./fundamentals)
 
 ### `labs/`
+
 Hands-on Git practice including history inspection, branching workflows, merging, rebasing, and GitHub collaboration  
 ➡️ [Open labs](./labs)
 
 ### `best-practices/`
+
 Professional Git usage including commit hygiene, automation, and security practices  
 ➡️ [Open best practices](./best-practices)
 
 ---
 
-## Status
+# Fundamentals
 
-Work in progress — continuously updated as I progress through:
+The Fundamentals section focuses on building a strong understanding of Git through core version control concepts and practical examples.
 
-- Branching & merging
-- Rebase & conflict resolution
-- GitHub collaboration workflows
-- Best practices + automation
+Rather than memorising commands, the emphasis is on understanding how Git works internally — snapshots, commits, branches, and repository history.
 
-Push it. Pull it. Rebase it. 🚀
+Each topic covers:
+
+• Core Git concepts and version control theory  
+• How Git stores history and tracks changes  
+• Practical examples of common Git workflows  
+• Key takeaways that reinforce long-term understanding  
+
+These notes help build a solid foundation for collaboration, CI/CD pipelines, infrastructure-as-code workflows, and production development environments.
+
+➡️ [View Fundamentals](./fundamentals)
+
+---
+
+# Labs
+
+The Labs section focuses on reinforcing Git fundamentals through structured, hands-on workflows and realistic collaboration scenarios.
+
+Rather than following guided notes, the emphasis is on applying knowledge independently and understanding how Git behaves in real development environments.
+
+Each lab includes:
+
+• A clearly defined Git workflow or scenario  
+• Practical command-line usage and Git operations  
+• Step-by-step reasoning behind the solution  
+• Key takeaways that strengthen long-term retention  
+
+These labs are designed to simulate real-world development workflows, helping build confidence with branching, merging, rebasing, and collaborative Git practices.
+
+➡️ [View Labs](./labs)
+
+---
+
+# Best Practices
+
+The Best Practices section focuses on writing clean, maintainable, and safe Git history following standards used in professional engineering teams.
+
+Rather than simply completing Git operations, the emphasis is on maintaining readable commit history and preventing common mistakes in collaborative environments.
+
+Each topic covers:
+
+• Writing clear, atomic commits with meaningful messages  
+• Using automation tools such as pre-commit hooks and CI checks  
+• Avoiding common mistakes like force pushing or messy merges  
+• Protecting repositories from credential leaks and security risks  
+
+These practices help ensure Git usage remains professional, scalable, and production-ready across teams.
+
+➡️ [View Best Practices](./best-practices)
