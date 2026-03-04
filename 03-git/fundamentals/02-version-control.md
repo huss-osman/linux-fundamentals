@@ -67,3 +67,9 @@ Git becomes the **single source of truth** that drives the entire delivery pipel
 - Git enables teams to **experiment**, **review**, and **recover** safely
 - Infrastructure and configuration files are also managed through version control
 - In modern DevOps workflows, **Git repositories act as the starting point for automation and deployment pipelines**
+
+---
+
+## Reflection
+
+Understanding **version control** explains why tools like **Git** are so critical in modern engineering workflows. Instead of manually tracking file changes or risking lost work, version control provides a structured history of how systems evolve over time, allowing teams to confidently **experiment**, **review**, and **recover** when something goes wrong. In modern **DevOps environments**, version control also manages **infrastructure configurations**, **deployment pipelines**, and automation scripts, making **Git repositories** the foundation for collaboration, troubleshooting, and continuous improvement.
