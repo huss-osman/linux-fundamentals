@@ -133,28 +133,30 @@ The goal is long-term Git fluency that transfers to production workflows.
 
 ## Folder Purpose
 
-### fundamentals/
+## Folder Purpose
+
+### `fundamentals/`
 Core Git concepts explained with examples and reasoning  
 ➡️ [Open fundamentals](./fundamentals)
 
-### history/
-Understanding logs, diffs, reflog, and reading commit history  
+### `history/`
+Understanding commit history, logs, diffs, and how to inspect repository changes  
 ➡️ [Open history](./history)
 
-### branching/
-Branching, merging, conflicts, and visualising commit graphs  
+### `branching/`
+Branching strategies, merging workflows, and conflict resolution  
 ➡️ [Open branching](./branching)
 
-### advanced/
-Rebase, stash, reset, revert, cherry-pick and recovery workflows  
+### `advanced/`
+Advanced Git workflows including rebase, stash, reset, revert, and cherry-pick  
 ➡️ [Open advanced](./advanced)
 
-### github/
-GitHub workflows: SSH, remotes, forks, PRs, collaboration  
+### `github/`
+GitHub collaboration workflows including remotes, forks, pull requests, and team practices  
 ➡️ [Open GitHub](./github)
 
-### best-practices/
-Commit hygiene, automation, mistakes to avoid, secrets hygiene  
+### `best-practices/`
+Professional Git usage including commit hygiene, automation, and security practices  
 ➡️ [Open best practices](./best-practices)
 
 ---
