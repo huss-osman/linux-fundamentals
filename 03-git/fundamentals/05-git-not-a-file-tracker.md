@@ -2,13 +2,9 @@
 
 ## Overview
 
-Git is often misunderstood as a tool that tracks files line by line like a document editor with version history.
+Git is often misunderstood as a tool that tracks files line by line like a document editor with version history. In reality, **Git does not track files in that way**. Instead of recording individual changes to files, Git records **snapshots of the entire project** at specific points in time. Every time a commit is created, Git captures the state of the repository as it exists at that moment, allowing the full history of the project to be reconstructed later.
 
-In reality, **Git does not track files in that way**. Instead of recording individual file changes, **Git tracks snapshots of the entire project**.
-
-Every time you create a commit, Git captures the state of the repository at that moment in time. Rather than storing only what changed, Git records a snapshot of how the files looked at that point.
-
-This approach allows Git to reconstruct the complete history of a project efficiently.
+This snapshot-based model makes Git extremely efficient. Rather than storing duplicate copies of unchanged data, Git uses **content-addressed storage** with **SHA-1 hashes** to identify file contents and reuse existing objects when possible. Because of this design, Git can manage large repositories and frequent changes reliably, which is one of the reasons it works so well for modern **DevOps workflows** involving infrastructure files, configuration management, and rapidly evolving codebases.
 
 ---
 
