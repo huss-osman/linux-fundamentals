@@ -64,7 +64,7 @@ Covers:
 - File operations
 - Piping and redirection
 - Safe scripting practices (`set -e`, `set -u`, etc.)
-- Real-world scripting challenges ([Bash Battle Arena](./bash-scripting/bashbattlearena), [Assignments](./bash-scripting/assignments))
+- Real-world scripting challenges ([Bash Battle Arena](./02-bash/labs/bashbattlearena), [Assignments](./02-bash/assignments))
 
 ---
 
