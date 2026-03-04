@@ -126,14 +126,6 @@ Core Linux concepts explained with examples and reasoning
 Hands-on applied practice and troubleshooting scenarios  
 ➡️ [Open labs](./labs)
 
-### `labs/bandit/`  
-OverTheWire Bandit wargame solutions (Levels 1–20), including commands used and lessons learned  
-➡️ [Open bandit](./labs/bandit)
-
-### `labs/sadservers/`  
-Real-world Linux troubleshooting scenarios organised by difficulty (Easy, Medium, Hard)  
-➡️ [Open sadservers](./labs/sadservers)
-
 ---
 
 ## Fundamentals
@@ -171,38 +163,3 @@ Each lab includes:
 These labs are designed to simulate production-style environments, helping build troubleshooting instincts and real-world readiness.
 
 ➡️ [View Labs](./labs)
-
----
-
-### Bandit (Levels 1–12)
-
-The OverTheWire Bandit wargame is used to reinforce **Linux fundamentals** through progressively harder challenges.
-
-Each level documents:
-- The challenge goal
-- Commands used
-- A brief explanation of why the solution works
-- A key learning takeaway
-
-Bandit is treated as a **learning exercise**, not a puzzle to brute-force.  
-The emphasis is on understanding Linux behaviour rather than memorising solutions.
-
-➡️ [View Bandit solutions](./labs/bandit)
-
----
-
-### SadServers (Easy, Medium, Hard)
-
-SadServers scenarios are used to simulate real-world Linux issues commonly encountered in production environments.
-
-Unlike guided challenges, SadServers presents broken systems with minimal context, requiring structured investigation and reasoning.
-
-Notes focus on:
-- Observing symptoms and system behaviour
-- Forming and testing hypotheses
-- Applying fixes deliberately
-- Understanding root causes rather than surface-level symptoms
-
-These exercises help develop production-grade troubleshooting and operational thinking.
-
-➡️ [View SadServers notes](./labs/sadservers)
