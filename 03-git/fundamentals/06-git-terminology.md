@@ -10,40 +10,40 @@ Rather than thinking of Git as just a set of commands, it helps to understand th
 
 ## Key Concepts
 
-**Repository**  
+- **Repository**  
 A Git project folder that contains tracked files and a hidden `.git` directory where Git stores its data and history.
 
-**Commit**  
+- **Commit**  
 A snapshot of the project at a specific point in time. Each commit includes metadata such as the author, timestamp, message, and a reference to the previous commit.
 
-**Branch**  
+- **Branch**  
 A movable pointer to a specific commit. Branches allow developers to work on features, fixes, or experiments without affecting the main project history.
 
-**Remote**  
+- **Remote**  
 A reference to a repository hosted elsewhere (such as GitHub or GitLab). The default remote is usually named `origin`.
 
-**Staging Area (Index)**  
+- **Staging Area (Index)**  
 A buffer between the working directory and the repository. Files added here are prepared for the next commit.
 
-**Blob**  
+- **Blob**  
 Short for “binary large object”. Blobs store the actual contents of files inside Git.
 
-**Tree**  
+- **Tree**  
 Represents a directory structure. Trees store filenames, paths, and pointers to blobs or other trees.
 
-**Refs (References)**  
+- **Refs (References)**  
 Pointers to commits, such as branches (`refs/heads`), tags (`refs/tags`), and special references like `HEAD`.
 
-**HEAD**  
+- **HEAD**  
 A special pointer that indicates the current branch or commit you are working on.
 
-**Index**  
+- **Index**  
 The internal `.git/index` file that stores information about what is currently staged.
 
-**Object Store**  
+- **Object Store**  
 The `.git/objects` directory where Git stores all objects (blobs, trees, and commits) identified by SHA hashes.
 
-**Tag**  
+- **Tag**  
 A reference that points to a specific commit, often used to mark release versions.
 
 ---
