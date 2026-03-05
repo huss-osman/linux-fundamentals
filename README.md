@@ -108,4 +108,6 @@ The emphasis is on **understanding system behaviour**, not memorising commands.
 - Networking
 - Docker
 - AWS
+- Terraform
 - CI/CD
+- Kubernetes
