@@ -30,28 +30,28 @@ git restore   # undo file changes
 
 ## Key Concept
 
-**git init**  
+- **git init**  
 Initialises a new **Git repository** by creating the **.git directory**, which stores the repository’s **history** and **configuration**.
 
-**git add**  
+- **git add**  
 Moves file changes into the **staging area**, preparing them for the next **commit**.
 
-**git commit**  
+- **git commit**  
 Creates a **snapshot** of staged changes and adds it to the **repository history**.
 
-**git status**  
+- **git status**  
 Displays the current state of the **working directory** and **staging area**.
 
-**git log**  
+- **git log**  
 Shows the **commit history**, including commit messages, authors, and timestamps.
 
-**git diff**  
+- **git diff**  
 Displays the differences between file versions or **commits**.
 
-**git clone**  
+- **git clone**  
 Creates a local copy of a **remote repository**.
 
-**git config**  
+- **git config**  
 Used to configure **Git settings**, such as username and email.
 
 ---
