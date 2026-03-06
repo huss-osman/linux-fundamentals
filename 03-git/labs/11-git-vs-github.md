@@ -2,13 +2,9 @@
 
 ## Overview
 
-**Git** and **GitHub** are often mentioned together, but they serve different roles in modern software development.
+**Git** and **GitHub** are often mentioned together, but they serve different roles in modern software development. **Git** is a distributed **version control system** that tracks changes to files and allows developers to manage project history locally. It enables developers to commit changes, create branches, and experiment safely without affecting the main codebase. Because Git is distributed, every developer has a full copy of the repository and its history on their machine.
 
-**Git** is a distributed **version control system** that tracks changes to files and allows developers to manage project history locally. It enables developers to commit changes, create branches, and experiment safely without affecting the main codebase.
-
-**GitHub**, on the other hand, is a **platform that hosts Git repositories**. It provides collaboration features such as pull requests, issue tracking, and code reviews, allowing teams to work together on shared projects.
-
-In DevOps environments, **Git is the foundation**, while platforms like **GitHub, GitLab, or Bitbucket** provide the infrastructure for collaboration and automation around Git repositories.
+**GitHub**, on the other hand, is a **platform that hosts Git repositories** and enables collaboration between developers. It provides features such as pull requests, issue tracking, and code reviews, allowing teams to share code and work together on projects. In modern **DevOps environments**, **Git is the foundation**, while platforms like **GitHub**, **GitLab**, or **Bitbucket** provide the infrastructure for collaboration, automation, and integration with CI/CD workflows.
 
 ---
 
