@@ -10,14 +10,14 @@ Rather than saving changes immediately, **Git** follows a structured workflow th
 
 ## Key Concepts
 
-- Working Directory
+- **Working Directory**
   
 The **working directory** is the area where files are actively edited.  
 This is the current state of your project on disk before changes are staged or committed.
 
 Changes made here are not yet tracked by **Git** until they are explicitly staged.
 
-- Staging Area (Index)
+- **Staging Area (Index)**
   
 The **staging area**, also known as the **index**, acts as a preparation step before committing.
 
@@ -25,7 +25,7 @@ Files added to the staging area are marked as changes that will be included in t
 
 This allows developers to carefully choose which modifications become part of the project history.
 
-- Repository (.git)
+- **Repository (.git)**
   
 The **repository** is where **Git** permanently stores the project’s history.
 
