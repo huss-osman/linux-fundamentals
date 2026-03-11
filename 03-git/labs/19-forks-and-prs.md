@@ -16,8 +16,7 @@ A **fork** is your personal copy of someone else’s repository on GitHub.
 
 If you do not have write access to a repository, GitHub requires you to fork it before proposing changes.
 
-<img width="602" height="139" alt="image" src="https://github.com/user-attachments/assets/a2e00b7f-419d-47aa-9039-a5e3fd27fdb8" />
-
+<img width="536" height="126" alt="image" src="https://github.com/user-attachments/assets/c6d88ae2-7632-40ee-a499-39c14100775d" />
 
 Forking allows you to:
 
