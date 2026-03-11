@@ -42,7 +42,7 @@ git stash list
 
 This allows the same stash to be reused if needed.
 
-<img width="862" height="254" alt="image" src="https://github.com/user-attachments/assets/dbb3e963-f558-4509-a81f-5abc56fd7539" />
+<img width="867" height="257" alt="image" src="https://github.com/user-attachments/assets/14027a12-90da-41eb-85ed-47ec378a9c1b" />
 
 ```bash
 git stash apply
