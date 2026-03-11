@@ -17,7 +17,7 @@ In collaborative environments, merging enables multiple developers to work indep
 <img width="767" height="143" alt="git merge" src="https://github.com/user-attachments/assets/35039ce9-3cd5-484f-ba61-4e7fa0989aec" />
 
 ```bash
-git merge feature-branch
+git merge feature-branch-demo
 ```
 
 ---
@@ -25,10 +25,6 @@ git merge feature-branch
 ### **Fast-forward merge**
 
 A fast-forward merge occurs when the current branch has not diverged from the target branch. Git simply moves the branch pointer forward without creating a new merge commit.
-
-```bash
-git merge feature-branch
-```
 
 ---
 
