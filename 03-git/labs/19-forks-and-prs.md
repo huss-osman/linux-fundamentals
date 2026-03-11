@@ -2,11 +2,9 @@
 
 ## Overview
 
-In collaborative development, especially in **open source projects**, contributors often do not have direct write access to the main repository. Instead, they work through a process involving **forks** and **pull requests**.
+In collaborative development, especially in open source projects, contributors often do not have direct write access to the main repository. Instead of committing directly to the project, developers work through a process involving **forks** and **pull requests** to propose their changes safely.
 
-A **fork** creates your own copy of another repository on GitHub. This allows you to freely experiment, make changes, and push updates without affecting the original project. Once your changes are ready, you can submit them back to the original repository through a **Pull Request (PR)** for review.
-
-This workflow enables safe collaboration between many developers while maintaining control over the main project.
+A **fork** creates your own copy of another repository on GitHub, allowing you to experiment, make changes, and **push** updates without affecting the original project. Once your changes are ready, you open a **Pull Request (PR)** so the repository maintainers can review, discuss, and potentially merge your contributions into the main codebase.
 
 ---
 
