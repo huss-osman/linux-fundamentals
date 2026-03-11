@@ -35,7 +35,7 @@ Typical flow:
 
 ---
 
-### Cloning your fork
+### **Cloning your fork**
 
 After forking a repository, you clone your fork to your local machine so you can work on it.
 
@@ -47,7 +47,7 @@ This creates a local copy of your fork.
 
 ---
 
-### Making changes and pushing to your fork
+### **Making changes and pushing to your fork**
 
 Once the repository is cloned, you can create branches, make changes, and push them to your fork.
 
@@ -61,7 +61,7 @@ The changes are pushed to **your fork**, not the original repository.
 
 ---
 
-### Opening a Pull Request (PR)
+### **Opening a Pull Request (PR)**
 
 A **Pull Request** proposes your changes to the original repository.
 
