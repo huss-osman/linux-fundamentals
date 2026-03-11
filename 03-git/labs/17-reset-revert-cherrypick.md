@@ -76,7 +76,7 @@ git log --oneline
 
 This is useful when you want to bring over a single fix or change without merging the entire branch.
 
-<img width="2000" height="448" alt="image" src="https://github.com/user-attachments/assets/e3a67ae4-c3ca-4e03-bb29-6fb5411a4a99" />
+<img width="2000" height="448" alt="image" src="https://github.com/user-attachments/assets/209e3d73-a42d-4bdf-b97b-be34921c282e" />
 
 ```bash
 git cherry-pick <commit>
