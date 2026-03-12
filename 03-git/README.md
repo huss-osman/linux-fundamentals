@@ -39,59 +39,130 @@ By working through this module, I aim to:
 
 ### Fundamentals
 
-- [Git Intro](./fundamentals/01-git-intro.md)
-- [What is Version Control](./fundamentals/02-version-control.md)
-- [Centralised vs Distributed](./fundamentals/03-centralised-vs-distributed.md)
-- [Git Changed the Game](./fundamentals/04-git-changed-the-game.md)
-- [Git is Not a File Tracker](./fundamentals/05-git-not-a-file-tracker.md)
-- [Git Terminology](./fundamentals/06-git-terminology.md)
-- [The .git Directory](./fundamentals/07-dotgit-directory.md)
-- [Git Common Commands](./fundamentals/08-common-commands.md)
-- [The Areas of Git](./fundamentals/09-areas-of-git.md)
+- [Git Intro](./fundamentals/01-git-intro.md)  
+  What Git is, why it exists, and why it became the industry standard.
 
-- [Viewing History](./fundamentals/10-viewing-history.md)
-- [Git vs GitHub](./fundamentals/11-git-vs-github.md)
-- [Visualise Branches & Logs](./fundamentals/14-visualise-branches.md)
-- [Rebase vs Merge](./fundamentals/15-rebase-vs-merge.md)
+- [What is Version Control](./fundamentals/02-version-control.md)  
+  Understanding version control systems and the problems they solve.
 
-- [Git Stash & Pop](./fundamentals/16-stash-and-pop.md)
-- [Reset, Revert & Cherry-Pick](./fundamentals/17-reset-revert-cherrypick.md)
-- [Connect to GitHub](./fundamentals/18-connect-to-github.md)
-- [Forks & Pull Requests](./fundamentals/19-forks-and-prs.md)
+- [Centralised vs Distributed](./fundamentals/03-centralised-vs-distributed.md)  
+  How Git differs from older systems like SVN.
 
-- [Collaborating Practices](./fundamentals/20-collaboration-practices.md)
-- [Typical Git Workflow](./fundamentals/21-typical-workflow.md)
-- [Trunk-Based Development](./fundamentals/22-trunk-based-development.md)
+- [Git Changed the Game](./fundamentals/04-git-changed-the-game.md)  
+  Why Git became the dominant version control system.
+
+- [Git is Not a File Tracker](./fundamentals/05-git-not-a-file-tracker.md)  
+  Understanding Git’s snapshot model instead of file tracking.
+
+- [Git Terminology](./fundamentals/06-git-terminology.md)  
+  Core Git concepts such as commits, branches, HEAD, and remotes.
+
+- [The .git Directory](./fundamentals/07-dotgit-directory.md)  
+  How Git stores repository history and metadata internally.
+
+- [Git Common Commands](./fundamentals/08-common-commands.md)  
+  Essential Git commands used in everyday workflows.
+
+- [The Areas of Git](./fundamentals/09-areas-of-git.md)  
+  Working directory, staging area, and repository.
+
+- [Viewing History](./fundamentals/10-viewing-history.md)  
+  Exploring commit history using logs and diffs.
+
+- [Git vs GitHub](./fundamentals/11-git-vs-github.md)  
+  Understanding the difference between Git and hosting platforms.
+
+- [Visualise Branches & Logs](./fundamentals/14-visualise-branches.md)  
+  Understanding repository history using visual commit graphs.
+
+- [Rebase vs Merge](./fundamentals/15-rebase-vs-merge.md)  
+  Comparing two common strategies for integrating branches.
+
+- [Git Stash & Pop](./fundamentals/16-stash-and-pop.md)  
+  Temporarily saving work without committing changes.
+
+- [Reset, Revert & Cherry-Pick](./fundamentals/17-reset-revert-cherrypick.md)  
+  Safely undoing changes and manipulating commit history.
+
+- [Connect to GitHub](./fundamentals/18-connect-to-github.md)  
+  Linking local repositories to remote hosting platforms.
+
+- [Forks & Pull Requests](./fundamentals/19-forks-and-prs.md)  
+  Understanding GitHub collaboration workflows.
+
+- [Collaborating Practices](./fundamentals/20-collaboration-practices.md)  
+  Best practices for working with teams using Git.
+
+- [Typical Git Workflow](./fundamentals/21-typical-workflow.md)  
+  Common development workflows used in real projects.
+
+- [Trunk-Based Development](./fundamentals/22-trunk-based-development.md)  
+  A modern branching strategy used in CI/CD environments.
 
 ---
 
 ### Labs
 
-- [GitHub SignUp Hands-On](./labs/28-github-signup.md)
-- [SSH Key](./labs/29-ssh-key.md)
-- [Git Verify Login](./labs/30-git-verify-login.md)
-- [New Repository](./labs/31-new-repository.md)
-- [First Repository Push](./labs/32-first-repository-push.md)
-- [Branching & Merging](./labs/33-branching-and-merging.md)
-- [Git Workflow](./labs/34-git-workflow.md)
-- [Undoing in Git](./labs/35-undoing-in-git.md)
-- [Git Stash](./labs/36-git-stash.md)
-- [Git Rebase & Squash](./labs/37-git-rebase-and-squash.md)
-- [Git Cherry-Pick](./labs/38-git-cherry-pick.md)
-- [The `.gitignore`](./labs/39-gitignore.md)
-- [Git Amend](./labs/40-git-amend.md)
-- [Pre-Commit](./labs/41-precommit.md)
+- [GitHub SignUp Hands-On](./labs/28-github-signup.md)  
+  Creating and configuring a GitHub account.
+
+- [SSH Key](./labs/29-ssh-key.md)  
+  Setting up SSH authentication for secure Git operations.
+
+- [Git Verify Login](./labs/30-git-verify-login.md)  
+  Confirming authentication between Git and GitHub.
+
+- [New Repository](./labs/31-new-repository.md)  
+  Creating a repository and initializing Git.
+
+- [First Repository Push](./labs/32-first-repository-push.md)  
+  Pushing a local repository to GitHub.
+
+- [Branching & Merging](./labs/33-branching-and-merging.md)  
+  Creating branches and merging them into the main branch.
+
+- [Git Workflow](./labs/34-git-workflow.md)  
+  Practicing the standard development workflow.
+
+- [Undoing in Git](./labs/35-undoing-in-git.md)  
+  Safely reversing mistakes using Git commands.
+
+- [Git Stash](./labs/36-git-stash.md)  
+  Temporarily saving work to switch branches safely.
+
+- [Git Rebase & Squash](./labs/37-git-rebase-and-squash.md)  
+  Cleaning up commit history using interactive rebase.
+
+- [Git Cherry-Pick](./labs/38-git-cherry-pick.md)  
+  Applying specific commits from one branch to another.
+
+- [The `.gitignore`](./labs/39-gitignore.md)  
+  Preventing unnecessary files from entering version control.
+
+- [Git Amend](./labs/40-git-amend.md)  
+  Modifying the most recent commit.
+
+- [Pre-Commit](./labs/41-precommit.md)  
+  Automating checks and formatting before commits.
 
 ---
 
 ### Best Practices
 
-- [Commit Hygiene & Best Practices](./best-practices/23-commit-hygiene.md)
-- [Pre-Commit & Automation](./best-practices/24-precommit-and-automation.md)
-- [Common Mistakes in the Real World](./best-practices/25-common-mistakes.md)
-- [Git at Scale](./best-practices/26-git-at-scale.md)
-- [Git Security & Secrets Hygiene](./best-practices/27-git-security.md)
+- [Commit Hygiene & Best Practices](./best-practices/23-commit-hygiene.md)  
+  Writing clear, atomic commits with meaningful messages.
 
+- [Pre-Commit & Automation](./best-practices/24-precommit-and-automation.md)  
+  Using hooks and automation to enforce repository standards.
+
+- [Common Mistakes in the Real World](./best-practices/25-common-mistakes.md)  
+  Avoiding dangerous Git mistakes that break repositories.
+
+- [Git at Scale](./best-practices/26-git-at-scale.md)  
+  Managing Git repositories in large teams and projects.
+
+- [Git Security & Secrets Hygiene](./best-practices/27-git-security.md)  
+  Preventing credential leaks and maintaining secure repositories.
 ---
 
 # Learning Approach
