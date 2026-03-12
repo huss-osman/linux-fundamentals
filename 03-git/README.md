@@ -49,20 +49,40 @@ By working through this module, I aim to:
 - [Git Common Commands](./fundamentals/08-common-commands.md)
 - [The Areas of Git](./fundamentals/09-areas-of-git.md)
 
+- [Viewing History](./fundamentals/10-viewing-history.md)
+- [Git vs GitHub](./fundamentals/11-git-vs-github.md)
+- [Visualise Branches & Logs](./fundamentals/14-visualise-branches.md)
+- [Rebase vs Merge](./fundamentals/15-rebase-vs-merge.md)
+
+- [Git Stash & Pop](./fundamentals/16-stash-and-pop.md)
+- [Reset, Revert & Cherry-Pick](./fundamentals/17-reset-revert-cherrypick.md)
+- [Connect to GitHub](./fundamentals/18-connect-to-github.md)
+- [Forks & Pull Requests](./fundamentals/19-forks-and-prs.md)
+
+- [Collaborating Practices](./fundamentals/20-collaboration-practices.md)
+- [Typical Git Workflow](./fundamentals/21-typical-workflow.md)
+- [Trunk-Based Development](./fundamentals/22-trunk-based-development.md)
+
+---
+
 ### Labs
 
-- [Viewing History](./labs/10-viewing-history.md)
-- [Git vs GitHub](./labs/11-git-vs-github.md)
-- [Branching 101](./labs/12-branching-101.md)
-- [Merging](./labs/13-merging.md)
-- [Visualise Branches & Logs](./labs/14-visualise-branches.md)
-- [Rebase vs Merge](./labs/15-rebase-vs-merge.md)
-- [Git Stash & Pop](./labs/16-stash-and-pop.md)
-- [Reset, Revert & Cherry-Pick](./labs/17-reset-revert-cherrypick.md)
-- [Forks & Pull Requests](./labs/19-forks-and-prs.md)
-- [Collaborating Practices](./labs/20-collaboration-practices.md)
-- [Typical Git Workflow](./labs/21-typical-workflow.md)
-- [Trunk-Based Development](./labs/22-trunk-based-development.md)
+- [GitHub SignUp Hands-On](./labs/28-github-signup.md)
+- [SSH Key](./labs/29-ssh-key.md)
+- [Git Verify Login](./labs/30-git-verify-login.md)
+- [New Repository](./labs/31-new-repository.md)
+- [First Repository Push](./labs/32-first-repository-push.md)
+- [Branching & Merging](./labs/33-branching-and-merging.md)
+- [Git Workflow](./labs/34-git-workflow.md)
+- [Undoing in Git](./labs/35-undoing-in-git.md)
+- [Git Stash](./labs/36-git-stash.md)
+- [Git Rebase & Squash](./labs/37-git-rebase-and-squash.md)
+- [Git Cherry-Pick](./labs/38-git-cherry-pick.md)
+- [The `.gitignore`](./labs/39-gitignore.md)
+- [Git Amend](./labs/40-git-amend.md)
+- [Pre-Commit](./labs/41-precommit.md)
+
+---
 
 ### Best Practices
 
@@ -92,17 +112,24 @@ The goal is long-term Git fluency that transfers to production workflows.
 
 ### `fundamentals/`
 
-Core Git concepts explained with examples and reasoning  
+Core Git concepts explained with examples and reasoning.
+
 ➡️ [Open fundamentals](./fundamentals)
+
+---
 
 ### `labs/`
 
-Hands-on Git practice including history inspection, branching workflows, merging, rebasing, and GitHub collaboration  
+Hands-on Git practice including repository setup, branching workflows, rebasing, and GitHub integration.
+
 ➡️ [Open labs](./labs)
+
+---
 
 ### `best-practices/`
 
-Professional Git usage including commit hygiene, automation, and security practices  
+Professional Git usage including commit hygiene, automation, and security practices.
+
 ➡️ [Open best practices](./best-practices)
 
 ---
@@ -117,10 +144,10 @@ Each topic covers:
 
 • Core Git concepts and version control theory  
 • How Git stores history and tracks changes  
-• Practical examples of common Git workflows  
+• Practical examples that explain common Git workflows  
 • Key takeaways that reinforce long-term understanding  
 
-These notes help build a solid foundation for collaboration, CI/CD pipelines, infrastructure-as-code workflows, and production development environments.
+These notes help build a solid foundation for collaboration, CI/CD pipelines, infrastructure-as-code workflows, and modern software development environments.
 
 ➡️ [View Fundamentals](./fundamentals)
 
@@ -128,18 +155,18 @@ These notes help build a solid foundation for collaboration, CI/CD pipelines, in
 
 ## Labs
 
-The Labs section focuses on reinforcing Git fundamentals through structured, hands-on workflows and realistic collaboration scenarios.
+The Labs section focuses on applying Git knowledge through structured **hands-on exercises and real command-line workflows**.
 
-Rather than following guided notes, the emphasis is on applying knowledge independently and understanding how Git behaves in real development environments.
+These labs simulate real development scenarios such as creating repositories, pushing code, branching, merging, and undoing mistakes.
 
 Each lab includes:
 
-• A clearly defined Git workflow or scenario  
+• A clearly defined Git task or workflow  
 • Practical command-line usage and Git operations  
 • Step-by-step reasoning behind the solution  
-• Key takeaways that strengthen long-term retention  
+• Key takeaways that reinforce practical Git skills  
 
-These labs are designed to simulate real-world development workflows, helping build confidence with branching, merging, rebasing, and collaborative Git practices.
+These exercises help build confidence using Git in real-world development environments and collaborative projects.
 
 ➡️ [View Labs](./labs)
 
