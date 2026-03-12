@@ -6,11 +6,13 @@
 ![Platform](https://img.shields.io/badge/Platform-GitHub-181717?logo=github&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Version%20Control-purple?logo=git&logoColor=white)
 
-This folder contains my core **Git fundamentals** notes as part of my DevOps training.
+## Overview
 
-Each topic focuses on understanding **how Git works internally**, not just memorising commands or workflows.
+This folder contains **Git fundamentals** notes completed as part of my DevOps training.
 
-Examples are practical, history-focused, and tied to real-world collaboration and DevOps workflows.
+The focus is on understanding how Git works internally rather than memorising commands.
+
+Topics emphasise Git concepts, history, branching models, and collaboration workflows.
 
 ---
 
@@ -41,13 +43,52 @@ Examples are practical, history-focused, and tied to real-world collaboration an
   The commands used daily and what they actually do.
 
 - [The Areas of Git](./09-areas-of-git.md)  
-  Working directory, staging area, and repository.
+  Understanding the working directory, staging area, and repository.
+
+- [Viewing History](./10-viewing-history.md)  
+  Inspecting commit history using logs and diffs.
+
+- [Git vs GitHub](./11-git-vs-github.md)  
+  Understanding the difference between Git and hosting platforms.
+
+- [Branching 101](./12-branching-101.md)  
+  Creating and managing branches safely.
+
+- [Merging](./13-merging.md)  
+  Combining branches and handling merge conflicts.
+
+- [Visualise Branches & Logs](./14-visualise-branches.md)  
+  Viewing commit history using graph visualisation.
+
+- [Rebase vs Merge](./15-rebase-vs-merge.md)  
+  Understanding two common methods for integrating branches.
+
+- [Git Stash & Pop](./16-stash-and-pop.md)  
+  Temporarily saving work without committing changes.
+
+- [Reset, Revert & Cherry-Pick](./17-reset-revert-cherrypick.md)  
+  Safe tools for undoing and modifying history.
+
+- [Connect to GitHub](./18-connect-to-github.md)  
+  Linking local repositories to remote hosting platforms.
+
+- [Forks & Pull Requests](./19-forks-and-prs.md)  
+  Collaboration workflows used on GitHub.
+
+- [Collaborating Practices](./20-collaboration-practices.md)  
+  Team practices for maintaining clean repository history.
+
+- [Typical Git Workflow](./21-typical-workflow.md)  
+  The common development flow using add, commit, and push.
+
+- [Trunk-Based Development](./22-trunk-based-development.md)  
+  A modern branching strategy used in CI/CD environments.
 
 ---
 
 ## Learning Focus
 
-- Understand Git’s internal model (snapshots, commits, pointers)
+- Understand Git’s internal model (snapshots, commits, and pointers)
 - Learn how Git tracks and stores project history
 - Develop correct mental models before complex workflows
 - Build a strong foundation for branching, merging, and collaboration
