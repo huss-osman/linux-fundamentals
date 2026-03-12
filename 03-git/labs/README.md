@@ -1,63 +1,69 @@
 <img width="1000" height="500" alt="imageedit_1_5532347099" src="https://github.com/user-attachments/assets/00b72374-28fb-4a24-9fc6-9e93f37a8f11" />
 
- # Git Labs
+# Git Labs
 
 ![VCS](https://img.shields.io/badge/VCS-Git-F05032?logo=git&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-GitHub-181717?logo=github&logoColor=white)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-
 This folder contains **hands-on Git labs** completed as part of my DevOps training.
 
 The focus is on applying Git fundamentals through practical workflows and building confidence with version control and collaboration.
 
-Labs emphasise experimentation, understanding Git behaviour, and learning how Git manages history, branches, and changes in real development environments.
+Labs emphasise experimentation and understanding how Git behaves in real development environments.
 
 ---
 
 ## Topics Covered
 
-- [Viewing History](./10-viewing-history.md)  
-  Logs, diffs, and understanding changes.
+- [GitHub SignUp Hands-On](./28-github-signup.md)  
+  Creating and configuring a GitHub account.
 
-- [Git vs GitHub](./11-git-vs-github.md)  
-  Local Git vs remote platforms.
+- [SSH Key](./29-ssh-key.md)  
+  Setting up secure authentication for GitHub.
 
-- [Branching 101](./12-branching-101.md)  
-  Creating branches safely and confidently.
+- [Git Verify Login](./30-git-verify-login.md)  
+  Verifying SSH authentication and GitHub connectivity.
 
-- [Merging](./13-merging.md)  
-  Merging branches and handling conflicts.
+- [New Repository](./31-new-repository.md)  
+  Creating a repository and initializing Git.
 
-- [Visualise Branches & Logs](./14-visualise-branches.md)  
-  Seeing history clearly with graphs.
+- [First Repository Push](./32-first-repository-push.md)  
+  Connecting a local repository to GitHub and pushing code.
 
-- [Rebase vs Merge](./15-rebase-vs-merge.md)  
-  Choosing the right integration method.
+- [Branching & Merging](./33-branching-and-merging.md)  
+  Creating branches and merging changes safely.
 
-- [Git Stash & Pop](./16-stash-and-pop.md)  
-  Saving work temporarily and recovering it.
+- [Git Workflow](./34-git-workflow.md)  
+  Practicing the standard add → commit → push development workflow.
 
-- [Reset, Revert & Cherry-Pick](./17-reset-revert-cherrypick.md)  
-  Safe undo tools and targeted changes.
+- [Undoing in Git](./35-undoing-in-git.md)  
+  Safely recovering from mistakes using Git commands.
 
-- [Forks & Pull Requests](./19-forks-and-prs.md)  
-  GitHub workflows for collaboration.
+- [Git Stash](./36-git-stash.md)  
+  Temporarily saving work when switching contexts.
 
-- [Collaborating Practices](./20-collaboration-practices.md)  
-  Team habits that prevent repo chaos.
+- [Git Rebase & Squash](./37-git-rebase-and-squash.md)  
+  Cleaning up commit history before sharing changes.
 
-- [Typical Git Workflow](./21-typical-workflow.md)  
-  A clean add → commit → push flow.
+- [Git Cherry-Pick](./38-git-cherry-pick.md)  
+  Applying specific commits from one branch to another.
 
-- [Trunk-Based Development](./22-trunk-based-development.md)  
-  Shipping quickly with safe branching rules.
+- [The `.gitignore`](./39-gitignore.md)  
+  Preventing unnecessary files from entering version control.
+
+- [Git Amend](./40-git-amend.md)  
+  Modifying the most recent commit.
+
+- [Pre-Commit](./41-precommit.md)  
+  Automating checks before commits are created.
 
 ---
 
 ## Learning Focus
 
-- Build confidence using real workflows
-- Get comfortable resolving conflicts
-- Learn safe recovery techniques (revert, reflog)
-- Collaborate using GitHub like a real team
+- Build confidence using real Git workflows
+- Understand how Git behaves during common operations
+- Practice safe recovery techniques such as revert and reset
+- Learn how GitHub collaboration works in practice
+- Reinforce Git fundamentals through hands-on experimentation
