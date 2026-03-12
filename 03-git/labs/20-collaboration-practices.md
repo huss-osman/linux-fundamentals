@@ -56,8 +56,10 @@ These practices ensure code quality and shared understanding across the team.
 
 When multiple developers modify the same code, **merge conflicts** can occur. A key **collaboration practice** is resolving these conflicts before merging code into the main branch.
 
+<img width="700" height="142" alt="git mergep2" src="https://github.com/user-attachments/assets/6a79fd3c-237f-4ce5-acd8-50238a7a77ad" />
+
 ```bash
-git merge main
+git merge feature-demo
 ```
 
 Developers should resolve conflicts locally and test the changes before completing the merge.
