@@ -1,7 +1,11 @@
-# The .gitignore
+# Using .gitignore
 
 ## Overview
 
 ## Key Concepts
 
-### Concept / Command
+## Commands
+
+## Key Takeaways
+
+## Reflection

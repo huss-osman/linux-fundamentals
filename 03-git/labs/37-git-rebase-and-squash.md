@@ -1,7 +1,11 @@
-# Git Rebase & Squash
+# Git Rebase and Squash
 
 ## Overview
 
 ## Key Concepts
 
-### Concept / Command
+## Commands
+
+## Key Takeaways
+
+## Reflection

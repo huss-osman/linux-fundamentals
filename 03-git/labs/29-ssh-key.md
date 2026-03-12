@@ -1,7 +1,11 @@
-# SSH Key
+# SSH Key Setup
 
 ## Overview
 
 ## Key Concepts
 
-### Concept / Command
+## Commands
+
+## Key Takeaways
+
+## Reflection

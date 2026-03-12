@@ -1,7 +1,11 @@
-# Pre-Commit
+# Pre-Commit Hooks
 
 ## Overview
 
 ## Key Concepts
 
-### Concept / Command
+## Commands
+
+## Key Takeaways
+
+## Reflection

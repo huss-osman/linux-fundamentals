@@ -1,7 +1,11 @@
-# Branching & Merging
+# Branching and Merging
 
 ## Overview
 
 ## Key Concepts
 
-### Concept / Command
+## Commands
+
+## Key Takeaways
+
+## Reflection
