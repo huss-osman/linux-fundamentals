@@ -71,6 +71,8 @@ git add .
 git commit -m "Add new feature"
 
 git push origin feature-branch
+
+git pull --rebase origin main
 ```
 
 ---
@@ -92,5 +94,3 @@ git push origin feature-branch
 ## Reflection
 
 Understanding a **typical Git workflow** is essential for working effectively in a team environment. By using **feature branches**, **Pull Requests**, and regularly synchronising with the **main branch**, developers can collaborate without overwriting each other's work. This workflow forms the foundation of modern development practices and integrates closely with **GitHub**, **CI/CD pipelines**, and professional **software engineering workflows**.
-
-git pull --rebase origin main
