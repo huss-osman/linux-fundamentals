@@ -2,11 +2,9 @@
 
 ## Overview
 
-Connecting a local Git repository to **GitHub** allows developers to store their work remotely, collaborate with others, and keep a secure backup of their project history.
+Connecting a local **Git repository** to **GitHub** allows developers to store their work remotely, collaborate with others, and maintain a secure backup of their project history. By linking a repository to a **remote repository**, changes can be shared across teams and accessed from different environments.
 
-Once connected, changes made locally can be pushed to GitHub, and updates made by others can be pulled back into the local repository. This connection is managed through a **remote repository**, commonly named `origin`.
-
-Understanding how to connect a repository to **GitHub** is essential because it enables collaboration, version sharing, and integration with modern development workflows such as CI/CD pipelines.
+Once connected, developers can use commands like **`git push`** to send commits to **GitHub** and **`git pull`** to retrieve updates from the remote repository. This connection enables collaboration and supports modern development workflows such as **version control**, **team collaboration**, and **CI/CD pipelines**.
 
 ---
 
