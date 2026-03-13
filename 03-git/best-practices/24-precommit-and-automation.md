@@ -28,6 +28,8 @@ Tools such as **pre-commit**, **Husky**, or language-specific linters can automa
 
 Automated checks help stop commits that fail tests or break formatting rules. This prevents unstable code from entering the repository and improves overall code reliability.
 
+---
+
 ### Integration with CI Pipelines
 
 Pre-commit checks often work alongside **CI pipelines**. While pre-commit hooks run locally before commits, CI pipelines run additional tests and scans after code is pushed to the repository.
