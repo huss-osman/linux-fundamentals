@@ -40,3 +40,22 @@ git filter-repo --path secrets.txt --invert-paths
 
 ---
 
+## Key Takeaways
+
+- Never commit **secrets** or **credentials** to a **Git repository**.
+
+- Tools like **git-secrets** and **TruffleHog** help detect exposed secrets.
+
+- Removing secrets requires rewriting **Git history**, not just deleting files.
+
+- Use `.gitignore` to prevent sensitive files from being tracked.
+
+- Regular **repository audits** help maintain **security** and accountability.
+
+---
+
+## Reflection
+
+Maintaining strong **Git security hygiene** is critical for protecting sensitive information and maintaining trust within development teams. Accidental leaks of **API keys**, **tokens**, or **credentials** can expose systems to serious **security risks** if not detected quickly.
+
+By using **secret scanning tools**, enforcing good **repository practices**, and auditing **Git history**, teams can significantly reduce the risk of **security breaches** and ensure that repositories remain safe for collaboration and deployment workflows.
