@@ -48,7 +48,7 @@ Covers:
 - Text processing (`grep`, `awk`, `sed`)
 - Pipes and redirection
 - Practical labs including [Bandit](./01-linux/labs/bandit), [Linux Practice](./01-linux/labs/linux-practice), and [SadServers](./01-linux/labs/sadservers)
-  
+
 ---
 
 ### **[🖥️ Bash Scripting](https://github.com/huss-osman/devops-learning/tree/main/02-bash)**
@@ -64,7 +64,7 @@ Covers:
 - File operations
 - Piping and redirection
 - Safe scripting practices (`set -e`, `set -u`, etc.)
-- Real-world scripting challenges ([Bash Battle Arena](./02-bash/labs/bashbattlearena), [Assignments](./02-bash/assignments))
+- Real-world scripting challenges including [Bash Battle Arena](./02-bash/labs/bashbattlearena) and [Assignments](./02-bash/assignments)
 
 ---
 
@@ -82,7 +82,7 @@ Covers:
 - Rebase vs merge strategies
 - Undoing changes (`reset`, `revert`, `restore`)
 - Working with remotes and GitHub
-- Real-world workflows ([Labs](./03-git/labs), [Best Practices](./03-git/best-practices))
+- Real-world workflows including [Labs](./03-git/labs) and [Best Practices](./03-git/best-practices)
 
 ---
 
