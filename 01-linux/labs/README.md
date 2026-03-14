@@ -42,7 +42,7 @@ The emphasis is on understanding Linux behaviour rather than memorising solution
 
 ---
 
-## Linux Practice (Shell Fundamentals)
+## Linux Practice (Shell Scripting Fundamentals)
 
 Linux Practice exercises focus on building practical Bash scripting skills through small, targeted scripts.
 
