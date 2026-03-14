@@ -42,6 +42,37 @@ The emphasis is on understanding Linux behaviour rather than memorising solution
 
 ---
 
+## Linux Practice (Shell Fundamentals)
+
+Linux Practice exercises focus on building practical Bash scripting skills through small, targeted scripts.
+
+Each script explores a core concept used when writing automation or operational scripts in Linux environments.
+
+Common scripting topics include:
+
+- Working with variables and environment variables
+- Using conditional logic (`if`, `elif`, `else`)
+- Writing loops (`for`, `while`)
+- Creating reusable shell functions
+- Reading files and processing input
+- Handling errors and exit codes
+- Understanding basic shell behaviour
+
+These exercises strengthen skills in:
+
+- Writing simple automation scripts
+- Structuring shell scripts clearly
+- Understanding script execution behaviour
+- Applying command-line tools inside scripts
+
+Practice scripts are organised by topic to make it easier to explore specific concepts and reinforce learning.
+
+These exercises help develop **practical scripting ability**, which is commonly used in system administration, infrastructure automation, and CI/CD pipelines.
+
+➡️ [View Linux Practice scripts](./linux-practice)
+
+---
+
 ## SadServers (Easy, Medium, Hard)
 
 **SadServers** scenarios simulate real-world Linux failures that engineers might encounter in production environments.
@@ -66,42 +97,6 @@ Notes focus on:
 These exercises help develop **production-grade troubleshooting and operational thinking**.
 
 ➡️ [View SadServers notes](./sadservers)
-
----
-
-## Linux Practice (Shell Fundamentals)
-
-Linux Practice exercises focus on building **foundational Bash scripting skills** through small, focused scripts.
-
-Each script explores a specific concept commonly used in automation, system administration, and DevOps workflows.
-
-Common scripting topics include:
-
-- Working with variables and environment variables
-- Conditional logic (`if`, `elif`, `else`)
-- Looping constructs (`for`, `while`)
-- Creating reusable functions
-- Reading files and handling user input
-- Error handling and exit codes
-- Basic text processing and piping
-
-Scripts are organised by concept to make the learning process structured and easy to navigate.
-
-Practice labs focus on:
-
-- Understanding how shell scripts behave in real environments
-- Writing simple automation scripts
-- Reinforcing command-line fundamentals
-- Preparing for infrastructure automation tasks
-
-These exercises strengthen the ability to write **small operational scripts**, which are commonly used in:
-
-- deployment automation
-- system administration tasks
-- CI/CD pipelines
-- infrastructure management
-
-➡️ [View Linux Practice scripts](./linux-practice)
 
 ---
 
