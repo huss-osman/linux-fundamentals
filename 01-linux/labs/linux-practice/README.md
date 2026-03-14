@@ -1,6 +1,4 @@
-<p align="center">
-<img width="100" height="100" alt="Bash" src="https://github.com/user-attachments/assets/58b45cf1-f651-4a20-bd20-bf38d1391151" />
-<p align="center">
+<img width="1000" height="500" alt="Bash" src="https://github.com/user-attachments/assets/58b45cf1-f651-4a20-bd20-bf38d1391151" /> 
 
 # Linux Practice
 
