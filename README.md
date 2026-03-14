@@ -38,7 +38,7 @@ The goal is not just to memorise tools, but to understand how systems behave, au
 
 ### **[🐧 Linux](https://github.com/huss-osman/devops-learning/tree/main/01-linux)**
 
-Core Linux fundamentals and troubleshooting practice.
+Core Linux fundamentals and hands-on operational practice.
 
 Covers:
 - Terminal basics and filesystem navigation
@@ -47,7 +47,7 @@ Covers:
 - Environment variables
 - Text processing (`grep`, `awk`, `sed`)
 - Pipes and redirection
-- Real-world challenges [Bandit](./01-linux/labs/bandit), [SadServers](./01-linux/labs/sadservers))
+- Practical labs including [Bandit](./01-linux/labs/bandit), [Linux Practice](./01-linux/labs/linux-practice), and [SadServers](./01-linux/labs/sadservers)
   
 ---
 
