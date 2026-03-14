@@ -146,11 +146,12 @@ These notes help build a solid foundation for Docker, Kubernetes, CI/CD, and clo
 ➡️ [View Fundamentals](./fundamentals)
 
 ---
+
 ## Labs
 
-The Labs section focuses on reinforcing Linux knowledge through hands-on command-line practice, scripting exercises, and real-world troubleshooting scenarios.
+The Labs section focuses on reinforcing Linux knowledge through hands-on command-line practice, scripting exercises, and troubleshooting scenarios.
 
-Rather than following guided notes, the emphasis is on applying knowledge independently, investigating issues methodically, and developing operational confidence.
+Rather than following guided notes, the emphasis is on applying Linux knowledge through investigation and practice.
 
 Each lab covers:
 
@@ -160,3 +161,5 @@ Each lab covers:
 • Key takeaways that reinforce long-term understanding  
 
 These labs help build practical experience working with Linux systems in environments similar to production infrastructure.
+
+➡️ [View Labs](./labs)
