@@ -69,6 +69,42 @@ These exercises help develop **production-grade troubleshooting and operational 
 
 ---
 
+## Linux Practice (Shell Fundamentals)
+
+Linux Practice exercises focus on building **foundational Bash scripting skills** through small, focused scripts.
+
+Each script explores a specific concept commonly used in automation, system administration, and DevOps workflows.
+
+Common scripting topics include:
+
+- Working with variables and environment variables
+- Conditional logic (`if`, `elif`, `else`)
+- Looping constructs (`for`, `while`)
+- Creating reusable functions
+- Reading files and handling user input
+- Error handling and exit codes
+- Basic text processing and piping
+
+Scripts are organised by concept to make the learning process structured and easy to navigate.
+
+Practice labs focus on:
+
+- Understanding how shell scripts behave in real environments
+- Writing simple automation scripts
+- Reinforcing command-line fundamentals
+- Preparing for infrastructure automation tasks
+
+These exercises strengthen the ability to write **small operational scripts**, which are commonly used in:
+
+- deployment automation
+- system administration tasks
+- CI/CD pipelines
+- infrastructure management
+
+➡️ [View Linux Practice scripts](./linux-practice)
+
+---
+
 ## Learning Focus
 
 - Apply Linux knowledge through real problem solving
