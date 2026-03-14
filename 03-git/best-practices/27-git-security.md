@@ -12,13 +12,19 @@ To reduce the risk of leaks, teams use tools that detect secrets before commits 
 
 Sensitive information should never be committed to a **Git repository**. Secrets such as **API keys**, **database credentials**, or **private tokens** must be stored securely using environment variables or secret management systems.
 
+---
+
 ### Secret Scanning Tools
 
 Tools like **git-secrets** and **TruffleHog** scan repositories for exposed secrets. These tools help detect sensitive information before it becomes part of the **Git history**.
 
+---
+
 ### Cleaning Secrets from History
 
 If secrets are accidentally committed, they must be removed from the **repository history** using tools such as `git filter-repo`. Simply deleting the file is not enough because Git keeps historical snapshots.
+
+---
 
 ### Auditing Contributors and Logs
 
