@@ -60,10 +60,29 @@ The **private key must remain secure and should never be shared.**
 
 ### View the Public Key
 
-
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/print_publickey_demo.png">
 
 ```bash
 cat ~/.ssh/demo_key.pub
 ```
 
-This command prints the public SSH key, which will be added to GitHub.
+This command prints the **public SSH key**, which will be added to **GitHub**.
+
+---
+
+### Copy the Public Key
+
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/print_publickey_demo.png">
+
+```bash
+cat ~/.ssh/demo_key.pub | pbcopy
+```
+
+This copies the **public key** to your clipboard.
+
+---
+
+
+
+
+
