@@ -71,9 +71,9 @@ These commands configure the global Git identity used for commit attribution.
 
 ## Key Takeaways
 
-- Git must be installed locally before interacting with repositories.
+- **Git** must be installed locally before interacting with repositories.
 
-- The git --version command verifies that Git is installed correctly.
+- The `git --version` command verifies that Git is installed correctly.
 
 - Package managers simplify installing Git across different operating systems.
 
@@ -81,4 +81,8 @@ These commands configure the global Git identity used for commit attribution.
 
 ---
 
-## 
+## Reflection
+
+Setting up **Git** locally is a fundamental step in modern development workflows. Installing **Git** and configuring user identity ensures that version control operations function correctly and that commits can be traced back to the correct developer.
+
+Understanding this setup process prepares developers for more advanced workflows such as branching strategies, collaboration through pull requests, and integration with **CI/CD pipelines**.
