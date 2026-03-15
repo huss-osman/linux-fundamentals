@@ -22,8 +22,10 @@ Setting up an SSH key improves security and simplifies workflows by allowing sea
 
 ### Generate SSH Key
 
-<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/installgit.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/configssh.png">
 
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/demo_key
 ```
+
+This command generates a new **ED25519 SSH key pair**.
