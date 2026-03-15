@@ -110,7 +110,7 @@ This copies the **public key** to your clipboard.
 
 Once added, the SSH key will appear in the **SSH Keys list** associated with your GitHub account.
 
-<img width="1699" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_sshkey_demo.png">
+<img width="1699" src="https://github.com/huss-osman/devops-learning/blob/main/images/added_sshkey_demo.png">
 
 ---
 
