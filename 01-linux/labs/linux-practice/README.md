@@ -1,4 +1,6 @@
-<img width="1000" height="500" alt="Linux Labs Banner" src="./banner.png">
+<p align="center">
+<img width="1000" height="500" alt="Linux Practice Banner" src="https://raw.githubusercontent.com/huss-osman/devops-learning/main/images/linux-pratice.png">
+</p>
 
 # Linux Practice
 
