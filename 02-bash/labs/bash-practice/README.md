@@ -1,5 +1,5 @@
 <p align="center">
-<img width="1000" height="500" alt="Bash Practice Banner" src="https://github.com/huss-osman/devops-learning/tree/main/images">
+<img width="1000" height="500" alt="Bash Practice Banner" src="https://raw.githubusercontent.com/huss-osman/devops-learning/main/images/bash-practice-banner.png">
 </p>
 
 # Bash Practice
