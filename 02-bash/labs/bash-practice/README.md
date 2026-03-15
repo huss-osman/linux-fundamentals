@@ -1,120 +1,145 @@
 <p align="center">
-<img width="1000" height="500" alt="Linux Practice Banner" src="https://raw.githubusercontent.com/huss-osman/devops-learning/main/images/linux-pratice.png">
+<img width="1000" height="500" alt="Bash Practice Banner" src="https://raw.githubusercontent.com/huss-osman/devops-learning/main/images/linux-pratice.png">
 </p>
 
 # Bash Practice
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
-![Focus](https://img.shields.io/badge/Focus-Automation-purple)
-![Practice](https://img.shields.io/badge/Practice-Scripting-orange)
+![Focus](https://img.shields.io/badge/Focus-Core%20Scripting-purple)
+![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-## Bash Practice (Script Exercises)
+These exercises focus on reinforcing **core Bash scripting fundamentals** through small, practical scripts organised by topic.
 
-These exercises focus on learning **Bash scripting fundamentals** through small, targeted scripts.
+Each script is designed to:
 
-Unlike [Bandit](../bandit), which focuses on command-line discovery, and [SadServers](../sadservers), which focuses on troubleshooting production scenarios, these labs focus on **writing scripts to automate Linux tasks**.
+- Reinforce one core Bash concept at a time  
+- Use clear, readable structure  
+- Encourage experimentation and debugging  
+- Build confidence with command-line automation  
 
-The goal is to build familiarity with how shell scripts behave and how command-line tools can be combined to perform repeatable tasks.
-
-Each script explores a specific scripting concept used in automation and system administration.
-
----
-
-## Script Categories
-
-### Basics
-**Focus:** Understanding how shell scripts run and interact with the system.
-
-Scripts:
-- [`hello_world.sh`](./basics/hello_world.sh)
-- [`my-first-script.sh`](./basics/my-first-script.sh)
-- [`arithmetic.sh`](./basics/arithmetic.sh)
+> [!TIP]  
+> Run each script yourself before reading too much into the folder structure.  
+> Use `bash -x`, `set -x`, `man`, and `--help` to understand how commands behave.
 
 ---
 
-### Variables
-**Focus:** Working with shell variables and environment variables.
+### Basics  
+**Folder:** [basics](./basics)  
+**Concepts:** Script execution, output, arithmetic  
 
-Scripts:
-- [`var.sh`](./variables/var.sh)
-- [`readenv_variable.sh`](./variables/readenv_variable.sh)
-- [`standardenv_variable.sh`](./variables/standardenv_variable.sh)
+**Focus:** Learning how Bash scripts run and how simple commands behave inside scripts.
 
----
+**Scripts**
 
-### Conditionals
-**Focus:** Controlling script flow using logical conditions.
-
-Scripts:
-- [`ifstatement.sh`](./conditionals/ifstatement.sh)
-- [`elseifstatement.sh`](./conditionals/elseifstatement.sh)
-- [`nested_if_statements.sh`](./conditionals/nested_if_statements.sh)
+- [hello_world.sh](./basics/hello_world.sh)  
+- [my-first-script.sh](./basics/my-first-script.sh)  
+- [arithmetic.sh](./basics/arithmetic.sh)  
 
 ---
 
-### Loops
-**Focus:** Automating repetitive operations.
+### Variables  
+**Folder:** [variables](./variables)  
+**Concepts:** Variables, parameters, environment values  
 
-Scripts:
-- [`for_loops.sh`](./loops/for_loops.sh)
-- [`while_loops.sh`](./loops/while_loops.sh)
+**Focus:** Understanding how Bash stores and uses values during script execution.
 
----
+**Scripts**
 
-### Functions
-**Focus:** Creating reusable code blocks.
-
-Scripts:
-- [`functions.sh`](./functions/functions.sh)
+- [var.sh](./variables/var.sh)  
+- [readenv_variable.sh](./variables/readenv_variable.sh)  
+- [standardenv_variable.sh](./variables/standardenv_variable.sh)  
 
 ---
 
-### Files and Input
-**Focus:** Working with files and reading input from the filesystem.
+### Conditionals  
+**Folder:** [conditionals](./conditionals)  
+**Concepts:** `if`, `elif`, branching logic  
 
-Examples:
-- [`hello.txt`](./files/hello.txt)
-- [`read.txt`](./files/read.txt)
-- [`combine.txt`](./files/combine.txt)
-- [`multilinecopy.txt`](./files/multilinecopy.txt)
+**Focus:** Controlling execution flow based on conditions and user-defined checks.
 
----
+**Scripts**
 
-### Miscellaneous Script Behaviour
-**Focus:** Understanding how scripts behave in operational scenarios.
-
-Scripts:
-- [`error_handling.sh`](./misc/error_handling.sh)
-- [`exit_code.sh`](./misc/exit_code.sh)
-- [`filecheck_sums.sh`](./misc/filecheck_sums.sh)
-- [`piping.sh`](./misc/piping.sh)
-- [`reading_files.sh`](./misc/reading_files.sh)
-- [`script.sh`](./misc/script.sh)
-- [`set_e.sh`](./misc/set_e.sh)
-- [`user_input.sh`](./misc/user_input.sh)
+- [ifstatement.sh](./conditionals/ifstatement.sh)  
+- [elseifstatement.sh](./conditionals/elseifstatement.sh)  
+- [nested_if_statements.sh](./conditionals/nested_if_statements.sh)  
 
 ---
 
-## Skills Practised
+### Loops  
+**Folder:** [loops](./loops)  
+**Concepts:** Repetition, iteration, automation  
 
-- Writing and executing Bash scripts
-- Structuring scripts logically
-- Using variables and conditions
-- Automating repetitive tasks
-- Understanding how Linux commands interact inside scripts
+**Focus:** Automating repeated operations and understanding loop behaviour in Bash.
 
----
+**Scripts**
 
-## Key Lessons
-
-- Small scripts can automate repetitive system tasks
-- Bash scripting relies heavily on combining existing Linux tools
-- Clear structure and readability make scripts easier to maintain
+- [for_loops.sh](./loops/for_loops.sh)  
+- [while_loops.sh](./loops/while_loops.sh)  
 
 ---
 
-## Reflection
+### Functions  
+**Folder:** [functions](./functions)  
+**Concepts:** Reusable code, modular scripting  
 
-These exercises helped reinforce core Bash scripting concepts and build confidence writing small automation scripts in Linux.  
-They form a foundation for later topics such as infrastructure automation, CI/CD pipelines, and deployment scripting.
+**Focus:** Writing cleaner Bash scripts by grouping logic into reusable functions.
+
+**Scripts**
+
+- [functions.sh](./functions/functions.sh)  
+
+---
+
+### Files  
+**Folder:** [files](./files)  
+**Concepts:** File input, text handling, simple file operations  
+
+**Focus:** Working with text files and understanding how Bash interacts with file content.
+
+**Examples**
+
+- [hello.txt](./files/hello.txt)  
+- [read.txt](./files/read.txt)  
+- [combine.txt](./files/combine.txt)  
+- [multilinecopy.txt](./files/multilinecopy.txt)  
+- [test.txt](./files/test.txt)  
+- [test2.txt](./files/test2.txt)  
+
+---
+
+### Miscellaneous Script Behaviour  
+**Folder:** [misc](./misc)  
+**Concepts:** Error handling, exit codes, pipes, input, script behaviour  
+
+**Focus:** Exploring how Bash behaves in more operational and defensive scripting scenarios.
+
+**Scripts**
+
+- [error_handling.sh](./misc/error_handling.sh)  
+- [exit_code.sh](./misc/exit_code.sh)  
+- [filecheck_sums.sh](./misc/filecheck_sums.sh)  
+- [piping.sh](./misc/piping.sh)  
+- [reading_files.sh](./misc/reading_files.sh)  
+- [script.sh](./misc/script.sh)  
+- [set_e.sh](./misc/set_e.sh)  
+- [user_input.sh](./misc/user_input.sh)  
+
+---
+
+## Skills Reinforced
+
+- Writing and executing Bash scripts  
+- Working with variables and parameters  
+- Using loops, conditionals, and functions  
+- Processing files and command output  
+- Understanding script execution behaviour  
+- Building small automation habits  
+
+---
+
+## Learning Outcome
+
+These exercises help bridge the gap between running commands manually and writing small, structured Bash scripts for automation.
+
+By focusing on repetition, readability, and execution flow, they reinforce the habits needed for real-world scripting, debugging, and operational work.
