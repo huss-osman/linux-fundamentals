@@ -102,5 +102,32 @@ This copies the **public key** to your clipboard.
 
 3. Click **Add SSH Key**
 
+<img width="1699" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_sshkey_demo.png">
 
+---
 
+### Confirm SSH Key Added
+
+Once added, the SSH key will appear in the **SSH Keys list** associated with your GitHub account.
+
+<img width="1699" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_sshkey_demo.png">
+
+---
+
+## Key Takeaways
+
+- **SSH keys** provide secure authentication for **GitHub** without requiring passwords.
+
+- The **public key** is uploaded to GitHub while the **private key** remains on your local machine.
+
+- Using **ED25519 keys** provides strong security and is recommended for modern SSH authentication.
+
+- SSH authentication enables seamless interaction with repositories when pushing or pulling changes.
+
+---
+
+## Reflection
+
+Setting up **SSH authentication with GitHub** improves both security and developer workflow efficiency. Instead of repeatedly entering credentials when interacting with remote repositories, SSH keys provide a secure cryptographic method for verifying identity.
+
+By generating an SSH key pair, adding the public key to **GitHub**, and configuring repositories to use SSH, developers create a more streamlined development environment. This approach is widely used in professional **DevOps environments**, where secure automated access to repositories and infrastructure is essential.
