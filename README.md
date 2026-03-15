@@ -64,8 +64,8 @@ Covers:
 - File operations
 - Piping and redirection
 - Safe scripting practices (`set -e`, `set -u`, etc.)
-- Real-world scripting challenges including [Bash Battle Arena](./02-bash/labs/bashbattlearena) and [Assignments](./02-bash/assignments)
-
+- Real-world scripting challenges including [Bash Practice](./02-bash/labs/bash-practice), [Bash Battle Arena](./02-bash/labs/bashbattlearena), and [Assignments](./02-bash/assignments)
+- 
 ---
 
 ### **[🔧 Git & GitHub](https://github.com/huss-osman/devops-learning/tree/main/03-git)**
