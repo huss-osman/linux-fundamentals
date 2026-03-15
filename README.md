@@ -47,7 +47,7 @@ Covers:
 - Environment variables
 - Text processing (`grep`, `awk`, `sed`)
 - Pipes and redirection
-- Practical labs including [Bandit](./01-linux/labs/bandit), [Linux Practice](./01-linux/labs/linux-practice), and [SadServers](./01-linux/labs/sadservers)
+- Practical labs including [Bandit](./01-linux/labs/bandit), and [SadServers](./01-linux/labs/sadservers)
 
 ---
 
