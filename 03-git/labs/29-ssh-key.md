@@ -22,10 +22,24 @@ Setting up an SSH key improves security and simplifies workflows by allowing sea
 
 ### Generate SSH Key
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/configssh.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_ssh_config.png">
 
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/demo_key
 ```
 
 This command generates a new **ED25519 SSH key pair**.
+
+- `-t ed25519` specifies the modern SSH key algorithm.
+
+- `-C` adds a comment (usually your email).
+
+- `-f` defines a custom filename for the key.
+
+After running the command, you will be prompted to enter a **passphrase**. This step is optional and can be skipped by pressing **Enter**.
+
+---
+
+### Verify SSH Key Files
+
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_ssh_config.png">
