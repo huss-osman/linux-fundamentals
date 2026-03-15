@@ -28,6 +28,17 @@ These exercises strengthen skills in:
 - Processing files and command output  
 - Understanding script execution behaviour  
 
+Each exercise documents:
+
+- The **script goal**
+- The **Bash concept being explored**
+- The **commands and patterns used**
+- A brief explanation of **why the script works**
+- A key **learning takeaway**
+
+Bash Practice is treated as a **learning exercise**, not a collection of isolated scripts.  
+The emphasis is on understanding **how Bash behaves in automation scenarios**, rather than memorising syntax.
+
 ➡️ [View Bash Practice](./bash-practice)
 
 ---
