@@ -2,7 +2,7 @@
 <img width="1000" height="500" alt="Linux Practice Banner" src="https://raw.githubusercontent.com/huss-osman/devops-learning/main/images/linux-pratice.png">
 </p>
 
-# Linux Practice
+# Bash Practice
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
@@ -10,7 +10,7 @@
 ![Level](https://img.shields.io/badge/Level-Beginner%20→%20Intermediate-darkgreen)
 ![Practice](https://img.shields.io/badge/Practice-Shell%20Automation-orange)
 
-## Linux Practice (Shell Scripting Fundamentals)
+## Bash Practice (Shell Scripting Fundamentals)
 
 These exercises focus on learning **Bash scripting fundamentals** through small, targeted scripts.
 
