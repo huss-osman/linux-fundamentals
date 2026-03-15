@@ -10,7 +10,7 @@
 ![Level](https://img.shields.io/badge/Level-Beginner%20→%20Intermediate-darkgreen)
 ![Practice](https://img.shields.io/badge/Practice-Shell%20Automation-orange)
 
-## Bash Practice (Shell Scripting Fundamentals)
+## Bash Practice (Script Exercises)
 
 These exercises focus on learning **Bash scripting fundamentals** through small, targeted scripts.
 
