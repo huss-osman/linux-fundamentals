@@ -72,7 +72,7 @@ This command prints the **public SSH key**, which will be added to **GitHub**.
 
 ### Copy the Public Key
 
-<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/print_publickey_demo.png">
+<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_publickey_copy.png">
 
 ```bash
 cat ~/.ssh/demo_key.pub | pbcopy
@@ -81,6 +81,15 @@ cat ~/.ssh/demo_key.pub | pbcopy
 This copies the **public key** to your clipboard.
 
 ---
+
+### Add SSH Key to GitHub
+
+1. Open GitHub Settings
+
+2. Navigate to SSH and GPG Keys
+
+3. Click New SSH Key
+
 
 
 
