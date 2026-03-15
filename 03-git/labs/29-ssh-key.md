@@ -42,4 +42,28 @@ After running the command, you will be prompted to enter a **passphrase**. This 
 
 ### Verify SSH Key Files
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_ssh_config.png">
+<img width="400" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_key_files.png">
+
+```bash
+ls ~/.ssh/
+```
+
+After generation, two files should appear:
+
+- demo_key → **Private key**
+
+- demo_key.pub → **Public key**
+
+The **private key must remain secure and should never be shared.**
+
+---
+
+### View the Public Key
+
+
+
+```bash
+cat ~/.ssh/demo_key.pub
+```
+
+This command prints the public SSH key, which will be added to GitHub.
