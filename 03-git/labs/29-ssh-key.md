@@ -90,9 +90,17 @@ This copies the **public key** to your clipboard.
 
 3. Click **New SSH Key**
 
-<img width="1699" src="https://github.com/huss-osman/devops-learning/blob/main/images/githubsettings.png">
+<img width="1699" src="https://github.com/huss-osman/devops-learning/blob/main/images/setting_ssh_github.png">
 
+---
 
+### Paste the SSH Key
+
+1. Add a descriptive **title**
+
+2. Paste the **public SSH key**
+
+3. Click **Add SSH Key**
 
 
 
