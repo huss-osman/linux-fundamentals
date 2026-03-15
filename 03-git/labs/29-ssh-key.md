@@ -90,6 +90,7 @@ This copies the **public key** to your clipboard.
 
 3. Click New SSH Key
 
+<img width="1699" src="https://github.com/huss-osman/devops-learning/blob/main/images/githubsettings.png">
 
 
 
