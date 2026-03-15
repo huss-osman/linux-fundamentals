@@ -6,9 +6,8 @@
 
 ![OS](https://img.shields.io/badge/OS-Linux-blue?logo=linux)
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
-![Focus](https://img.shields.io/badge/Focus-Scripting-purple?logo=linux)
-![Level](https://img.shields.io/badge/Level-Beginner%20→%20Intermediate-darkgreen)
-![Practice](https://img.shields.io/badge/Practice-Shell%20Automation-orange)
+![Focus](https://img.shields.io/badge/Focus-Automation-purple)
+![Practice](https://img.shields.io/badge/Practice-Scripting-orange)
 
 ## Bash Practice (Script Exercises)
 
