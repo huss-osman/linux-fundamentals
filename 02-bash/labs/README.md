@@ -14,6 +14,24 @@ Labs emphasise experimentation, understanding shell behaviour, and learning how 
 
 ---
 
+## Bash Practice (Script Exercises)
+
+**Bash Practice** contains small scripting exercises focused on understanding how Bash behaves when executing commands and scripts.
+
+Rather than level-based challenges, these exercises explore individual scripting concepts through practical examples.
+
+These exercises strengthen skills in:
+
+- Writing and structuring Bash scripts  
+- Working with variables and environment values  
+- Using loops, conditionals, and functions  
+- Processing files and command output  
+- Understanding script execution behaviour  
+
+➡️ [View Bash Practice](./bash-practice)
+
+---
+
 ## Bash Battle Arena (Levels 1–15)
 
 **Bash Battle Arena** is used to reinforce Bash fundamentals through progressively harder scripting challenges.
