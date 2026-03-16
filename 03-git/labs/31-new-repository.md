@@ -112,26 +112,47 @@ Since no remote repository has been configured yet, Git returns an error indicat
 
 ---
 
-### Add the Remote Repository
+## Add the Remote Repository
 
-1. Click **GitHub Profile Icon**
+### 1. Click **GitHub Profile Icon**
 
-2. Navigate to **Profile Section**
+### 2. Navigate to **Profile Section**
 
-<img width="1699" src="https://github.com/huss-osman/devops-learning/blob/main/images/navigate_to_profile.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/navigate_to_profile.png">
 
-3. Click **Repositories** 
+### 3. Click **Repositories** 
 
 <img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/navigate_to_repositories.png">
 
-4. Click **New**
+### 4. Click **New**
 
 <img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/navigate_to_new.png">
 
-5. Create **Repository**
+### 5. Create empty **Repository**
 
-<img width="500" src="  https://github.com/huss-osman/devops-learning/blob/main/images/create_repo.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_repo.png">
 
+> [!NOTE]
+> - Add **Repository name**
+> - Click **Public or Private** for visibility (preference)
+> - Keep **Add README** off in this going to commit
+> - `.gitignore` template is good. Howver, this is kept as empty as it will be used in the future
+
+### 6. Remote **Clone Repository**
+
+<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/copy_clone.png">
+
+> [!IMPORTANT]
+> We have already:
+> - Added contents to **README** file
+> - initialised **Git Repository** using `git innit`
+> - Added **README** file, ready to be staged
+> - **Committed** a useful message
+> - Have branch as **Main**, previously as **Master branch** now changed to **Main**
+ 
+### 7. Copy **command locally**
+
+<img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_remote_clone.png">
 
 ```bash
 git remote add origin https://github.com/username/git-labs.git
