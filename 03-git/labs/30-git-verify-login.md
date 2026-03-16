@@ -2,10 +2,72 @@
 
 ## Overview
 
+After configuring an **SSH key** with **GitHub**, it is important to verify that authentication works correctly.  
+This ensures that **Git** can communicate with **GitHub** securely without requiring a username, password, or personal access token.
+
+By testing the SSH connection, developers confirm that their **local machine is trusted by GitHub** and ready to push or pull repositories.
+
+---
+
 ## Key Concepts
+
+- **SSH Authentication** – Uses cryptographic keys to securely authenticate with GitHub.
+- **SSH Agent** – A background process that stores and manages SSH keys.
+- **ssh-add** – Adds an SSH key to the SSH agent for authentication.
+- **SSH Test Connection** – Verifies that GitHub recognizes your machine.
+
+---
 
 ## Commands
 
+### Add SSH Key to SSH Agent
+
+Before testing the connection, load the SSH key into the SSH agent.
+
+```bash
+ssh-add ~/.ssh/coderco_demo
+```
+
+This allows the SSH agent to use the private key for authentication.
+
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/sshconfig.png">
+
+---
+
+### Verify SSH Authentication
+
+Run the following command to test the SSH connection to GitHub:
+
+```bash
+ssh -T git@github.com
+```
+
+If authentication is successful, GitHub will respond with a confirmation message.
+
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/sshlogin.png">
+
+Example response:
+
+```
+Hi username! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+This message confirms that **GitHub recognizes your SSH key and authentication is working correctly**.
+
+---
+
 ## Key Takeaways
 
+- **SSH authentication** allows secure communication between **Git** and **GitHub** without passwords.
+- The **ssh-add command** loads a private key into the SSH agent.
+- Running **ssh -T git@github.com** verifies that authentication is configured correctly.
+- Successful verification confirms the machine can interact with **GitHub repositories**.
+
+---
+
 ## Reflection
+
+Verifying SSH authentication ensures that **Git operations such as cloning, pulling, and pushing repositories work securely using SSH keys**.  
+Running the connection test confirms that **GitHub recognizes the configured SSH key and trusts the local machine**.
+
+Completing this verification step is an important part of the **Git setup process**, ensuring that developers can interact with repositories without authentication interruptions.
