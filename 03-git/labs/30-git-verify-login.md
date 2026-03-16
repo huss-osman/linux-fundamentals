@@ -38,15 +38,13 @@ This allows the SSH agent to use the private key for authentication.
 
 Run the following command to test the SSH connection to GitHub:
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/sshlogin.png">
+<img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/ssh_auth_demo.png">
 
 ```bash
 ssh -T git@github.com
 ```
 
 If authentication is successful, GitHub will respond with a confirmation message.
-
-This message confirms that **GitHub recognizes your SSH key and authentication is working correctly**.
 
 ---
 
