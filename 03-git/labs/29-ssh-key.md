@@ -82,25 +82,25 @@ This copies the **public key** to your clipboard.
 
 ---
 
-### Add SSH Key to GitHub
+## Add SSH Key to GitHub
 
-1. Open **GitHub Settings**
+### 1. Open **GitHub Settings**
 
-2. Navigate to **SSH and GPG Keys**
+### 2. Navigate to **SSH and GPG Keys**
 
-3. Click **New SSH Key**
+### 3. Click **New SSH Key**
 
 <img width="1699" src="https://github.com/huss-osman/devops-learning/blob/main/images/setting_ssh_github.png">
 
 ---
 
-### Paste the SSH Key
+## Paste the SSH Key
 
-1. Add a descriptive **title**
+### 1. Add a descriptive **title**
 
-2. Paste the **public SSH key**
+### 2. Paste the **public SSH key**
 
-3. Click **Add SSH Key**
+### 3. Click **Add SSH Key**
 
 <img width="1699" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_sshkey_demo.png">
 
