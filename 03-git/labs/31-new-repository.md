@@ -56,7 +56,7 @@ touch README.md
 ls
 ```
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/newrepo3.png">
+<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_readme_file.png">
 
 This creates a README file used to document the project.
 
@@ -64,12 +64,12 @@ This creates a README file used to document the project.
 
 ### Add Content to README
 
+<img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_contents_to_readme.png">
+
 ```bash
 echo "# Git Lab" > README.md
 git status
 ```
-
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/newrepo4.png">
 
 `git status` shows that the file exists but has not yet been tracked by Git.
 
@@ -77,12 +77,12 @@ git status
 
 ### Stage the File
 
+<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_file.png">
+
 ```bash
 git add README.md
 git status
 ```
-
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/newrepo5.png">
 
 This moves the file into the **staging area**, preparing it for commit.
 
@@ -90,11 +90,11 @@ This moves the file into the **staging area**, preparing it for commit.
 
 ### Commit the Changes
 
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/commit_change.png">
+
 ```bash
 git commit -m "init commit"
 ```
-
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/newrepo6.png">
 
 This creates the first commit in the repository history.
 
@@ -102,11 +102,11 @@ This creates the first commit in the repository history.
 
 ### Attempt to Push
 
+<img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/attempt_push.png">
+
 ```bash
 git push
 ```
-
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/newrepo7.png">
 
 Since no remote repository has been configured yet, Git returns an error indicating that a push destination is missing.
 
@@ -114,21 +114,25 @@ Since no remote repository has been configured yet, Git returns an error indicat
 
 ### Add the Remote Repository
 
+1. Click **GitHub Profile Icon**
+
+2. Navigate to **Profile Section**
+
+<img width="1699" src="https://github.com/huss-osman/devops-learning/blob/main/images/navigate_to_profile.png">
+
+4. Click **Repositories**
+
+<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/navigate_to_repositories.png">
+
+5. Click **New**
+
+6. 
+
 ```bash
 git remote add origin https://github.com/username/git-labs.git
 ```
 
 This command links the local repository to a remote repository hosted on GitHub.
-
----
-
-### Push the Repository to GitHub
-
-```bash
-git push -u origin main
-```
-
-This uploads the local repository to GitHub and sets the upstream branch.
 
 ---
 
