@@ -38,7 +38,7 @@ This allows the SSH agent to use the private key for authentication.
 
 Run the following command to test the SSH connection to GitHub:
 
-<img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/ssh_auth_demo.png">
+<img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/auth_ssh_demo.png">
 
 ```bash
 ssh -T git@github.com
