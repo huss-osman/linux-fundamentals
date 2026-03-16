@@ -120,13 +120,18 @@ Since no remote repository has been configured yet, Git returns an error indicat
 
 <img width="1699" src="https://github.com/huss-osman/devops-learning/blob/main/images/navigate_to_profile.png">
 
-4. Click **Repositories**
+3. Click **Repositories** 
 
-<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/navigate_to_repositories.png">
+<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/navigate_to_repositories.png">
 
-5. Click **New**
+4. Click **New**
 
-6. 
+<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/navigate_to_new.png">
+
+5. Create **Repository**
+
+<img width="500" src="  https://github.com/huss-osman/devops-learning/blob/main/images/create_repo.png">
+
 
 ```bash
 git remote add origin https://github.com/username/git-labs.git
