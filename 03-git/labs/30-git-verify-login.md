@@ -24,13 +24,13 @@ By testing the SSH connection, developers confirm that their **local machine is 
 
 Before testing the connection, load the SSH key into the SSH agent.
 
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/ssh_add_ver.png">
+
 ```bash
-ssh-add ~/.ssh/coderco_demo
+ssh-add ~/.ssh/demo-key
 ```
 
 This allows the SSH agent to use the private key for authentication.
-
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/sshconfig.png">
 
 ---
 
@@ -38,19 +38,13 @@ This allows the SSH agent to use the private key for authentication.
 
 Run the following command to test the SSH connection to GitHub:
 
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/sshlogin.png">
+
 ```bash
 ssh -T git@github.com
 ```
 
 If authentication is successful, GitHub will respond with a confirmation message.
-
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/sshlogin.png">
-
-Example response:
-
-```
-Hi username! You've successfully authenticated, but GitHub does not provide shell access.
-```
 
 This message confirms that **GitHub recognizes your SSH key and authentication is working correctly**.
 
