@@ -37,7 +37,7 @@ This creates a new directory for the project and navigates into it.
 
 ### Initialize the Git Repository
 
-<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_first_repo_demo.png">
+<img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/initialise_git_repo.png">
 
 ```bash
 git init
