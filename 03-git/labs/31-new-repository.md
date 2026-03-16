@@ -23,7 +23,7 @@ In this exercise, a local **Git repository** is created, initialized, and connec
 
 ### Create a New Project Directory
 
-
+<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_first_repo_demo.png">
 
 ```bash
 mkdir git-lab
@@ -31,21 +31,19 @@ cd git-lab
 ls
 ```
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/newrepo1.png">
-
 This creates a new directory for the project and navigates into it.
 
 ---
 
 ### Initialize the Git Repository
 
+<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_first_repo_demo.png">
+
 ```bash
 git init
 ls
 ls -la
 ```
-
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/newrepo2.png">
 
 This initializes a Git repository and creates the hidden `.git` directory that stores version control data.
 
