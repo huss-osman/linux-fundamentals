@@ -135,7 +135,7 @@ Since no remote repository has been configured yet, Git returns an error indicat
 > [!NOTE]
 > - Add **Repository name**
 > - Click **Public or Private** for visibility (preference)
-> - Keep **Add README** off in this going to commit
+> - Keep **Add README** off as going to commit instead
 > - `.gitignore` template is good. Howver, this is kept as empty as it will be used in the future
 
 ### 6. Remote **Clone Repository**
