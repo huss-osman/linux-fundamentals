@@ -32,9 +32,9 @@ This command pushes the **local `main` branch** to the **remote repository** and
 
 After pushing, Git confirms that:
 
-- Objects are uploaded
-- The **main branch** is created remotely
-- The local branch now tracks **origin/main**
+1. Objects are uploaded
+2. The **main branch** is created remotely
+3. The local branch now tracks **origin/main**
 
 > [!NOTE]
 > 
@@ -72,7 +72,7 @@ touch .gitignore
 vi .gitignore
 ```
 
-<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/vim_contents_gitignore">
+<img width="250" src="https://github.com/huss-osman/devops-learning/blob/main/images/vim_gitignore_contents.png">
 
 ```
 .env
@@ -125,17 +125,21 @@ The new commit is pushed to GitHub.
 
 ---
 
-### View `.gitignore` on GitHub
+## View `.gitignore` on GitHub
 
-Refresh the repository page again.
+### 1. Refresh the **repository page** again.
+
+You should now see the **`.gitignore`** file alongside `README.md`.
 
 <img width="450" src="https://github.com/huss-osman/devops-learning/blob/main/images/view_gitignore_github.png">
 
-You should now see the **`.gitignore` file alongside `README.md`**.
+You should now see the **`.gitignore`** file alongside `README.md`.
 
-<img width="450" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_contents_gitignore">
+### 2. Click on **`.gitignore`** file and you should see it's contents.
 
-Click on **`.gitignore`** file and you should see it's contents.
+<img width="450" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_contents_gitignore.png">
+
+You should now see the contents of **`.gitignore`** file.
 
 > [!IMPORTANT]
 > This marks the **beginning of collaborative development**.
