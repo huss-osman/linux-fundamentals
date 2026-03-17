@@ -133,6 +133,8 @@ You should now see the **`.gitignore`** file alongside `README.md`.
 
 <img width="450" src="https://github.com/huss-osman/devops-learning/blob/main/images/view_gitignore_github.png">
 
+You should now see the **`.gitignore`** file alongside `README.md`.
+
 ### 2. Click on **`.gitignore`** file and you should see it's contents.
 
 <img width="450" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_contents_gitignore.png">
