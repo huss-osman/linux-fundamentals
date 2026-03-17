@@ -2,11 +2,9 @@
 
 ## Overview
 
-After initializing a local **Git repository** and committing files, the next step is to push the repository to a **remote repository on GitHub**.
+Using **Git** with a remote repository allows developers to store and manage project code outside their local machine. By pushing a repository to **GitHub**, the project becomes accessible for backup, collaboration, and version tracking.
 
-Pushing allows project code to be stored remotely, making it accessible for **backup, collaboration, and version history tracking**.
-
-In this exercise, the repository is connected to GitHub using a **remote origin**, and the project is pushed to the **main branch**.
+Connecting a local repository to a remote repository enables **Git** to synchronize changes between environments. Once configured, developers can push commits, pull updates, and collaborate with other contributors through **GitHub** workflows.
 
 ---
 
