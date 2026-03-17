@@ -92,12 +92,12 @@ Desktop.ini
 
 <img width="750" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_status.png">
 
-This moves the `.gitignore` file into the **staging area**.
-
 ```bash
 git add .gitignore
 git status
 ```
+
+This moves the `.gitignore` file into the **staging area**.
 
 ---
 
@@ -105,11 +105,11 @@ git status
 
 <img width="650" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_commit.png">
 
-This records the `.gitignore` file into the repository history.
-
 ```bash
 git commit -m "add gitignore"
 ```
+
+This records the `.gitignore` file into the repository history.
 
 ---
 
@@ -117,11 +117,11 @@ git commit -m "add gitignore"
 
 <img width="750" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_push.png">
 
-The new commit is pushed to GitHub.
-
 ```bash
 git push
 ```
+
+The new commit is pushed to GitHub.
 
 ---
 
