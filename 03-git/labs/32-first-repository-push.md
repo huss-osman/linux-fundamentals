@@ -129,8 +129,6 @@ The new commit is pushed to GitHub.
 
 ### 1. Refresh the **repository page** again.
 
-You should now see the **`.gitignore`** file alongside `README.md`.
-
 <img width="450" src="https://github.com/huss-osman/devops-learning/blob/main/images/view_gitignore_github.png">
 
 You should now see the **`.gitignore`** file alongside `README.md`.
