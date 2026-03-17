@@ -2,10 +2,9 @@
 
 ## Overview
 
-After configuring an **SSH key** with **GitHub**, it is important to verify that authentication works correctly.  
-This ensures that **Git** can communicate with **GitHub** securely without requiring a username, password, or personal access token.
+After configuring an **SSH key** with **GitHub**, it is important to verify that authentication works correctly. Testing the SSH connection confirms that your local machine can securely communicate with **GitHub** without requiring a username, password, or personal access token.
 
-By testing the SSH connection, developers confirm that their **local machine is trusted by GitHub** and ready to push or pull repositories.
+By verifying the connection, developers ensure that **Git** trusts the configured SSH key and that the system is ready to perform operations such as cloning repositories, pushing commits, or pulling updates from remote repositories.
 
 ---
 
