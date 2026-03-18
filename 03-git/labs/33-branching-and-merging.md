@@ -185,10 +185,6 @@ This removes the feature branch after merging.
 
 ## Reflection
 
-Branching and merging are fundamental concepts in **Git workflows** that enable safe and efficient collaboration. By working in separate branches, developers can experiment and build features without disrupting the main codebase.
+Branching and merging are core parts of **Git workflows** that allow developers to work safely in separate **branches** without affecting the **main branch**. This enables teams to build features, test changes, and collaborate efficiently.
 
-Handling merge conflicts is an essential skill, as it requires understanding how changes interact across branches. Resolving conflicts ensures that all important changes are preserved and integrated correctly.
-
-Tools like **VS Code** can simplify conflict resolution by providing visual options such as accepting current changes, incoming changes, or both.
-
-Understanding branching strategies prepares developers for real-world collaboration using **pull requests**, **code reviews**, and integration with **CI/CD pipelines**.
+Handling **merge conflicts** ensures that all changes are correctly combined. Tools like **VS Code** help simplify this process, and these practices prepare developers for using **pull requests**, **code reviews**, and **CI/CD pipelines**.
