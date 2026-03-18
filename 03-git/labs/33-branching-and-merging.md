@@ -1,10 +1,8 @@
 ## Overview
 
-Using **Git branching** allows developers to work on features, fixes, or experiments independently without affecting the main codebase. Branches provide isolated environments where changes can be made safely before being integrated.
+Using **Git branching** allows developers to work on features, fixes, or experiments independently without affecting the main codebase. Branches provide isolated environments where changes can be made safely, enabling developers to test ideas and iterate without risking the stability of the primary project.
 
-Merging combines changes from different branches into a single branch. This enables collaborative workflows where multiple developers can work in parallel and later integrate their work into the **main branch**.
-
-Understanding branching and merging is essential for managing code changes, resolving conflicts, and maintaining a stable project history.
+Merging is the process of combining changes from different branches into a single branch, typically the **main branch**. This supports collaborative workflows where multiple developers can work in parallel and later integrate their contributions. Understanding how branching and merging work is essential for managing code changes, resolving conflicts, and maintaining a clean and reliable project history.
 
 ---
 
