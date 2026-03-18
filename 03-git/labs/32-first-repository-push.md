@@ -164,8 +164,6 @@ You should now see the contents of **`.gitignore`** file.
 
 ## Reflection
 
-Pushing the repository to **GitHub** transforms a local **Git repository** into a collaborative environment where code can be shared and managed through a **remote repository**.  
-This enables workflows such as **branching strategies** and **pull requests**, allowing teams to collaborate efficiently.
+Pushing the repository to **GitHub** transforms a local **Git repository** into a collaborative environment where code can be shared and managed through a **remote repository**. This enables workflows such as **branching strategies** and **pull requests**, allowing teams to collaborate efficiently.
 
-Adding a `.gitignore` file ensures that unnecessary files and sensitive data are excluded from version control, keeping the project clean and secure.  
-With the repository on **GitHub**, developers can collaborate, review changes, and integrate code using workflows connected to **CI/CD pipelines**.
+Adding a `.gitignore` file ensures that unnecessary files and sensitive data are excluded from version control, keeping the project clean and secure. With the repository on **GitHub**, developers can collaborate, review changes, and integrate code using workflows connected to **CI/CD pipelines**.
