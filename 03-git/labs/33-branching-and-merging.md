@@ -1,3 +1,5 @@
+# Branching and Merging
+
 ## Overview
 
 Using **Git branching** allows developers to work on features, fixes, or experiments independently without affecting the main codebase. Branches provide isolated environments where changes can be made safely, enabling developers to test ideas and iterate without risking the stability of the primary project.
