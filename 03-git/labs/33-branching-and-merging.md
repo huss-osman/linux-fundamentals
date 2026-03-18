@@ -100,7 +100,7 @@ cat app.txt
 
 Edit the file to resolve the conflict:
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/edit_conflict.png">
+<img width="1500" src="https://github.com/huss-osman/devops-learning/blob/main/images/edit_conflict.png">
 
 ```bash
 echo -e "Hello from main\nMain branch change\nFeature branch change" > app.txt
