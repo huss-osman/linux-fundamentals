@@ -23,7 +23,7 @@ Understanding branching and merging is essential for managing code changes, reso
 
 ### Create and Commit on Main Branch
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_main_commit.png">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_main_commit.png">
 
 ```bash
 echo "Hello from main" > app.txt
@@ -37,7 +37,7 @@ This creates a file and commits it to the **main branch**.
 
 ### Create Feature Branch
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_feature_branch.png">
+<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_feature_branch.png">
 
 ```bash
 git checkout -b feature-1
@@ -49,7 +49,7 @@ This creates and switches to a new branch called **feature-1**.
 
 ### Modify File in Feature Branch
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/feature_branch_change.png">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/feature_branch_change.png">
 
 ```bash
 echo "Feature branch change" > app.txt
@@ -63,7 +63,7 @@ This updates the file in the **feature branch**.
 
 ### Switch Back to Main and Modify
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/main_branch_change.png">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/main_branch_change.png">
 
 ```bash
 git checkout main
@@ -92,7 +92,7 @@ Git attempts to merge but encounters a **merge conflict**.
 
 The file will contain conflict markers:
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_conflict_markers.png">
+<img width="350" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_conflict_markers.png">
 
 ```
 cat app.txt
@@ -110,7 +110,7 @@ echo -e "Hello from main\nMain branch change\nFeature branch change" > app.txt
 
 ### Stage and Commit Resolution
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_resolved_commit.png">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_resolved_commit.png">
 
 ```bash
 git add app.txt
@@ -159,7 +159,7 @@ Feature branch change
 
 ### Delete Feature Branch
 
-<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/del_branch.png">
+<img width="550" src="https://github.com/huss-osman/devops-learning/blob/main/images/del_branch.png">
 
 ```bash
 git branch -d feature-1
@@ -168,8 +168,8 @@ git branch -d feature-1
 This removes the feature branch after merging.
 
 > [!NOTE]
-> Deleting branches keeps the repository clean after features are merged.
-> When using `vi`, type `:q` to exit the editor.
+> - Deleting branches keeps the repository clean after features are merged.
+> - When using `vi`, type `:q` to exit the editor.
 
 ---
 
