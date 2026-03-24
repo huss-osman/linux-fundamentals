@@ -24,7 +24,7 @@ Understanding the **Git workflow** is essential in real-world development becaus
 
 ### Pull Latest Changes
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/pull_latest_change">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/pull_latest_change.png">
 
 This updates the local repository with the latest changes from the **remote repository**.
 
@@ -36,7 +36,7 @@ git pull
 
 ### Create Feature Branch
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_feature_branch">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_feature_branch.png">
 
 This creates and switches to a new **branch** for development.
 
@@ -48,7 +48,7 @@ git checkout -b feature/add-about-page
 
 ### Add Changes
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_changes">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_changes.png">
 
 This creates a new file in the **feature branch**.
 
@@ -60,7 +60,7 @@ echo "This is the about page." > about.md
 
 ### Check Status
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/check_status">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/check_status.png">
 
 This shows untracked and modified files in the **repository**.
 
@@ -72,7 +72,7 @@ git status
 
 ### Stage Changes
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_changes">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_changes.png">
 
 This stages the file for the next **commit**.
 
@@ -84,7 +84,7 @@ git add about.md
 
 ### Commit Changes
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/commit_changes">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/commit_changes.png">
 
 This saves the changes in the **branch history**.
 
@@ -96,7 +96,7 @@ git commit -m "Add about page"
 
 ### Push Branch (First Time)
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/push_branch">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/push_branch.png">
 
 This pushes the **branch** to **GitHub** and sets the upstream tracking.
 
@@ -106,9 +106,15 @@ git push --set-upstream origin feature/add-about-page
 
 ---
 
-### Open Pull Request on GitHub
+## Open Pull Request on Git/GitHub
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/open_pull_request_via_github">
+### 1. Copy URL from CLI into your browser.
+
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/open_pull_request_via_github.png">
+
+### 2. Click on the green prompt on **Github repository*** page
+
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/open_pull_request_via_github.png1">
 
 This opens a **pull request** on **GitHub** to merge the feature into the **main branch**.
 
@@ -122,7 +128,7 @@ This opens a **pull request** on **GitHub** to merge the feature into the **main
 
 ### Add Title and Description
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/title_pull_request">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/title_pull_request.png">
 
 This provides context for reviewers in the **pull request**.
 
@@ -133,7 +139,7 @@ This provides context for reviewers in the **pull request**.
 
 ### Create Pull Request
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_pull_request">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_pull_request.png">
 
 This submits the **pull request** for review.
 
@@ -144,7 +150,7 @@ This submits the **pull request** for review.
 
 ### Request Reviewers
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/request_reviewer">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/request_reviewer.png">
 
 This assigns reviewers to evaluate the **code changes**.
 
@@ -155,7 +161,7 @@ This assigns reviewers to evaluate the **code changes**.
 
 ### Review and Approve
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/review_approve">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/review_approve.png">
 
 This step represents the normal workflow where a reviewer checks the code, leaves comments if needed, and approves the **pull request** before merging.
 
@@ -166,7 +172,7 @@ This step represents the normal workflow where a reviewer checks the code, leave
 
 ### Merge Pull Request
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_pull_request">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_pull_request.png">
 
 This merges the **feature branch** into the **main branch** using the **GitHub UI**, making the workflow easier to understand and manage.
 
@@ -177,7 +183,7 @@ This merges the **feature branch** into the **main branch** using the **GitHub U
 
 ### Confirm Merge
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/confirm_merge">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/confirm_merge.png">
 
 This confirms the **merge**, completing the integration process.
 
@@ -188,7 +194,7 @@ This confirms the **merge**, completing the integration process.
 
 ### View Merged Pull Request
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/view_merged_pull_request">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/view_merged_pull_request.png">
 
 This shows that the **pull request** has been successfully merged and closed.
 
@@ -199,7 +205,7 @@ This shows that the **pull request** has been successfully merged and closed.
 
 ### Delete Branch
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/del_branch">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/del_branch.png">
 
 This deletes the **feature branch** from **GitHub**, keeping the repository clean after merging.
 
@@ -207,7 +213,7 @@ This deletes the **feature branch** from **GitHub**, keeping the repository clea
 
 ### Verify Changes in Main Branch
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/ver_changes_main_branch">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/ver_changes_main_branch.png">
 
 This confirms that the new file has been merged into the **main branch** and is ready to use.
 
