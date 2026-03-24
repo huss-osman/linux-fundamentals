@@ -60,7 +60,7 @@ echo "This is the about page." > about.md
 
 ### Check Status
 
-<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_stages.png">
+<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_changes.png">
 
 This shows untracked and modified files in the **repository**.
 
