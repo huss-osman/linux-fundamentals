@@ -24,7 +24,7 @@ Understanding the **Git workflow** is essential in real-world development becaus
 
 ### Pull Latest Changes
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/pull_latest_changes.png">
+<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/pull_latest_changes.png">
 
 This updates the local repository with the latest changes from the **remote repository**.
 
@@ -36,7 +36,7 @@ git pull
 
 ### Create Feature Branch
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_feature_branch.png">
+<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_feature_branch.png">
 
 This creates and switches to a new **branch** for development.
 
@@ -48,7 +48,7 @@ git checkout -b feature/add-about-page
 
 ### Add Changes
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_changes.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_changes.png">
 
 This creates a new file in the **feature branch**.
 
@@ -60,7 +60,7 @@ echo "This is the about page." > about.md
 
 ### Check Status
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/check_status.png">
+<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/check_status.png">
 
 This shows untracked and modified files in the **repository**.
 
@@ -72,7 +72,7 @@ git status
 
 ### Stage Changes
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_changes.png">
+<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_changes.png">
 
 This stages the file for the next **commit**.
 
@@ -84,7 +84,7 @@ git add about.md
 
 ### Commit Changes
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/commit_changes.png">
+<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/commit_changes.png">
 
 This saves the changes in the **branch history**.
 
@@ -96,7 +96,7 @@ git commit -m "Add about page"
 
 ### Push Branch (First Time)
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/push_branch.png">
+<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/push_branch.png">
 
 This pushes the **branch** to **GitHub** and sets the upstream tracking.
 
