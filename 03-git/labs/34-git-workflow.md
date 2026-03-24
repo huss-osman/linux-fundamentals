@@ -36,7 +36,7 @@ git pull
 
 ### Create Feature Branch
 
-<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_feature_branch.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_feature_branch.png">
 
 This creates and switches to a new **branch** for development.
 
@@ -60,7 +60,7 @@ echo "This is the about page." > about.md
 
 ### Check Status
 
-<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_changes.png">
+<img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_changes.png">
 
 This shows untracked and modified files in the **repository**.
 
@@ -72,7 +72,7 @@ git status
 
 ### Stage Changes
 
-<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/check_status.png">
+<img width="450" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_commit.png">
 
 This stages the file for the next **commit**.
 
