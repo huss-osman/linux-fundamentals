@@ -24,7 +24,7 @@ Understanding the **Git workflow** is essential in real-world development becaus
 
 ### Pull Latest Changes
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/pull_latest_change.png">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/pull_latest_changes.png">
 
 This updates the local repository with the latest changes from the **remote repository**.
 
