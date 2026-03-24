@@ -96,7 +96,7 @@ git commit -m "Add about page"
 
 ### Push Branch (First Time)
 
-<img width="1050" src="https://github.com/huss-osman/devops-learning/blob/main/images/push_branch.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/push_branch.png">
 
 This pushes the **branch** to **GitHub** and sets the upstream tracking.
 
@@ -110,11 +110,11 @@ git push --set-upstream origin feature/add-about-page
 
 ### 1. Copy URL from CLI into your browser.
 
-<img width="1050" src="https://github.com/huss-osman/devops-learning/blob/main/images/open_pull_request_via_github.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/open_pull_request_via_github.png">
 
-### 2. Click on the green prompt on **Github repository*** page
+### 2. Click on the green prompt on **Github repository** page
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/open_pull_request_via_github.png1">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/open_pull_request_via_github.png1.png">
 
 This opens a **pull request** on **GitHub** to merge the feature into the **main branch**.
 
@@ -128,7 +128,7 @@ This opens a **pull request** on **GitHub** to merge the feature into the **main
 
 ### Add Title and Description
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/title_pull_request.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/title_pull_request.png">
 
 This provides context for reviewers in the **pull request**.
 
@@ -139,7 +139,7 @@ This provides context for reviewers in the **pull request**.
 
 ### Create Pull Request
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_pull_request.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_pull_request.png">
 
 This submits the **pull request** for review.
 
