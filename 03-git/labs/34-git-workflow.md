@@ -60,7 +60,7 @@ echo "This is the about page." > about.md
 
 ### Check Status
 
-<img width="550" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_changes.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_changes.png">
 
 This shows untracked and modified files in the **repository**.
 
@@ -107,28 +107,28 @@ git push --set-upstream origin feature/add-about-page
 ---
 
 ## Open Pull Request on Git/GitHub
-
-### 1. Copy URL from CLI into your browser.
+ 
+### 1. Using Git: Copy the URL from the terminal after `git push`
 
 <img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_push_branch1.png">
 
-### 2. Click on the green prompt on **Github repository** page
+### 2. Using Github: Click the green Compare & pull request button on GitHub
 
-<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/open_pull_request_via_github.png1">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/open_pull_request_via_github.png1.png">
 
 This opens a **pull request** on **GitHub** to merge the feature into the **main branch**.
 
 > [!NOTE]
-> - No command required.
-> - How to Open Pull Requests on Github:
-> 1. Copy URL from CLI into your browser.
-> 2. Click on the green prompt on **Github repository*** page.
+> - No command is required when using the **GitHub UI**.
+> - You can open a pull request by:
+> 1. Copying the URL from the terminal after `git push`
+> 2. Clicking the green **Compare & pull request** button on **GitHub**
 
 ---
 
 ### Add Title and Description
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/title_pull_request.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/title_pull_request1.png">
 
 This provides context for reviewers in the **pull request**.
 
