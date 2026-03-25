@@ -72,7 +72,7 @@ git status
 
 ### Stage Changes
 
-<img width="550" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_add_stage">
+<img width="550" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_add_stage.png">
 
 This stages the file for the next **commit**.
 
