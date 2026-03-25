@@ -163,7 +163,7 @@ This assigns reviewers to evaluate the **code changes**, and a green tick will a
 
 ### Review and Approve
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/review_approved.png">
+<img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/review_approved.png">
 
 This step represents the normal workflow where a reviewer checks the code, leaves comments if needed, and approves the **pull request** before merging.
 
@@ -194,20 +194,9 @@ This confirms the **merge**, completing the integration process.
 
 ---
 
-### View Merged Pull Request
-
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/view_merged_pull_request.png">
-
-This shows that the **pull request** has been successfully merged and closed.
-
-> [!NOTE]
-> - No command required.
-
----
-
 ### Delete Branch
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/del_branch.png">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/del_branch1.png">
 
 This deletes the **feature branch** from **GitHub**, keeping the repository clean after merging.
 
