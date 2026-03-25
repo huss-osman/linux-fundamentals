@@ -174,7 +174,7 @@ This step represents the normal workflow where a reviewer checks the code, leave
 
 ### Merge Pull Request
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_pull_request.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_pull_request.png">
 
 This merges the **feature branch** into the **main branch** using the **GitHub UI**, making the workflow easier to understand and manage.
 
@@ -185,7 +185,7 @@ This merges the **feature branch** into the **main branch** using the **GitHub U
 
 ### Confirm Merge
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/confirm_merge.png">
+<img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/confirm_merge.png">
 
 This confirms the **merge**, completing the integration process.
 
@@ -196,7 +196,7 @@ This confirms the **merge**, completing the integration process.
 
 ### Delete Branch
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/del_branch1.png">
+<img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/del_branch1.png">
 
 This deletes the **feature branch** from **GitHub**, keeping the repository clean after merging.
 
@@ -204,7 +204,7 @@ This deletes the **feature branch** from **GitHub**, keeping the repository clea
 
 ### Verify Changes in Main Branch
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/ver_changes_main_branch.png">
+<img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/ver_changes_main_branch.png">
 
 This confirms that the new file has been merged into the **main branch** and is ready to use.
 
