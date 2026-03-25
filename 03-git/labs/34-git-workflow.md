@@ -148,11 +148,13 @@ This submits the **pull request** for review.
 
 ---
 
-### Request Reviewers
+## Request Reviewers
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/request_reviewer.png">
+### Click the settings icon in the reviewers section, select a user from the dropdown, and request a review on the **pull request**.
 
-This assigns reviewers to evaluate the **code changes**.
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/request_reviewer.png">
+
+This assigns reviewers to evaluate the **code changes**, and a green tick will appear to confirm the review has been requested.
 
 > [!NOTE]
 > - No command required.
