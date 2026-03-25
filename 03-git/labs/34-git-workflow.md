@@ -110,11 +110,11 @@ git push --set-upstream origin feature/add-about-page
 
 ### 1. Copy URL from CLI into your browser.
 
-<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/open_pull_request_via_github.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_push_branch.png">
 
 ### 2. Click on the green prompt on **Github repository** page
 
-<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/open_pull_request_via_github.png1.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_push_branch1.png">
 
 This opens a **pull request** on **GitHub** to merge the feature into the **main branch**.
 
