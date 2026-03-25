@@ -60,7 +60,7 @@ echo "This is the about page." > about.md
 
 ### Check Status
 
-<img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_changes.png">
+<img width="550" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_changes.png">
 
 This shows untracked and modified files in the **repository**.
 
@@ -72,7 +72,7 @@ git status
 
 ### Stage Changes
 
-<img width="550" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_add_stage.png">
+<img width="350" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_add_stage.png">
 
 This stages the file for the next **commit**.
 
