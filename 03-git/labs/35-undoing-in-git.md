@@ -42,7 +42,7 @@ This switches to the **main branch** and updates the local repository from the *
 
 ### Create a Test File and Commit It
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/undo_create_test_commit.png">
+<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/undo_create_test_commit.png">
 
 ```bash
 echo "original line" > undo.txt
@@ -83,7 +83,7 @@ This pushes the committed file to **GitHub** so it appears in the **remote repos
 
 ### Stage a File and Check Status
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_file_for_unstage_demo.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_file_for_unstage_demo.png">
 
 ```bash
 echo "another bad line" > undo.txt
@@ -139,7 +139,7 @@ This creates an accidental **commit** that will be undone using reset commands.
 
 ### Undo the Last Commit with Soft Reset
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_reset_soft_head1.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_reset_soft_head1.png">
 
 ```bash
 git reset --soft HEAD~1
@@ -195,7 +195,7 @@ This creates and pushes an accidental **commit** to the **main branch**.
 
 ### Revert the Last Commit
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_revert_head.png">
+<img width="650" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_revert_head.png">
 
 ```bash
 git revert HEAD
@@ -223,7 +223,7 @@ This creates the revert **commit** and pushes the corrected history to **GitHub*
 
 ### View Commit History
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_log_oneline.png">
+<img width="400" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_log_oneline.png">
 
 ```bash
 git log --oneline
@@ -235,7 +235,7 @@ This shows a compact view of the **commit** history, including the revert and ea
 
 ### View Reference Log
 
-<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_reflog_history.png">
+<img width="280" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_reflog_history.png">
 
 ```bash
 git reflog
@@ -255,7 +255,7 @@ You should now see the updated **undo.txt** file and the latest **commit** histo
 
 ### 2. Open the file
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_undo_file_view.png1">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_undo_file_view1.png">
 
 You should see the final content of **undo.txt** after the revert operation.
 
