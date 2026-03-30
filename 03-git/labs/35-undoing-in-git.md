@@ -255,7 +255,7 @@ You should now see the updated **undo.txt** file and the latest **commit** histo
 
 ### 2. Open the file
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_undo_file_view.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_undo_file_view.png1">
 
 You should see the final content of **undo.txt** after the revert operation.
 
