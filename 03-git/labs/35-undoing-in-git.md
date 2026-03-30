@@ -201,7 +201,7 @@ This creates and pushes an accidental **commit** to the **main branch**.
 git revert HEAD
 ```
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_revert_head.png1">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_revert_head.png1.png">
 
 This opens the editor and prepares a new **commit** that reverses the last commit without rewriting history.
 
