@@ -25,7 +25,7 @@ This is important in real-world development because interruptions happen often d
 
 ### Create Work in Progress and Stash It
 
-<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_work.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_work.png">
 
 ```bash
 echo "incomplete work" > feature.txt
@@ -56,13 +56,13 @@ This creates and pushes a hotfix while the unfinished feature work remains safel
 
 ### View Stash Entries
 
-<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_list.png">
+<img width="250" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_list.png1">
 
 ```bash
 git stash list
 ```
 
-<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/stashed_work.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/stashed_work.png">
 
 This shows the saved **stash** entries in the repository.
 
@@ -70,7 +70,7 @@ This shows the saved **stash** entries in the repository.
 
 ### Apply the Stash
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_apply.png">
+<img width="750" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_apply.png">
 
 ```bash
 git stash apply
@@ -109,7 +109,7 @@ This saves the restored work in a new **commit** and pushes it to **GitHub**.
 
 ### Clear All Stash Entries
 
-<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_clear.png">
+<img width="330" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_clear.png">
 
 ```bash
 git stash clear
