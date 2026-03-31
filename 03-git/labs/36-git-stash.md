@@ -56,7 +56,7 @@ This creates and pushes a hotfix while the unfinished feature work remains safel
 
 ### View Stash Entries
 
-<img width="250" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_list.png1">
+<img width="250" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_list.png1.png">
 
 ```bash
 git stash list
@@ -109,7 +109,7 @@ This saves the restored work in a new **commit** and pushes it to **GitHub**.
 
 ### Clear All Stash Entries
 
-<img width="330" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_clear.png">
+<img width="310" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_clear.png">
 
 ```bash
 git stash clear
