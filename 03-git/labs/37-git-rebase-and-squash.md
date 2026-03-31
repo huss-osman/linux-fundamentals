@@ -135,17 +135,41 @@ git push origin feature-rebase --force
 
 ---
 
-### View Changes on GitHub
+## View Changes on GitHub
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_file_view.png">
+### 1. Switch to the feature branch
 
-You will see the file with all combined changes:
+<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_view_github1.png">
+
+Select the **feature-rebase** branch from the branch dropdown.
+
+---
+
+### 2. Locate the updated file
+
+<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_view_github2.png">
+
+You should now see the updated **changes.txt** file in the repository.
+
+---
+
+### 3. Open the file
+
+<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_view_github3.png">
+
+You should see all squashed changes in a single commit:
 
 ```bash
 line 1
 line 2
 line 3
 ```
+
+### 4. View commit history
+
+<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_view_github4.png">
+
+You should see a single commit (e.g., **feat: add all 3 lines to change.txt**) confirming that the commits were successfully squashed.
 
 ---
 
