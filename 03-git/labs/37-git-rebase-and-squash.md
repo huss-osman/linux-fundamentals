@@ -58,7 +58,7 @@ This creates multiple commits that will later be **squashed**.
 
 ### Start Interactive Rebase
 
-<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_interactive.png">
+<img width="370" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_interactive.png">
 
 ```bash
 git rebase -i HEAD~3
@@ -70,7 +70,7 @@ This opens the last 3 commits in an editor for modification.
 
 ### Squash Commits
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_rebase_head1.png">
+<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_rebase_head1.png">
 
 Change:
 
@@ -107,7 +107,7 @@ After saving again (`:wq!`), the commits are combined into one.
 
 ### Verify Commit History
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_log.png">
+<img width="650" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_log.png">
 
 ```bash
 git log --oneline
@@ -119,7 +119,7 @@ This shows a single clean commit instead of multiple small ones.
 
 ### Push Changes to GitHub
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_push.png">
+<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_push.png">
 
 ```bash
 git push --set-upstream origin feature-rebase
@@ -127,7 +127,7 @@ git push --set-upstream origin feature-rebase
 
 If rebasing after already pushing, use:
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_force_push.png">
+<img width="630" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_force_push.png">
 
 ```bash
 git push origin feature-rebase --force
@@ -139,7 +139,7 @@ git push origin feature-rebase --force
 
 ### 1. Switch to the feature branch
 
-<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_view_github1.png">
+<img width="750" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_view_github1.png">
 
 Select the **feature-rebase** branch from the branch dropdown.
 
@@ -147,7 +147,7 @@ Select the **feature-rebase** branch from the branch dropdown.
 
 ### 2. Locate the updated file
 
-<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_view_github2.png">
+<img width="750" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_view_github2.png">
 
 You should now see the updated **changes.txt** file in the repository.
 
