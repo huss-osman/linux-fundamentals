@@ -78,7 +78,7 @@ This applies the selected hotfix **commit** to the **main branch** and pushes it
 
 ## View Changes on GitHub
 
-### 1. View commit history on the main branch
+### 1. Locate the updated file on the main branch
 
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view1.png">
 
@@ -88,7 +88,7 @@ You should see the hotfix **commit** listed on the **main branch**.
 
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view2.png">
 
-You should also see the same hotfix **commit** on the **feature-cherry** branch.
+You should also see the same hotfix **commit** and contents on the **feature-cherry** branch.
 
 ### 3. Switch branches in GitHub
 
@@ -100,9 +100,9 @@ Use the branch dropdown to switch between **main** and **feature-cherry**.
 
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view4.png">
 
-You should now see the updated **hotfix.txt** file in the **main branch** repository view.
+You should now see the updated **hotfix.txt** file in the **feature-cherry** repository view.
 
-### 5. Open the file on the main branch
+### 5. Open commit history on the feature-cherry branch
 
 <img width="1300" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view5.png">
 
@@ -112,7 +112,7 @@ You should see the cherry-picked content in **hotfix.txt**:
 hotfix config for prod
 ```
 
-### 6. Confirm the same file on the feature branch
+### 6. Confirm the same file on the main branch
 
 <img width="1300" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view6.png">
 
