@@ -100,7 +100,7 @@ Use the branch dropdown to switch between **main** and **feature-cherry**.
 
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view4.png">
 
-You should now see the updated **hotfix.txt** file in the **feature-cherry** repository view.
+You should now also see the updated **hotfix.txt** contents and hotfix **commit** on the **feature-cherry** branch.
 
 ### 5. Open commit history on the feature-cherry branch
 
