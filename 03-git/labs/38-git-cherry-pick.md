@@ -24,7 +24,7 @@ This is important in real-world development because teams often need to move ind
 
 ### Create Feature Branch and Add a Hotfix
 
-<img width="650" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_branch_cherrypick.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_branch_cherrypick.png">
 
 ```bash
 git checkout -b feature-cherry
@@ -51,7 +51,7 @@ This pushes the **feature branch** to **GitHub** and sets upstream tracking.
 
 ### View the Commit Hash
 
-<img width="650" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_log_oneline.png">
+<img width="400" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_log_oneline.png">
 
 ```bash
 git log --oneline
@@ -92,7 +92,7 @@ You should also see the same hotfix **commit** on the **feature-cherry** branch.
 
 ### 3. Switch branches in GitHub
 
-<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view3.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view3.png">
 
 Use the branch dropdown to switch between **main** and **feature-cherry**.
 
@@ -104,7 +104,7 @@ You should now see the updated **hotfix.txt** file in the **main branch** reposi
 
 ### 5. Open the file on the main branch
 
-<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view5.png">
+<img width="1300" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view5.png">
 
 You should see the cherry-picked content in **hotfix.txt**:
 
@@ -114,7 +114,7 @@ hotfix config for prod
 
 ### 6. Confirm the same file on the feature branch
 
-<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view6.png">
+<img width="1300" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view6.png">
 
 This confirms that the hotfix exists on both **feature-cherry** and **main** after the **cherry-pick** operation.
 
