@@ -84,7 +84,7 @@ This applies the selected hotfix **commit** to the **main branch** and pushes it
 
 You should see the hotfix **commit** listed on the **main branch**.
 
-### 2. View commit history on the main branch
+### 2. Open the file on the main branch
 
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view2.png">
 
@@ -96,7 +96,7 @@ You should also see the same hotfix **commit** on the **feature-cherry** branch.
 
 Use the branch dropdown to switch between **main** and **feature-cherry**.
 
-### 4. Locate the file on the main branch
+### 4. Open the file on the feature branch
 
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view4.png">
 
