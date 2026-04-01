@@ -22,7 +22,7 @@ It helps maintain a **clean repository**, improves performance, and ensures that
 
 ### Create `.env` File
 
-<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_env_.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_env_.png">
 
 ```bash
 # VS Code → Right click → New File → .env
@@ -32,7 +32,7 @@ It helps maintain a **clean repository**, improves performance, and ensures that
 
 ### Add Sensitive Data
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_env_contents_.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_env_contents_.png">
 
 ```bash
 AWS_ACCESS_KEY=your-secret-key
@@ -42,7 +42,7 @@ AWS_ACCESS_KEY=your-secret-key
 
 ### Check Git Status
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_tracking_env.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_tracking_env.png">
 
 ```bash
 git status
@@ -50,7 +50,7 @@ git status
 
 ### Add `.env` to `.gitignore`
 
-<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/modify_gitignore.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/modify_gitignore.png">
 
 ```bash
 .env
@@ -60,7 +60,7 @@ git status
 
 ### Stage and Commit `.gitignore`
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_change_commit.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_change_commit.png">
 
 ```bash
 git add .gitignore
@@ -72,7 +72,7 @@ git push
 
 ### Commit Hygiene
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/commit_hygiene.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/commit_hygiene.png">
 
 > [!IMPORTANT]
 > Always run `git status` **before committing**.
