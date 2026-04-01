@@ -96,7 +96,7 @@ You should also see the same contents and hotfix **commit** on the **feature-che
 
 Use the branch dropdown to switch between **main** and **feature-cherry**.
 
-### 4. Open the file on the feature branch
+### 4. Open the file on the feature-cherry branch
 
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view4.png">
 
