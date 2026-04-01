@@ -104,7 +104,7 @@ You should now see the updated **hotfix.txt** file in the **feature-cherry** rep
 
 ### 5. Open commit history on the feature-cherry branch
 
-<img width="1300" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view5.png">
+<img width="1700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view5.png">
 
 You should see the cherry-picked content in **hotfix.txt**:
 
@@ -114,7 +114,7 @@ hotfix config for prod
 
 ### 6. Confirm the same file on the main branch
 
-<img width="1300" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view6.png">
+<img width="1700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view6.png">
 
 This confirms that the hotfix exists on both **feature-cherry** and **main** after the **cherry-pick** operation.
 
