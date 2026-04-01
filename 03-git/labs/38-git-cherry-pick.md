@@ -112,7 +112,7 @@ You should see the cherry-picked content in **hotfix.txt**:
 hotfix config for prod
 ```
 
-### 6. Confirm the same file on the main branch
+### 6. Confirm the same commit on the main branch
 
 <img width="1700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view6.png">
 
