@@ -82,7 +82,7 @@ This applies the selected hotfix **commit** to the **main branch** and pushes it
 
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view1.png">
 
-You should see the hotfix **commit** listed on the **main branch**.
+You should see the **hotfix.txt** file listed on the **main branch**.
 
 ### 2. Open the file on the main branch
 
