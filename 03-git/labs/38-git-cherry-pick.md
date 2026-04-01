@@ -88,7 +88,7 @@ You should see the **hotfix.txt** file listed on the **main branch**.
 
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view2.png">
 
-You should also see the same hotfix **commit** and contents on the **feature-cherry** branch.
+You should also see the same contents and hotfix **commit** on the **feature-cherry** branch.
 
 ### 3. Switch branches in GitHub
 
