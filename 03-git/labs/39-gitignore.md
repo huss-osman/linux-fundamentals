@@ -9,7 +9,7 @@ It helps maintain a **clean repository**, improves performance, and ensures that
 
 ## Key Concepts
 
-- gitignore** – A file that defines which files Git should ignore.
+- **gitignore** – A file that defines which files Git should ignore.
 - **Tracked Files** – Files already committed to Git.
 - **Untracked Files** – Files not yet added to Git.
 - **Sensitive Data** – API keys, tokens, credentials (must never be committed).
