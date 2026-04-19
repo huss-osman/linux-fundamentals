@@ -23,7 +23,7 @@ This is useful in real-world development when a commit was made too early, conta
 
 ### Create Initial Commit
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt1.png">
+<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt1.png">
 
 ```bash
 echo "line 1" > notes.txt
@@ -50,13 +50,13 @@ This demonstrates a scenario where a file was not included in the previous commi
 
 ### Amend the Commit
 
-<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt3.png">
+<img width="350" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt3.png">
 
 ```bash
 git commit --amend
 ```
 
-<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt4.png">
+<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt4.png">
 
 This reopens the last commit, allowing you to **include staged changes and update the commit message**.
 
@@ -78,7 +78,7 @@ To:
 feat: add note file and meta
 ```
 
-<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt6.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt6.png">
 
 This updates the **commit message** to reflect the new changes.
 
@@ -95,7 +95,7 @@ This updates the **commit message** to reflect the new changes.
 git log --oneline
 ```
 
-<img width="400" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt7.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt7.png">
 
 > [!IMPORTANT]
 > As you can see, both changes are now combined into **one commit** instead of two separate commits.  
