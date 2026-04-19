@@ -23,7 +23,7 @@ This is useful in real-world development when a commit was made too early, conta
 
 ### Create Initial Commit
 
-<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt1.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt1.png">
 
 ```bash
 echo "line 1" > notes.txt
