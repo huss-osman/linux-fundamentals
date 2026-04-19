@@ -37,7 +37,7 @@ This creates the initial **commit** with a file tracked by Git.
 
 ### Add Another File (Missed Change)
 
-<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt3.png">
+<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt2.png">
 
 ```bash
 echo "metadata" > meta.txt
@@ -58,7 +58,7 @@ git commit --amend
 
 <img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt4.png">
 
-This reopens the last commit, allowing you to **add staged changes and edit the message**.
+This reopens the last commit, allowing you to **include staged changes and update the commit message**.
 
 ---
 
