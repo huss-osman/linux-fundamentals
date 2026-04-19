@@ -28,6 +28,8 @@ It helps maintain a **clean repository**, improves performance, and ensures that
 # VS Code → Right click → New File → .env
 ```
 
+This creates an **environment file** to store sensitive data locally instead of committing it to Git.
+
 ---
 
 ### Add Sensitive Data
@@ -37,6 +39,8 @@ It helps maintain a **clean repository**, improves performance, and ensures that
 ```bash
 AWS_ACCESS_KEY=your-secret-key
 ```
+
+This simulates adding **sensitive credentials**, showing how easily secrets can exist in a project.
 
 ---
 
@@ -48,6 +52,10 @@ AWS_ACCESS_KEY=your-secret-key
 git status
 ```
 
+This confirms that the `.env` file is **untracked and at risk of being committed** if not handled properly.
+
+---
+
 ### Add `.env` to `.gitignore`
 
 <img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/modify_gitignore.png">
@@ -55,6 +63,8 @@ git status
 ```bash
 .env
 ```
+
+This tells Git to **ignore the `.env` file**, preventing it from ever being tracked or committed.
 
 ---
 
@@ -67,6 +77,8 @@ git add .gitignore
 git commit -m "don't track env files"
 git push
 ```
+
+This saves the rule so the repository consistently **excludes sensitive files moving forward**.
 
 ---
 
