@@ -24,7 +24,7 @@ In DevOps workflows, pre-commit is commonly used through a YAML configuration fi
 
 ### Check Pre-Commit Version
 
-<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt1.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt1.png">
 
 ```bash
 pre-commit --version
@@ -36,7 +36,7 @@ This confirms that **pre-commit** is installed and available in the terminal.
 
 ### Install Pre-Commit
 
-<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt2.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt2.png">
 
 ```bash
 pip install pre-commit
@@ -64,7 +64,7 @@ This installs **pre-commit** using Python’s package manager.
 
 ### View Git Hook Sample
 
-<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt3.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt3.png">
 
 ```bash
 cat .git/hooks/pre-commit.sample
@@ -76,7 +76,7 @@ This displays the default Git sample hook that explains how pre-commit hooks wor
 
 ### List Git Hooks
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt4.png">
+<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt4.png">
 
 ```bash
 ls .git/hooks
@@ -88,7 +88,7 @@ This shows the available Git hook samples inside the `.git/hooks` directory.
 
 ### Show Hidden Git Directory
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt5.png">
+<img width="350" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt5.png">
 
 ```bash
 ls -la
@@ -100,7 +100,7 @@ This confirms that the hidden `.git` directory exists in the repository.
 
 ### Create Pre-Commit Config File
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt6.png">
+<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt6.png">
 
 ```bash
 vi ./.pre-commit-config.yaml
@@ -143,7 +143,7 @@ This installs pre-commit into `.git/hooks/pre-commit` so checks run automaticall
 
 ### Fix YAML Formatting
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt9.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt9.png">
 
 Remove the extra final line shown in the YAML file and save the file.
 
@@ -154,7 +154,7 @@ Remove the extra final line shown in the YAML file and save the file.
 
 ### Commit Pre-Commit Config
 
-<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt10.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt10.png">
 
 ```bash
 git add .pre-commit-config.yaml
@@ -167,7 +167,7 @@ This runs the configured hook before the commit is created and blocks the commit
 
 ### Remove Extra Line in File
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt11.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt11.png">
 
 Remove the last empty line from the file to fix the formatting issue.
 
@@ -179,7 +179,7 @@ Remove the last empty line from the file to fix the formatting issue.
 
 ### Create Terraform File with Formatting Issues
 
-<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt12.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt12.png">
 
 Create a `main.tf` file with spacing issues to test Terraform formatting checks.
 
