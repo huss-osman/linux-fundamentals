@@ -22,21 +22,45 @@ In DevOps workflows, pre-commit is commonly used through a YAML configuration fi
 
 ## Commands
 
-### Check Pre-Commit Version
+### Show Hidden Git Directory
 
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt1.png">
 
 ```bash
-pre-commit --version
+ls -la
 ```
 
-This confirms that **pre-commit** is installed and available in the terminal.
+This confirms that the hidden `.git` directory exists in the repository.
+
+---
+
+### List Git Hooks
+
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt2.png">
+
+```bash
+ls .git/hooks
+```
+
+This shows the available Git hook samples inside `.git/hooks`.
+
+---
+
+### View Git Hook Sample
+
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt3.png">
+
+```bash
+cat .git/hooks/pre-commit.sample
+```
+
+This displays the default Git sample hook that explains how pre-commit hooks work.
 
 ---
 
 ### Install Pre-Commit
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt2.png">
+<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt4.png">
 
 ```bash
 pip install pre-commit
@@ -62,39 +86,15 @@ This installs **pre-commit** using Python’s package manager.
 
 ---
 
-### View Git Hook Sample
-
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt3.png">
-
-```bash
-cat .git/hooks/pre-commit.sample
-```
-
-This displays the default Git sample hook that explains how pre-commit hooks work.
-
----
-
-### List Git Hooks
-
-<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt4.png">
-
-```bash
-ls .git/hooks
-```
-
-This shows the available Git hook samples inside the `.git/hooks` directory.
-
----
-
-### Show Hidden Git Directory
+### Check Pre-Commit Version
 
 <img width="350" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt5.png">
 
 ```bash
-ls -la
+pre-commit --version
 ```
 
-This confirms that the hidden `.git` directory exists in the repository.
+This confirms that **pre-commit** is installed.
 
 ---
 
@@ -158,7 +158,7 @@ Remove the extra final line shown in the YAML file and save the file.
 
 ```bash
 git add .pre-commit-config.yaml
-git commit -m "Update pre-commit config"
+git commit -m "add new feat"
 ```
 
 This runs the configured hook before the commit is created and blocks the commit if checks fail.
@@ -202,7 +202,7 @@ This demonstrates how pre-commit can detect formatting or validation issues befo
 <img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/pre_commit_pt14.png">
 
 ```bash
-git add .
+git add .pre-commit-config.yaml
 git commit -m "add s3 bucket tf"
 ```
 
