@@ -234,6 +234,8 @@ Assignment includes:
 
 These assignments simulate how systems are actually deployed, exposed, and accessed in production environments.
 
+➡️ [View Assignments](./assignments)
+
 ---
 
 ## Learning Approach
