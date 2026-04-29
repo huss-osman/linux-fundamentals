@@ -86,6 +86,23 @@ Covers:
 
 ---
 
+### **[🌐 Networking](https://github.com/huss-osman/devops-learning/tree/main/04-networking)**
+
+Core networking fundamentals and hands-on troubleshooting used in real DevOps environments.
+
+Covers:
+- How systems communicate over networks
+- OSI and TCP/IP models
+- IP addressing and MAC addressing
+- Ports and protocols (TCP, UDP, HTTP, DNS)
+- DNS resolution and records
+- Routing and traffic flow
+- Subnetting and CIDR
+- Network debugging tools (`ping`, `traceroute`, `nslookup`, `curl`)
+- Practical troubleshooting labs and real-world scenarios in [Labs](./04-networking/labs) and [Assignments](./04-networking/assignments)
+
+---
+
 ## 🎯 Learning Focus
 
 This repository is designed to:
