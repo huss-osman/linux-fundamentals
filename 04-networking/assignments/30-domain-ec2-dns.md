@@ -1,4 +1,5 @@
-# Domain-Based Web Hosting with EC2, NGINX & Route 53
+# NGINX on AWS EC2 + Route 53 
+
 
 ![AWS](https://img.shields.io/badge/AWS-EC2-orange)
 ![AWS](https://img.shields.io/badge/AWS-Route53-blue)
