@@ -1,4 +1,6 @@
-﻿# Git Best Practices
+<img width="1000" height="500" alt="git-banner" src="https://github.com/huss-osman/devops-learning/blob/main/images/Git%20Best%20Practices%20Banner.png" />
+
+ # Git Best Practices
 
 ![VCS](https://img.shields.io/badge/VCS-Git-F05032?logo=git&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Best%20Practices-purple?logo=git&logoColor=white)
