@@ -223,26 +223,16 @@ These labs simulate the kind of issues faced in **production environments**.
 
 ## Assignments
 
-The Assignments section focuses on applying networking concepts in **structured, real-world challenges**.
+The Assignments section focuses on applying networking knowledge through real-world infrastructure and connectivity tasks.
 
-Each assignment documents:
+Assignment includes:
 
-• The networking problem  
-• Concepts applied  
-• Tools used  
-• Step-by-step reasoning  
-• Final understanding  
+• Deploying real infrastructure (e.g. EC2 instances)  
+• Configuring networking components like DNS and IP addressing  
+• Connecting services to the internet through domains and ports  
+• Validating connectivity using browsers and networking tools  
 
-Example assignment workflow:
-
-- Buy a domain
-- Launch an EC2 instance
-- Configure DNS
-- Test the domain in a browser
-
-These assignments help bridge the gap between **networking theory and real infrastructure work**.
-
-➡️ [View Assignments](./assignments)
+These assignments simulate how systems are actually deployed, exposed, and accessed in production environments.
 
 ---
 
