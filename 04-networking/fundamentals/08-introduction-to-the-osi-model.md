@@ -2,11 +2,9 @@
 
 ## Overview
 
-This section introduces the **OSI Model (Open Systems Interconnection Model)** and how it is used to understand communication across **networks**. It breaks down how data moves between systems into structured layers, making complex networking easier to understand.
+This section introduces the **OSI Model (Open Systems Interconnection Model)** and how it explains communication across **networks** using structured layers.
 
-The focus is on building a clear mental model of how data flows through each layer, from the **physical transmission** of data to how applications interact with users.
-
-This is useful in real-world environments where understanding how communication is structured helps with **debugging**, **troubleshooting**, and working with **cloud infrastructure**. Instead of guessing where issues occur, the OSI model provides a framework to isolate and understand problems.
+It helps build a clear understanding of how data moves between systems and provides a framework for **troubleshooting**, **debugging**, and working with **real-world infrastructure**.
 
 ---
 
@@ -51,6 +49,6 @@ While this section is concept-focused, these tools relate to different layers of
 
 ## Reflection
 
-Learning about the OSI model helped me understand how networking is structured rather than seeing it as one big process. Breaking communication into layers makes it easier to understand how data moves and where problems can occur.
+Learning about the **OSI model** helped me understand how networking is structured rather than seeing it as one big process. Breaking communication into layers makes it easier to understand how data moves and where problems can occur.
 
-I also learned that the OSI model is not just theory, but a way to think about real systems. This reinforces the importance of having clear mental models when working with **networking**, **cloud environments**, and debugging issues in production.
+I also learned that the **OSI model** is not just theory, but a way to think about real systems. This reinforces the importance of having clear mental models when working with **networking**, **cloud environments**, and debugging issues in production.
