@@ -20,16 +20,6 @@
 
 ---
 
-# DNS Components
-
-## Overview
-
-This section explains the core **DNS components** and how they work together to resolve domain names into **IP addresses**. It focuses on **name servers** and **zone files**, which are essential for understanding how DNS operates behind the scenes.
-
-Understanding these components is important for **troubleshooting**, configuring domains, and working with **real-world infrastructure**.
-
----
-
 ## DNS Components
 
 ### Name Servers
