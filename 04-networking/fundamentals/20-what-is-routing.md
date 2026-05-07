@@ -2,9 +2,9 @@
 
 ## Overview
 
-This section explains what **routing** is and its role in **networking**. It focuses on how data travels between networks and how routers determine the best path for delivery.
+This section explains what **routing** is and its role in **networking**. It breaks down how data moves between **networks** and how **routers** determine the most efficient path from source to destination.
 
-Understanding routing is essential for working with **cloud infrastructure**, **network performance**, and troubleshooting real-world connectivity issues.
+By understanding routing, it becomes easier to analyse **network** behaviour, optimise performance, and troubleshoot connectivity issues in real-world infrastructure.
 
 ---
 
