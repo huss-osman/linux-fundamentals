@@ -1,4 +1,4 @@
-# Etc Hosts File
+# /etc/hosts File
 
 ## Overview
 
