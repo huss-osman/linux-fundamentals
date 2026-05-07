@@ -19,63 +19,63 @@ Examples are practical, tool-driven, and tied to real-world infrastructure and d
 - [Introduction to Networking](./01-introduction-to-networking.md)  
   What networking is, why it matters, and how systems communicate.
 
-- [Overview of Computer Networks](./02-overview-of-computer-networks.md)  
+- [Overview of Computer Networks](./03-overview-of-computer-networks.md)  
   How networks are structured and how devices interact.
 
-- [LAN & WAN](./03-lan-wan.md)  
+- [LAN & WAN](./04-lan-and-wan.md)  
   Differences between local and wide-area networks.
 
-- [Switches, Routers and Firewalls](./04-network-devices.md)  
+- [Switches, Routers and Firewalls](./05-switches-routers-and-firewalls.md)  
   How traffic is managed, routed, and controlled.
 
-- [IP Address & MAC Address](./05-ip-and-mac-address.md)  
+- [IP Address & MAC Address](./06-ip-address-and-mac-address.md)  
   Identifying devices at both network and hardware levels.
 
-- [Ports & Protocols (TCP, UDP)](./06-ports-and-protocols.md)  
+- [Ports & Protocols (TCP, UDP)](./07-ports-and-protocols-tcp-udp.md)  
   How services communicate over the network.
 
-- [OSI Model](./07-osi-model.md)  
+- [OSI Model](./08-introduction-to-the-osi-model.md)  
   The 7-layer model for understanding network communication.
 
-- [TCP/IP Model](./08-tcp-ip-model.md)  
+- [TCP/IP Model](./10-tcp-ip-model.md)  
   The practical model used in real-world networking.
 
-- [What is DNS](./09-what-is-dns.md)  
+- [What is DNS](./14-what-is-dns.md)  
   How domain names translate to IP addresses.
 
-- [DNS Components](./10-dns-components.md)  
+- [DNS Components](./15-dns-components.md)  
   Nameservers, resolvers, and how DNS infrastructure works.
 
-- [DNS Records](./11-dns-records.md)  
+- [DNS Records](./16-dns-records.md)  
   A, CNAME, MX and other records used in real systems.
 
-- [How DNS Works](./12-how-dns-works.md)  
+- [How DNS Works](./17-how-does-dns-work.md)  
   The full resolution flow from request to response.
 
-- [`/etc/hosts`](./13-etc-hosts.md)  
+- [`/etc/hosts`](./19-etc-hosts-file.md)  
   Local DNS overrides and system-level name resolution.
 
-- [What is Routing](./14-routing.md)  
+- [What is Routing](./20-what-is-routing.md)  
   How packets move across networks.
 
-- [Static vs Dynamic Routing](./15-static-vs-dynamic-routing.md)  
+- [Static vs Dynamic Routing](./21-static-vs-dynamic-routing.md)  
   Different routing strategies and use cases.
 
-- [Common Routing Protocols](./16-routing-protocols.md)  
+- [Common Routing Protocols](./22-common-routing-protocols.md)  
   Protocols used to exchange routing information.
 
-- [Subnetting & CIDR](./17-subnetting-and-cidr.md)  
+- [Subnetting & CIDR](./23-subnetting-and-cidr.md)  
   Breaking networks into smaller segments.
 
-- [Binary Basics](./18-binary-basics.md)  
+- [Binary Basics](./24-binary-yep-1s-and-0s.md)  
   Understanding binary for subnetting.
 
-- [Calculating Subnets](./19-calculating-subnets.md)  
+- [Calculating Subnets](./25-calculating-subnets.md)  
   Practical subnetting techniques.
 
-- [NAT (Network Address Translation)](./20-nat.md)  
+- [NAT (Network Address Translation)](./26-nat-network-address-translation.md)  
   How private networks access the internet.
-
+  
 ---
 
 ## Learning Focus
