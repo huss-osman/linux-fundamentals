@@ -62,7 +62,7 @@ Each section (octet) is **8 bits**, forming a 32-bit IPv4 address.
 
 - `ip addr` → View IP addresses on a system
 - `ifconfig` → Display network interfaces
-- `ping` → Test connectivity between hosts
+- `ping` → Test connectivity
 - `bc` → Perform binary calculations
 
 ---
