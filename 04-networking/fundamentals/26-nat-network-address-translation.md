@@ -27,9 +27,9 @@ NAT acts as a bridge between **private networks** and the **public internet**.
 
 ## Types of NAT
 
-**Static NAT** → One-to-one mapping (private ↔ public IP)
-**Dynamic NAT** → Pool of public IPs assigned dynamically
-**PAT (Port Address Translation)** → Many devices share one public IP using ports
+- **Static NAT** → One-to-one mapping (private ↔ public IP)
+- **Dynamic NAT** → Pool of public IPs assigned dynamically
+- **PAT (Port Address Translation)** → Many devices share one public IP using ports
 
 ---
 
