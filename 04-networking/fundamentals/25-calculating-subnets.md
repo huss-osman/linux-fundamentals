@@ -68,19 +68,19 @@ When calculating a subnet, you determine:
 
 ## Key Takeaways
 
-- **Binary** uses only **0s and 1s**
-- Each digit is a **bit**
-- Binary is the foundation of **all computing systems**
-- IP addresses are represented in **binary format**
-- Understanding binary is essential for **subnetting and networking**
+- **Subnetting** divides networks into smaller segments
+- **Subnet masks** define network vs host portions
+- Every subnet has a **network and broadcast address**
+- Usable hosts exist between those addresses
+- Subnet calculation is essential for **network design and troubleshooting**
 
 ---
 
 ## Reflection
 
-Learning **binary** helped me understand how **computers** actually process and represent data at a fundamental level.
+Learning **subnet calculations** helped me understand how **IP ranges** are actually structured rather than just memorising addresses.
 
-It also made **networking** concepts like **IP addressing and subnetting** much clearer, since everything ultimately comes down to how bits are structured and interpreted.
+It also made it clear how important proper **network design** is, especially in cloud environments where efficient IP usage directly impacts **scalability and performance**.
 
 
 
