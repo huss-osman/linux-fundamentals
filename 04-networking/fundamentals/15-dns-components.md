@@ -30,7 +30,8 @@
   - **Recursive** → Queries other servers to resolve a domain  
 
 Name servers are responsible for answering:  
-👉 “What is the IP address for this domain?”
+
+**“What is the IP address for this domain?”**
 
 ---
 
