@@ -4,10 +4,8 @@
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white)
 ![NGINX](https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white)
 
----
-
 <p align="center">
-  <img width="850" alt="networking-banner" src="https://github.com/huss-osman/devops-learning/blob/main/images/Architecture_Diagram.png" />
+  <img width="1000" alt="Architecture Diagram" src="https://github.com/huss-osman/devops-learning/blob/main/images/Website_NGINX_Image.png" />
 </p>
 
 ---
@@ -38,212 +36,6 @@ The goal of this project was to:
 
 # Architecture Diagram
 
-<img width="1000" alt="architecture-diagram" src="YOUR_ARCHITECTURE_DIAGRAM_HERE" />
-
-## Technologies Used
-
-- AWS EC2  
-- Cloudflare 
-- NGINX  
-- Ubuntu Linux  
-- SSH  
-- DNS  
-- HTTP  
-
----
-
-# Getting a Domain
-
-A custom domain was configured using Cloudflare.
-
-The DNS records were used to map the domain name to the EC2 public IPv4 address.
-
-<img width="1000" alt="route53-domain" src="YOUR_DOMAIN_SCREENSHOT_HERE" />
-
-> [!IMPORTANT]
-> DNS propagation can take several minutes depending on the provider and cached DNS records.
-
----
-
-# Setting up the EC2 Instance
-
-An EC2 instance was launched using Ubuntu Linux.
-
-The instance was configured to allow:
-
-- SSH traffic (port 22)
-- HTTP traffic (port 80)
-
-<img width="1000" alt="ec2-launch" src="YOUR_EC2_SETUP_SCREENSHOT_HERE" />
-
----
-
-# Security Group Configuration
-
-The Security Group was configured to allow inbound HTTP traffic so the NGINX web server could be accessed publicly.
-
-| Type | Protocol | Port | Source | Purpose |
-|---|---|---|---|---|
-| SSH | TCP | 22 | My IP | Remote SSH access |
-| HTTP | TCP | 80 | 0.0.0.0/0 | Public web traffic |
-
-<img width="1000" alt="security-groups" src="YOUR_SECURITY_GROUP_SCREENSHOT_HERE" />
-
-> [!NOTE]
-> Port 80 is used for standard HTTP web traffic.
-
----
-
-# Connecting via SSH
-
-The EC2 instance was accessed securely using SSH and a `.pem` key pair.
-
-Example SSH command:
-
-```bash
-ssh -i my-key.pem ubuntu@<EC2-Public-IP>
-```
-
-<img width="1000" alt="ssh-connection" src="YOUR_SSH_SCREENSHOT_HERE" />
-
----
-
-# Installing and Starting NGINX
-
-After connecting to the server, NGINX was installed and enabled.
-
-## Commands Used
-
-```bash
-sudo apt update
-sudo apt install -y nginx
-sudo systemctl enable nginx
-sudo systemctl start nginx
-```
-
-# Verifying NGINX Status
-
-```bash
-sudo systemctl status nginx
-```
-
-<img width="1000" alt="nginx-installation" src="YOUR_NGINX_INSTALL_SCREENSHOT_HERE" />
-
-> [!TIP]
-> `systemctl enable nginx` ensures NGINX starts automatically whenever the server reboots.
-
-
----
-
-## Configuring DNS in Cloudflare
-
-An A record was created in Cloudflare pointing the domain to the EC2 public IPv4 address.
-
-**Example:**
-
-```bash
-nginx.yourdomain.com → <EC2 Public IPv4>
-```
-
-<img width="1000" alt="route53-record" src="YOUR_ROUTE53_RECORD_SCREENSHOT_HERE" />
-
-> [!NOTE]
-> The A record maps a domain name directly to the EC2 instance’s public IPv4 address, allowing users to access the server using a readable domain instead of an IP address.
-
----
-
-## How It Works
-
-#### **1.** A user visits the custom domain
-
-#### **2.** Cloudflare resolves the domain name to the EC2 public IP
-
-#### **3.** Traffic reaches the EC2 instance over HTTP (port 80)
-
-#### **4.** NGINX serves the web page to the browser
-
-#### **5.** The website becomes publicly accessible over the internet
-
----
-
-# Testing DNS and Connectivity
-
-To verify DNS resolution and connectivity, tools such as `nslookup` and `ping` were used.
-
-### Commands Used
-
-<img width="1000" alt="dns-testing" src="YOUR_NSLOOKUP_SCREENSHOT_HERE" />
-
-```bash
-nslookup nginx.yourdomain.com
-```
-
-<img width="1000" alt="dns-testing" src="YOUR_NSLOOKUP_SCREENSHOT_HERE" />
-
-```bash
-ping nginx.yourdomain.com
-```
-
----
-
-## Accessing the Website
-
-Once DNS propagated successfully, the domain loaded the NGINX landing page in the browser.
-
-<img width="1000" alt="nginx-landing-page" src="YOUR_WEBSITE_SCREENSHOT_HERE" />
-
-> [!IMPORTANT]
-> If the website does not load:
->
-> - Verify Security Group rules  
-> - Verify the Cloudflare DNS record  
-> - Confirm the EC2 public IPv4 address  
-> - Check the NGINX service is running
-
----
-
-## Troubleshooting
-
-During the setup process, several common issues were identified and resolved.
-
-### Issues Encountered
-
-- HTTP traffic blocked due to missing Security Group rule  
-- Incorrect public IPv4 address used in DNS configuration  
-- NGINX service not running initially  
-- DNS propagation delay after updating Cloudflare DNS records  
-
-### Commands Used for Troubleshooting
-
-```bash
-sudo systemctl status nginx
-curl localhost
-ping nginx.yourdomain.com
-nslookup nginx.yourdomain.com
-```
-
-<img width="1000" alt="troubleshooting" src="YOUR_TROUBLESHOOTING_SCREENSHOT_HERE" />
-
----
-
-## What I Learned
-
-Through this assignment, I gained hands-on experience with:
-
-- AWS EC2 provisioning  
-- Cloudflare DNS configuration  
-- Linux server administration  
-- HTTP traffic flow  
-- Public IP addressing  
-- Security Groups and firewall rules  
-- NGINX web hosting  
-- SSH remote server management  
-- Troubleshooting networking and DNS issues
-
----
-
-## Project Structure
-
 ```text
 Browser
    │
@@ -262,27 +54,198 @@ Website Response
 
 ---
 
-# Repository Screenshots
+# Registering the Domain
 
-## AWS Console
+The custom domain was configured and connected through Cloudflare DNS.
 
-<img width="1000" alt="aws-console" src="YOUR_AWS_CONSOLE_SCREENSHOT_HERE" />
-
----
-
-## EC2 Dashboard
-
-<img width="1000" alt="ec2-dashboard" src="YOUR_EC2_DASHBOARD_SCREENSHOT_HERE" />
+<img width="1000" alt="Register Domain" src="https://github.com/huss-osman/devops-learning/blob/main/images/Register_Domain.png" />
 
 ---
 
-## Cloudflare DNS Records
+# Launching the EC2 Instance
 
-<img width="1000" alt="route53-dashboard" src="YOUR_ROUTE53_DASHBOARD_SCREENSHOT_HERE" />
+An Ubuntu Server EC2 instance was launched using AWS Free Tier eligible settings.
+
+Configuration included:
+
+- Ubuntu 26.04 LTS
+- t3.micro instance
+- Public IP enabled
+- Free Tier eligible AMI
+
+<img width="1000" alt="EC2 Setup" src="https://github.com/huss-osman/devops-learning/blob/main/images/Setting_Up_ec2.png" />
 
 ---
 
-## Final Website
+# Configuring Network Settings
 
-<img width="1000" alt="final-website" src="YOUR_FINAL_WEBSITE_SCREENSHOT_HERE" />
+Security Groups were configured to allow the correct inbound traffic.
 
+Ports configured:
+
+- SSH (22) → My IP only
+- HTTP (80) → Anywhere
+- HTTPS (443) → Anywhere
+
+<img width="1000" alt="Network Settings" src="https://github.com/huss-osman/devops-learning/blob/main/images/Network_Settings_ec2.png" />
+
+> [!IMPORTANT]
+> Port `22` was restricted to **My IP only** to reduce unauthorized SSH access attempts.
+
+---
+
+# Creating the SSH Key Pair
+
+An ED25519 SSH key pair was generated for secure server access.
+
+<img width="900" alt="Create Key Pair" src="https://github.com/huss-osman/devops-learning/blob/main/images/Creating_Key_Pair.png" />
+
+---
+
+# Securing the Private Key
+
+The private key permissions were restricted using `chmod 400`.
+
+```bash
+chmod 400 nginx-project-key.pem
+```
+
+<img width="800" alt="Key Permissions" src="https://github.com/huss-osman/devops-learning/blob/main/images/Set_Correct_Permission.png" />
+
+> [!IMPORTANT]
+> `chmod 400` ensures the private SSH key can only be read by the current user.
+>
+> SSH clients will often refuse to use private keys with insecure permissions.
+
+---
+
+# Configuring Cloudflare DNS
+
+A Cloudflare DNS A record was configured to point the subdomain to the EC2 public IP address.
+
+<img width="1000" alt="Cloudflare DNS" src="https://github.com/huss-osman/devops-learning/blob/main/images/DNS_Management_Cloudflare.png" />
+
+Configuration used:
+
+- Type: `A`
+- Name: `nginx`
+- Target: EC2 Public IPv4
+- Proxy Status: Enabled
+
+---
+
+# Installing NGINX
+
+NGINX was installed and enabled on the Ubuntu server.
+
+```bash
+sudo apt update
+sudo apt install -y nginx
+sudo systemctl enable nginx
+sudo systemctl start nginx
+```
+
+## Command Breakdown
+
+- `sudo apt update` → Refreshes the package index from Ubuntu repositories
+
+- `sudo apt install -y nginx` → Installs the NGINX web server automatically
+
+- `sudo systemctl enable nginx` → Enables NGINX to start automatically during boot
+
+- `sudo systemctl start nginx` → Starts the NGINX service immediately
+
+---
+
+# Verifying NGINX Status
+
+NGINX service status was checked using `systemctl`.
+
+```bash
+sudo systemctl status nginx
+```
+
+<img width="1000" alt="NGINX Status" src="https://github.com/huss-osman/devops-learning/blob/main/images/Check_NGINX_System_Status.png" />
+
+
+The output confirmed:
+
+- NGINX was active
+- The service was running successfully
+- Worker processes were created correctly
+
+---
+
+# Testing Connectivity
+
+## Ping Test
+
+```bash
+ping -c 4 nginx.osmanhus.co.uk
+```
+
+<img width="900" alt="Ping Test" src="https://github.com/huss-osman/devops-learning/blob/main/images/Ping_NGINX_Connectivity.png" />
+
+This confirmed the domain resolved successfully and packets reached the server.
+
+---
+
+## Traceroute Test
+
+```bash
+traceroute nginx.osmanhus.co.uk
+```
+
+<img width="900" alt="Traceroute" src="https://github.com/huss-osman/devops-learning/blob/main/images/Traceroute_NGINX.png" />
+
+This showed the network path packets traveled through before reaching the destination.
+
+---
+
+## DNS Lookup Test
+
+```bash
+nslookup nginx.osmanhus.co.uk
+```
+
+<img width="900" alt="NSLookup" src="https://github.com/huss-osman/devops-learning/blob/main/images/Nslookup_NGINX.png" />
+
+> [!NOTE]
+> DNS commonly uses **Port 53** for queries and responses.
+>
+> The `#53` shown in the output indicates DNS communication occurring over Port 53.
+
+The output confirmed:
+
+- The domain resolved correctly
+- Cloudflare DNS was working
+- Multiple IPv4 and IPv6 addresses were returned
+
+---
+
+# Final Result
+
+After configuration and troubleshooting, the NGINX web server became publicly accessible through the custom domain.
+
+<img width="1000" alt="NGINX Website" src="https://github.com/huss-osman/devops-learning/blob/main/images/Website_NGINX_Image.png" />
+
+---
+
+
+# Troubleshooting Lessons
+
+Some issues encountered during deployment included:
+
+- NGINX not running correctly
+- DNS pointing to the wrong IP address
+  
+---
+
+# Key Takeaways
+
+- Learned how EC2 instances work in AWS
+- Understood how Security Groups control inbound traffic
+- Gained experience using Linux server management commands
+- Learned how DNS records map domains to servers
+- Practiced troubleshooting networking and connectivity issues
+- Understood the relationship between Cloudflare, DNS, and web servers
