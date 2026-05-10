@@ -27,7 +27,7 @@ The goal of this project was to:
 - Launch and configure an AWS EC2 instance
 - Install and configure NGINX
 - Understand HTTP traffic and port 80
-- Configure DNS using Route 53
+- Configure DNS using Cloudflare
 - Route traffic from a custom domain to an EC2 instance
 - Build foundational cloud and networking knowledge
 - Practice real-world troubleshooting and deployment workflows
@@ -38,10 +38,10 @@ The goal of this project was to:
 
 <img width="1000" alt="architecture-diagram" src="YOUR_ARCHITECTURE_DIAGRAM_HERE" />
 
-# Technologies Used
+## Technologies Used
 
 - AWS EC2  
-- AWS Route 53  
+- Cloudflare 
 - NGINX  
 - Ubuntu Linux  
 - SSH  
@@ -52,7 +52,7 @@ The goal of this project was to:
 
 # Getting a Domain
 
-A custom domain was configured using Route 53.
+A custom domain was configured using Cloudflare.
 
 The DNS records were used to map the domain name to the EC2 public IPv4 address.
 
@@ -133,9 +133,9 @@ sudo systemctl status nginx
 
 ---
 
-## Configuring DNS in Route 53
+## Configuring DNS in Cloudflare
 
-An A record was created in Route 53 pointing the domain to the EC2 public IPv4 address.
+An A record was created in Cloudflare pointing the domain to the EC2 public IPv4 address.
 
 **Example:**
 
@@ -154,7 +154,7 @@ nginx.yourdomain.com → <EC2 Public IPv4>
 
 #### **1.** A user visits the custom domain
 
-#### **2.** Route 53 resolves the domain name to the EC2 public IP
+#### **2.** Cloudflare resolves the domain name to the EC2 public IP
 
 #### **3.** Traffic reaches the EC2 instance over HTTP (port 80)
 
@@ -194,7 +194,7 @@ Once DNS propagated successfully, the domain loaded the NGINX landing page in th
 > If the website does not load:
 >
 > - Verify Security Group rules  
-> - Verify the Route 53 A record  
+> - Verify the Cloudflare DNS record  
 > - Confirm the EC2 public IPv4 address  
 > - Check the NGINX service is running
 
@@ -209,7 +209,7 @@ During the setup process, several common issues were identified and resolved.
 - HTTP traffic blocked due to missing Security Group rule  
 - Incorrect public IPv4 address used in DNS configuration  
 - NGINX service not running initially  
-- DNS propagation delay after updating Route 53 records  
+- DNS propagation delay after updating Cloudflare DNS records  
 
 ### Commands Used for Troubleshooting
 
@@ -229,7 +229,7 @@ nslookup nginx.yourdomain.com
 Through this assignment, I gained hands-on experience with:
 
 - AWS EC2 provisioning  
-- Route 53 DNS configuration  
+- Cloudflare DNS configuration  
 - Linux server administration  
 - HTTP traffic flow  
 - Public IP addressing  
@@ -246,7 +246,7 @@ Through this assignment, I gained hands-on experience with:
 Browser
    │
    ▼
-Route 53 DNS
+Cloudflare DNS
    │
    ▼
 EC2 Public IPv4
@@ -274,7 +274,7 @@ Website Response
 
 ---
 
-## Route 53 Records
+## Cloudflare DNS Records
 
 <img width="1000" alt="route53-dashboard" src="YOUR_ROUTE53_DASHBOARD_SCREENSHOT_HERE" />
 
