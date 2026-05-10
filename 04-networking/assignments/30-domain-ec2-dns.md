@@ -6,7 +6,9 @@
 
 ---
 
-<img width="1000" alt="networking-banner" src="https://github.com/huss-osman/devops-learning/blob/main/images/Architecture_Diagram.png" />
+<p align="center">
+  <img width="850" alt="networking-banner" src="https://github.com/huss-osman/devops-learning/blob/main/images/Architecture_Diagram.png" />
+</p>
 
 ---
 
