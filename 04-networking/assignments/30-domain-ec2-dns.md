@@ -1,4 +1,4 @@
-NGINX on AWS EC2 + Cloudflare
+# NGINX on AWS EC2 + Cloudflare
 
 ![AWS](https://img.shields.io/badge/AWS-EC2-orange)
 ![AWS](https://img.shields.io/badge/AWS-Route53-blue)
