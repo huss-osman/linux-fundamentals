@@ -36,21 +36,19 @@ The goal of this project was to:
 
 # Architecture Diagram
 
-```text
-Browser
-   │
-   ▼
-Cloudflare DNS
-   │
-   ▼
-EC2 Public IPv4
-   │
-   ▼
-NGINX Web Server
-   │
-   ▼
-Website Response
-```
+<img width="1000" alt="Architecture Diagram" src="https://github.com/huss-osman/devops-learning/blob/main/images/Architecture%20Diagram.png" />
+
+> [!NOTE]
+> The EC2 instance was deployed inside a **public subnet** with a public IPv4 address enabled.
+>
+> Cloudflare DNS was used to route traffic from `nginx.osmanhus.co.uk` to the EC2 instance hosting the NGINX web server.
+
+> [!IMPORTANT]
+> Security Groups acted as the primary firewall layer for the instance:
+>
+> - `SSH (22)` restricted to **My IP only**
+> - `HTTP (80)` allowed publicly
+> - `HTTPS (443)` allowed publicly
 
 ---
 
