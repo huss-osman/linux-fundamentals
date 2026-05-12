@@ -22,7 +22,7 @@ The focus throughout this work is on understanding **how networking actually wor
 
 - Networking can feel abstract at first — that’s normal.
 - Focus on **how data moves**, not just terminology.
-- Use tools like `ping`, `traceroute`, `nslookup`, and `curl`.
+- Use tools like `ping`, `traceroute`, `nslookup`, and `dig`.
 - Draw diagrams to understand traffic flow.
 - Revisit concepts multiple times.
 
