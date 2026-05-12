@@ -17,6 +17,19 @@ The focus throughout this work is on understanding **how Git works (snapshots, b
 
 ---
 
+## 🧠 New to Git? Read This First
+
+- Git can feel confusing at first — that’s normal.
+- Focus on **understanding history and snapshots**, not memorising commands.
+- Use tools like `git status`, `git log`, `git diff`, and `git reflog`.
+- Visualise branches and commits to understand repository history.
+- Make mistakes intentionally and learn how to recover safely.
+
+> [!IMPORTANT]
+> If you don’t understand Git, collaboration and production workflows become difficult to manage safely.
+
+---
+
 ## Learning Objectives
 
 By working through this module, I aim to:
