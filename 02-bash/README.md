@@ -15,6 +15,19 @@ The focus throughout this work is on understanding **how Bash behaves and execut
 
 ---
 
+## 🧠 New to Bash Scripting? Read This First
+
+- Bash scripting can feel confusing at first — that’s normal.
+- Focus on **how Bash executes commands**, not just syntax.
+- Break scripts intentionally to understand errors and behaviour.
+- Use tools like `echo`, `chmod`, `grep`, and `set -x`.
+- Revisit concepts multiple times through hands-on practice.
+
+> [!IMPORTANT]
+> If you don’t understand Bash scripting, automation becomes unpredictable and difficult to debug.
+
+---
+
 ## Learning Objectives
 
 By working through this module, I aimed to:
