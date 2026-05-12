@@ -143,7 +143,7 @@ By working through this module, I aimed to:
 - [Cloud Networking](./assignments/29-cloud-networking.md)  
   Applying networking concepts to cloud infrastructure.
 
-- [Netowrking Project](./assignments/30-domain-ec2-dns.md)
+- [Networking Project](./assignments/30-domain-ec2-dns.md)  
   Connecting a domain to an EC2-hosted NGINX server using DNS.
 
 ---
