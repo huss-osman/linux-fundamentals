@@ -236,17 +236,3 @@ Assignment includes:
 These assignments simulate how systems are actually deployed, exposed, and accessed in production environments.
 
 ➡️ [View Assignments](./assignments)
-
----
-
-## Learning Approach
-
-This repository reflects how I learn, not just what I learned.
-
-- Breaking down how data actually flows across systems
-- Using real tools instead of only reading theory
-- Debugging network issues step by step
-- Revisiting concepts until they make sense
-- Treating confusion as part of the process
-
-The goal is long-term understanding that transfers directly to **cloud, DevOps, and production environments**.
