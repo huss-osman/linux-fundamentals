@@ -162,7 +162,7 @@ The goal is long-term understanding that transfers directly to **cloud, DevOps, 
 
 ---
 
-## Folder Structure
+## Folder Purpose
 
 ### `fundamentals/`
 
