@@ -17,7 +17,7 @@ The focus throughout this work is on understanding **how Git works (snapshots, b
 
 ---
 
-# Learning Objectives
+## Learning Objectives
 
 By working through this module, I aim to:
 
