@@ -91,6 +91,14 @@ Assignments must:
 
 ---
 
+### Assignment — Personal Touch  
+**File:** [38-personal-touch.md](./38-personal-touch.md)  
+**Concepts:** Documentation, presentation, project branding  
+
+**Focus:** Improving the visual presentation and professionalism of Docker projects.
+
+---
+
 ## Skills Reinforced
 
 - Building Docker images  
