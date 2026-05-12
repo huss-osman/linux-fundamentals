@@ -69,10 +69,6 @@ By working through this module, I aimed to:
 - [Ports & Protocols: TCP, UDP](./fundamentals/07-ports-and-protocols-tcp-udp.md)  
   How services communicate over networks.
 
----
-
-### OSI Model
-
 - [Introduction to the OSI Model](./fundamentals/08-introduction-to-the-osi-model.md)  
   Why the OSI model is used to understand networking.
 
@@ -87,10 +83,6 @@ By working through this module, I aimed to:
 
 - [Ports & Protocols Recap](./fundamentals/12-ports-and-protocols-recap.md)  
   Reinforcing ports, protocols, and service communication.
-
----
-
-### DNS
 
 - [Introduction to DNS](./fundamentals/13-introduction-to-dns.md)  
   Introduction to Domain Name System concepts.
@@ -113,10 +105,6 @@ By working through this module, I aimed to:
 - [`/etc/hosts` File](./fundamentals/19-etc-hosts-file.md)  
   Local name resolution before DNS lookup.
 
----
-
-### Routing
-
 - [What is Routing?](./fundamentals/20-what-is-routing.md)  
   How traffic moves between networks.
 
@@ -125,10 +113,6 @@ By working through this module, I aimed to:
 
 - [Common Routing Protocols](./fundamentals/22-common-routing-protocols.md)  
   Protocols used to exchange routing information.
-
----
-
-### Subnetting
 
 - [Subnetting & CIDR](./fundamentals/23-subnetting-and-cidr.md)  
   Breaking networks into smaller logical networks.
@@ -144,7 +128,7 @@ By working through this module, I aimed to:
 
 ---
 
-### Troubleshooting
+### Labs
 
 - [Troubleshoot Like a PRO](./labs/27-troubleshoot-like-a-pro.md)  
   Structured troubleshooting approach for network issues.
@@ -154,10 +138,13 @@ By working through this module, I aimed to:
 
 ---
 
-### Cloud Networking
+### Assignments
 
 - [Cloud Networking](./assignments/29-cloud-networking.md)  
   Applying networking concepts to cloud infrastructure.
+
+- [Netowrking Project}(./assignments/30-domain-ec2-dns.md)
+  Connecting a domain to an EC2-hosted NGINX server using DNS.
 
 ---
 
