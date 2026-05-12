@@ -67,6 +67,8 @@ By working through this module, I aimed to:
 
 ## Topics Covered
 
+### Fundamentals
+
 - [Terminal Basics](./fundamentals/terminal-basics.md)  
   Navigating the filesystem, basic commands, and working efficiently in the terminal.
 
@@ -99,6 +101,10 @@ By working through this module, I aimed to:
 
 - [Vim Basics](./fundamentals/vim-basics.md)  
   Editing files efficiently using Vim.
+
+### Labs
+
+
 
 ---
 
