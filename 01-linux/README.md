@@ -104,7 +104,11 @@ By working through this module, I aimed to:
 
 ### Labs
 
+- [Bandit (Levels 1–12)](./bandit)  
+  Hands-on Linux challenges focused on navigation, permissions, file discovery, and command-line fundamentals.
 
+- [SadServers (Easy, Medium, Hard)](./sadservers)  
+  Real-world Linux troubleshooting scenarios focused on diagnosing and fixing broken systems.
 
 ---
 
