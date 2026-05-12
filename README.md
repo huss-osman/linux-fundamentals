@@ -53,7 +53,7 @@ Covers:
 
 ### **[🖥️ Bash Scripting](https://github.com/huss-osman/devops-learning/tree/main/02-bash)**
 
-Foundational scripting concepts used for automation.
+Foundational scripting concepts and hands-on automation practice.
 
 Covers:
 - Script structure and execution
@@ -70,7 +70,7 @@ Covers:
 
 ### **[🔧 Git & GitHub](https://github.com/huss-osman/devops-learning/tree/main/03-git)**
 
-Version control fundamentals and collaboration workflows used across modern software engineering and DevOps.
+Core Git fundamentals and hands-on collaboration practice.
 
 Covers:
 - Git architecture and how Git stores snapshots
@@ -88,7 +88,7 @@ Covers:
 
 ### **[🌐 Networking](https://github.com/huss-osman/devops-learning/tree/main/04-networking)**
 
-Core networking fundamentals and hands-on troubleshooting used in real DevOps environments.
+Core networking fundamentals and hands-on troubleshooting practice.
 
 Covers:
 - How systems communicate over networks
@@ -100,6 +100,24 @@ Covers:
 - Subnetting and CIDR
 - Network debugging tools (`ping`, `traceroute`, `nslookup`, `dig`)
 - Practical troubleshooting labs and real-world scenarios in [Labs](./04-networking/labs) and [Assignments](./04-networking/assignments)
+
+---
+
+### **[🐳 Docker](https://github.com/huss-osman/devops-learning/tree/main/05-docker)**
+
+Core Docker fundamentals and hands-on containerisation practice.
+
+Covers:
+- Containers and Docker architecture
+- Docker images and containers
+- Dockerfiles and image builds
+- Docker networking and communication
+- Docker Compose workflows
+- Multi-container applications
+- DockerHub and Amazon ECR
+- Docker debugging tools (`docker ps`, `docker logs`, `docker exec`, `docker inspect`)
+- Multi-stage builds and orchestration concepts
+- Practical troubleshooting labs and real-world scenarios in [Labs](./05-docker/labs) and [Assignments](./05-docker/assignments)
 
 ---
 
