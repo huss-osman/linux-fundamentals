@@ -165,7 +165,7 @@ By working through this module, I aim to:
   Preventing credential leaks and maintaining secure repositories.
 ---
 
-# Learning Approach
+## Learning Approach
 
 This repository reflects how I learn, not just what I learned.
 
@@ -179,7 +179,7 @@ The goal is long-term Git fluency that transfers to production workflows.
 
 ---
 
-# Folder Purpose
+## Folder Purpose
 
 ### `fundamentals/`
 
