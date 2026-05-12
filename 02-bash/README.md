@@ -43,6 +43,8 @@ By working through this module, I aimed to:
 
 ## Topics Covered
 
+### Fundamentals
+
 - [Introduction to Bash](./fundamentals/01-introduction.md)  
   What Bash is, how it fits into Linux, and why it matters in DevOps.
 
@@ -93,6 +95,35 @@ By working through this module, I aimed to:
 
 - [Working with Files](./fundamentals/17-working-with-files.md)  
   File checks, safe reads/writes, and defensive scripting.
+
+---
+
+### Labs
+
+- [Bash Practice](./labs/bash-practice)  
+  Hands-on Bash scripting exercises focused on variables, loops, conditionals, and shell behaviour.
+
+- [Bash Battle Arena (Levels 1–15)](./labs/bashbattlearena)  
+  Progressive Bash scripting challenges focused on automation, execution flow, and problem solving.
+  
+---
+
+### Assignments
+
+- [Basic Arithmetic Calculator](./assignments/challenge01_calculator.sh)  
+  Bash scripting assignment focused on arithmetic operations, user input, and conditionals.
+
+- [File Operations Script](./assignments/challenge02_file_ops.sh)  
+  Automating directory creation, file handling, and output redirection using Bash.
+
+- [File Checker with Permissions](./assignments/challenge03_permissions.sh)  
+  Using file tests and branching logic to validate file permissions safely.
+
+- [Backup Script for Text Files](./assignments/challenge04_backup_txt.sh)  
+  Creating timestamped backups using loops, globbing, and filesystem automation.
+
+- [System Monitor Script (Bonus)](./assignments/bonus_system_monitor.sh)  
+  Monitoring CPU, memory, disk usage, and logging system information with Bash.
 
 ---
 
