@@ -11,8 +11,6 @@ This repository documents my hands-on learning of **Git** as part of my **DevOps
 
 Git is the foundation of modern collaboration. Nearly everything in DevOps — CI/CD pipelines, infrastructure-as-code, cloud deployments, and automation — relies on strong version control practices.
 
-This repository exists to build and demonstrate that foundation.
-
 The focus throughout this work is on understanding **how Git works (snapshots, branches, history)**, not just memorising commands.
 
 ---
