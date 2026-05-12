@@ -98,7 +98,7 @@ Covers:
 - DNS resolution and records
 - Routing and traffic flow
 - Subnetting and CIDR
-- Network debugging tools (`ping`, `traceroute`, `nslookup`, `curl`)
+- Network debugging tools (`ping`, `traceroute`, `nslookup`, `dig`)
 - Practical troubleshooting labs and real-world scenarios in [Labs](./04-networking/labs) and [Assignments](./04-networking/assignments)
 
 ---
