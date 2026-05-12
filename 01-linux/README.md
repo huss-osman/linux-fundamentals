@@ -102,6 +102,8 @@ By working through this module, I aimed to:
 - [Vim Basics](./fundamentals/vim-basics.md)  
   Editing files efficiently using Vim.
 
+---
+
 ### Labs
 
 - [Bandit (Levels 1–12)](./bandit)  
