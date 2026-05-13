@@ -11,7 +11,8 @@ Understanding this is essential for building, deploying, and managing applicatio
 ## Images & Containers
 
 ### What are Docker Images?
-**Function:** Templates used to create containers  
+
+Templates used to create containers  
 
 **Key Characteristics:**
 - Immutable once created  
@@ -24,7 +25,8 @@ Think of an image like a snapshot of an application at a specific moment in time
 ---
 
 ### What are Containers?
-**Function:** Running instances created from Docker images  
+
+Running instances created from Docker images  
 
 **Key Characteristics:**
 - Execute the application  
@@ -39,7 +41,8 @@ If an image is the recipe, the container is the final dish created from it.
 ## Dockerfiles
 
 ### What is a Dockerfile?
-**Function:** A file used to build Docker images through instructions  
+
+A file used to build Docker images through instructions  
 
 **Common Instructions:**
 - `FROM` → Define the base image  
