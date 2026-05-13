@@ -1,4 +1,4 @@
-# Ports & Protocols RECAP
+# Ports and Protocols RECAP
 
 ## Overview
 
