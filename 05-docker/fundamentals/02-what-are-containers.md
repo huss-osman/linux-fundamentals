@@ -2,9 +2,9 @@
 
 ## Overview
 
-This section introduces **containers**, a lightweight and portable way to package and run applications across different environments. It simplifies deployment by bundling applications together with their dependencies.
+This section introduces **containers**, a lightweight and portable way to package and run **applications** across different environments. It simplifies deployment by bundling applications together with their **dependencies**.
 
-It helps build an understanding of how applications run consistently across systems, making containers essential for **Docker**, cloud infrastructure, CI/CD pipelines, and modern application development.
+It helps build an understanding of how applications run consistently across systems, making containers essential for **Docker**, **cloud infrastructure**, **CI/CD pipelines**, and modern application development.
 
 ---
 
