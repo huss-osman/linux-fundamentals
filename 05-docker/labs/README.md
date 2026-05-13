@@ -1,3 +1,5 @@
+<img width="1000" height="500" alt="imageedit_1_5708764918" src="https://github.com/huss-osman/devops-learning/blob/main/images/DockerLabs.png" />
+
 # Docker Labs
 
 ![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?logo=docker&logoColor=white)
