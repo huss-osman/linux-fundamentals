@@ -8,7 +8,7 @@ It helps build an understanding of how **Docker Engine**, **Docker Hub**, and **
 
 ---
 
-**Docker**  
+## Docker  
 A platform used to build, package, and run applications inside **containers**
 
 ### Role in Modern Development
