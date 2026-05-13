@@ -8,8 +8,6 @@ It helps build an understanding of how **Docker Engine**, **Docker Hub**, and **
 
 ---
 
-## What Is Docker?
-
 **Docker**  
 A platform used to build, package, and run applications inside **containers**
 
