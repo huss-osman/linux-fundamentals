@@ -2,9 +2,9 @@
 
 ## Overview
 
-This section explains what **containers** are and their role in modern **software development** and **DevOps**. It focuses on how containers package applications together with everything they need to run consistently across different environments.
+This section introduces **containers**, a lightweight and portable way to package and run applications across different environments. It simplifies deployment by bundling applications together with their dependencies.
 
-Understanding containers is essential for building, deploying, and managing applications reliably in modern infrastructure.
+It helps build an understanding of how applications run consistently across systems, making containers essential for **Docker**, cloud infrastructure, CI/CD pipelines, and modern application development.
 
 ---
 
