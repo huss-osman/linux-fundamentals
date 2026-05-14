@@ -12,8 +12,6 @@ Understanding how to install and verify Docker is an important first step before
 
 This section covers the installation and setup process for Docker Desktop across different operating systems. It introduces the Docker Desktop interface and explains how to verify that Docker Engine is running correctly.
 
-Understanding how to install and initialise Docker is an important first step before working with containers, images, networking, and modern containerised applications.
-
 ## Contents
 
 - [Docker Installation Walkthrough](#docker-installation-walkthrough)
@@ -68,9 +66,7 @@ Docker Desktop also includes support for Kubernetes, although that will not be c
 
 ## Running Basic Docker Commands
 
-This section covers some of the first commands commonly used when working with Docker. These commands help verify installation, inspect the Docker environment, and understand the current state of the Docker Engine.
-
-They are especially useful when troubleshooting issues, checking configurations, and confirming Docker is running correctly.
+This section covers some of the first commands commonly used when working with Docker. It focuses on verifying the installation, inspecting the Docker environment, and understanding the current state of the Docker Engine.
 
 ## Contents
 
