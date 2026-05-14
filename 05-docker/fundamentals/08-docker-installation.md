@@ -1,4 +1,4 @@
-# Docker Installation and Basic Commands
+# Docker Installation 
 
 ## Overview
 
