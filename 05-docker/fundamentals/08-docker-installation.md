@@ -74,8 +74,8 @@ They are especially useful when troubleshooting issues, checking configurations,
 
 ## Contents
 
-  - [`docker --version`](#docker---version)
-  - [`docker info`](#docker-info)
+  - [docker --version](#docker---version)
+  - [docker info](#docker-info)
 
 ---
 
