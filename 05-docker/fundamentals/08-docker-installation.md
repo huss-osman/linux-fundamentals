@@ -53,4 +53,5 @@ Docker Desktop also includes support for Kubernetes, although that will not be c
 
 ---
 
+## Running Basic Docker Commands
 
