@@ -55,3 +55,54 @@ Docker Desktop also includes support for Kubernetes, although that will not be c
 
 ## Running Basic Docker Commands
 
+This section covers some of the first commands commonly used when working with Docker. These commands help verify installation, inspect the Docker environment, and understand the current state of the Docker Engine.
+
+They are especially useful when troubleshooting issues, checking configurations, and confirming Docker is running correctly.
+
+---
+
+### `docker --version`
+
+Displays the currently installed Docker version along with build information.
+
+This is commonly used to quickly verify that Docker has been installed successfully and is accessible from the terminal.
+
+<p align="center">
+  <img width="900" alt="Docker Version" src="YOUR_IMAGE_LINK_HERE" />
+</p>
+
+> [!NOTE]
+> The output shows:
+>
+> - The installed Docker version
+> - Docker build information
+> - Confirmation that Docker is installed and working correctly
+
+---
+
+### `docker info`
+
+Provides a comprehensive overview of the current Docker environment and Docker Engine state.
+
+This command is especially useful for troubleshooting, debugging, and understanding how Docker is currently configured.
+
+<p align="center">
+  <img width="900" alt="Docker Info" src="YOUR_IMAGE_LINK_HERE" />
+</p>
+
+> [!NOTE]
+> `docker info` displays a large amount of useful system information including:
+>
+> - Number of containers and images
+> - Storage driver information
+> - Docker plugins
+> - Docker Compose plugin
+> - CPU and memory allocation
+> - Docker root directory
+> - Debug mode status
+> - Kernel and operating system details
+>
+> This information becomes extremely useful when troubleshooting Docker-related issues.
+
+
+
