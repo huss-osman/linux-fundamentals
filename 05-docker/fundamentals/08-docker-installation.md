@@ -8,6 +8,19 @@ Understanding how to install and verify Docker is an important first step before
 
 ---
 
+## Docker Installation & Setup
+
+This section covers the installation and setup process for Docker Desktop across different operating systems. It introduces the Docker Desktop interface and explains how to verify that Docker Engine is running correctly.
+
+Understanding how to install and initialise Docker is an important first step before working with containers, images, networking, and modern containerised applications.
+
+## Contents
+
+- [Docker Installation Walkthrough](#docker-installation-walkthrough)
+- [Docker Desktop Walkthrough](#docker-desktop-walkthrough)
+
+---
+
 ### Docker Installation Walkthrough
 
 Download Docker Desktop using the official link: https://www.docker.com/products/docker-desktop/
