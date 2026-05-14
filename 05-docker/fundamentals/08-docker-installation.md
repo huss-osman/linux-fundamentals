@@ -14,12 +14,11 @@ Download Docker Desktop using the official link: https://www.docker.com/products
 
 https://github.com/user-attachments/assets/d5a55da9-45fb-48eb-a32f-de87319d30d5
 
-> [!NOTE]
-> Select and download the correct version based on your operating system:
->
-> - **Windows** → Docker Desktop for Windows  
-> - **macOS** → Docker Desktop for Mac  
-> - **Linux** → Docker Engine / Docker Desktop for Linux  
+Select and download the correct version based on your operating system:
+
+- **Windows** → Docker Desktop for Windows  
+- **macOS** → Docker Desktop for Mac  
+- **Linux** → Docker Engine / Docker Desktop for Linux  
 
 > [!IMPORTANT]
 > After downloading Docker:
@@ -28,6 +27,29 @@ https://github.com/user-attachments/assets/d5a55da9-45fb-48eb-a32f-de87319d30d5
 > - Run the installer and complete the setup process
 > - Open Docker Desktop once installation is complete
 > - Wait until Docker Engine starts successfully before continuing
+
+---
+
+### Docker Desktop Walkthrough
+
+Once Docker Desktop is installed, open the application to verify everything is running correctly.
+
+https://github.com/user-attachments/assets/015fadae-bea5-4dac-934b-50424784ed38
+
+Docker Desktop is the main interface used to manage:
+
+- Containers  
+- Images  
+- Volumes  
+- Networks  
+- Development environments  
+
+You should see the Docker whale icon appear in the bottom-left corner of the application.
+
+> [!NOTE]
+> A green status indicator means the Docker Engine has successfully started and is running correctly.
+
+Docker Desktop also includes support for Kubernetes, although that will not be covered at this stage.
 
 ---
 
