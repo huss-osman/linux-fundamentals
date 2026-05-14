@@ -72,6 +72,11 @@ This section covers some of the first commands commonly used when working with D
 
 They are especially useful when troubleshooting issues, checking configurations, and confirming Docker is running correctly.
 
+## Contents
+
+  - [`docker --version`](#docker---version)
+  - [`docker info`](#docker-info)
+
 ---
 
 ### `docker --version`
