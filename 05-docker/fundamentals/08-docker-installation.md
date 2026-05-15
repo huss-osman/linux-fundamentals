@@ -82,7 +82,7 @@ Displays the currently installed Docker version along with build information.
 This is commonly used to quickly verify that Docker has been installed successfully and is accessible from the terminal.
 
 <p align="center">
-  <img width="900" alt="Docker Version" src="YOUR_IMAGE_LINK_HERE" />
+  <img width="900" alt="Docker Version" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker%20--version.png" />
 </p>
 
 > [!NOTE]
@@ -101,7 +101,7 @@ Provides a comprehensive overview of the current Docker environment and Docker E
 This command is especially useful for troubleshooting, debugging, and understanding how Docker is currently configured.
 
 <p align="center">
-  <img width="900" alt="Docker Info" src="YOUR_IMAGE_LINK_HERE" />
+  <img width="900" alt="Docker Info" src="https://github.com/huss-osman/devops-learning/blob/main/images/Dockerinfo.png" />
 </p>
 
 > [!NOTE]
@@ -118,5 +118,119 @@ This command is especially useful for troubleshooting, debugging, and understand
 >
 > This information becomes extremely useful when troubleshooting Docker-related issues.
 
+---
 
+### `docker run hello-world`
 
+Runs a test container using the official `hello-world` Docker image.
+
+This is one of the first commands commonly used to verify that Docker is installed correctly and that the Docker Engine is functioning properly.
+
+<p align="center">
+  <img width="900" alt="Docker Hello World" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker%20run%20hello-world.png" />
+</p>
+
+> [!NOTE]
+> When running this command, Docker performs several steps automatically:
+>
+> 1. Checks whether the `hello-world` image already exists locally  
+> 2. If the image is not present, Docker pulls it from Docker Hub  
+> 3. Docker creates a container from the image  
+> 4. The container starts and executes the application  
+>
+> After the container runs successfully, the message:
+>
+> `Hello from Docker!`
+>
+> confirms that:
+>
+> - Docker is installed correctly
+> - Docker Engine is running
+> - Containers can be created and executed successfully
+
+---
+
+### `docker ps`
+
+Displays all currently running containers on the system.
+
+This command is commonly used to inspect active containers and view important information about their current state.
+
+<p align="center">
+  <img width="900" alt="Docker PS" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker%20ps.png" />
+</p>
+
+> [!NOTE]
+> `docker ps` displays useful container information including:
+>
+> - Container ID  
+> - Image used  
+> - Command being executed  
+> - Creation time  
+> - Current status  
+> - Port mappings  
+> - Container names  
+>
+> In this case, no containers are currently running.
+>
+> The `hello-world` container already completed its task and stopped automatically after displaying:
+>
+> `Hello from Docker!`
+>
+> This is normal behaviour because the container only needed to execute a short test application before exiting successfully.
+
+---
+
+### `docker ps -a`
+
+Displays all containers on the system, including both running and stopped containers.
+
+This command is useful when inspecting previous containers, checking exit statuses, and viewing containers that have already completed execution.
+
+<p align="center">
+  <img width="1000" alt="Docker PS All" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker%20ps%20-a.png" />
+</p>
+
+> [!NOTE]
+> Unlike `docker ps`, the `docker ps -a` command also includes stopped containers.
+>
+> In this case, the output shows the previously created `hello-world` container.
+>
+> The container status shows:
+>
+> `Exited`
+>
+> because the container already completed its task of printing:
+>
+> `Hello from Docker!`
+>
+> Once the application finished executing, the container stopped automatically because it had already served its purpose.
+
+---
+
+## Commands
+
+- `docker --version` → Display the installed Docker version and build information  
+- `docker info` → View detailed Docker Engine and environment information  
+- `docker run hello-world` → Test Docker installation using a sample container  
+- `docker ps` → View currently running containers  
+- `docker ps -a` → View all containers including stopped containers  
+
+---
+
+## Key Takeaways
+
+- Docker can be installed across Windows, macOS, and Linux environments  
+- Docker Desktop provides a graphical interface for managing containers and images  
+- `docker info` helps inspect and troubleshoot the Docker environment  
+- Containers are created from Docker images and run applications in isolated environments  
+- Some containers automatically stop once their task has completed successfully  
+- Basic Docker commands are essential before working with real containerised applications  
+
+---
+
+## Reflection
+
+Working through the Docker installation process helped me understand how Docker Engine, containers, and images all connect together. Running commands like `docker run hello-world` made the container lifecycle easier to visualise in practice.
+
+I also learned how useful Docker commands are for inspecting the environment and troubleshooting issues. This reinforces the importance of understanding the fundamentals before moving into more advanced containerisation and orchestration concepts.
