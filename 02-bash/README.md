@@ -9,7 +9,7 @@
 
 This repository documents my hands-on learning of **Bash scripting** through practical automation and shell scripting exercises.
 
-Bash is the foundation of Linux automation. Nearly everything in DevOps — containers, CI/CD pipelines, cloud provisioning, and system automation — relies on Bash scripts running at the command line. This repository exists to build and demonstrate that foundation.
+Bash is the foundation of Linux automation. Nearly everything in DevOps including containers, CI/CD pipelines, cloud provisioning, and system automation relies on strong Bash scripting fundamentals.
 
 The focus throughout this work is on understanding **how Bash behaves and executes**, not memorising syntax.
 
