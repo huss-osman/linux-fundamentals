@@ -111,4 +111,8 @@ Rather than memorising commands, the emphasis is on understanding:
 
 These notes build a strong foundation for future topics such as **Docker Compose**, **Kubernetes**, **CI/CD**, and **cloud deployments**.
 
+You can also follow the hands-on Docker learning journey and practical repository work here:
+
+➡️ [Docker Learning Repository](YOUR_LINK_HERE)
+
 ➡️ [View Fundamentals](./fundamentals)
