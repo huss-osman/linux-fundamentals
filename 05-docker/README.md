@@ -113,6 +113,14 @@ These notes build a strong foundation for future topics such as **Docker Compose
 
 ➡️ [View Fundamentals](./fundamentals)
 
-You can also follow the hands-on Docker learning journey and practical repository work here:
+---
 
-➡️ [Docker Learning Repository](YOUR_LINK_HERE)
+---
+
+## Hands-On Docker Repository
+
+Alongside these fundamentals notes, I also maintain a hands-on Docker repository focused on practical containerisation workflows and real-world experimentation.
+
+The repository includes Docker commands, image creation, container management, troubleshooting, and step-by-step learning progression.
+
+➡️ [View Docker Learning Repository](YOUR_LINK_HERE)
