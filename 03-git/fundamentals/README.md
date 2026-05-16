@@ -6,8 +6,6 @@
 ![Platform](https://img.shields.io/badge/Platform-GitHub-181717?logo=github&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Version%20Control-purple?logo=git&logoColor=white)
 
-## Overview
-
 This folder contains **Git fundamentals** notes focused on version control and collaboration practices.
 
 The focus is on understanding how Git works internally rather than memorising commands.
