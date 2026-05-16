@@ -115,8 +115,6 @@ These notes build a strong foundation for future topics such as **Docker Compose
 
 ---
 
----
-
 ## Hands-On Docker Repository
 
 Alongside these fundamentals notes, I also maintain a hands-on Docker repository focused on practical containerisation workflows and real-world experimentation.
