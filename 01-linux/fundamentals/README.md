@@ -59,5 +59,3 @@ Examples are practical, command-line driven, and tied to real-world usage.
 - Learn **why** commands work, not just what they do  
 - Use Linux the way it’s used in production environments  
 - Build a strong foundation for Docker, Kubernetes, CI/CD, and cloud platforms  
-
-These notes are actively updated as I progress through the DevOps curriculum.
