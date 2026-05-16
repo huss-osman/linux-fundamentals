@@ -7,7 +7,9 @@
 
 This section focuses on writing clean, maintainable, and safe Git history.
 
-These lessons emphasise professional standards used in production environments.
+The emphasis is on applying Git best practices used in real development environments.
+
+These lessons reinforce professional version control and collaboration workflows.
 
 ---
 
