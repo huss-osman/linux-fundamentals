@@ -12,7 +12,7 @@ This repository documents my hands-on learning of **Computer Networking** throug
 
 Networking is the backbone of modern infrastructure. Every cloud service, API call, container, and CI/CD pipeline depends on networking working correctly.
 
-The focus throughout this work is on understanding **how networking actually works (data flow, protocols, layers)** — not memorising definitions.
+The focus throughout this work is on understanding **how networking behaves internally**, not memorising definitions.
 
 ---
 
