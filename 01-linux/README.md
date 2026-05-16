@@ -10,7 +10,7 @@
 
 This repository documents my hands-on learning of **Linux** through practical exercises and real-world command-line workflows.
 
-Linux is the foundation of modern infrastructure. Nearly everything in DevOps — containers, CI/CD, cloud platforms, and automation — assumes a strong understanding of Linux at the command line. This repository exists to build and demonstrate that foundation.
+Linux is the foundation of modern infrastructure. Nearly everything in DevOps including containers, CI/CD, cloud platforms, and automation relies on strong Linux command-line fundamentals.
 
 The focus throughout this work is on **understanding how Linux works**, not memorising commands.
 
