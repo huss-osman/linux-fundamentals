@@ -6,7 +6,7 @@
 ![Focus](https://img.shields.io/badge/Focus-Containerisation-purple?logo=docker&logoColor=white)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This folder contains my core **Docker fundamentals** notes as part of my DevOps training.
+This folder contains my core **Docker fundamentals** notes focused on containers and practical Docker workflows.
 
 Each topic focuses on understanding **how containers and Docker actually work**, not just memorising commands or configuration.
 
