@@ -84,5 +84,3 @@ Examples are practical, tool-driven, and tied to real-world infrastructure and d
 - Learn how DNS, routing, and IP addressing actually work  
 - Use networking tools (`ping`, `traceroute`, `nslookup`, `curl`) to debug issues  
 - Build a strong foundation for cloud networking, AWS, and infrastructure design  
-
-These notes are actively updated as I progress through my DevOps curriculum.
