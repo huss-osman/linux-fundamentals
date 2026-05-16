@@ -6,7 +6,7 @@
 ![Focus](https://img.shields.io/badge/Focus-Networking%20Fundamentals-purple?logo=cloudflare&logoColor=white)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This folder contains my core **networking fundamentals** notes as part of my DevOps training.
+This folder contains my core **networking fundamentals** notes focused on practical networking and troubleshooting skills.
 
 Each topic focuses on understanding **how networking actually works**, not just memorising definitions or concepts.
 
