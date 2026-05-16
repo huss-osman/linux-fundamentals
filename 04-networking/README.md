@@ -8,7 +8,7 @@
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-orange?logo=amazonaws)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This repository documents my hands-on learning of **Computer Networking** as part of my **DevOps training with CoderCo**.
+This repository documents my hands-on learning of **Computer Networking** through practical troubleshooting and infrastructure concepts.
 
 Networking is the backbone of modern infrastructure. Every cloud service, API call, container, and CI/CD pipeline depends on networking working correctly.
 
