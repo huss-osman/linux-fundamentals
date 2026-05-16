@@ -7,7 +7,7 @@
 ![Script](https://img.shields.io/badge/Script-Bash-blue?logo=gnubash)
 ![Focus](https://img.shields.io/badge/Focus-Scripting%20Fundamentals-purple?logo=gnubash)
 
-This folder contains my core **Bash fundamentals** notes focused on practical scripting and command-line automation.
+This folder contains my core **Bash fundamentals** notes focused on practical Bash scripting workflows.
 
 Each topic focuses on understanding **how Bash works**, not just memorising syntax or commands.
 
