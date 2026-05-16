@@ -70,8 +70,11 @@ This section covers some of the first commands commonly used when working with D
 
 ## Contents
 
-  - [docker --version](#docker---version)
-  - [docker info](#docker-info)
+- [docker --version](#docker---version)
+- [docker info](#docker-info)
+- [docker run hello-world](#docker-run-hello-world)
+- [docker ps](#docker-ps)
+- [docker ps -a](#docker-ps--a)
 
 ---
 
