@@ -12,9 +12,9 @@
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-Automation-2088FF?logo=githubactions&logoColor=white)
 ![Orchestration](https://img.shields.io/badge/Orchestration-Kubernetes-326CE5?logo=kubernetes&logoColor=white)
 
-This is a hands-on learning repository focused on building strong **DevOps foundations** through structured, practical modules.
+This repository documents my hands-on learning across core **DevOps**, **cloud**, and **infrastructure** technologies through structured practical modules and real-world exercises.
 
-The content follows my training with [CoderCo](https://coderco.io), covering core technologies used in modern DevOps environments, including:
+The repository focuses on technologies commonly used in modern DevOps environments, including:
 
 - **[Linux](./01-linux)**
 - **[Bash](./02-bash)**
