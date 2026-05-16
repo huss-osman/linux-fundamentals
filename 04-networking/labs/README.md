@@ -6,7 +6,7 @@
 ![Tools](https://img.shields.io/badge/Tools-ping%20%7C%20traceroute%20%7C%20nslookup-blue)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This folder contains **hands-on networking labs** completed as part of my DevOps training.
+This folder contains **hands-on networking labs** focused on practical troubleshooting and network investigation skills.
 
 The focus is on applying networking fundamentals through real command-line investigation and troubleshooting workflows.
 
