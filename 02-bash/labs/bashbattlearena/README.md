@@ -11,7 +11,7 @@
 
 ## Bash Battle Arena – Levels 1–15 Overview
 
-The **Bash Battle Arena** is a command-line game designed by [CoderCo](https://coderco.io) to teach **Bash scripting** skills through fun, level-based challenges. Each level is structured as a "mission" that must be solved with a script, introducing progressively more advanced concepts as you advance.
+The **Bash Battle Arena** is a command-line game designed to teach **Bash scripting** skills through fun, level-based challenges. Each level is structured as a "mission" that must be solved with a script, introducing progressively more advanced concepts as you advance.
 
 > [!TIP]
 > Attempt each level yourself before reviewing solutions.  
