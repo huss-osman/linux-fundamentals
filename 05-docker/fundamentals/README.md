@@ -48,5 +48,3 @@ Examples are practical, command-line driven, and tied to real-world infrastructu
 - Learn how Docker images are built and executed  
 - Understand container networking and communication  
 - Build a strong foundation for Kubernetes, CI/CD, and cloud deployments  
-
-These notes are actively updated as I progress through my DevOps curriculum.
