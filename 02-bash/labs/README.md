@@ -6,7 +6,7 @@
 ![Script](https://img.shields.io/badge/Script-Bash-blue?logo=gnubash)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This folder contains **hands-on Bash scripting labs** completed as part of my DevOps training.
+This folder contains **hands-on Bash scripting labs** focused on practical automation and scripting skills.
 
 The focus is on applying Bash fundamentals through practical challenges and building confidence with shell scripting and automation.
 
