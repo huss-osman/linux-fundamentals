@@ -11,7 +11,7 @@ This repository documents my hands-on learning of **Docker** and **containerisat
 
 Docker is a major part of modern infrastructure and application deployment. It allows applications and their dependencies to be packaged into portable environments that run consistently across local systems, cloud platforms, and CI/CD pipelines.
 
-The focus throughout this repository is understanding **how containers, images, Dockerfiles, and networking actually work**, not just memorising commands.
+The focus throughout this repository is understanding **how containers, Dockerfiles, images, and networking work** through practical learning.
 
 ---
 
