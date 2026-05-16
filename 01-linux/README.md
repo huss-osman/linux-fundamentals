@@ -8,7 +8,7 @@
 ![Focus](https://img.shields.io/badge/Focus-Linux%20Fundamentals-purple?logo=linux)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This repository documents my hands-on learning of **Linux** as part of my **DevOps training with CoderCo**.
+This repository documents my hands-on learning of **Linux** through practical exercises and real-world command-line workflows.
 
 Linux is the foundation of modern infrastructure. Nearly everything in DevOps — containers, CI/CD, cloud platforms, and automation — assumes a strong understanding of Linux at the command line. This repository exists to build and demonstrate that foundation.
 
