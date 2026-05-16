@@ -76,5 +76,3 @@ Examples are practical, script-focused, and tied to real-world automation and De
 - Use Bash the way it is used in production environments
 - Understand failure modes and defensive scripting patterns
 - Build a strong foundation for CI/CD pipelines, Dockerfiles, and cloud automation
-
-These notes are actively updated as I progress through my DevOps curriculum.
