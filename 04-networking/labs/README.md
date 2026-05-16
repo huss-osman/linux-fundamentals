@@ -10,7 +10,7 @@ This folder contains **hands-on networking labs** focused on practical troublesh
 
 The focus is on applying networking fundamentals through real command-line investigation and troubleshooting workflows.
 
-Labs emphasise understanding how systems communicate, how traffic flows across networks, and how to debug connectivity issues in real-world environments.
+Labs emphasise understanding network communication, traffic flow, and troubleshooting real-world connectivity issues.
 
 ---
 
