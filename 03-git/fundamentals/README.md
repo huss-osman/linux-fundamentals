@@ -90,5 +90,3 @@ Topics emphasise Git concepts, history, branching models, and collaboration work
 - Learn how Git tracks and stores project history
 - Develop correct mental models before complex workflows
 - Build a strong foundation for branching, merging, and collaboration
-
-These notes are actively updated as I progress through my DevOps curriculum.
