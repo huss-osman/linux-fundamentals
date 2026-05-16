@@ -8,7 +8,7 @@
 
 ## Overview
 
-This folder contains **Git fundamentals** notes completed as part of my DevOps training.
+This folder contains **Git fundamentals** notes focused on version control and collaboration practices.
 
 The focus is on understanding how Git works internally rather than memorising commands.
 
