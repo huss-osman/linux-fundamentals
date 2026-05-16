@@ -10,7 +10,7 @@
 
 This repository documents my hands-on learning of **Computer Networking** through practical troubleshooting and infrastructure concepts.
 
-Networking is the foundation of modern infrastructure. Nearly everything in DevOps — cloud platforms, containers, APIs, CI/CD pipelines, and distributed systems — relies on strong networking fundamentals.
+Networking is the foundation of modern infrastructure. Nearly everything in DevOps including cloud platforms, containers, APIs, CI/CD pipelines, and distributed systems relies on strong networking fundamentals.
 
 The focus throughout this work is on understanding **how networking behaves internally**, not memorising definitions.
 
