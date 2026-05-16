@@ -12,7 +12,7 @@
 
 ## SadServers (Easy, Medium, Hard)
 
-**SadServers**, created by [Tomas Fernandez](https://sadservers.com), is a hands-on Linux troubleshooting platform designed to simulate real-world operational incidents and system failures.
+[**SadServers**](https://sadservers.com), a hands-on Linux troubleshooting platform designed to simulate real-world operational incidents and system failures.
 
 Unlike [Bandit](../bandit), which focuses on isolated command-line challenges, SadServers emphasizes **diagnosis, reasoning, and fixing broken systems** — closely mirroring how Linux is used in production environments.
 
