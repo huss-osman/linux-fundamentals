@@ -9,7 +9,7 @@
 
 This repository documents my hands-on learning of **Git** through practical version control and collaboration workflows.
 
-Git is the foundation of modern collaboration. Nearly everything in DevOps — CI/CD pipelines, infrastructure-as-code, cloud deployments, and automation — relies on strong version control practices.
+Git is the foundation of modern collaboration. Nearly everything in DevOps including CI/CD pipelines, infrastructure-as-code, cloud deployments, and automation relies on strong version control practices.
 
 The focus throughout this work is on understanding **how Git works (snapshots, branches, history)**, not just memorising commands.
 
