@@ -10,7 +10,7 @@
 
 ## OverTheWire Bandit - Levels 0–12 Overview
 
-The **OverTheWire Bandit** wargame, is designed to teach **Linux fundamentals** through structured, level-based challenges. Each level presents a focused task that must be solved using command-line tools, gradually introducing more advanced concepts as you progress.
+The [**OverTheWire Bandit**](https://overthewire.org) wargame, is designed to teach **Linux fundamentals** through structured, level-based challenges. Each level presents a focused task that must be solved using command-line tools, gradually introducing more advanced concepts as you progress.
 
 > [!TIP]
 > Try each level yourself before reading the solution.  
