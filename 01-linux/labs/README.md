@@ -6,7 +6,7 @@
 ![Shell](https://img.shields.io/badge/Shell-Bash-blue?logo=gnubash)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This folder contains **hands-on Linux practice labs** completed as part of my DevOps training.
+This folder contains **hands-on Linux practice labs** focused on practical troubleshooting and command-line skills.
 
 The focus is on applying Linux fundamentals in realistic scenarios and building practical troubleshooting skills.
 
