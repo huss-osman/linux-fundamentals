@@ -7,7 +7,7 @@
 ![Focus](https://img.shields.io/badge/Focus-Version%20Control-purple?logo=git&logoColor=white)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This repository documents my hands-on learning of **Git** as part of my **DevOps training with CoderCo**.
+This repository documents my hands-on learning of **Git** through practical version control and collaboration workflows.
 
 Git is the foundation of modern collaboration. Nearly everything in DevOps — CI/CD pipelines, infrastructure-as-code, cloud deployments, and automation — relies on strong version control practices.
 
