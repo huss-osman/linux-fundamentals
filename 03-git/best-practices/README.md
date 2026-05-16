@@ -5,11 +5,11 @@
 ![VCS](https://img.shields.io/badge/VCS-Git-F05032?logo=git&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-Best%20Practices-purple?logo=git&logoColor=white)
 
-This section focuses on writing clean, maintainable, and safe Git history.
+This folder contains **Git best practices** notes focused on clean and maintainable version control workflows.
 
-The emphasis is on applying Git best practices used in real development environments.
+The focus is on applying Git standards through practical collaboration workflows.
 
-These lessons reinforce professional version control and collaboration workflows.
+Topics emphasise professional practices used in real development environments.
 
 ---
 
