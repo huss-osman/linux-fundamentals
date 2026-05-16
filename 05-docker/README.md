@@ -7,7 +7,7 @@
 ![Focus](https://img.shields.io/badge/Focus-Containerisation-purple?logo=docker&logoColor=white)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This repository documents my hands-on learning of **Docker** and **containerisation** as part of my **DevOps training with CoderCo**.
+This repository documents my hands-on learning of **Docker** and **containerisation** through practical container workflows.
 
 Docker is a major part of modern infrastructure and application deployment. It allows applications and their dependencies to be packaged into portable environments that run consistently across local systems, cloud platforms, and CI/CD pipelines.
 
