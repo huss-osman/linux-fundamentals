@@ -71,6 +71,9 @@ By working through this module, I aimed to:
 - [Docker Installation](./fundamentals/08-docker-installation.md)  
   Installing Docker Desktop and running basic Docker commands.
 
+- [Understanding the Dockerfile](./fundamentals/09-understanding-the-dockerfile.md)  
+  Learning how Dockerfiles define container images.
+
 ---
 
 ## Learning Approach
