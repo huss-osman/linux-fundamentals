@@ -31,9 +31,7 @@ This means you can recreate the exact same environment every single time, which 
 
 ## Key Dockerfile Instructions
 
-<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/Example_Docker_File.png" />
-</p>
 
 ### Common Dockerfile Instructions
 
