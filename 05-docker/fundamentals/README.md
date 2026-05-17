@@ -40,7 +40,7 @@ Examples are practical, command-line driven, and tied to real-world infrastructu
 - [Docker Installation](./08-docker-installation.md)  
   Installing Docker and preparing the local environment.
 
-- [Understanding the Dockerfile](./fundamentals/09-understanding-the-dockerfile.md)  
+- [Understanding the Dockerfile](./09-understanding-the-dockerfile.md)  
   Learning how Dockerfiles define container images.
   
 ---
