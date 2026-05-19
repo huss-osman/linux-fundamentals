@@ -127,8 +127,6 @@ Characteristics:
 
 ## Reflection
 
-Learning Docker networking helped reinforce how containers communicate within modern infrastructure environments.
-
 Understanding the differences between Bridge, Host, and None networking clarified how Docker balances communication, isolation, scalability, and security across different deployment scenarios.
 
 Docker networking is especially important in DevOps because modern applications are often split into multiple services running across containers that must communicate reliably and securely.
