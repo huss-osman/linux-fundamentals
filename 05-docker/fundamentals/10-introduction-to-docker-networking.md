@@ -36,7 +36,7 @@ Docker networking ensures these services can:
 
 ## Docker Networking Types
 
-ocker provides multiple networking modes that control how containers communicate with each other, the host machine, and external networks.
+Docker provides multiple networking modes that control how containers communicate with each other, the host machine, and external networks.
 
 Each networking type is designed for different use cases depending on the level of communication, isolation, and performance required.
 
