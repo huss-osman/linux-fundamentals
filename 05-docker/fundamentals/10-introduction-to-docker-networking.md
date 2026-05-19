@@ -48,6 +48,8 @@ The three most common Docker networking types are:
 
 Understanding these networking types is important when designing secure, scalable, and containerised applications in modern DevOps environments.
 
+---
+
 ### Bridge Network
 
 The **Bridge** network is Docker’s default networking mode.
