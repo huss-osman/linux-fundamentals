@@ -74,6 +74,9 @@ By working through this module, I aimed to:
 - [Understanding the Dockerfile](./fundamentals/09-understanding-the-dockerfile.md)  
   Learning how Dockerfiles define container images.
 
+- [Introduction to Docker Networking](./fundamentals/10-introduction-to-docker-networking.md)  
+  Understanding how containers communicate using Docker networks.
+
 ---
 
 ## Learning Approach
