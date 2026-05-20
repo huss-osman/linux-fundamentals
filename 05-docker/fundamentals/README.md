@@ -54,6 +54,9 @@ Examples are practical, command-line driven, and tied to real-world infrastructu
 
 - [Docker Registries](./13-docker-registries.md)  
   Understanding how container images are stored and shared.
+
+- [DockerHub](./14-dockerhub.md)  
+  Using DockerHub as a public container registry.
   
 ---
 
