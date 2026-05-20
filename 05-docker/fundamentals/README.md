@@ -48,6 +48,9 @@ Examples are practical, command-line driven, and tied to real-world infrastructu
 
 - [Introduction to Docker Compose](./11-introduction-to-docker-compose.md)  
   Managing multi-container applications with Compose.
+
+- [Why Docker Compose Matters](./12-why-docker-compose-is-important.md)  
+  Understanding the role of Compose in DevOps workflows.
   
 ---
 
