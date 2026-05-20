@@ -51,6 +51,9 @@ Examples are practical, command-line driven, and tied to real-world infrastructu
 
 - [Why Docker Compose Matters](./12-why-docker-compose-is-important.md)  
   Understanding the role of Compose in DevOps workflows.
+
+- [Docker Registries](./13-docker-registries.md)  
+  Understanding how container images are stored and shared.
   
 ---
 
