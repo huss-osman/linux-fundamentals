@@ -86,6 +86,9 @@ By working through this module, I aimed to:
 - [Docker Registries](./fundamentals/13-docker-registries.md)  
   Understanding how container images are stored and shared.
 
+- [DockerHub](./fundamentals/14-dockerhub.md)  
+  Using DockerHub as a public container registry.
+
 ---
 
 ## Learning Approach
