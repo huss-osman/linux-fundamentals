@@ -6,8 +6,6 @@ Docker Hub allows developers and DevOps engineers to upload, manage, distribute,
 
 Understanding Docker Hub is important when working with **containerised applications**, **CI/CD pipelines**, and cloud-native deployments.
 
----
-
 ## Contents
 
 - [What is Docker Hub?](#what-is-docker-hub)
