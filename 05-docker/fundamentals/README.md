@@ -45,6 +45,9 @@ Examples are practical, command-line driven, and tied to real-world infrastructu
 
 - [Introduction to Docker Networking](./10-introduction-to-docker-networking.md)  
   Understanding how containers communicate using Docker networks.
+
+- [Introduction to Docker Compose](./11-introduction-to-docker-compose.md)  
+  Managing multi-container applications with Compose.
   
 ---
 
