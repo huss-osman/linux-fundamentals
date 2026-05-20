@@ -83,6 +83,9 @@ By working through this module, I aimed to:
 - [Why Docker Compose Matters](./fundamentals/12-why-docker-compose-is-important.md)  
   Understanding the role of Compose in DevOps workflows.
 
+- [Docker Registries](./fundamentals/13-docker-registries.md)  
+  Understanding how container images are stored and shared.
+
 ---
 
 ## Learning Approach
