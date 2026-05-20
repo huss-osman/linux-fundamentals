@@ -80,6 +80,9 @@ By working through this module, I aimed to:
 - [Introduction to Docker Compose](./fundamentals/11-introduction-to-docker-compose.md)  
   Managing multi-container applications with Compose.
 
+- [Why Docker Compose Matters](./fundamentals/12-why-docker-compose-is-important.md)  
+  Understanding the role of Compose in DevOps workflows.
+
 ---
 
 ## Learning Approach
