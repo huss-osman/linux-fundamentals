@@ -2,8 +2,6 @@
 
 ## Overview
 
-This section introduces **Docker Compose**, a tool used to define and manage **multi-container Docker applications** using a single configuration file.
-
 Docker Compose simplifies container orchestration by allowing multiple services such as **web applications**, **databases**, and **networking** to run together as one environment.
 
 It helps build an understanding of how containers communicate in real-world environments and is essential for **microservices**, **development environments**, **CI/CD pipelines**, and modern DevOps workflows.
