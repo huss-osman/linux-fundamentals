@@ -77,6 +77,9 @@ By working through this module, I aimed to:
 - [Introduction to Docker Networking](./fundamentals/10-introduction-to-docker-networking.md)  
   Understanding how containers communicate using Docker networks.
 
+- [Introduction to Docker Compose](./fundamentals/11-introduction-to-docker-compose.md)  
+  Managing multi-container applications with Compose.
+
 ---
 
 ## Learning Approach
