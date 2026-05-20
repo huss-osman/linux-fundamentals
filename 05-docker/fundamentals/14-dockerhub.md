@@ -53,7 +53,7 @@ Docker Hub supports both:
 Docker Hub provides access to official images, community images, repositories, and container distribution services.
 
 <p align="center">
-  <img width="1000" alt="Docker Hub Homepage" src="https://github.com/huss-osman/devops-learning/blob/main/images/Docker_Hub_Picture(1).png" />
+  <img width="1000" alt="Docker Hub Homepage" src="https://github.com/huss-osman/devops-learning/blob/main/images/Docker_Hub_Picture.png" />
 </p>
 
 > [!NOTE]
@@ -72,7 +72,7 @@ Docker Hub provides access to official images, community images, repositories, a
 Docker Hub also provides community-created images that can be pulled directly onto your local machine.
 
 <p align="center">
-  <img width="1000" alt="Community Images" src="https://github.com/huss-osman/devops-learning/blob/main/images/Community_Images(3).png" />
+  <img width="1000" alt="Community Images" src="https://github.com/huss-osman/devops-learning/blob/main/images/Community_Images.png" />
 </p>
 
 > [!IMPORTANT]
@@ -85,7 +85,7 @@ Docker Hub also provides community-created images that can be pulled directly on
 Before pushing images to Docker Hub, create an account or sign in.
 
 <p align="center">
-  <img width="700" alt="Docker Hub Sign In" src="https://github.com/huss-osman/devops-learning/blob/main/images/Sign_in_Docker_Hub(2).png" />
+  <img width="1000" alt="Docker Hub Sign In" src="https://github.com/huss-osman/devops-learning/blob/main/images/Sign_in_Docker_Hub.png" />
 </p>
 
 ---
@@ -95,7 +95,7 @@ Before pushing images to Docker Hub, create an account or sign in.
 After signing in, navigate to the Docker Hub section from Docker Desktop.
 
 <p align="center">
-  <img width="1000" alt="Docker Hub Navigation" src="https://github.com/huss-osman/devops-learning/blob/main/images/Docker_Hub_Navigation(3).png" />
+  <img width="1000" alt="Docker Hub Navigation" src="https://github.com/huss-osman/devops-learning/blob/main/images/Docker_Hub_Navigation.png" />
 </p>
 
 ---
@@ -105,7 +105,7 @@ After signing in, navigate to the Docker Hub section from Docker Desktop.
 Authenticate your local Docker CLI with Docker Hub.
 
 <p align="center">
-  <img width="1000" alt="Docker Login Command" src="https://github.com/huss-osman/devops-learning/blob/main/images/Docker_Login_Command(1).png" />
+  <img width="1000" alt="Docker Login Command" src="https://github.com/huss-osman/devops-learning/blob/main/images/Docker_Login_Command.png" />
 </p>
 
 > [!NOTE]
