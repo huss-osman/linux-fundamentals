@@ -7,7 +7,9 @@ Find and read a hidden file.
 
 ## Solution
 
+<p align="center">
 <img width="617" height="247" alt="Bandit Solution 3" src="https://github.com/user-attachments/assets/75bd52a2-a012-428d-925d-de6de37de78c" />
+</p>
 
 ```bash
 ls
