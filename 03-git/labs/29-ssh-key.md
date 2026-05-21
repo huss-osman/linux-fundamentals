@@ -22,7 +22,9 @@ Setting up an SSH key improves security and simplifies workflows by allowing sea
 
 ### Generate SSH Key
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_ssh_config.png">
+<p align="center">
+<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_ssh_config.png">
+</p>
 
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/demo_key
@@ -42,7 +44,9 @@ After running the command, you will be prompted to enter a **passphrase**. This 
 
 ### Verify SSH Key Files
 
-<img width="400" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_key_files.png">
+<p align="center">
+<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_key_files.png">
+</p>
 
 ```bash
 ls ~/.ssh/
@@ -60,7 +64,9 @@ The **private key must remain secure and should never be shared.**
 
 ### View the Public Key
 
+<p align="center">
 <img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/print_publickey_demo.png">
+</p>
 
 ```bash
 cat ~/.ssh/demo_key.pub
@@ -72,7 +78,9 @@ This command prints the **public SSH key**, which will be added to **GitHub**.
 
 ### Copy the Public Key
 
-<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_publickey_copy.png">
+<p align="center">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_publickey_copy.png">
+</p>
 
 ```bash
 cat ~/.ssh/demo_key.pub | pbcopy
