@@ -13,7 +13,7 @@ Read a file with spaces in its filename.
 ## Solution
 
 <p align="center">
-<img width="1000" height="350" alt="Bandit Solution 2" src="https://github.com/user-attachments/assets/127b29d1-97c2-429b-8202-0dcfb80757b8" />
+<img width="1000" height="400" alt="Bandit Solution 2" src="https://github.com/user-attachments/assets/127b29d1-97c2-429b-8202-0dcfb80757b8" />
 </p>
 
 ```bash
