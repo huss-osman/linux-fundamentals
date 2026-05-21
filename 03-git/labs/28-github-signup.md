@@ -22,7 +22,7 @@ This hands-on exercise demonstrates how to verify a **Git installation**, instal
 ### Check Git Version
 
 <p align="center">
-![Git Version](https://github.com/huss-osman/devops-learning/blob/main/images/git%20install%20on%20plat.png)
+<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/git%20install%20on%20plat.png">
 </p>
 
 ```bash
