@@ -20,7 +20,9 @@ A merge:
 - may create a **merge commit**
 - is useful for collaborative workflows where history should remain explicit
 
+<p align="center">
 <img width="700" height="142" alt="git mergep2" src="https://github.com/user-attachments/assets/18c55d3c-8783-4ebd-9ede-8e5941e28773" />
+</p>
 
 ```bash
 git merge feature-demo
@@ -38,7 +40,9 @@ A rebase:
 - avoids merge commits in many cases
 - is useful for cleaning up local branch history before opening a pull request
 
+<p align="center">
 <img width="617" height="50" alt="gitrebase" src="https://github.com/user-attachments/assets/11232396-a796-4827-a813-731aaa535cc6" />
+</p>
 
 ```bash
 git rebase main
