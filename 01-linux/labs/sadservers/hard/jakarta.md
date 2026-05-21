@@ -172,58 +172,15 @@ Hostname resolution works as expected.
 
 ## Key Commands Used
 
-- `ping`  
-- `cat /etc/resolv.conf`  
-- `cat /etc/nsswitch.conf`  
-- `vi /etc/nsswitch.conf`  
-- `iptables -L`  
+- `ping` → Identify hostname resolution failures  
 
----
+- `cat /etc/resolv.conf` → Verify DNS resolver configuration  
 
-## Why These Commands
+- `cat /etc/nsswitch.conf` → Check hostname lookup order  
 
-### `ping`
+- `vi /etc/nsswitch.conf` → Restore DNS hostname resolution  
 
-Identifies hostname resolution failure.
-
-- Fails when DNS is broken, even if network connectivity exists  
-- Quickly confirms whether hostname lookups are functioning  
-
----
-
-### `cat /etc/resolv.conf`
-
-Verifies DNS configuration exists.
-
-- Confirms that a nameserver is defined  
-- Helps validate resolver configuration  
-
----
-
-### `cat /etc/nsswitch.conf`
-
-Identifies hostname lookup order.
-
-- Shows whether `dns` is included in the resolution process  
-- Critical for diagnosing lookup-chain issues  
-
----
-
-### `vi /etc/nsswitch.conf`
-
-Restores DNS resolution.
-
-- Adding `dns` enables hostname lookups through DNS servers  
-- Fixes the system lookup path immediately  
-
----
-
-### `iptables -L`
-
-Rules out firewall interference.
-
-- Confirms outbound traffic is not blocked  
-- Helps eliminate networking-layer causes  
+- `iptables -L` → Rule out firewall interference  
 
 ---
 
