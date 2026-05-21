@@ -14,7 +14,9 @@ This workflow is fundamental in modern **DevOps environments**, where teams ofte
 
 `git branch` displays all branches in the repository and highlights the current active branch.
 
+<p align="center">
 <img width="586" height="75" alt="git branch" src="https://github.com/user-attachments/assets/5f637bad-9fad-4db4-b223-484f27eba823" />
+</p>
 
 ```bash
 git branch
@@ -26,7 +28,9 @@ git branch
 
 `git checkout -b <branch>` creates a new branch and immediately switches to it.
 
+<p align="center">
 <img width="766" height="46" alt="git checkout -b (branch)" src="https://github.com/user-attachments/assets/072dd00a-48f4-4075-a380-5aaeb464a48a" />
+</p>
 
 ```bash
 git checkout -b demo-feature
@@ -38,7 +42,9 @@ git checkout -b demo-feature
 
 `git switch -c <branch>` is the newer and clearer command for creating and switching branches.
 
+<p align="center">
 <img width="708" height="48" alt="git switch -c (branch)" src="https://github.com/user-attachments/assets/ec5524c3-5303-42bf-93f1-39a2b5e3ac97" />
+</p>
 
 ```bash
 git switch -c demo-auth
@@ -50,7 +56,9 @@ git switch -c demo-auth
 
 `git switch <branch>` moves the working directory to another branch.
 
+<p align="center">
 <img width="614" height="72" alt="git switch (branch)" src="https://github.com/user-attachments/assets/61f1fee9-c4ed-42a4-82e6-31548c6e2af3" />
+</p>
 
 ```bash
 git switch main
@@ -62,7 +70,9 @@ git switch main
 
 `git branch -d <branch>` removes a branch that is no longer needed.
 
+<p align="center">
 <img width="747" height="92" alt="git branch -d (branch)" src="https://github.com/user-attachments/assets/e4053954-761b-4b56-951f-c7d3664c9431" />
+</p>
 
 ```bash
 git branch -d demo-feature
