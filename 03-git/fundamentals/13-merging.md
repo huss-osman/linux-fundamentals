@@ -14,7 +14,9 @@ In collaborative environments, merging enables multiple developers to work indep
 
 `git merge <branch>` integrates the specified branch into the current branch.
 
+<p align="center">
 <img width="767" height="143" alt="git merge" src="https://github.com/user-attachments/assets/35039ce9-3cd5-484f-ba61-4e7fa0989aec" />
+</p>
 
 ```bash
 git merge feature-branch-demo
