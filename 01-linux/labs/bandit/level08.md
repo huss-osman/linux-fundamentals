@@ -13,7 +13,7 @@ Find the only line in `data.txt` that occurs once.
 ## Solution
 
 <p align="center">
-<img width="517" height="180" alt="Bandit Solution 8" src="https://github.com/user-attachments/assets/9439df41-5fb1-44f3-a90e-37e6232bcb59" />
+<img width="1000" height="400" alt="Bandit Solution 8" src="https://github.com/user-attachments/assets/9439df41-5fb1-44f3-a90e-37e6232bcb59" />
 </p>
 
 ```bash
