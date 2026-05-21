@@ -7,7 +7,9 @@ Read the password stored in a file named `-`.
 
 ## Solution
 
-<img width="402" height="188" alt="Bandit Solution 1" src="https://github.com/user-attachments/assets/62b584ba-2a3f-4bb4-a04e-23c03094b13a" />
+<p align="center">
+<img width="700" height="400" alt="Bandit Solution 1" src="https://github.com/user-attachments/assets/62b584ba-2a3f-4bb4-a04e-23c03094b13a" />
+</p>
 
 ```bash
 ls
