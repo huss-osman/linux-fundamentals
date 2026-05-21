@@ -14,7 +14,9 @@ These tools help developers review previous work, investigate issues, and unders
 
 `git log` displays the full commit history of a repository, including commit hashes, authors, timestamps, and commit messages.
 
+<p align="center">
 <img width="940" height="313" alt="gitlog command" src="https://github.com/user-attachments/assets/6b2b88b9-536a-4ff4-b70e-8aabc7520625" />
+</p>
 
 ```bash
 git log
@@ -26,7 +28,9 @@ git log
 
 `git log --oneline --graph` provides a compact visual representation of the commit history. This format makes it easier to understand branching and commit relationships.
 
+<p align="center">
 <img width="2000" height="493" alt="gitonelinegraphs" src="https://github.com/user-attachments/assets/758969f9-0db0-488b-9592-d2eb68d23175" />
+</p>
 
 ```bash
 git log --oneline --graph
@@ -38,7 +42,9 @@ git log --oneline --graph
 
 `git show <commit>` displays detailed information about a specific commit, including the changes introduced in that commit.
 
+<p align="center">
 <img width="939" height="761" alt="gitshow" src="https://github.com/user-attachments/assets/863b3c28-46cc-418f-9903-16637d128c75" />
+</p>
 
 ```bash
 git show 5519ce2
@@ -50,7 +56,9 @@ git show 5519ce2
 
 `git diff` shows the differences between file versions.
 
+<p align="center">
 <img width="929" height="255" alt="git diff" src="https://github.com/user-attachments/assets/448d0edd-0b9c-412d-a68c-5bab7bdb26af" />
+</p>
 
 ```bash
 git diff
@@ -62,7 +70,9 @@ git diff
 
 `git diff --staged` shows the differences between the staged files and the last commit.
 
+<p align="center">
 <img width="635" height="185" alt="git diff staged" src="https://github.com/user-attachments/assets/910c900f-57a9-40bd-914c-82a44f0a7672" />
+</p>
 
 ```bash
 git diff --staged
@@ -76,7 +86,9 @@ git diff --staged
 
 `git blame <file>` shows which commit and author last modified each line of a file.
 
+<p align="center">
 <img width="898" height="74" alt="git blame" src="https://github.com/user-attachments/assets/8cc39844-12d7-4540-8a8a-5e3bc2355f47" />
+</p>
 
 ```bash
 git blame demo.yaml
@@ -88,7 +100,9 @@ git blame demo.yaml
 
 `git reflog` shows the history of where the **HEAD** reference has pointed locally. This includes actions such as commits, checkouts, resets, and rebases.
 
+<p align="center">
 <img width="855" height="98" alt="git reflog" src="https://github.com/user-attachments/assets/a61f54c1-9792-4ad3-b7d1-0aa22ce1e306" />
+</p>
 
 ```bash
 git reflog
