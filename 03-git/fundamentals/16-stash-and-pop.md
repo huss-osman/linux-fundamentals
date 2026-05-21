@@ -14,7 +14,9 @@ Instead of committing incomplete work, Git stores the changes in a **stash stack
 
 `git stash` saves your current uncommitted changes and resets the working directory to match the latest commit.
 
+<p align="center">
 <img width="968" height="54" alt="image" src="https://github.com/user-attachments/assets/e24d8a70-2249-4605-a850-8b181bfb79ef" />
+</p>
 
 ```bash
 git stash
@@ -28,7 +30,9 @@ git stash
 
 Each stash is stored in a stack-like structure, with the most recent stash at the top.
 
+<p align="center">
 <img width="620" height="48" alt="image" src="https://github.com/user-attachments/assets/85821a97-e197-45b6-bd16-7d12fe1143dc" />
+</p>
 
 ```bash
 git stash list
@@ -42,7 +46,9 @@ git stash list
 
 This allows the same stash to be reused if needed.
 
+<p align="center">
 <img width="867" height="257" alt="image" src="https://github.com/user-attachments/assets/14027a12-90da-41eb-85ed-47ec378a9c1b" />
+</p>
 
 ```bash
 git stash apply
@@ -56,7 +62,9 @@ git stash apply
 
 This is the most commonly used command when returning to paused work.
 
+<p align="center">
 <img width="590" height="51" alt="image" src="https://github.com/user-attachments/assets/d15d2b70-ca13-489f-ba05-8abc07380f45" />
+</p>
 
 ```bash
 git stash pop
