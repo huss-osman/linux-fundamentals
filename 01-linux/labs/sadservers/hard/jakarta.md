@@ -164,8 +164,6 @@ This immediately restored DNS resolution without restarting services.
 ping google.com
 ```
 
----
-
 ## Result
 
 Hostname resolution works as expected.
