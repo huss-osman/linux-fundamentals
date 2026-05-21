@@ -14,7 +14,9 @@ Strong **collaboration practices** improve code quality and team productivity. T
 
 Using **branches** is a fundamental **collaboration practice** in Git. Developers create separate branches to work on features or fixes without affecting the main codebase.
 
+<p align="center">
 <img width="766" height="46" alt="git checkout -b (branch)" src="https://github.com/user-attachments/assets/c4b74047-cf13-4a02-9912-77b3797d146b" />
+</p>
 
 ```bash
 git checkout -b demo-feature
@@ -56,7 +58,9 @@ These practices ensure code quality and shared understanding across the team.
 
 When multiple developers modify the same code, **merge conflicts** can occur. A key **collaboration practice** is resolving these conflicts before merging code into the main branch.
 
+<p align="center">
 <img width="700" height="142" alt="git mergep2" src="https://github.com/user-attachments/assets/6a79fd3c-237f-4ce5-acd8-50238a7a77ad" />
+</p>
 
 ```bash
 git merge feature-demo
