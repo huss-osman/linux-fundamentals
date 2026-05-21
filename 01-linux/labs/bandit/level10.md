@@ -13,7 +13,7 @@ Decode the password stored in the file `data.txt` that has been Base64 encoded.
 ## Solution
 
 <p align="center">
-<img width="842" height="222" alt="Bandit Solution 10" src="https://github.com/user-attachments/assets/0b774ad0-0398-4124-98bf-0e1a208ab263" />
+<img width="1000" height="400" alt="Bandit Solution 10" src="https://github.com/user-attachments/assets/0b774ad0-0398-4124-98bf-0e1a208ab263" />
 </p>
 
 ```bash
