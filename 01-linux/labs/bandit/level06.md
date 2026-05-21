@@ -16,7 +16,7 @@ Find a file somewhere on the system that is:
 ## Solution
 
 <p align="center">
-<img width="601" height="222" alt="Bandit Solution 6" src="https://github.com/user-attachments/assets/e9a46862-c81d-4081-ba41-388548a28268" />
+<img width="1000" height="400" alt="Bandit Solution 6" src="https://github.com/user-attachments/assets/e9a46862-c81d-4081-ba41-388548a28268" />
 </p>
 
 ```bash
