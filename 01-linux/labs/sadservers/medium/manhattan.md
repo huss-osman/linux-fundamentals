@@ -300,71 +300,23 @@ Free disk space on the PostgreSQL data volume and restart the PostgreSQL service
 
 ## Key Commands Used
 
-- `systemctl status postgresql`  
-- `journalctl -u postgresql@14-main`  
-- `df -h`  
-- `cat /etc/postgresql/14/main/postgresql.conf`  
-- `ls -lah /opt/pgdata`  
-- `mv`  
-- `service postgresql restart`  
-- `ss -putana`  
-- `psql`  
+- `systemctl status postgresql` → Check PostgreSQL service and cluster state  
 
----
+- `journalctl -u postgresql@14-main` → Inspect PostgreSQL startup logs  
 
-## Why These Commands
+- `df -h` → Detect filesystem disk exhaustion  
 
-### `systemctl` / `journalctl`
+- `cat /etc/postgresql/14/main/postgresql.conf` → Identify the PostgreSQL data directory  
 
-Identifies why PostgreSQL fails to start.
+- `ls -lah /opt/pgdata` → Inspect files consuming disk space  
 
-- Exposes startup errors and system-level failures  
-- Provides detailed service logs for troubleshooting  
+- `mv` → Relocate unnecessary files safely  
 
----
+- `service postgresql restart` → Restart the PostgreSQL service  
 
-### `df -h`
+- `ss -putana` → Verify PostgreSQL is listening on port `5432`  
 
-Detects disk exhaustion.
-
-- Confirms whether the filesystem is full and preventing writes  
-- Helps identify storage-related service failures  
-
----
-
-### `postgresql.conf`
-
-Confirms the data directory location.
-
-- Identifies where PostgreSQL attempts to write its data  
-- Helps locate the affected storage volume  
-
----
-
-### `ls -lah` / `mv`
-
-Locates and removes unnecessary files.
-
-- Safely frees disk space without impacting database stability  
-- Helps identify large non-essential files  
-
----
-
-### `ss -putana`
-
-Verifies PostgreSQL is listening on port `5432`.
-
-- Confirms the service is operational  
-- Verifies the database is accepting connections  
-
----
-
-### `psql`
-
-Validates database write functionality.
-
-- Ensures inserts succeed after resolving the underlying issue  
-- Confirms the application-facing problem is fixed  
+- `psql` → Validate database write functionality  
 
 ---
 
