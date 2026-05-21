@@ -115,24 +115,14 @@ find /var/log/bad.log -mmin -0.1
 ## Key Commands Used
 
 - `ps` / `ps aux` → Identify running processes  
-  - Confirms which services or background jobs are active on the system  
-  - Useful for detecting suspicious or resource-heavy processes  
 
 - `lsof` → Identify which process is writing to the log file  
-  - Maps open file descriptors back to a specific PID  
-  - Extremely useful for diagnosing file locks and active log writers  
 
 - `grep` → Filter process and log output  
-  - Helps narrow results to relevant services, logs, or process names  
-  - Commonly combined with pipes during troubleshooting  
 
 - `systemctl` → Check and manage system services  
-  - Confirms whether a service is running, stopped, enabled, or failing  
-  - Used heavily on modern Linux systems using `systemd`  
 
 - `kill -9` → Forcefully terminate a process  
-  - Used only when the process does not respond to graceful termination  
-  - Immediately stops the offending PID
   
 ---
 
