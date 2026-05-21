@@ -21,7 +21,9 @@ This hands-on exercise demonstrates how to verify a **Git installation**, instal
 
 ### Check Git Version
 
+<p align="center">
 ![Git Version](https://github.com/huss-osman/devops-learning/blob/main/images/git%20install%20on%20plat.png)
+</p>
 
 ```bash
 git --version
@@ -33,7 +35,9 @@ This command verifies whether Git is installed and displays the currently instal
 
 ### Install Git (macOS / Windows Package Managers)
 
+<p align="center">
 <img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/installgit.png">
+</p>
 
 ```bash
 brew install git
@@ -46,7 +50,9 @@ These commands install Git using common package managers for macOS and Windows.
 
 ### Install Git on Linux
 
+<p align="center">
 <img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/install_git_on_linux.png">
+</p>
 
 ```bash
 sudo apt-get install git
@@ -58,7 +64,9 @@ This command installs Git on Debian-based Linux distributions such as Ubuntu.
 
 ### Configure Git Identity
 
+<p align="center">
 <img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitconfig.png">
+</p>
 
 ```bash
 git config --global user.name "yourusername"
