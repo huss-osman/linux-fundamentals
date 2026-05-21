@@ -16,7 +16,9 @@ Understanding the difference between these commands is important because they af
 
 This is useful when you want to undo a commit but immediately recommit the changes differently.
 
+<p align="center">
 <img width="900" height="153" alt="image" src="https://github.com/user-attachments/assets/e59a6fc1-5d21-44c4-96e8-aa96976fda4d" />
+</p>
 
 ```bash
 git reset --soft HEAD~1
@@ -31,7 +33,9 @@ git status
 
 This is the default reset mode and is useful when you want to undo a commit and review or re-stage the changes manually.
 
+<p align="center">
 <img width="908" height="217" alt="image" src="https://github.com/user-attachments/assets/3dbb99f1-4bf8-4ba2-99d8-a3b8dd22ee05" />
+</p>
 
 ```bash
 git reset --mixed HEAD~1
@@ -46,7 +50,9 @@ git status
 
 This is the most destructive reset mode and should be used carefully because it permanently discards local changes.
 
+<p align="center">
 <img width="895" height="119" alt="image" src="https://github.com/user-attachments/assets/eea79a8f-2dce-4715-a4b3-90654501e224" />
+</p>
 
 ```bash
 git reset --hard HEAD~1
@@ -61,7 +67,9 @@ git log --oneline
 
 This is the safest way to undo changes in a shared repository because it does **not rewrite history**.
 
+<p align="center">
 <img width="916" height="257" alt="image" src="https://github.com/user-attachments/assets/86802c30-843a-424c-9581-9c092d7eca28" />
+</p>
 
 ```bash
 git revert HEAD --no-edit
@@ -76,7 +84,9 @@ git log --oneline
 
 This is useful when you want to bring over a single fix or change without merging the entire branch.
 
+<p align="center">
 <img width="2000" height="448" alt="image" src="https://github.com/user-attachments/assets/209e3d73-a42d-4bdf-b97b-be34921c282e" />
+</p>
 
 ```bash
 git cherry-pick <commit>
