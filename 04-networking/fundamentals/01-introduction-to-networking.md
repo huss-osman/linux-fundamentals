@@ -12,7 +12,7 @@ This is useful in real-world environments where understanding **DNS**, **routing
 
 This module is structured to take you from fundamentals to practical, real-world networking concepts:
 
-- [Introduction to Networking Fundamentals](./fundamentals/01-introduction-to-networking.md)  
+- [Introduction to Networking Fundamentals](./01-introduction-to-networking.md)  
   Understanding what **networks** are, how devices communicate, and why networking matters
 
 - [OSI Model](./fundamentals/09-the-7-layers-of-the-osi-model.md)  
