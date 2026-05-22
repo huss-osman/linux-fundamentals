@@ -58,7 +58,9 @@ The goal of this project was to:
 
 The custom domain was configured and connected through Cloudflare DNS.
 
+<p align="center">
 <img width="1000" alt="Register Domain" src="https://github.com/huss-osman/devops-learning/blob/main/images/Register_Domain.png" />
+</p>
 
 ---
 
@@ -73,7 +75,9 @@ Configuration included:
 - Public IP enabled
 - Free Tier eligible AMI
 
+<p align="center">
 <img width="1000" alt="EC2 Setup" src="https://github.com/huss-osman/devops-learning/blob/main/images/Setting_Up_ec2.png" />
+</p>
 
 ---
 
@@ -87,7 +91,9 @@ Ports configured:
 - HTTP (80) → Anywhere
 - HTTPS (443) → Anywhere
 
+<p align="center">
 <img width="1000" alt="Network Settings" src="https://github.com/huss-osman/devops-learning/blob/main/images/Network_Settings_ec2.png" />
+</p>
 
 > [!IMPORTANT]
 > Port `22` was restricted to **My IP only** to reduce unauthorized SSH access attempts.
@@ -98,7 +104,9 @@ Ports configured:
 
 An ED25519 SSH key pair was generated for secure server access.
 
+<p align="center">
 <img width="900" alt="Create Key Pair" src="https://github.com/huss-osman/devops-learning/blob/main/images/Creating_Key_Pair.png" />
+</p>
 
 ---
 
@@ -110,7 +118,9 @@ The private key permissions were restricted using `chmod 400`.
 chmod 400 nginx-project-key.pem
 ```
 
+<p align="center">
 <img width="800" alt="Key Permissions" src="https://github.com/huss-osman/devops-learning/blob/main/images/Set_Correct_Permission.png" />
+</p>
 
 > [!IMPORTANT]
 > `chmod 400` ensures the private SSH key can only be read by the current user.
@@ -123,7 +133,9 @@ chmod 400 nginx-project-key.pem
 
 A Cloudflare DNS A record was configured to point the subdomain to the EC2 public IP address.
 
+<p align="center">
 <img width="1000" alt="Cloudflare DNS" src="https://github.com/huss-osman/devops-learning/blob/main/images/DNS_Management_Cloudflare.png" />
+</p>
 
 Configuration used:
 
@@ -165,8 +177,9 @@ NGINX service status was checked using `systemctl`.
 sudo systemctl status nginx
 ```
 
+<p align="center">
 <img width="1000" alt="NGINX Status" src="https://github.com/huss-osman/devops-learning/blob/main/images/Check_NGINX_System_Status.png" />
-
+</p>
 
 The output confirmed:
 
@@ -184,7 +197,9 @@ The output confirmed:
 ping -c 4 nginx.osmanhus.co.uk
 ```
 
+<p align="center">
 <img width="900" alt="Ping Test" src="https://github.com/huss-osman/devops-learning/blob/main/images/Ping_NGINX_Connectivity.png" />
+</p>
 
 This confirmed the domain resolved successfully and packets reached the server.
 
@@ -196,7 +211,9 @@ This confirmed the domain resolved successfully and packets reached the server.
 traceroute nginx.osmanhus.co.uk
 ```
 
+<p align="center">
 <img width="900" alt="Traceroute" src="https://github.com/huss-osman/devops-learning/blob/main/images/Traceroute_NGINX.png" />
+</p>
 
 This showed the network path packets traveled through before reaching the destination.
 
@@ -208,7 +225,9 @@ This showed the network path packets traveled through before reaching the destin
 nslookup nginx.osmanhus.co.uk
 ```
 
+<p align="center">
 <img width="900" alt="NSLookup" src="https://github.com/huss-osman/devops-learning/blob/main/images/Nslookup_NGINX.png" />
+</p>
 
 > [!NOTE]
 > DNS commonly uses **Port 53** for queries and responses.
@@ -227,7 +246,9 @@ The output confirmed:
 
 After configuration and troubleshooting, the NGINX web server became publicly accessible through the custom domain.
 
+<p align="center">
 <img width="1000" alt="NGINX Website" src="https://github.com/huss-osman/devops-learning/blob/main/images/Website_NGINX_Image.png" />
+</p>
 
 ---
 
