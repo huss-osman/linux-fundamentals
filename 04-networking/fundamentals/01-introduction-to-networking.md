@@ -33,7 +33,7 @@ This module is structured to take you from fundamentals to practical, real-world
 - [Ping, Traceroute & Nslookup](./labs/28-troubleshoot-with-ping-traceroute-nslookup.md)  
   Using common networking tools to diagnose **connectivity and DNS issues**
 
-- [Cloud Networking](./assignments/29-cloud-networking.md)  
+- [Cloud Networking](./04-networking/assignments/29-cloud-networking.md)  
   Applying networking concepts in **AWS environments** please make the links correct only
 
 ---
