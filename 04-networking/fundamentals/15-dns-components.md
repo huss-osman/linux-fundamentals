@@ -52,7 +52,9 @@ Zone files define how a domain behaves.
 
 ### Check Name Servers
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/dig%20ns%20google.com%20command.png">
+</p>
 
 ```bash
 dig ns google.com
@@ -64,7 +66,9 @@ Returns all **authoritative name servers** for a domain.
 
 ### Short Output (Cleaner View)
 
+<p align="center">
 <img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/dig%20%2Bshort%20ns%20google.com%20command.png">
+</p>
 
 ```bash
 dig +short ns google.com
@@ -76,7 +80,9 @@ Displays a simplified list of name servers.
 
 ### Zone File Example
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/DNS%20Zone%20Files%20example.com.png">
+</p>
 
 This file defines how a domain routes traffic:
 
