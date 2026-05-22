@@ -99,7 +99,7 @@ Desktop.ini
 ### Stage `.gitignore`
 
 <p align="center">
-<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_status.png">
+<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_status.png">
 </p>
 
 ```bash
@@ -114,7 +114,7 @@ This moves the `.gitignore` file into the **staging area**.
 ### Commit `.gitignore`
 
 <p align="center">
-<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_commit.png">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_commit.png">
 </p>
 
 ```bash
