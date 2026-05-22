@@ -15,25 +15,25 @@ This module is structured to take you from fundamentals to practical, real-world
 - [Introduction to Networking Fundamentals](./01-introduction-to-networking.md)  
   Understanding what **networks** are, how devices communicate, and why networking matters
 
-- [OSI Model](./fundamentals/09-the-7-layers-of-the-osi-model.md)  
+- [OSI Model](./09-the-7-layers-of-the-osi-model.md)  
   The **7-layer model** that explains how data moves through a network
 
-- [DNS](./fundamentals/14-what-is-dns.md)  
+- [DNS](./14-what-is-dns.md)  
   How **domain names** are translated into **IP addresses**
 
-- [Routing](./fundamentals/20-what-is-routing.md)  
+- [Routing](./20-what-is-routing.md)  
   How data is directed across **networks**
 
-- [Subnetting And CIDR](./fundamentals/23-subnetting-and-cidr.md)  
+- [Subnetting And CIDR](./23-subnetting-and-cidr.md)  
   Structuring and dividing **IP networks** efficiently
 
-- [Network Troubleshooting](./fundamentals/27-troubleshoot-like-a-pro.md)  
+- [Network Troubleshooting](./27-troubleshoot-like-a-pro.md)  
   Debugging and investigating **network issues**
 
-- [Ping, Traceroute & Nslookup](./labs/28-troubleshoot-with-ping-traceroute-nslookup.md)  
+- [Ping, Traceroute & Nslookup](./28-troubleshoot-with-ping-traceroute-nslookup.md)  
   Using common networking tools to diagnose **connectivity and DNS issues**
 
-- [Cloud Networking](./fundamentals/29-cloud-networking.md)  
+- [Cloud Networking](./29-cloud-networking.md)  
   Applying networking concepts in **AWS environments** please make the links correct only
 
 ---
