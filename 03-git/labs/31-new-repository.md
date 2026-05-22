@@ -23,7 +23,9 @@ In this exercise, a local **Git repository** is created, initialized, and connec
 
 ### Create a New Project Directory
 
+<p align="center">
 <img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_first_repo_demo.png">
+</p>
 
 ```bash
 mkdir git-lab
@@ -37,7 +39,9 @@ This creates a new directory for the project and navigates into it.
 
 ### Initialize the Git Repository
 
+<p align="center">
 <img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/initialise_git_repo.png">
+</p>
 
 ```bash
 git init
@@ -56,7 +60,9 @@ touch README.md
 ls
 ```
 
+<p align="center">
 <img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_readme_file.png">
+</p>
 
 This creates a README file used to document the project.
 
@@ -64,7 +70,9 @@ This creates a README file used to document the project.
 
 ### Add Content to README
 
+<p align="center">
 <img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_contents_to_readme.png">
+</p>
 
 ```bash
 echo "# Git Lab" > README.md
@@ -77,7 +85,9 @@ git status
 
 ### Stage the File
 
+<p align="center">
 <img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_file.png">
+</p>
 
 ```bash
 git add README.md
@@ -90,7 +100,9 @@ This moves the file into the **staging area**, preparing it for commit.
 
 ### Commit the Changes
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/commit_change.png">
+</p>
 
 ```bash
 git commit -m "init commit"
@@ -102,7 +114,9 @@ This creates the first commit in the repository history.
 
 ### Attempt to Push
 
+<p align="center">
 <img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/attempt_push.png">
+</p>
 
 ```bash
 git push
@@ -118,19 +132,27 @@ Since no remote repository has been configured yet, Git returns an error indicat
 
 ### 2. Navigate to **Profile Section**
 
+<p align="center">
 <img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/navigate_to_profile.png">
+</p>
 
 ### 3. Click **Repositories** 
 
+<p align="center">
 <img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/navigate_to_repositories.png">
+</p>
 
 ### 4. Click **New**
 
+<p align="center">
 <img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/navigate_to_new.png">
+</p>
 
 ### 5. Create empty **Repository**
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_repo.png">
+</p>
 
 > [!NOTE]
 > - Add **Repository name**
@@ -140,7 +162,9 @@ Since no remote repository has been configured yet, Git returns an error indicat
 
 ### 6. Remote **Clone Repository**
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/copy_clone.png">
+</p>
 
 > [!IMPORTANT]
 > We have already:
@@ -152,7 +176,9 @@ Since no remote repository has been configured yet, Git returns an error indicat
  
 ### 7. Copy **command locally**
 
+<p align="center">
 <img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/add_remote_clone.png">
+</p>
 
 ```bash
 git remote add origin https://github.com/username/git-labs.git
