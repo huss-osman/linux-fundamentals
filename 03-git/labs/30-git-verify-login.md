@@ -24,7 +24,7 @@ By verifying the connection, developers ensure that **Git** trusts the configure
 Before testing the connection, load the SSH key into the SSH agent.
 
 <p align="center">
-<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/ssh_add_ver.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/ssh_add_ver.png">
 </p>
 
 ```bash
