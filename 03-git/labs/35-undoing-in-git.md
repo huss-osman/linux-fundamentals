@@ -29,7 +29,9 @@ These undoing techniques are important in real-world development because mistake
 
 ### Switch to Main Branch and Pull Latest Changes
 
+<p align="center">
 <img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/undo_pull_latest_changes.png">
+</p>
 
 ```bash
 git checkout main
@@ -42,7 +44,9 @@ This switches to the **main branch** and updates the local repository from the *
 
 ### Create a Test File and Commit It
 
+<p align="center">
 <img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/undo_create_test_commit.png">
+</p>
 
 ```bash
 echo "original line" > undo.txt
@@ -56,7 +60,9 @@ This creates a file and saves it in the **Git** history with a new **commit**.
 
 ### Restore a Modified File
 
+<p align="center">
 <img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_restore_file.png">
+</p>
 
 ```bash
 echo "bad change" > undo.txt
@@ -71,7 +77,9 @@ This discards the unstaged change and restores the file to the last committed ve
 
 ### Push the Commit to GitHub
 
+<p align="center">
 <img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/undo_push_test_commit.png">
+</p>
 
 ```bash
 git push
@@ -83,7 +91,9 @@ This pushes the committed file to **GitHub** so it appears in the **remote repos
 
 ### Stage a File and Check Status
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/stage_file_for_unstage_demo.png">
+</p>
 
 ```bash
 echo "another bad line" > undo.txt
@@ -97,7 +107,9 @@ This stages the modified file and shows that it is ready to be committed.
 
 ### Unstage the File
 
+<p align="center">
 <img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_restore_staged_file.png">
+</p>
 
 ```bash
 git restore --staged undo.txt
@@ -110,7 +122,9 @@ This removes the file from the staging area while keeping the change in the work
 
 ### Stage, Commit, and Push Another Change
 
+<p align="center">
 <img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/undo_commit_and_push_change.png">
+</p>
 
 ```bash
 git add undo.txt
@@ -124,7 +138,9 @@ This saves the updated file in a new **commit** and pushes it to **GitHub**.
 
 ### Create an Accidental Commit
 
+<p align="center">
 <img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_bad_commit.png">
+</p>
 
 ```bash
 echo "oops commit" > undo.txt
@@ -139,7 +155,9 @@ This creates an accidental **commit** that will be undone using reset commands.
 
 ### Undo the Last Commit with Soft Reset
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_reset_soft_head1.png">
+</p>
 
 ```bash
 git reset --soft HEAD~1
@@ -152,7 +170,9 @@ This moves **HEAD** back by one commit but keeps the changes staged.
 
 ### Undo the Last Commit with Mixed Reset
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_reset_mixed_head1.png">
+</p>
 
 ```bash
 git reset --mixed HEAD~1
@@ -165,7 +185,9 @@ This moves **HEAD** back by one commit and unstages the changes while keeping th
 
 ### Undo the Last Commit with Hard Reset
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_reset_hard_head1.png">
+</p>
 
 ```bash
 git reset --hard HEAD~1
@@ -180,7 +202,9 @@ This moves **HEAD** back by one commit and discards local changes completely.
 
 ### Create and Push an Accidental Production Commit
 
+<p align="center">
 <img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_accidental_prod_commit.png">
+</p>
 
 ```bash
 echo "production mistake" > undo.txt
@@ -195,13 +219,17 @@ This creates and pushes an accidental **commit** to the **main branch**.
 
 ### Revert the Last Commit
 
+<p align="center">
 <img width="650" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_revert_head.png">
+</p>
 
 ```bash
 git revert HEAD
 ```
 
+<p align="center">
 <img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_revert_head.png1.png">
+</p>
 
 This opens the editor and prepares a new **commit** that reverses the last commit without rewriting history.
 
@@ -209,7 +237,9 @@ This opens the editor and prepares a new **commit** that reverses the last commi
 
 ### Complete the Revert and Push
 
+<p align="center">
 <img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_revert_push.png">
+</p>
 
 ```bash
 git revert HEAD
@@ -223,7 +253,9 @@ This creates the revert **commit** and pushes the corrected history to **GitHub*
 
 ### View Commit History
 
+<p align="center">
 <img width="400" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_log_oneline.png">
+</p>
 
 ```bash
 git log --oneline
@@ -235,7 +267,9 @@ This shows a compact view of the **commit** history, including the revert and ea
 
 ### View Reference Log
 
+<p align="center">
 <img width="280" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_reflog_history.png">
+</p>
 
 ```bash
 git reflog
@@ -249,13 +283,17 @@ This displays recent **HEAD** movements, resets, commits, pulls, and reverts for
 
 ### 1. Refresh the repository page
 
+<p align="center">
 <img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_undo_repository_view.png">
+</p>
 
 You should now see the updated **undo.txt** file and the latest **commit** history in the repository.
 
 ### 2. Open the file
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_undo_file_view1.png">
+</p>
 
 You should see the final content of **undo.txt** after the revert operation.
 
