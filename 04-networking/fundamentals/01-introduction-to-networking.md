@@ -12,29 +12,29 @@ This is useful in real-world environments where understanding **DNS**, **routing
 
 This module is structured to take you from fundamentals to practical, real-world networking concepts:
 
-- [Introduction to Networking](./01-introduction-to-networking.md)  
+- [Introduction to Networking Fundamentals](./fundamentals/01-introduction-to-networking.md)  
   Understanding what **networks** are, how devices communicate, and why networking matters
 
-- [Networking Fundamentals](./02-networking-fundamentals.md)  
-  Core networking concepts including devices, communication, and infrastructure basics
-
-- [OSI Model](./08-introduction-to-the-osi-model.md)  
+- [OSI Model](./fundamentals/09-the-7-layers-of-the-osi-model.md)  
   The **7-layer model** that explains how data moves through a network
 
-- [DNS](./13-introduction-to-dns.md)  
+- [DNS](./fundamentals/14-what-is-dns.md)  
   How **domain names** are translated into **IP addresses**
 
-- [Routing](./20-what-is-routing.md)  
+- [Routing](./fundamentals/20-what-is-routing.md)  
   How data is directed across **networks**
 
-- [Subnetting](./23-subnetting-and-cidr.md)  
+- [Subnetting And CIDR](./fundamentals/23-subnetting-and-cidr.md)  
   Structuring and dividing **IP networks** efficiently
 
-- [Network Troubleshooting](./18-network-debugging-tools.md)  
+- [Network Troubleshooting](./fundamentals/27-troubleshoot-like-a-pro.md)  
   Debugging and investigating **network issues**
 
-- [Cloud Networking](./README.md)  
-  Applying networking concepts in **cloud and infrastructure environments**
+- [Ping, Traceroute & Nslookup](./labs/28-troubleshoot-with-ping-traceroute-nslookup.md)  
+  Using common networking tools to diagnose **connectivity and DNS issues**
+
+- [Cloud Networking](./fundamentals/29-cloud-networking.md)  
+  Applying networking concepts in **AWS environments** please make the links correct only
 
 ---
 
