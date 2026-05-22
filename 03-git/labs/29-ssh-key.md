@@ -23,7 +23,7 @@ Setting up an SSH key improves security and simplifies workflows by allowing sea
 ### Generate SSH Key
 
 <p align="center">
-<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_ssh_config.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_ssh_config.png">
 </p>
 
 ```bash
@@ -79,7 +79,7 @@ This command prints the **public SSH key**, which will be added to **GitHub**.
 ### Copy the Public Key
 
 <p align="center">
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_publickey_copy.png">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/demo_publickey_copy.png">
 </p>
 
 ```bash
