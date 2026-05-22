@@ -28,7 +28,9 @@ Understanding their output helps you trace issues related to **caching, authorit
 
 ### nslookup (Basic Query Tool)
 
+<p align="center">
 <img width="550" src="https://github.com/huss-osman/devops-learning/blob/main/images/nslookup.png">
+</p>
 
 ```bash
 nslookup google.com
@@ -52,7 +54,9 @@ Quick checks, verifying basic resolution
 
 ### dig (Advanced Query Tool)
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/dig%20command.png">
+</p>
 
 ```bash
 dig google.com
@@ -74,7 +78,9 @@ Why multiple IPs?
 
 ### dig (Short Output)
 
+<p align="center">
 <img width="450" src="https://github.com/huss-osman/devops-learning/blob/main/images/dig%20shortened%20version.png">
+</p>
 
 ```bash
 dig +short google.com
@@ -86,7 +92,9 @@ dig +short google.com
 
 ### dig Nameservers
 
+<p align="center">
 <img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/dig%20%2Bshort%20ns%20google.com%20command.png">
+</p>
 
 ```bash
 dig +short ns google.com
