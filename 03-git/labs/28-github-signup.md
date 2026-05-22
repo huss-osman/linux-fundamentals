@@ -65,7 +65,7 @@ This command installs Git on Debian-based Linux distributions such as Ubuntu.
 ### Configure Git Identity
 
 <p align="center">
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitconfig.png">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitconfig.png">
 </p>
 
 ```bash
