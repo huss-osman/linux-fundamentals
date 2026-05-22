@@ -40,7 +40,7 @@ This creates a file and commits it to the **main branch**.
 ### Create Feature Branch
 
 <p align="center">
-<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_feature_branch.png">
+<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_feature_branch.png">
 </p>
 
 ```bash
@@ -182,7 +182,7 @@ Feature branch change
 ### Delete Feature Branch
 
 <p align="center">
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/del_branch.png">
+<img width="670" src="https://github.com/huss-osman/devops-learning/blob/main/images/del_branch.png">
 </p>
 
 ```bash
