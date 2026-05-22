@@ -23,7 +23,9 @@ By verifying the connection, developers ensure that **Git** trusts the configure
 
 Before testing the connection, load the SSH key into the SSH agent.
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/ssh_add_ver.png">
+<p align="center">
+<img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/ssh_add_ver.png">
+</p>
 
 ```bash
 ssh-add ~/.ssh/demo-key
@@ -37,7 +39,9 @@ This allows the SSH agent to use the private key for authentication.
 
 Run the following command to test the SSH connection to GitHub:
 
-<img width="950" src="https://github.com/huss-osman/devops-learning/blob/main/images/auth_ssh_demo.png">
+<p align="center">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/auth_ssh_demo.png">
+</p>
 
 ```bash
 ssh -T git@github.com
