@@ -12,26 +12,29 @@ This is useful in real-world environments where understanding **DNS**, **routing
 
 This module is structured to take you from fundamentals to practical, real-world networking concepts:
 
-- [Introduction to Networking Fundamentals](./01-introduction-to-networking.md)  
+- [Introduction to Networking](./01-introduction-to-networking.md)  
   Understanding what **networks** are, how devices communicate, and why networking matters
 
-- [OSI Model](./02-osi-model.md)  
+- [Networking Fundamentals](./02-networking-fundamentals.md)  
+  Core networking concepts including devices, communication, and infrastructure basics
+
+- [OSI Model](./08-introduction-to-the-osi-model.md)  
   The **7-layer model** that explains how data moves through a network
 
-- [DNS](./03-dns.md)  
+- [DNS](./13-introduction-to-dns.md)  
   How **domain names** are translated into **IP addresses**
 
-- [Routing](./04-routing.md)  
+- [Routing](./20-what-is-routing.md)  
   How data is directed across **networks**
 
-- [Subnetting](./05-subnetting.md)  
+- [Subnetting](./23-subnetting-and-cidr.md)  
   Structuring and dividing **IP networks** efficiently
 
-- [Network Troubleshooting](./06-troubleshooting.md)  
+- [Network Troubleshooting](./18-network-debugging-tools.md)  
   Debugging and investigating **network issues**
 
-- [Cloud Networking](./07-cloud-networking.md)  
-  Applying networking concepts in **AWS environments**
+- [Cloud Networking](./README.md)  
+  Applying networking concepts in **cloud and infrastructure environments**
 
 ---
 
