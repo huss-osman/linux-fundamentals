@@ -23,7 +23,7 @@ Connecting a local repository to a remote repository enables **Git** to synchron
 ### First Repository Push
 
 <p align="center">
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_push_first_repo.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_push_first_repo.png">
 </p>
 
 ```bash
@@ -70,7 +70,7 @@ You should now see the **README.md file** that was pushed from the local reposit
 A `.gitignore` file is used to exclude files from being tracked by Git.
 
 <p align="center">
-<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_gitignore.png">
+<img width="350" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_gitignore.png">
 </p>
 
 ```bash
@@ -79,7 +79,7 @@ vi .gitignore
 ```
 
 <p align="center">
-<img width="250" src="https://github.com/huss-osman/devops-learning/blob/main/images/vim_gitignore_contents.png">
+<img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/vim_gitignore_contents.png">
 </p>
 
 ```
@@ -99,7 +99,7 @@ Desktop.ini
 ### Stage `.gitignore`
 
 <p align="center">
-<img width="750" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_status.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_status.png">
 </p>
 
 ```bash
@@ -114,7 +114,7 @@ This moves the `.gitignore` file into the **staging area**.
 ### Commit `.gitignore`
 
 <p align="center">
-<img width="650" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_commit.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_commit.png">
 </p>
 
 ```bash
@@ -128,7 +128,7 @@ This records the `.gitignore` file into the repository history.
 ### Push `.gitignore` to GitHub
 
 <p align="center">
-<img width="750" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_push.png">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_push.png">
 </p>
 
 ```bash
