@@ -24,7 +24,9 @@ This is important in real-world development because teams often need to move ind
 
 ### Create Feature Branch and Add a Hotfix
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_branch_cherrypick.png">
+</p>
 
 ```bash
 git checkout -b feature-cherry
@@ -39,7 +41,9 @@ This creates a new branch and saves a hotfix in a separate **commit**.
 
 ### Push the Feature Branch
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/push_branch_cherrypick.png">
+</p>
 
 ```bash
 git push --set-upstream origin feature-cherry
@@ -51,7 +55,9 @@ This pushes the **feature branch** to **GitHub** and sets upstream tracking.
 
 ### View the Commit Hash
 
+<p align="center">
 <img width="400" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_log_oneline.png">
+</p>
 
 ```bash
 git log --oneline
@@ -63,7 +69,9 @@ This shows the **commit** history so the hotfix **commit hash** can be copied.
 
 ### Cherry-Pick the Commit to Main
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_push_cherry_pick.png">
+</p>
 
 ```bash
 git checkout main
@@ -80,31 +88,41 @@ This applies the selected hotfix **commit** to the **main branch** and pushes it
 
 ### 1. Locate the updated file on the main branch
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view1.png">
+</p>
 
 You should see the **hotfix.txt** file listed on the **main branch**.
 
 ### 2. Open the file on the main branch
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view2.png">
+</p>
 
 You should also see the same contents and hotfix **commit** on the **feature-cherry** branch.
 
 ### 3. Switch branches in GitHub
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view3.png">
+</p>
 
 Use the branch dropdown to switch between **main** and **feature-cherry**.
 
 ### 4. Open the file on the feature-cherry branch
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view4.png">
+</p>
 
 You should now also see the updated **hotfix.txt** contents and hotfix **commit** on the **feature-cherry** branch.
 
 ### 5. Open commit history on the feature-cherry branch
 
+<p align="center">
 <img width="1700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view5.png">
+</p>
 
 You should see the cherry-picked content in **hotfix.txt**:
 
@@ -114,7 +132,9 @@ hotfix config for prod
 
 ### 6. Confirm the same commit on the main branch
 
+<p align="center">
 <img width="1700" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_cherrypick_view6.png">
+</p>
 
 This confirms that the hotfix exists on both **feature-cherry** and **main** after the **cherry-pick** operation.
 
