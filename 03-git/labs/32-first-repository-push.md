@@ -22,7 +22,9 @@ Connecting a local repository to a remote repository enables **Git** to synchron
 
 ### First Repository Push
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_push_first_repo.png">
+</p>
 
 ```bash
 git push -u origin main
@@ -52,7 +54,9 @@ After pushing, Git confirms that:
 ### 1. Navigate to the GitHub repository page.
 ### 2. Refresh the page.
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/repo_refresh_readme.png">
+</p>
 
 You should now see the **README.md file** that was pushed from the local repository.
 
@@ -65,14 +69,18 @@ You should now see the **README.md file** that was pushed from the local reposit
 
 A `.gitignore` file is used to exclude files from being tracked by Git.
 
+<p align="center">
 <img width="300" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_gitignore.png">
+</p>
 
 ```bash
 touch .gitignore
 vi .gitignore
 ```
 
+<p align="center">
 <img width="250" src="https://github.com/huss-osman/devops-learning/blob/main/images/vim_gitignore_contents.png">
+</p>
 
 ```
 .env
@@ -90,7 +98,9 @@ Desktop.ini
 
 ### Stage `.gitignore`
 
+<p align="center">
 <img width="750" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_status.png">
+</p>
 
 ```bash
 git add .gitignore
@@ -103,7 +113,9 @@ This moves the `.gitignore` file into the **staging area**.
 
 ### Commit `.gitignore`
 
+<p align="center">
 <img width="650" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_commit.png">
+</p>
 
 ```bash
 git commit -m "add gitignore"
@@ -115,7 +127,9 @@ This records the `.gitignore` file into the repository history.
 
 ### Push `.gitignore` to GitHub
 
+<p align="center">
 <img width="750" src="https://github.com/huss-osman/devops-learning/blob/main/images/gitignore_push.png">
+</p>
 
 ```bash
 git push
@@ -129,13 +143,17 @@ The new commit is pushed to GitHub.
 
 ### 1. Refresh the **repository page** again.
 
+<p align="center">
 <img width="450" src="https://github.com/huss-osman/devops-learning/blob/main/images/view_gitignore_github.png">
+</p>
 
 You should now see the **`.gitignore`** file alongside `README.md`.
 
 ### 2. Click on **`.gitignore`** file and you should see it's contents.
 
+<p align="center">
 <img width="450" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_contents_gitignore.png">
+</p>
 
 You should now see the contents of **`.gitignore`** file.
 
