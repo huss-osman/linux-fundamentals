@@ -27,7 +27,9 @@ Understanding how to use these tools is critical for working with **cloud infras
 - Uses ICMP requests and replies
 - Helps determine if a host is reachable
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/ping%20google.com%20pic.png">
+</p>
 
 ```bash
 ping google.com
@@ -45,7 +47,9 @@ Used to answer:
 - Displays each hop between source and destination
 - Helps identify where delays or failures occur
 
+<p align="center">
 <img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/traceroute%20google.com%20pic.png">
+</p>
 
 ```bash
 traceroute google.com   # Linux/macOS  
@@ -64,7 +68,9 @@ Used to answer:
 - Resolves domain names to IP addresses
 - Helps diagnose DNS-related issues
 
+<p align="center">
 <img width="550" src="https://github.com/huss-osman/devops-learning/blob/main/images/nslookup.png">
+</p>
 
 ```bash
 nslookup google.com
