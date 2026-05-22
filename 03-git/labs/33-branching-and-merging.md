@@ -23,7 +23,9 @@ Merging is the process of combining changes from different branches into a singl
 
 ### Create and Commit on Main Branch
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_main_commit.png">
+<p align="center">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_main_commit.png">
+</p>
 
 ```bash
 echo "Hello from main" > app.txt
@@ -37,7 +39,9 @@ This creates a file and commits it to the **main branch**.
 
 ### Create Feature Branch
 
-<img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_feature_branch.png">
+<p align="center">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/create_feature_branch.png">
+</p>
 
 ```bash
 git checkout -b feature-1
@@ -49,7 +53,9 @@ This creates and switches to a new branch called **feature-1**.
 
 ### Modify File in Feature Branch
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/feature_branch_change.png">
+<p align="center">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/feature_branch_change.png">
+</p>
 
 ```bash
 echo "Feature branch change" > app.txt
@@ -63,7 +69,9 @@ This updates the file in the **feature branch**.
 
 ### Switch Back to Main and Modify
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/main_branch_change.png">
+<p align="center">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/main_branch_change.png">
+</p>
 
 ```bash
 git checkout main
@@ -78,7 +86,9 @@ This introduces a conflicting change in the **main branch**.
 
 ### Merge Feature Branch into Main
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_conflict.png">
+<p align="center">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_conflict.png">
+</p>
 
 ```bash
 git merge feature-1
@@ -92,7 +102,9 @@ Git attempts to merge but encounters a **merge conflict**.
 
 The file will contain conflict markers:
 
-<img width="350" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_conflict_markers.png">
+<p align="center">
+<img width="380" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_conflict_markers.png">
+</p>
 
 ```
 cat app.txt
@@ -100,7 +112,9 @@ cat app.txt
 
 Edit the file to resolve the conflict:
 
+<p align="center">
 <img width="1500" src="https://github.com/huss-osman/devops-learning/blob/main/images/edit_conflict.png">
+</p>
 
 ```bash
 echo -e "Hello from main\nMain branch change\nFeature branch change" > app.txt
@@ -110,7 +124,9 @@ echo -e "Hello from main\nMain branch change\nFeature branch change" > app.txt
 
 ### Stage and Commit Resolution
 
-<img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_resolved_commit.png">
+<p align="center">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_resolved_commit.png">
+</p>
 
 ```bash
 git add app.txt
@@ -123,7 +139,9 @@ This completes the merge.
 
 ### Push Changes to GitHub
 
-<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_push.png">
+<p align="center">
+<img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/merge_push.png">
+</p>
 
 ```bash
 git push
@@ -137,7 +155,9 @@ The merged changes are now reflected in the remote repository.
 
 ### 1. Refresh the repository page
 
-<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_merge_view.png">
+<p align="center">
+<img width="850" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_merge_view.png">
+</p>
 
 You should now see the updated **app.txt** file.
 
@@ -145,7 +165,9 @@ You should now see the updated **app.txt** file.
 
 ### 2. Open the file
 
-<img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_app_txt.png">
+<p align="center">
+<img width="850" src="https://github.com/huss-osman/devops-learning/blob/main/images/github_app_txt.png">
+</p>
 
 You should see all merged changes:
 
@@ -159,7 +181,9 @@ Feature branch change
 
 ### Delete Feature Branch
 
-<img width="550" src="https://github.com/huss-osman/devops-learning/blob/main/images/del_branch.png">
+<p align="center">
+<img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/del_branch.png">
+</p>
 
 ```bash
 git branch -d feature-1
