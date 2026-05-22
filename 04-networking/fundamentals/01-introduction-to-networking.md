@@ -27,13 +27,13 @@ This module is structured to take you from fundamentals to practical, real-world
 - [Subnetting And CIDR](./23-subnetting-and-cidr.md)  
   Structuring and dividing **IP networks** efficiently
 
-- [Network Troubleshooting](./labs/27-troubleshoot-like-a-pro.md)  
+- [Network Troubleshooting](../labs/27-troubleshoot-like-a-pro.md)  
   Debugging and investigating **network issues**
 
-- [Ping, Traceroute & Nslookup](./labs/28-troubleshoot-with-ping-traceroute-nslookup.md)  
+- [Ping, Traceroute & Nslookup](../labs/28-troubleshoot-with-ping-traceroute-nslookup.md)  
   Using common networking tools to diagnose **connectivity and DNS issues**
 
-- [Cloud Networking](./assignments/29-cloud-networking.md)  
+- [Cloud Networking](../assignments/29-cloud-networking.md)  
   Applying networking concepts in **AWS environments**
   
 ---
