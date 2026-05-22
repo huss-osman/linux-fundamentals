@@ -23,7 +23,9 @@ This is useful in real-world development when a commit was made too early, conta
 
 ### Create Initial Commit
 
+<p align="center">
 <img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt1.png">
+</p>
 
 ```bash
 echo "line 1" > notes.txt
@@ -37,7 +39,9 @@ This creates the initial **commit** with a file tracked by Git.
 
 ### Add Another File (Missed Change)
 
+<p align="center">
 <img width="500" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt2.png">
+</p>
 
 ```bash
 echo "metadata" > meta.txt
@@ -50,13 +54,17 @@ This demonstrates a scenario where a file was not included in the previous commi
 
 ### Amend the Commit
 
+<p align="center">
 <img width="350" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt3.png">
+</p>
 
 ```bash
 git commit --amend
 ```
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt4.png">
+</p>
 
 This reopens the last commit, allowing you to **include staged changes and update the commit message**.
 
@@ -64,7 +72,9 @@ This reopens the last commit, allowing you to **include staged changes and updat
 
 ### Update Commit Message
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt5.png">
+</p>
 
 Change:
 
@@ -78,7 +88,9 @@ To:
 feat: add note file and meta
 ```
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt6.png">
+</p>
 
 This updates the **commit message** to reflect the new changes.
 
@@ -89,13 +101,17 @@ This updates the **commit message** to reflect the new changes.
 
 ### Verify Commit History
 
+<p align="center">
 <img width="400" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_log_oneline.png">
+</p>
 
 ```bash
 git log --oneline
 ```
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_amend_pt7.png">
+</p>
 
 > [!IMPORTANT]
 > As you can see, both changes are now combined into **one commit** instead of two separate commits.  
