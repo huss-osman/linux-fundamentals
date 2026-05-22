@@ -25,7 +25,9 @@ This is important in real-world development because interruptions happen often d
 
 ### Create Work in Progress and Stash It
 
+<p align="center">
 <img width="1000" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_work.png">
+</p>
 
 ```bash
 echo "incomplete work" > feature.txt
@@ -41,7 +43,9 @@ This saves the unfinished work in a **stash** and returns the working directory 
 
 ### Apply a Hotfix on Main Branch
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_hotfix_commit.png">
+</p>
 
 ```bash
 echo "hotfix applied" > hotfix.txt
@@ -56,13 +60,17 @@ This creates and pushes a hotfix while the unfinished feature work remains safel
 
 ### View Stash Entries
 
+<p align="center">
 <img width="250" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_list.png1.png">
+</p>
 
 ```bash
 git stash list
 ```
 
+<p align="center">
 <img width="700" src="https://github.com/huss-osman/devops-learning/blob/main/images/stashed_work.png">
+</p>
 
 This shows the saved **stash** entries in the repository.
 
@@ -70,7 +78,9 @@ This shows the saved **stash** entries in the repository.
 
 ### Apply the Stash
 
+<p align="center">
 <img width="750" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_apply.png">
+</p>
 
 ```bash
 git stash apply
@@ -82,7 +92,9 @@ This restores the stashed changes but keeps the **stash** entry available for re
 
 ### Pop the Stash
 
+<p align="center">
 <img width="800" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_pop.png">
+</p>
 
 ```bash
 git stash pop
@@ -96,7 +108,9 @@ This restores the stashed changes and removes the **stash** entry after applying
 
 ### Commit and Push Restored Work
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_commit_push.png">
+</p>
 
 ```bash
 git commit -m "push feature changes"
@@ -109,7 +123,9 @@ This saves the restored work in a new **commit** and pushes it to **GitHub**.
 
 ### Clear All Stash Entries
 
+<p align="center">
 <img width="310" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_stash_clear.png">
+</p>
 
 ```bash
 git stash clear
