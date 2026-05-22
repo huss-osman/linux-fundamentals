@@ -24,7 +24,9 @@
 
 ### Create Feature Branch
 
+<p align="center">
 <img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_create_branch.png">
+</p>
 
 ```bash
 git checkout -b feature-rebase
@@ -36,7 +38,9 @@ This creates a new branch for demonstrating **rebase** and **squash**.
 
 ### Create Multiple Commits
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_multiple_commits.png">
+</p>
 
 ```bash
 echo "line 1" > changes.txt
@@ -58,7 +62,9 @@ This creates multiple commits that will later be **squashed**.
 
 ### Start Interactive Rebase
 
+<p align="center">
 <img width="370" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_interactive.png">
+</p>
 
 ```bash
 git rebase -i HEAD~3
@@ -70,7 +76,9 @@ This opens the last 3 commits in an editor for modification.
 
 ### Squash Commits
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/git_rebase_head1.png">
+</p>
 
 Change:
 
@@ -95,7 +103,9 @@ squash 221c1d0 feat: add third line
 
 ### Edit Commit Message
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_commit_message.png">
+</p>
 
 ```bash
 feat: add all 3 lines to change.txt
@@ -107,7 +117,9 @@ After saving again (`:wq!`), the commits are combined into one.
 
 ### Verify Commit History
 
+<p align="center">
 <img width="650" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_log.png">
+</p>
 
 ```bash
 git log --oneline
@@ -119,7 +131,9 @@ This shows a single clean commit instead of multiple small ones.
 
 ### Push Changes to GitHub
 
+<p align="center">
 <img width="900" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_push.png">
+</p>
 
 ```bash
 git push --set-upstream origin feature-rebase
@@ -127,7 +141,9 @@ git push --set-upstream origin feature-rebase
 
 If rebasing after already pushing, use:
 
+<p align="center">
 <img width="630" src="https://github.com/huss-osman/devops-learning/blob/main/images/rebase_force_push.png">
+</p>
 
 ```bash
 git push origin feature-rebase --force
@@ -139,7 +155,9 @@ git push origin feature-rebase --force
 
 ### 1. Switch to the feature branch
 
+<p align="center">
 <img width="750" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_view_github1.png">
+</p>
 
 Select the **feature-rebase** branch from the branch dropdown.
 
@@ -147,7 +165,9 @@ Select the **feature-rebase** branch from the branch dropdown.
 
 ### 2. Locate the updated file
 
+<p align="center">
 <img width="750" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_view_github2.png">
+</p>
 
 You should now see the updated **changes.txt** file in the repository.
 
@@ -155,7 +175,9 @@ You should now see the updated **changes.txt** file in the repository.
 
 ### 3. Open the file
 
+<p align="center">
 <img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_view_github3.png">
+</p>
 
 You should see all squashed changes in a single commit:
 
@@ -167,7 +189,9 @@ line 3
 
 ### 4. View commit history
 
+<p align="center">
 <img width="600" src="https://github.com/huss-osman/devops-learning/blob/main/images/branch_view_github4.png">
+</p>
 
 You should see a single commit (e.g., **feat: add all 3 lines to change.txt**) confirming that the commits were successfully squashed.
 
