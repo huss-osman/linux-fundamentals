@@ -280,7 +280,7 @@ Now the image is built and tagged correctly, push it to Amazon ECR.
 
 Refresh Amazon ECR and you should now see the uploaded image.
 
-https://github.com/user-attachments/assets/55d505ec-d594-4427-95b3-dfdd93a55384
+https://github.com/user-attachments/assets/d435c55a-2522-4c90-9070-8a8039bbfc08
 
 > [!NOTE]
 > Here you can see:
