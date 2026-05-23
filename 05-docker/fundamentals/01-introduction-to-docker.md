@@ -21,7 +21,7 @@ This module is structured to take you from fundamentals to practical, real-world
 - [Docker Basics](./04-what-is-docker.md)  
   Understanding Docker architecture, images, and containers
 
-- [Creating Docker Images](./10-understanding-the-dockerfile.md)  
+- [Understanding the Dockerfile](./10-understanding-the-dockerfile.md)  
   Learning how Dockerfiles are used to build custom container images
 
 - [Docker Networking](./14-introduction-to-docker-networking.md)  
