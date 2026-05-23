@@ -86,8 +86,18 @@ By working through this module, I aimed to:
 - [Docker Registries](./fundamentals/13-docker-registries.md)  
   Understanding how container images are stored and shared.
 
-- [DockerHub](./fundamentals/14-dockerhub.md)  
+---
+
+### Labs
+
+- [DockerHub](./labs/14-dockerhub.md)  
   Using DockerHub as a public container registry.
+
+- [Pushing Images to Amazon ECR](./labs/23-pushing-images-to-amazon-ecr.md)  
+  Publishing Docker images to AWS Elastic Container Registry.
+
+- [Using Images from ECR](./fundamentals/24-using-images-from-ecr.md)  
+  Pulling and running images from a private AWS registry.
 
 ---
 
@@ -115,6 +125,14 @@ Core Docker and containerisation concepts explained using practical examples and
 
 ---
 
+### `labs/`
+
+Hands-on Docker debugging and troubleshooting exercises.
+
+➡️ [Open labs](./labs)
+
+---
+
 ## Fundamentals
 
 The Fundamentals section focuses on building a strong understanding of Docker through **core container concepts and real-world behaviour**.
@@ -130,6 +148,23 @@ Rather than memorising commands, the emphasis is on understanding:
 These notes build a strong foundation for future topics such as **Docker Compose**, **Kubernetes**, **CI/CD**, and **cloud deployments**.
 
 ➡️ [View Fundamentals](./fundamentals)
+
+---
+
+## Labs
+
+The Labs section focuses on applying Docker knowledge through **hands-on debugging and investigation**.
+
+Each lab includes:
+
+• Real-world container errors  
+• Command-line investigation using Docker tools  
+• Troubleshooting service communication and networking  
+• Key takeaways for container debugging  
+
+These labs simulate the kind of issues faced in **development and production environments**.
+
+➡️ [View Labs](./labs)
 
 ---
 
