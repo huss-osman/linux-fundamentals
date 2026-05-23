@@ -2,9 +2,9 @@
 
 ## Overview
 
-Docker Hub allows developers and DevOps engineers to upload, manage, distribute, and pull container images across different environments and systems.
+Docker Hub allows developers and DevOps engineers to upload, manage, distribute, store, and pull container images across different environments and systems.
 
-Understanding Docker Hub is important when working with **containerised applications**, **CI/CD pipelines**, and cloud-native deployments.
+Understanding Docker Hub is important when working with **containerised applications**, **CI/CD pipelines**, **cloud-native deployments**, and sharing Docker images across systems.
 
 ## Contents
 
