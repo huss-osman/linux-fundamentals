@@ -33,15 +33,6 @@ This module is structured to take you from fundamentals to practical, real-world
 - [Docker Registry](./13-docker-registries.md)  
   Understanding DockerHub and container image registries
 
-- [Practical Example](../assignments/11-dockerise-web-application.md)  
-  Applying Docker concepts through a real containerised application project
-
-- [Advanced Topic Overview](./28-orchestration-overview.md)  
-  Introduction to orchestration concepts such as Docker Swarm and Kubernetes
-
-- [Troubleshooting and Best Practices](../labs/25-debugging-networking-issues.md)  
-  Debugging containers, networking issues, and common Docker problems
-
 ---
 
 ## Commands
