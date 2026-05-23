@@ -14,13 +14,13 @@ Labs emphasise investigation, logs, networking, and container debugging workflow
 
 ## Topics Covered
 
-- [DockerHub](./22-dockerhub.md)  
+- [DockerHub](./14-dockerhub.md)  
   Using DockerHub as a public container registry.
 
-- [Pushing Images to Amazon ECR](./22-pushing-images-to-amazon-ecr.md)  
+- [Pushing Images to Amazon ECR](./15-pushing-images-to-amazon-ecr.md)  
   Publishing Docker images to AWS Elastic Container Registry.
 
-- [Using Images from ECR](./23-using-images-from-ecr.md)  
+- [Using Images from ECR](./16-using-images-from-ecr.md)  
   Pulling and running images from a private AWS registry.
 
 ---
