@@ -344,7 +344,7 @@ Now that the image exists locally again, we can run it as a container.
 However, this is not going to work fully yet.
 
 <p align="center">
-  <img width="1000" alt="Unknown Server Host Error" src="https://github.com/huss-osman/devops-learning/blob/main/images/unknown_server_host_error.png" />
+  <img width="1000" alt="Unknown Server Host Error" src="https://github.com/huss-osman/devops-learning/blob/main/images/unknown%20_server_host_error.png" />
 </p>
 
 > [!IMPORTANT]
