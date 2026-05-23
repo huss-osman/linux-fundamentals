@@ -14,11 +14,14 @@ Labs emphasise investigation, logs, networking, and container debugging workflow
 
 ## Topics Covered
 
-- [Debugging MySQL Errors](./20-debugging-mysql-errors.md)  
-  Investigating and fixing container issues related to MySQL configuration and startup failures.
+- [DockerHub](./22-dockerhub.md)  
+  Using DockerHub as a public container registry.
 
-- [Debugging Networking Issues](./25-debugging-networking-issues.md)  
-  Troubleshooting Docker networking and communication problems between services.
+- [Pushing Images to Amazon ECR](./22-pushing-images-to-amazon-ecr.md)  
+  Publishing Docker images to AWS Elastic Container Registry.
+
+- [Using Images from ECR](./23-using-images-from-ecr.md)  
+  Pulling and running images from a private AWS registry.
 
 ---
 
