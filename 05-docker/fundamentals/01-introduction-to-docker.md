@@ -30,7 +30,7 @@ This module is structured to take you from fundamentals to practical, real-world
 - [Docker Compose](./11-introduction-to-docker-compose.md)  
   Managing multi-container applications using Compose
 
-- [Docker Registry](./21-docker-registries.md)  
+- [Docker Registry](./13-docker-registries.md)  
   Understanding DockerHub and container image registries
 
 - [Practical Example](../assignments/11-dockerise-web-application.md)  
