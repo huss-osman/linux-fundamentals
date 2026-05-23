@@ -1,11 +1,10 @@
-# Pushing Images to Amazon ECR
+# DockerHub: A Popular Docker Registry
 
 ## Overview
 
-Amazon ECR (Elastic Container Registry) allows developers and DevOps engineers to upload, manage, distribute, and pull container images across different environments and systems inside AWS.
+Docker Hub allows developers and DevOps engineers to upload, manage, distribute, and pull container images across different environments and systems.
 
-Understanding Amazon ECR is important when working with **containerised applications**, **CI/CD pipelines**, **cloud-native deployments**, and AWS container services such as ECS and EKS.
-
+Understanding Docker Hub is important when working with **containerised applications**, **CI/CD pipelines**, and cloud-native deployments.
 
 ## Contents
 
