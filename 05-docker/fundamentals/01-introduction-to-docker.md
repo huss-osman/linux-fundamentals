@@ -27,7 +27,7 @@ This module is structured to take you from fundamentals to practical, real-world
 - [Docker Networking](./10-introduction-to-docker-networking.md)  
   Understanding how containers communicate across Docker networks
 
-- [Docker Compose](./17-introduction-to-docker-compose.md)  
+- [Docker Compose](./11-introduction-to-docker-compose.md)  
   Managing multi-container applications using Compose
 
 - [Docker Registry](./21-docker-registries.md)  
