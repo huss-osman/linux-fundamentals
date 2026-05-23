@@ -24,7 +24,7 @@ This module is structured to take you from fundamentals to practical, real-world
 - [Understanding the Dockerfile](./19-understanding-the-dockerfile.md)  
   Learning how Dockerfiles are used to build custom container images
 
-- [Docker Networking](./14-introduction-to-docker-networking.md)  
+- [Docker Networking](./10-introduction-to-docker-networking.md)  
   Understanding how containers communicate across Docker networks
 
 - [Docker Compose](./17-introduction-to-docker-compose.md)  
