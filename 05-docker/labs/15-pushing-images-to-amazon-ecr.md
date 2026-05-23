@@ -374,7 +374,7 @@ However, this is not going to work fully yet.
 >
 > To view the fixed version, head over to:
 >
-> https://github.com/huss-osman/devops-learning/blob/main/05-docker/labs/15-pushing-images-to-amazon-ecr.md
+> https://github.com/huss-osman/devops-learning/blob/main/05-docker/labs/16-using-images-from-ecr.md
 
 ---
 
