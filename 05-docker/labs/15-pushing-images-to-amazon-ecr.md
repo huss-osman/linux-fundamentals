@@ -408,4 +408,3 @@ However, this is not going to work fully yet.
 Building, tagging, pushing, and pulling images made the container workflow much clearer in practice, especially when working with container registries and deployment pipelines.
 
 I also learned how important image tagging, repository management, and authentication are when working with real-world DevOps and cloud-native environments.
-## Contents
