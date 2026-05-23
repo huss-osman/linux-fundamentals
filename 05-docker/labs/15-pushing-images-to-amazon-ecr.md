@@ -280,13 +280,7 @@ Now the image is built and tagged correctly, push it to Amazon ECR.
 
 Refresh Amazon ECR and you should now see the uploaded image.
 
-<p align="center">
-  <img width="1000" alt="Refresh ECR Page" src="https://github.com/huss-osman/devops-learning/blob/main/images/Refresh_ECR_Page.png" />
-</p>
-
-Watch this video to view the uploaded image details.
-
-https://github.com/huss-osman/devops-learning/blob/main/images/Navigate_Image_View_Details.mp4
+https://github.com/user-attachments/assets/55d505ec-d594-4427-95b3-dfdd93a55384
 
 > [!NOTE]
 > Here you can see:
