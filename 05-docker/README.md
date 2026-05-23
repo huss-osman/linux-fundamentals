@@ -93,10 +93,10 @@ By working through this module, I aimed to:
 - [DockerHub](./labs/14-dockerhub.md)  
   Using DockerHub as a public container registry.
 
-- [Pushing Images to Amazon ECR](./labs/23-pushing-images-to-amazon-ecr.md)  
+- [Pushing Images to Amazon ECR](./labs/15-pushing-images-to-amazon-ecr.md)  
   Publishing Docker images to AWS Elastic Container Registry.
 
-- [Using Images from ECR](./fundamentals/24-using-images-from-ecr.md)  
+- [Using Images from ECR](./labs/16-using-images-from-ecr.md)  
   Pulling and running images from a private AWS registry.
 
 ---
