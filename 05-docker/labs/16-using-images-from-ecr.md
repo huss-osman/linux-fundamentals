@@ -183,7 +183,7 @@ To fix the issue, create a custom Docker network.
 
 After creating the custom Docker network, delete the existing `mydb` container once again using Docker Desktop.
 
-https://github.com/huss-osman/devops-learning/blob/main/images/delete_docker_container_desktop.mp4
+https://github.com/user-attachments/assets/ceae18bd-ef25-47b3-916a-9046e554bb1a
 
 Then run the MySQL container again, this time specifying the network.
 
