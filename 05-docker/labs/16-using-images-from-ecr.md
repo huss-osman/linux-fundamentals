@@ -83,7 +83,7 @@ To fix this, remove the existing `mydb` container from Docker Desktop.
 
 Search for `mydb` inside Docker Desktop and delete the existing container.
 
-https://github.com/huss-osman/devops-learning/blob/main/images/docker_desktop_delete_container.mp4
+https://github.com/user-attachments/assets/2ab8c61d-d78d-4cab-a1fe-bd5dc45788d8
 
 > [!NOTE]
 > After deleting the old container, the `docker run` command can be executed again to create a fresh MySQL container with the same name.
