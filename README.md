@@ -117,6 +117,7 @@ Covers:
 - DockerHub and Amazon ECR
 - Docker debugging tools (`docker ps`, `docker logs`, `docker exec`, `docker inspect`)
 - Multi-stage builds and orchestration concepts
+- Practical containerisation projects and real-world scenarios in [Labs](./05-docker/labs) and [Assignments](./05-docker/assignments)
 - Hands-on Docker workflows, image builds, Dockerfiles, and container usage in the [Docker Learning Repository](https://github.com/huss-osman/docker-learning)
   
 ---
