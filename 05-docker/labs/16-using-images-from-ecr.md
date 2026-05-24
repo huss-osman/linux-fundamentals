@@ -92,7 +92,9 @@ https://github.com/user-attachments/assets/2ab8c61d-d78d-4cab-a1fe-bd5dc45788d8
 
 ## Recreate MySQL Container
 
-After deleting the old container, re-run the MySQL container command.
+After deleting the existing container from Docker Desktop, head back to the VS Code terminal and re-run the command.
+
+This time the container should now be created successfully in the background because of detached mode using the `-d` flag.
 
 <p align="center">
   <img width="1000" alt="Recreate MyDB Container" src="https://github.com/huss-osman/devops-learning/blob/main/images/recreate_mydb_container.png" />
@@ -108,6 +110,8 @@ After deleting the old container, re-run the MySQL container command.
 ## Run Container from ECR Image
 
 Now we can run the Flask application using the image pulled from Amazon ECR.
+
+Now head over to localhost on port `5002`.
 
 <p align="center">
   <img width="1000" alt="Error Docker Run" src="https://github.com/huss-osman/devops-learning/blob/main/images/error_docker_run.png" />
@@ -135,6 +139,8 @@ After opening the application on localhost port `5002`, an error occurred.
 <p align="center">
   <img width="1000" alt="Unknown Server Host Error" src="https://github.com/huss-osman/devops-learning/blob/main/images/unknown%20_server_host_error.png" />
 </p>
+
+Now both the Flask application and MySQL database containers exist, however they are running on different Docker networks.
 
 > [!IMPORTANT]
 > The error says:
@@ -175,7 +181,7 @@ To fix the issue, create a custom Docker network.
 
 ## Recreate MySQL Container with Network
 
-After creating the network, delete the existing `mydb` container again and recreate it inside the custom network.
+After creating the custom Docker network, delete the existing `mydb` container once again using Docker Desktop.
 
 https://github.com/huss-osman/devops-learning/blob/main/images/delete_docker_container_desktop.mp4
 
@@ -229,7 +235,7 @@ Now run the Flask application container again, but connect it to the same Docker
 
 ## Verify Application
 
-After both containers are running on the same network, reopen localhost on port `5002`.
+Now that both containers are connected to the same Docker network, reopen localhost on port `5002`.
 
 <p align="center">
   <img width="1000" alt="Localhost Reopen" src="https://github.com/huss-osman/devops-learning/blob/main/images/local_host_reopen.png" />
