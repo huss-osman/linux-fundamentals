@@ -248,6 +248,4 @@ These issues usually happen because of incorrect service naming or configuration
 
 Instead of manually creating networks and managing containers individually, Docker Compose automatically handled container networking and communication.
 
-I also learned how important debugging and logging are when troubleshooting container communication issues, especially with services such as Flask and MySQL.
-
 This reinforced the importance of Docker networking, service naming consistency, and understanding how containers communicate inside real-world DevOps environments.
