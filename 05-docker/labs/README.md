@@ -25,7 +25,7 @@ Labs emphasise investigation, logs, networking, and container debugging workflow
 - [Using Images from ECR](./16-using-images-from-ecr.md)  
   Pulling and running images from a private AWS registry.
 
-- [Debugging Networking Issues](./labs/17-debugging-networking-issues.md)  
+- [Debugging Networking Issues](./17-debugging-networking-issues.md)  
   Troubleshooting Docker networking problems between containers and services.
   
 ---
