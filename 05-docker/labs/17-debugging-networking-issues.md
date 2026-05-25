@@ -90,7 +90,7 @@ Before running Docker Compose commands, make sure Docker is authenticated with A
 Now run the following command to create and start all services defined inside the `docker-compose.yml` file.
 
 <p align="center">
-  <img width="1000" alt="Docker Compose Up Command" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker-compose%20up%20command.png" />
+  <img width="500" alt="Docker Compose Up Command" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker-compose%20up%20command.png" />
 </p>
 
 > [!NOTE]
