@@ -2,19 +2,53 @@
 
 ## Overview
 
-As you start working with Docker more frequently, it becomes very easy to accumulate large numbers of images, containers, networks, and build cache over time.
+Understanding these commands is important when working with **Docker images**, **container management**, **multi-container applications**, **container networking**, and cloud-native environments using services such as Amazon ECR, ECS, and EKS.
 
-These Docker commands are essential for managing your environment efficiently and keeping your system clean, organised, and easy to troubleshoot.
+These commands become part of everyday workflows when building, debugging, cleaning, and maintaining Docker environments across development, testing, and production systems.
 
-Whether you are working in development, testing, or production environments, you will constantly come across these commands in day-to-day workflows.
+## Contents
 
-They are especially important when:
-- Building and testing applications repeatedly
-- Working with multiple image versions
-- Managing containers across projects
-- Troubleshooting Docker environments
-- Cleaning up unused resources
-- Saving disk space and system resources
+- [Viewing Docker Images](#viewing-docker-images)
+- [Inspecting Docker Images](#inspecting-docker-images)
+- [Removing Docker Images](#removing-docker-images)
+- [Cleaning Up Docker Resources](#cleaning-up-docker-resources)
+- [Viewing Running Containers](#viewing-running-containers)
+- [Stopping Running Containers](#stopping-running-containers)
+- [Removing Containers](#removing-containers)
+
+---
+
+## Why These Commands Were Used
+
+Previously, the Docker image was pushed to Amazon ECR and manually run using individual `docker run` commands.
+
+While this worked successfully, networking issues started occurring because the Flask container and MySQL container were running separately and required manual networking configuration and container management.
+
+Docker Compose simplified this process by allowing all services defined inside the `docker-compose.yml` file to automatically communicate within the same Docker network.
+
+Instead of manually creating networks, starting containers individually, and configuring communication between services, Docker Compose handled everything automatically through a single configuration file.
+
+This approach made the environment:
+- Easier to manage  
+- Easier to troubleshoot  
+- More reproducible  
+- More scalable for multi-container applications  
+
+> [!NOTE]
+> Docker Compose automatically creates:
+>
+> - Containers  
+> - Networks  
+> - Service communication  
+> - Dependencies between containers  
+>
+> This removes the need to manually create custom Docker networks using commands such as:
+>
+> ```bash
+> docker network create my-app-network
+> ```
+>
+> Docker Compose also helps standardise environments by ensuring containers always start with the same networking configuration and dependencies every time the application is deployed.
 
 ---
 
