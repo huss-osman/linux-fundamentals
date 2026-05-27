@@ -102,6 +102,9 @@ By working through this module, I aimed to:
 - [Debugging Networking Issues](./labs/17-debugging-networking-issues.md)  
   Troubleshooting Docker networking problems between containers and services.
 
+- [Important Docker Commands](./labs/18-important-docker-commands.md)  
+  Common Docker commands used for images, containers, logs, and cleanup.
+
 ---
 
 ## Learning Approach
