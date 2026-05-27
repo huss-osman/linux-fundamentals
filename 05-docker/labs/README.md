@@ -27,6 +27,9 @@ Labs emphasise investigation, logs, networking, and container debugging workflow
 
 - [Debugging Networking Issues](./17-debugging-networking-issues.md)  
   Troubleshooting Docker networking problems between containers and services.
+
+- [Important Docker Commands](./18-important-docker-commands.md)  
+  Common Docker commands used for images, containers, logs, and cleanup.
   
 ---
 
