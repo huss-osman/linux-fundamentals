@@ -20,35 +20,40 @@ These commands become part of everyday workflows when building, debugging, clean
 
 ## Why These Commands Were Used
 
-Previously, the Docker image was pushed to Amazon ECR and manually run using individual `docker run` commands.
+As Docker environments grow, it becomes very easy to accumulate large numbers of images, containers, networks, and build cache over time.
 
-While this worked successfully, networking issues started occurring because the Flask container and MySQL container were running separately and required manual networking configuration and container management.
+These commands were used to help manage, inspect, troubleshoot, and clean Docker environments more efficiently while working with multiple containers and containerised applications.
 
-Docker Compose simplified this process by allowing all services defined inside the `docker-compose.yml` file to automatically communicate within the same Docker network.
-
-Instead of manually creating networks, starting containers individually, and configuring communication between services, Docker Compose handled everything automatically through a single configuration file.
+Instead of manually searching through Docker resources or leaving unused containers and images running in the background, these commands help keep environments organised, reproducible, and easier to troubleshoot.
 
 This approach made the environment:
 - Easier to manage  
 - Easier to troubleshoot  
-- More reproducible  
-- More scalable for multi-container applications  
+- More organised  
+- More efficient for containerised workflows  
 
 > [!NOTE]
-> Docker Compose automatically creates:
+> These Docker commands help manage:
 >
-> - Containers  
+> - Docker images  
+> - Running containers  
+> - Stopped containers  
 > - Networks  
-> - Service communication  
-> - Dependencies between containers  
+> - Build cache  
+> - System resources  
 >
-> This removes the need to manually create custom Docker networks using commands such as:
+> This helps prevent Docker environments from becoming cluttered with unused resources over time.
+>
+> Commands such as:
 >
 > ```bash
-> docker network create my-app-network
+> docker images
+> docker ps
+> docker system prune
+> docker rm
 > ```
 >
-> Docker Compose also helps standardise environments by ensuring containers always start with the same networking configuration and dependencies every time the application is deployed.
+> become part of day-to-day workflows when building, debugging, and maintaining containerised applications.
 
 ---
 
