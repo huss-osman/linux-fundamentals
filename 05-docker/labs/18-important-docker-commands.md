@@ -62,7 +62,7 @@ This approach made the environment:
 One of the first commands you will regularly use is:
 
 <p align="center">
-  <img width="500" alt="Docker Images Command" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker_images_command.png" />
+  <img width="1000" alt="Docker Images Command" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker_images_command.png" />
 </p>
 
 > [!NOTE]
@@ -170,7 +170,7 @@ However, Docker will not allow an image to be removed if it is currently being u
 Instead of removing resources one by one, Docker provides a powerful cleanup command:
 
 <p align="center">
-  <img width="700" alt="Docker System Prune Command" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker_system_prune_command.png" />
+  <img width="1000" alt="Docker System Prune Command" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker_system_prune_command.png" />
 </p>
 
 > [!NOTE]
@@ -227,7 +227,7 @@ To view containers currently running on your system, use:
 To stop running containers, use:
 
 <p align="center">
-  <img width="700" alt="Docker Stop Command" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker_stop_command.png" />
+  <img width="1000" alt="Docker Stop Command" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker_stop_command.png" />
 </p>
 
 > [!NOTE]
