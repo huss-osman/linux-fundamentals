@@ -31,6 +31,9 @@ Labs emphasise investigation, logs, networking, and container debugging workflow
 
 - [Important Docker Commands](./18-important-docker-commands.md)  
   Common Docker commands used for images, containers, logs, and cleanup.
+
+- [Multi-Stage Builds](./19-multistage-builds.md)  
+  Creating smaller, cleaner Docker images using multi-stage builds.
   
 ---
 
