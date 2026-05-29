@@ -195,16 +195,16 @@ The image size was reduced dramatically by removing unnecessary build dependenci
 
 ## Key Takeaways
 
-Multi-stage builds are an important Docker optimisation technique used heavily across production container environments.
-
-By separating the build environment from the runtime environment:
-- Docker images become smaller  
-- Deployments become faster  
-- CI/CD pipelines become more efficient  
-- Registry storage usage is reduced  
-- Containers become easier to distribute and maintain  
-
-This optimisation becomes increasingly important as applications scale and container workflows become more complex.
+- Multi-stage builds help reduce Docker image sizes significantly  
+- Smaller Docker images improve deployment speed and CI/CD efficiency  
+- Large Docker images consume more storage and network bandwidth  
+- Multi-stage builds separate build dependencies from production runtime environments  
+- Only required runtime files and dependencies should exist inside production images  
+- Smaller images are faster to pull from registries such as Amazon ECR  
+- Multi-stage builds help reduce unnecessary packages and attack surface areas  
+- Docker image optimisation becomes increasingly important across cloud-native environments  
+- Production containers should remain lightweight, efficient, and easier to maintain  
+- Multi-stage builds are commonly used across modern Docker and Kubernetes workflows  
 
 ---
 
