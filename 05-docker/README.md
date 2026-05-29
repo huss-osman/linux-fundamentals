@@ -105,6 +105,9 @@ By working through this module, I aimed to:
 - [Important Docker Commands](./labs/18-important-docker-commands.md)  
   Common Docker commands used for images, containers, logs, and cleanup.
 
+- [Multi-Stage Builds](./labs/19-multistage-builds.md)  
+  Creating smaller, cleaner Docker images using multi-stage builds.
+
 ---
 
 ## Learning Approach
