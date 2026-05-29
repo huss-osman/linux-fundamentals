@@ -2,9 +2,9 @@
 
 ## Overview
 
-This section focuses on optimising Docker images using multi-stage builds to create smaller, faster, and more efficient container images.
+Understanding multi-stage builds is important when working with Docker image optimisation, containerised deployments, CI/CD pipelines, and cloud-native environments using services such as Amazon ECR, ECS, and EKS.
 
-Multi-stage builds help solve this problem by separating the build environment from the final production runtime image.
+Multi-stage builds become increasingly important when reducing image sizes, improving deployment speed, optimising CI/CD performance, and creating lightweight production-ready containers across development, testing, and production environments.
 
 ## Contents
 
