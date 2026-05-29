@@ -281,20 +281,16 @@ This is particularly useful for:
 
 ## Key Takeaways
 
-These Docker commands are part of everyday workflows for anyone working with containers.
-
-Understanding how to:
-- View images  
-- Inspect configurations  
-- Remove unused resources  
-- Manage containers  
-- Clean Docker environments  
-
-is essential when working with Docker professionally.
-
-As projects grow, environments can quickly become cluttered with unused images and stopped containers. Knowing how to manage them properly helps keep systems efficient, organised, and easier to troubleshoot.
-
-For anyone learning Docker, these commands are absolutely fundamental and will constantly appear across development, testing, and production environments.
+- Docker commands become part of everyday container workflows  
+- Viewing and inspecting images helps troubleshoot environments faster  
+- Removing unused resources keeps Docker environments clean and efficient  
+- Docker environments can quickly become cluttered without proper cleanup  
+- Commands such as `docker ps`, `docker rm`, and `docker system prune` are used frequently in real-world workflows  
+- Understanding Docker resource management improves operational efficiency  
+- Cleaning unused containers and images helps save storage and system resources  
+- Docker troubleshooting becomes much easier when understanding container and image management  
+- These commands appear regularly across development, testing, and production environments  
+- Proper Docker management helps maintain organised and reproducible container environments
 
 ---
 
