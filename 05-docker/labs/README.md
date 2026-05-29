@@ -6,7 +6,8 @@
 ![Debugging](https://img.shields.io/badge/Focus-Troubleshooting-purple?logo=docker&logoColor=white)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This folder contains **hands-on Docker labs** completed as part of my DevOps training.
+This folder contains **hands-on Docker labs** focused on containerisation, Docker networking, and multi-container application workflows.
+
 
 The focus is on troubleshooting containers, debugging service communication, and understanding how Docker behaves in real environments.
 
