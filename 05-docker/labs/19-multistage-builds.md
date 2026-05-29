@@ -55,7 +55,7 @@ This approach removes unnecessary build dependencies from the final image while 
 The original Dockerfile installed all dependencies directly into a single image.
 
 <p align="center">
-  <img width="500" alt="Original Dockerfile" src="https://github.com/huss-osman/devops-learning/blob/main/images/dockerfile_preview.png" />
+  <img width="1000" alt="Original Dockerfile" src="https://github.com/huss-osman/devops-learning/blob/main/images/dockerfile_preview.png" />
 </p>
 
 > [!NOTE]
@@ -75,7 +75,7 @@ The original Dockerfile installed all dependencies directly into a single image.
 To build the original image, the following command was used:
 
 <p align="center">
-  <img width="900" alt="Building Original Docker Image" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker_build_original.png" />
+  <img width="1000" alt="Building Original Docker Image" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker_build_multi-stage.png" />
 </p>
 
 ```bash
@@ -91,7 +91,7 @@ The image build process took noticeably longer because of the additional package
 After building the image, the image size was inspected using:
 
 <p align="center">
-  <img width="700" alt="Docker Images Original" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker_images_original.png" />
+  <img width="1000" alt="Docker Images Original" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker_images_multi-stage.png" />
 </p>
 
 ```bash
@@ -120,7 +120,7 @@ The first stage installs all dependencies and builds the application.
 The second stage copies only the required application files into a smaller runtime image.
 
 <p align="center">
-  <img width="900" alt="Docker Multi-Stage Build Explanation" src="https://github.com/huss-osman/devops-learning/blob/main/images/Docker%20Multi-Stage%20Builds.png" />
+  <img width="1000" alt="Docker Multi-Stage Build Explanation" src="https://github.com/huss-osman/devops-learning/blob/main/images/Docker%20Multi-Stage%20Builds.png" />
 </p>
 
 > [!NOTE]
@@ -145,7 +145,7 @@ The second stage copies only the required application files into a smaller runti
 After refactoring the Dockerfile into a multi-stage build, the optimised image was rebuilt.
 
 <p align="center">
-  <img width="900" alt="Building Multi-Stage Docker Image" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker_build_multi-stage.png" />
+  <img width="1000" alt="Building Multi-Stage Docker Image" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker_build_multi-stage.png" />
 </p>
 
 ```bash
@@ -161,13 +161,13 @@ The build process completed significantly faster and produced a much smaller ima
 After rebuilding the image using multi-stage builds, the image size was checked again.
 
 <p align="center">
-  <img width="700" alt="Docker Images Multi-Stage" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker_images_multi-stage.png" />
+  <img width="1000" alt="Docker Images Multi-Stage" src="https://github.com/huss-osman/devops-learning/blob/main/images/docker_images_multi-stage.png" />
 </p>
 
 The image size was reduced dramatically by removing unnecessary build dependencies from the final runtime image.
 
 <p align="center">
-  <img width="900" alt="Docker Multi-Stage Build Results" src="https://github.com/huss-osman/devops-learning/blob/main/images/Docker%20Multi-Stage%20Builds%20Results.png" />
+  <img width="1000" alt="Docker Multi-Stage Build Results" src="https://github.com/huss-osman/devops-learning/blob/main/images/Docker%20Multi-Stage%20Builds%20Results.png" />
 </p>
 
 > [!IMPORTANT]
