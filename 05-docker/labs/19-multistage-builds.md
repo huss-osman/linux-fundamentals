@@ -171,7 +171,7 @@ The image size was reduced dramatically by removing unnecessary build dependenci
 </p>
 
 > [!IMPORTANT]
-> The Docker image size was reduced significantly using multi-stage builds.
+> The Docker image size was reduced from 187 MB to 47.2 MB (74.76%) using multi-stage builds and lightweight runtime images.
 >
 > Benefits included:
 >
