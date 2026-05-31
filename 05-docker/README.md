@@ -86,6 +86,12 @@ By working through this module, I aimed to:
 - [Docker Registries](./fundamentals/13-docker-registries.md)  
   Understanding how container images are stored and shared.
 
+- [Important Docker Commands](./fundamentals/18-important-docker-commands.md)  
+  Common Docker commands used for images, containers, logs, and cleanup.
+
+- [Docker Swarm vs. Kubernetes](./fundamentals/20-important-docker-commands.md)  
+  Comparing Docker Swarm and Kubernetes for container orchestration.
+
 ---
 
 ### Labs
@@ -102,14 +108,8 @@ By working through this module, I aimed to:
 - [Debugging Networking Issues](./labs/17-debugging-networking-issues.md)  
   Troubleshooting Docker networking problems between containers and services.
 
-- [Important Docker Commands](./labs/18-important-docker-commands.md)  
-  Common Docker commands used for images, containers, logs, and cleanup.
-
 - [Multi-Stage Builds](./labs/19-multistage-builds.md)  
   Creating smaller, cleaner Docker images using multi-stage builds.
-
-- [Docker Swarm vs. Kubernetes](./labs/20-important-docker-commands.md)  
-  Comparing Docker Swarm and Kubernetes for container orchestration.
   
 ---
 
