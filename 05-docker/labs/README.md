@@ -34,6 +34,9 @@ Labs emphasise investigation, logs, networking, and container debugging workflow
 
 - [Multi-Stage Builds](./19-multistage-builds.md)  
   Creating smaller, cleaner Docker images using multi-stage builds.
+
+- [Docker Swarm vs. Kubernetes](./20-important-docker-commands.md)  
+  Comparing Docker Swarm and Kubernetes for container orchestration.
   
 ---
 
