@@ -57,6 +57,11 @@ Examples are practical, command-line driven, and tied to real-world infrastructu
 
 - [DockerHub](./14-dockerhub.md)  
   Using DockerHub as a public container registry.
+
+- [Important Docker Commands](./fundamentals/18-important-docker-commands.md)  
+  Common Docker commands used for images, containers, logs, and cleanup.
+
+
   
 ---
 
