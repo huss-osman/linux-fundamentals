@@ -58,11 +58,14 @@ Examples are practical, command-line driven, and tied to real-world infrastructu
 - [DockerHub](./14-dockerhub.md)  
   Using DockerHub as a public container registry.
 
-- [Important Docker Commands](./fundamentals/18-important-docker-commands.md)  
+- [Important Docker Commands](./18-important-docker-commands.md)  
   Common Docker commands used for images, containers, logs, and cleanup.
 
-- [Docker Swarm vs. Kubernetes](./fundamentals/20-docker-swarm-vs-kubernetes.md)  
+- [Docker Swarm vs. Kubernetes](./20-docker-swarm-vs-kubernetes.md)  
   Comparing Docker Swarm and Kubernetes for container orchestration.
+
+- [Why Should You Use Orchestration Tools?](./21-why-use-orchestration-tools.md)  
+  Understanding why orchestration tools are important for scalable container environments.
   
 ---
 
