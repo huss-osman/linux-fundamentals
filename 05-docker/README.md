@@ -92,6 +92,9 @@ By working through this module, I aimed to:
 - [Docker Swarm vs. Kubernetes](./fundamentals/20-important-docker-commands.md)  
   Comparing Docker Swarm and Kubernetes for container orchestration.
 
+- [Why Should You Use Orchestration Tools?](./fundamentals/21-why-use-orchestration-tools.md)  
+  Understanding why orchestration tools are important for scalable container environments.
+
 ---
 
 ### Labs
