@@ -138,6 +138,6 @@ Kubernetes has become the industry standard for container orchestration across m
 
 ## Reflection
 
-Learning why orchestration tools are important helped me better understand how modern container platforms operate at scale.
+While running individual containers manually is manageable for smaller projects, orchestration becomes critical once environments start growing across multiple services, containers, and servers.
 
 This also reinforced how platforms such as Kubernetes and Docker Swarm help automate operational tasks such as scaling, recovery, networking, and workload management, making modern cloud-native environments far more reliable and efficient.
