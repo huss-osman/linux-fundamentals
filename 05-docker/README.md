@@ -108,6 +108,9 @@ By working through this module, I aimed to:
 - [Multi-Stage Builds](./labs/19-multistage-builds.md)  
   Creating smaller, cleaner Docker images using multi-stage builds.
 
+- [Docker Swarm vs. Kubernetes](./labs/20-important-docker-commands.md)  
+  Comparing Docker Swarm and Kubernetes for container orchestration.
+  
 ---
 
 ## Learning Approach
