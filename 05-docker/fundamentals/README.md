@@ -61,7 +61,8 @@ Examples are practical, command-line driven, and tied to real-world infrastructu
 - [Important Docker Commands](./fundamentals/18-important-docker-commands.md)  
   Common Docker commands used for images, containers, logs, and cleanup.
 
-
+- [Docker Swarm vs. Kubernetes](./fundamentals/20-important-docker-commands.md)  
+  Comparing Docker Swarm and Kubernetes for container orchestration.
   
 ---
 
